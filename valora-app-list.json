@@ -1,20 +1,20 @@
 {
-  "categories": {
-    "1": {
+  "categories": [
+    {
       "id": "1",
       "name": "Decentralized Exchanges",
       "backgroundColor": "#DEF8EA",
       "fontColor": "#1AB775"
     },
-    "2": {
+    {
       "id": "2",
       "name": "Lend, Borrow & Earn",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE"
     }
-  },
-  "applications": {
-    "1": {
+  ],
+  "applications": [
+    {
       "name": "Ubeswap",
       "id": "1",
       "categoryId": "1",
@@ -22,7 +22,7 @@
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
       "url": "https://app.ubeswap.org/"
     },
-    "2": {
+    {
       "name": "Moola",
       "id": "2",
       "categoryId": "2",
@@ -30,5 +30,5 @@
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
     }
-  }
+  ]
 }

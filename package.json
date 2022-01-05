@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint --ext=.tsx,.ts,.json --fix src/",
     "format": "prettier --loglevel error --write \"./src/**/*.ts\"",
-    "validate": "jest"
+    "validate": "jest",
+    "test": "prettier --check \"./src/**/*.ts\" && eslint --ext=.tsx,.ts,.json src/ && jest"
   },
   "prettier": "@valora/prettier-config",
   "devDependencies": {

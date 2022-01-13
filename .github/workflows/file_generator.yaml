@@ -9,14 +9,27 @@ jobs:
   generate-translated-files:
     runs-on: ubuntu-latest
     permissions:
+      contents: write
       pull-requests: write
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+          check-latest: true
+      # https://github.com/actions/cache/blob/main/examples.md#node---lerna
+      - uses: actions/cache@v2
+        with:
+          path: |
+            node_modules
+            */*/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
+      - run: yarn
       - run: node ./scripts/processTranslations.js
       - run: |
           git config --local user.email "89419329+valora-bot@users.noreply.github.com"
           git config --local user.name "Valora Bot"
-          git add ./translations
+          git add -A
           git commit -m "Add translated files"
       - uses: ad-m/github-push-action@master
         with:

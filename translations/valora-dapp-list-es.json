@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Exchanges Descentralizado",
+      "backgroundColor": "#DEF8EA",
+      "fontColor": "#1AB775"
+    },
+    {
+      "id": "2",
+      "name": "Presta y toma prestado",
+      "backgroundColor": "#DEF8F7",
+      "fontColor": "#07A0AE"
+    }
+  ],
+  "applications": [
+    {
+      "name": "Ubeswap",
+      "id": "1",
+      "categoryId": "1",
+      "description": "Swap any tokens, and earn rewards for contributing",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
+      "url": "https://app.ubeswap.org/"
+    },
+    {
+      "name": "Moola",
+      "id": "2",
+      "categoryId": "2",
+      "description": "Lend, Borrow or add to a pool to earn rewards",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
+      "url": "https://app.moola.market/"
+    }
+  ]
+}

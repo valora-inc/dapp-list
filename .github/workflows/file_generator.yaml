@@ -28,7 +28,7 @@ jobs:
       - run: |
           git config --local user.email "89419329+valora-bot@users.noreply.github.com"
           git config --local user.name "Valora Bot"
-          git add ./translations
+          git add -A
           git commit -m "Add translated files"
       - uses: ad-m/github-push-action@master
         with:

@@ -51,4 +51,6 @@ async function generateTranslatedFiles() {
   }
 }
 
-module.exports = generateTranslatedFiles
+generateTranslatedFiles()
+  .then(() => console.log('Finished'))
+  .catch(console.error)

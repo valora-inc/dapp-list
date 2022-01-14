@@ -25,7 +25,7 @@ jobs:
             */*/node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
       - run: yarn
-      - run: ts-node ./scripts/processTranslations.ts
+      - run: npx ts-node ./scripts/processTranslations.ts
       - run: |
           git config --local user.email "89419329+valora-bot@users.noreply.github.com"
           git config --local user.name "Valora Bot"

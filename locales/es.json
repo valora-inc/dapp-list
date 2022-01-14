@@ -1,0 +1,10 @@
+{
+  "categories": {
+    "exchanges": "Exchanges descentralizados",
+    "lend": "Presta, toma prestado y gana"
+  },
+  "dapps": {
+    "ubeswap": "Intercambia tokens y gana recompensas",
+    "moola": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas"
+  }
+}

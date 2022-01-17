@@ -1,10 +1,12 @@
 {
   "categories": {
-    "exchanges": "Exchanges descentralizados",
-    "lend": "Presta, toma prestado y gana"
+    "exchanges": "Swap",
+    "lend": "Presta, toma prestado y gana",
+    "spend": "Usar"
   },
   "dapps": {
     "ubeswap": "Intercambia tokens y gana recompensas",
-    "moola": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas"
+    "moola": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas",
+    "bidali": "Purchase gift cards from all your favorite brands"
   }
 }

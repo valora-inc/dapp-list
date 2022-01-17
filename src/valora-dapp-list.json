@@ -11,6 +11,12 @@
       "name": "categories.lend",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE"
+    },
+    {
+      "id": "3",
+      "name": "categories.spend",
+      "backgroundColor": "#FDF0CE",
+      "fontColor": "#BF8800"
     }
   ],
   "applications": [
@@ -29,6 +35,14 @@
       "description": "dapps.moola",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
+    },
+    {
+      "name": "Bidali",
+      "id": 3,
+      "categoryId": "3",
+      "description": "dapps.bidali",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
+      "url": "https://www.bidali.com/"
     }
   ]
 }

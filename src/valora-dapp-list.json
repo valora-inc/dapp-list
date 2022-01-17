@@ -38,7 +38,7 @@
     },
     {
       "name": "Bidali",
-      "id": 3,
+      "id": "3",
       "categoryId": "3",
       "description": "dapps.bidali",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",

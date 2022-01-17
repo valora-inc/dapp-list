@@ -42,7 +42,7 @@
       "categoryId": "3",
       "description": "dapps.bidali",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
-      "url": "https://www.bidali.com/"
+      "url": "celo://wallet/bidali"
     }
   ]
 }

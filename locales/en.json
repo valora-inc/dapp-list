@@ -1,10 +1,12 @@
 {
   "categories": {
-    "exchanges": "Decentralized Exchanges",
-    "lend": "Lend, Borrow & Earn"
+    "exchanges": "Swap",
+    "lend": "Lend, Borrow & Earn",
+    "spend": "Spend"
   },
   "dapps": {
     "ubeswap": "Swap any tokens, and earn rewards for contributing",
-    "moola": "Lend, Borrow or add to a pool to earn rewards"
+    "moola": "Lend, Borrow or add to a pool to earn rewards",
+    "bidali": "Purchase gift cards from all your favorite brands"
   }
 }

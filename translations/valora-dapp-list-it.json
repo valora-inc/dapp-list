@@ -2,7 +2,7 @@
   "categories": [
     {
       "id": "1",
-      "name": "Swap",
+      "name": "Scambia",
       "backgroundColor": "#DEF8EA",
       "fontColor": "#1AB775"
     },
@@ -40,7 +40,7 @@
       "name": "Bidali",
       "id": "3",
       "categoryId": "3",
-      "description": "Purchase gift cards from all your favorite brands",
+      "description": "Acquista buoni regalo da tutti i tuoi marchi preferiti",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
       "url": "celo://wallet/bidali"
     }

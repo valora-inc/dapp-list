@@ -11,6 +11,12 @@
       "name": "Presta, toma prestado y gana",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE"
+    },
+    {
+      "id": "3",
+      "name": "Usar",
+      "backgroundColor": "#FDF0CE",
+      "fontColor": "#BF8800"
     }
   ],
   "applications": [
@@ -29,6 +35,14 @@
       "description": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
+    },
+    {
+      "name": "Bidali",
+      "id": "3",
+      "categoryId": "3",
+      "description": "Purchase gift cards from all your favorite brands",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
+      "url": "celo://wallet/bidali"
     }
   ]
 }

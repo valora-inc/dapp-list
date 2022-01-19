@@ -1,12 +1,12 @@
 {
   "categories": {
-    "exchanges": "Swap",
-    "lend": "Lend, Borrow & Earn",
+    "exchanges": "Échanger",
+    "lend": "Prêter, emprunter et gagner",
     "spend": "Dépenser"
   },
   "dapps": {
-    "ubeswap": "Swap any tokens, and earn rewards for contributing",
-    "moola": "Lend, Borrow or add to a pool to earn rewards",
-    "bidali": "Purchase gift cards from all your favorite brands"
+    "ubeswap": "Échangez n'importe quel jeton, et gagnez des récompenses grâce à votre contribution",
+    "moola": "Prêtez, empruntez ou ajoutez à un pool pour gagner des récompenses",
+    "bidali": "Achetez des cartes-cadeaux auprès de toutes vos marques préférées"
   }
 }

@@ -2,15 +2,21 @@
   "categories": [
     {
       "id": "1",
-      "name": "Swap",
+      "name": "Обменять",
       "backgroundColor": "#DEF8EA",
       "fontColor": "#1AB775"
     },
     {
       "id": "2",
-      "name": "Lend, Borrow & Earn",
+      "name": "Давайте взаймы, занимайте и зарабатывайте",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE"
+    },
+    {
+      "id": "3",
+      "name": "Потратить",
+      "backgroundColor": "#FDF0CE",
+      "fontColor": "#BF8800"
     }
   ],
   "applications": [
@@ -18,7 +24,7 @@
       "name": "Ubeswap",
       "id": "1",
       "categoryId": "1",
-      "description": "Swap any tokens, and earn rewards for contributing",
+      "description": "Обменивайте любые токены и получайте вознаграждение за вклад",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
       "url": "https://app.ubeswap.org/"
     },
@@ -26,9 +32,17 @@
       "name": "Moola",
       "id": "2",
       "categoryId": "2",
-      "description": "Lend, Borrow or add to a pool to earn rewards",
+      "description": "Давайте взаймы, занимайте или добавляйте в пул, чтобы заработать вознаграждение",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
+    },
+    {
+      "name": "Bidali",
+      "id": "3",
+      "categoryId": "3",
+      "description": "Покупайте подарочные карты всех любимых брендов",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
+      "url": "celo://wallet/bidali"
     }
   ]
 }

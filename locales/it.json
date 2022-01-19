@@ -1,12 +1,12 @@
 {
   "categories": {
-    "exchanges": "Swap",
+    "exchanges": "Scambia",
     "lend": "Richiedi un prestito, presta e guadagna",
     "spend": "Spendi"
   },
   "dapps": {
     "ubeswap": "Scambia qualsiasi token e ottieni ricompense per aver contribuito",
     "moola": "Richiedi un prestito, presta o aggiungi a un pool per ottenere ricompense",
-    "bidali": "Purchase gift cards from all your favorite brands"
+    "bidali": "Acquista buoni regalo da tutti i tuoi marchi preferiti"
   }
 }

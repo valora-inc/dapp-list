@@ -1,12 +1,12 @@
 {
   "categories": {
     "exchanges": "Tauschen",
-    "lend": "Lend, Borrow & Earn",
+    "lend": "Leihen, verleihen und verdienen",
     "spend": "Ausgeben"
   },
   "dapps": {
-    "ubeswap": "Swap any tokens, and earn rewards for contributing",
-    "moola": "Lend, Borrow or add to a pool to earn rewards",
-    "bidali": "Purchase gift cards from all your favorite brands"
+    "ubeswap": "Tausche Tokens und verdiene Rewards",
+    "moola": "Leihe, verleihe, oder füge Krypto zu einem Pool hinzu, um Rewards zu verdienen",
+    "bidali": "Kaufe Geschenkkarten von deinen Lieblingsmarken"
   }
 }

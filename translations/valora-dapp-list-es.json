@@ -2,7 +2,7 @@
   "categories": [
     {
       "id": "1",
-      "name": "Swap",
+      "name": "Cambia",
       "backgroundColor": "#DEF8EA",
       "fontColor": "#1AB775"
     },
@@ -14,7 +14,7 @@
     },
     {
       "id": "3",
-      "name": "Usar",
+      "name": "Usa cripto",
       "backgroundColor": "#FDF0CE",
       "fontColor": "#BF8800"
     }
@@ -32,7 +32,7 @@
       "name": "Moola",
       "id": "2",
       "categoryId": "2",
-      "description": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas",
+      "description": "Presta, toma prestado o agrega a un fondo por recompensas",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
     },
@@ -40,7 +40,7 @@
       "name": "Bidali",
       "id": "3",
       "categoryId": "3",
-      "description": "Purchase gift cards from all your favorite brands",
+      "description": "Compra tarjetas de regalo de tus marcas preferidas",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
       "url": "celo://wallet/bidali"
     }

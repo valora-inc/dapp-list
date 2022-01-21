@@ -36,6 +36,21 @@ The fields for Dapps are:
 - logoUrl: The URL of the logo. The logo image should be uploaded in the `assets` folder and it will be available after merging in a URL with this format: `https://raw.githubusercontent.com/valora-inc/app-list/main/assets/{imageName}.png`
 - url: The URL to open when the Dapp is selected. Can also be a deep link to open in-app.
 
+#### Templating
+
+Valora has basic support for replacing the following template
+parameters in a Dapps URL:
+
+| Parameter   | Description |
+| ----------- | ----------- |
+| {{address}} | Valora Account Address |
+
+For example:
+
+```
+https://celotracker.com/?address={{address}}
+```
+
 ## Development
 
 ```

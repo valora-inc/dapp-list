@@ -2,7 +2,12 @@
   "categories": {
     "exchanges": "Troca",
     "lend": "Empreste, peça emprestado e ganhe",
-    "spend": "Gaste"
+    "spend": "Gaste",
+    "finance-tools": "Financial Tools",
+    "social-impact": "Social Impact",
+    "social": "Social",
+    "nfts": "NFTs",
+    "games": "Games"
   },
   "dapps": {
     "ubeswap": "Troque tokens e ganhe recompensas por contribuir",

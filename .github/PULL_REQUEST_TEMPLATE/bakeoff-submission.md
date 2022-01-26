@@ -1,4 +1,4 @@
-Your Dapp submission:
+Your Dapp:
 
 - [ ] connects to Valora via WalletConnect V1 or DAppKit;
 - [ ] smart contracts it might use are not obfuscated;

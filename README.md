@@ -13,9 +13,9 @@ Off](https://valoraapp.com/bakeoff) from February 1st 2022 to February
 15th 2022 by:
 
 1. following the directions in [Adding new items](#adding-new-items) to add your Dapp to the list;
-1. creating a pull request using the `dapp-bakeoff-submission.md`
+1. creating a pull request using the `bakeoff-submission.md`
 template (_e.g._,
-<https://github.com/valora-inc/dapp-list/pulls/new?template=dapp-bakeoff-submission.md>);
+<https://github.com/valora-inc/dapp-list/pulls/new?template=bakeoff-submission.md>);
 and
 1. responding to feedback in your pull request from the Valora team.
 

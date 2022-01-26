@@ -2,7 +2,12 @@
   "categories": {
     "exchanges": "Tauschen",
     "lend": "Leihen, verleihen und verdienen",
-    "spend": "Ausgeben"
+    "spend": "Ausgeben",
+    "finance-tools": "Financial Tools",
+    "social-impact": "Social Impact",
+    "social": "Social",
+    "nfts": "NFTs",
+    "games": "Games"
   },
   "dapps": {
     "ubeswap": "Tausche Tokens und verdiene Rewards",

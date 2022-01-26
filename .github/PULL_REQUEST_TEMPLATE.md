@@ -1,3 +1,6 @@
+> To make a submission for the Bake Off, please complete the task lists
+> below; otherwise remove them.
+
 Your Dapp:
 
 - [ ] connects to Valora via WalletConnect V1 or DAppKit;

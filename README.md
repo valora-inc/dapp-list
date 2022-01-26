@@ -6,6 +6,19 @@ Here's an example on what it looks like in action (note that it might become sli
 
 <img src="https://raw.githubusercontent.com/valora-inc/app-list/main/assets/in-app-example.png" width=40%>
 
+## The Dapp Bake Off
+
+You can submit your Dapp to the [Valora Dapp Bake
+Off](https://valoraapp.com/bakeoff) from February 1st 2022 to February
+15th 2022 by:
+
+1. following the directions in [Adding new items](#adding-new-items) to add your Dapp to the list;
+1. creating a pull request using the `bakeoff-submission.md`
+template (_e.g._,
+<https://github.com/valora-inc/dapp-list/pulls/new?template=bakeoff-submission.md>);
+and
+1. responding to feedback in your pull request from the Valora team.
+
 ## Adding new items
 
 There are some fields that need to be translated into different languages, and this is done by Valora, so to add a new Dapp or category you need to follow the following steps:

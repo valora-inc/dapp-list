@@ -11,5 +11,5 @@ Your Dapp:
 
 Please confirm you have:
 
-- [ ] read the [Bake Off Information](https://valoraapp.com/bakeoff); and
-- [ ] read the [Official Bake Off Rules)(https://valoraapp.com/bakeoff-rules).
+- [ ] read the [Dapp Bake Off Information](https://valoraapp.com/bakeoff); and
+- [ ] read the [Dapp Bake Off Rules](https://valoraapp.com/bakeoff-rules).

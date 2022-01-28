@@ -38,7 +38,7 @@ There are some fields that need to be translated into different languages, and t
 | `id`     | A unique identifier for the Dapp. The current pattern is to use numbers, but any unique string will do. |
 | `categoryId` | The category id under which the Dapp should show up. |
 | `description` | The description of the Dapp. It should be translated, so don't put the actual description here, just a translation key like `dapps.ubeswap`. |
-| `logoUrl` | The URL of the logo. The logo image should be uploaded in the `assets` folder and it will be available after merging in a URL with this format: `https://raw.githubusercontent.com/valora-inc/app-list/main/assets/{imageName}.png` |
+| `logoUrl` | The URL of the logo image. The image must be a 256 x 256 PNG. Add the image to the `assets` folder and it will be available after merging in a URL with this format: `https://raw.githubusercontent.com/valora-inc/app-list/main/assets/{imageFileName}` |
 | `url` | The URL to open when the Dapp is selected. Can also be a deep link to open in-app. |
 
 #### Templating

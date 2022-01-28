@@ -24,7 +24,7 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-react-native": "^4.0.0",
-    "i18next": "~19.0.2",
+    "i18next": "~21.6.10",
     "jest": "^27.4.7",
     "joi": "^17.6.0",
     "prettier": "^2.5.1",

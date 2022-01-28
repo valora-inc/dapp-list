@@ -6,10 +6,10 @@ export default Joi.object({
   categories: Joi.array()
     .items(
       Joi.object({
-        id: Joi.string(),
-        name: Joi.string(),
-        backgroundColor: Joi.string().pattern(colorCodePattern),
-        fontColor: Joi.string().pattern(colorCodePattern),
+        id: Joi.string().required(),
+        name: Joi.string().required(),
+        backgroundColor: Joi.string().pattern(colorCodePattern).required(),
+        fontColor: Joi.string().pattern(colorCodePattern).required(),
       }),
     )
     .unique((category0, category1) => {
@@ -21,12 +21,12 @@ export default Joi.object({
   applications: Joi.array()
     .items(
       Joi.object({
-        id: Joi.string(),
-        name: Joi.string(),
-        categoryId: Joi.string(),
-        description: Joi.string(),
-        logoUrl: Joi.string().uri(),
-        url: Joi.string().uri(),
+        id: Joi.string().required(),
+        name: Joi.string().required(),
+        categoryId: Joi.string().required(),
+        description: Joi.string().required(),
+        logoUrl: Joi.string().uri().required(),
+        url: Joi.string().uri().required(),
       }),
     )
     .unique((application0, application1) => {

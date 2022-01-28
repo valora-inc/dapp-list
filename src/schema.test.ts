@@ -16,17 +16,17 @@ describe('invalid dapp list arrays', () => {
   })
 
   it('errors on empty categories array', () => {
-    const testSchema = {
+    const testDappObject = {
       categories: [],
       applications: [],
     }
-    expect(`${schema.validate(testSchema).error}`).toBe(
+    expect(`${schema.validate(testDappObject).error}`).toBe(
       'ValidationError: "categories" must contain at least 1 items',
     )
   })
 
   it('errors on empty applications array', () => {
-    const testSchema = {
+    const testDappObject = {
       categories: [
         {
           id: '1',
@@ -37,40 +37,507 @@ describe('invalid dapp list arrays', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testSchema).error}`).toBe(
+    expect(`${schema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications" must contain at least 1 items',
     )
   })
 })
 
 describe('invalid categories entries', () => {
-  it.todo('errors on missing id')
-  it.todo('errors on missing name')
-  it.todo('errors on missing background color')
-  it.todo('errors on missing fontColor')
-  it.todo('errors on invalid id type')
-  it.todo('errors on invalid name type')
-  it.todo('errors on invalid backgroundColor type')
-  it.todo('errors on invalid fontColor type')
-  it.todo('errors on invalid backgroundColor pattern')
-  it.todo('errors on invalid fontColor pattern')
-  it.todo('errors on duplicate category entry')
+  it('errors on missing id', () => {
+    const testDappObject = {
+      categories: [
+        {
+          name: 'categories.exchanges',
+          backgroundColor: '#DEF8EA',
+          fontColor: '#1AB775',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "categories[0].id" is required',
+    )
+  })
+
+  it('errors on missing name', () => {
+    const testDappObject = {
+      categories: [
+        {
+          id: '1',
+          backgroundColor: '#DEF8EA',
+          fontColor: '#1AB775',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "categories[0].name" is required',
+    )
+  })
+
+  it('errors on missing backgroundColor', () => {
+    const testDappObject = {
+      categories: [
+        {
+          id: '1',
+          name: 'categories.exchanges',
+          fontColor: '#1AB775',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "categories[0].backgroundColor" is required',
+    )
+  })
+
+  it('errors on missing fontColor', () => {
+    const testDappObject = {
+      categories: [
+        {
+          id: '1',
+          name: 'categories.exchanges',
+          backgroundColor: '#DEF8EA',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "categories[0].fontColor" is required',
+    )
+  })
+
+  it('errors on invalid id type', () => {
+    const testDappObject = {
+      categories: [
+        {
+          id: 1,
+          name: 'categories.exchanges',
+          backgroundColor: '#DEF8EA',
+          fontColor: '#1AB775',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "categories[0].id" must be a string',
+    )
+  })
+
+  it('errors on invalid name type', () => {
+    const testDappObject = {
+      categories: [
+        {
+          id: '1',
+          name: 1,
+          backgroundColor: '#DEF8EA',
+          fontColor: '#1AB775',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "categories[0].name" must be a string',
+    )
+  })
+
+  it('errors on invalid backgroundColor type', () => {
+    const testDappObject = {
+      categories: [
+        {
+          id: '1',
+          name: 'categories.exchanges',
+          backgroundColor: 1,
+          fontColor: '#1AB775',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "categories[0].backgroundColor" must be a string',
+    )
+  })
+
+  it('errors on invalid fontColor type', () => {
+    const testDappObject = {
+      categories: [
+        {
+          id: '1',
+          name: 'categories.exchanges',
+          backgroundColor: '#DEF8EA',
+          fontColor: 1,
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "categories[0].fontColor" must be a string',
+    )
+  })
+
+  it('errors on invalid backgroundColor pattern', () => {
+    const testDappObject = {
+      categories: [
+        {
+          id: '1',
+          name: 'categories.exchanges',
+          backgroundColor: 'black',
+          fontColor: '#1AB775',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "categories[0].backgroundColor" with value "black" fails to match the required pattern: /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/',
+    )
+  })
+
+  it('errors on invalid fontColor pattern', () => {
+    const testDappObject = {
+      categories: [
+        {
+          id: '1',
+          name: 'categories.exchanges',
+          backgroundColor: '#DEF8EA',
+          fontColor: 'white',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "categories[0].fontColor" with value "white" fails to match the required pattern: /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/',
+    )
+  })
+
+  it('errors on duplicate category entry', () => {
+    const testDappObject = {
+      categories: [
+        {
+          id: '1',
+          name: 'categories.exchanges',
+          backgroundColor: '#DEF8EA',
+          fontColor: '#1AB775',
+        },
+        {
+          id: '1',
+          name: 'categories.exchanges',
+          backgroundColor: '#DEF8EA',
+          fontColor: '#1AB775',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "categories[1]" contains a duplicate value',
+    )
+  })
 })
 
 describe('invalid applications entries', () => {
-  it.todo('errors on missing name')
-  it.todo('errors on missing id')
-  it.todo('errors on missing categoryId')
-  it.todo('errors on missing description')
-  it.todo('errors on missing logoUrl')
-  it.todo('errors on missing url')
-  it.todo('errors on invalid name type')
-  it.todo('errors on invalid id type')
-  it.todo('errors on invalid categoryId type')
-  it.todo('errors on invalid description type')
-  it.todo('errors on invalid logoUrl type')
-  it.todo('errors on invalid url type')
-  it.todo('errors on invalid logoUrl pattern')
-  it.todo('errors on invalid url pattern')
-  it.todo('errors on duplicate application entry')
+  const category = {
+    id: '1',
+    name: 'categories.exchanges',
+    backgroundColor: '#DEF8EA',
+    fontColor: '#1AB775',
+  }
+  it('errors on empty applications array', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          id: '1',
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].name" is required',
+    )
+  })
+
+  it('errors on missing id', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].id" is required',
+    )
+  })
+
+  it('errors on missing categoryId', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          description: 'dapps.ubeswap',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].categoryId" is required',
+    )
+  })
+
+  it('errors on missing description', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: '1',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].description" is required',
+    )
+  })
+
+  it('errors on missing logoUrl', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].logoUrl" is required',
+    )
+  })
+
+  it('errors on missing url', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].url" is required',
+    )
+  })
+
+  it('errors on invalid name type', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 1,
+          id: '1',
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].name" must be a string',
+    )
+  })
+
+  it('errors on invalid id type', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: 1,
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].id" must be a string',
+    )
+  })
+
+  it('errors on invalid categoryId type', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: 1,
+          description: 'dapps.ubeswap',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].categoryId" must be a string',
+    )
+  })
+
+  it('errors on invalid description type', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: '1',
+          description: 1,
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].description" must be a string',
+    )
+  })
+
+  it('errors on invalid logoUrl type', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          logoUrl: 1,
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].logoUrl" must be a string',
+    )
+  })
+
+  it('errors on invalid url type', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 1,
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].url" must be a string',
+    )
+  })
+
+  it('errors on invalid logoUrl uri', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          logoUrl: 'javascript:alert("Hello World")',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].logoUrl" must be a valid uri',
+    )
+  })
+
+  it('errors on invalid logoUrl uri', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 'javascript:alert("Hello World")',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].url" must be a valid uri',
+    )
+  })
+
+  it('errors on duplicate application entry', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 'https://app.ubeswap.org/',
+        },
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[1]" contains a duplicate value',
+    )
+  })
 })

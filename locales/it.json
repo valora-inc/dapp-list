@@ -2,7 +2,12 @@
   "categories": {
     "exchanges": "Scambia",
     "lend": "Richiedi un prestito, presta e guadagna",
-    "spend": "Spendi"
+    "spend": "Spendi",
+    "finance-tools": "Strumenti Finanziari",
+    "social-impact": "Impatto Sociale",
+    "social": "Social",
+    "nfts": "NFTs",
+    "games": "Giochi"
   },
   "dapps": {
     "ubeswap": "Scambia qualsiasi token e ottieni ricompense per aver contribuito",

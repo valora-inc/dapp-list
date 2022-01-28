@@ -2,11 +2,16 @@
   "categories": {
     "exchanges": "Échanger",
     "lend": "Prêter, emprunter et gagner",
-    "spend": "Dépenser"
+    "spend": "Dépenser",
+    "finance-tools": "Outils financiers",
+    "social-impact": "Impact social",
+    "social": "Social",
+    "nfts": "NFTs",
+    "games": "Jeux"
   },
   "dapps": {
-    "ubeswap": "Échangez n'importe quel jeton, et gagnez des récompenses grâce à votre contribution",
+    "ubeswap": "Échangez tokens et gagnez des récompenses",
     "moola": "Prêtez, empruntez ou ajoutez à un pool pour gagner des récompenses",
-    "bidali": "Achetez des cartes-cadeaux auprès de toutes vos marques préférées"
+    "bidali": "Achetez des cartes-cadeaux auprès de vos marques préférées"
   }
 }

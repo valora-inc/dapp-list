@@ -2,7 +2,12 @@
   "categories": {
     "exchanges": "Обменять",
     "lend": "Давайте взаймы, занимайте и зарабатывайте",
-    "spend": "Потратить"
+    "spend": "Потратить",
+    "finance-tools": "Financial Tools",
+    "social-impact": "Social Impact",
+    "social": "Social",
+    "nfts": "NFTs",
+    "games": "Games"
   },
   "dapps": {
     "ubeswap": "Обменивайте любые токены и получайте вознаграждение за вклад",

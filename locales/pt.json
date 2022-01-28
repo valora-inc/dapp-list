@@ -1,12 +1,17 @@
 {
   "categories": {
-    "exchanges": "Swap",
-    "lend": "Lend, Borrow & Earn",
-    "spend": "Gastos"
+    "exchanges": "Troca",
+    "lend": "Empreste, peça emprestado e ganhe",
+    "spend": "Gaste",
+    "finance-tools": "Ferramentas Financeiras",
+    "social-impact": "Impacto social",
+    "social": "Social",
+    "nfts": "NFTs",
+    "games": "Jogos"
   },
   "dapps": {
-    "ubeswap": "Swap any tokens, and earn rewards for contributing",
-    "moola": "Lend, Borrow or add to a pool to earn rewards",
-    "bidali": "Purchase gift cards from all your favorite brands"
+    "ubeswap": "Troque tokens e ganhe recompensas por contribuir",
+    "moola": "Empreste, peça emprestado ou adicione cripto a uma pool por recompensas",
+    "bidali": "Compre vales-presente de suas marcas favoritas"
   }
 }

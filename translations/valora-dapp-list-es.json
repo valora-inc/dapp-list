@@ -17,6 +17,36 @@
       "name": "Usa cripto",
       "backgroundColor": "#FDF0CE",
       "fontColor": "#BF8800"
+    },
+    {
+      "id": "4",
+      "name": "Herramientas financieras",
+      "backgroundColor": "#E5E8FB",
+      "fontColor": "#4E61E2"
+    },
+    {
+      "id": "5",
+      "name": "Impacto social",
+      "backgroundColor": "#ECE3F7",
+      "fontColor": "#894ED0"
+    },
+    {
+      "id": "6",
+      "name": "Social",
+      "backgroundColor": "#FFE6F4",
+      "fontColor": "#FF56B7"
+    },
+    {
+      "id": "7",
+      "name": "NFTs",
+      "backgroundColor": "#FFF1DA",
+      "fontColor": "#F78400"
+    },
+    {
+      "id": "8",
+      "name": "Juegos",
+      "backgroundColor": "#FFE5E1",
+      "fontColor": "#FF5D44"
     }
   ],
   "applications": [

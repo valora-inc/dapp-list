@@ -19,7 +19,7 @@ describe('assets', () => {
     expect(width).toBe(REQUIRED_ASSET_WIDTH)
   })
 
-  it.each(assetPaths)('%s are the required type', async (assetPath) => {
+  it.each(assetPaths)('%s is the required type', async (assetPath) => {
     const { type: assetType } = await sizeOfImage(assetPath)
     expect(assetType).toBe(REQUIRED_ASSET_TYPE)
   })

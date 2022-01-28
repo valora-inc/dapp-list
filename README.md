@@ -5,7 +5,7 @@ A curated list of Dapps featured in the Valora wallet.
 Here's an example on what it looks like in action (note that it might become slightly outdated, but the general layout remains):
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/valora-inc/app-list/main/assets/in-app-example.png" width=40%>
+  <img src="https://raw.githubusercontent.com/valora-inc/app-list/main/in-app-example.png" width=40%>
 </p>
 
 ## The Dapp Bake Off

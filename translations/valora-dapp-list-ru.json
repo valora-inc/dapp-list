@@ -20,31 +20,31 @@
     },
     {
       "id": "4",
-      "name": "Financial Tools",
+      "name": "Финансовые инструменты",
       "backgroundColor": "#E5E8FB",
       "fontColor": "#4E61E2"
     },
     {
       "id": "5",
-      "name": "Social Impact",
+      "name": "Социальные последствия",
       "backgroundColor": "#ECE3F7",
       "fontColor": "#894ED0"
     },
     {
       "id": "6",
-      "name": "Social",
+      "name": "Соцсети",
       "backgroundColor": "#FFE6F4",
       "fontColor": "#FF56B7"
     },
     {
       "id": "7",
-      "name": "NFTs",
+      "name": "NFT",
       "backgroundColor": "#FFF1DA",
       "fontColor": "#F78400"
     },
     {
       "id": "8",
-      "name": "Games",
+      "name": "Игры",
       "backgroundColor": "#FFE5E1",
       "fontColor": "#FF5D44"
     }

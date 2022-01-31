@@ -73,6 +73,14 @@
       "description": "dapps.bidali",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
       "url": "celo://wallet/bidali"
+    },
+    {
+      "name": "Celo Tracker",
+      "id": "4",
+      "categoryId": "4",
+      "description": "dapps.celo-tracker",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celo-tracker.png",
+      "url": "https://celotracker.com?address={{address}}"
     }
   ]
 }

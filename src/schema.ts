@@ -26,7 +26,7 @@ export default Joi.object({
         categoryId: Joi.string().required(),
         description: Joi.string().required(),
         logoUrl: Joi.string().uri().required(),
-        url: Joi.string().uri().required(),
+        url: Joi.string().replace('{{address}}', '').uri().required(),
       }),
     )
     .unique((application0, application1) => {

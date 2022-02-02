@@ -210,6 +210,23 @@ describe('invalid categories entries', () => {
     )
   })
 
+  it('errors on missing localized name', () => {
+    const testDappObject = {
+      categories: [
+        {
+          id: '1',
+          name: 'categories.exchanges-something', // This key is missing in locales/base.json
+          backgroundColor: '#DEF8EA',
+          fontColor: '#1AB775',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      "ValidationError: \"categories[0].name\" failed custom validation because Missing localization key 'categories.exchanges-something' in 'locales/base.json'",
+    )
+  })
+
   it('errors on duplicate category entry', () => {
     const testDappObject = {
       categories: [
@@ -488,11 +505,11 @@ describe('invalid applications entries', () => {
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].logoUrl" must be a valid uri',
+      'ValidationError: "applications[0].logoUrl" with value "javascript:alert("Hello World")" fails to match the required pattern: /^https:\\/\\/raw.githubusercontent.com\\/valora-inc\\/app-list\\/main\\/assets\\/[^/]+\\.png$/',
     )
   })
 
-  it('errors on invalid logoUrl uri', () => {
+  it('errors on invalid url uri', () => {
     const testDappObject = {
       categories: [category],
       applications: [
@@ -508,7 +525,47 @@ describe('invalid applications entries', () => {
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].url" must be a valid uri',
+      'ValidationError: "applications[0].url" must be a valid uri with a scheme matching the celo|https pattern',
+    )
+  })
+
+  it('errors on missing localized description', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: '1',
+          description: 'dapps.ubeswap-something', // this key doesn't exist in locales/base.json
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      "ValidationError: \"applications[0].description\" failed custom validation because Missing localization key 'dapps.ubeswap-something' in 'locales/base.json'",
+    )
+  })
+
+  it('errors on missing asset in the repo', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: '1',
+          categoryId: '1',
+          description: 'dapps.ubeswap',
+          logoUrl:
+            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap-something.png', // This asset doesn't exist in the repo
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].logoUrl" failed custom validation because Missing asset at \'../assets/ubeswap-something.png\'',
     )
   })
 

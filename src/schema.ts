@@ -49,7 +49,7 @@ export const schema = Joi.object({
         id: Joi.string().required(),
         name: Joi.string()
           // Matches categories.something
-          .pattern(/^categories\.([a-zA-Z0-9\-]+)$/)
+          .pattern(/^categories\.([a-zA-Z0-9-]+)$/)
           .custom(checkMatchingLocalization, 'has a matching localization')
           .required(),
         backgroundColor: Joi.string().pattern(colorCodePattern).required(),
@@ -72,7 +72,7 @@ export const schema = Joi.object({
         categoryId: Joi.string().required(),
         description: Joi.string()
           // Matches dapps.something
-          .pattern(/^dapps\.([a-zA-Z0-9\-]+)$/)
+          .pattern(/^dapps\.([a-zA-Z0-9-]+)$/)
           .custom(checkMatchingLocalization, 'has a matching localization')
           .required(),
         logoUrl: Joi.string()

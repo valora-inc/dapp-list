@@ -1,49 +1,49 @@
 {
   "categories": [
     {
-      "id": "1",
+      "id": "exchanges",
       "name": "Обменять",
       "backgroundColor": "#DEF8EA",
       "fontColor": "#1AB775"
     },
     {
-      "id": "2",
+      "id": "lend",
       "name": "Давайте взаймы, занимайте и зарабатывайте",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE"
     },
     {
-      "id": "3",
+      "id": "spend",
       "name": "Потратить",
       "backgroundColor": "#FDF0CE",
       "fontColor": "#BF8800"
     },
     {
-      "id": "4",
+      "id": "finance-tools",
       "name": "Финансовые инструменты",
       "backgroundColor": "#E5E8FB",
       "fontColor": "#4E61E2"
     },
     {
-      "id": "5",
+      "id": "social-impact",
       "name": "Социальные последствия",
       "backgroundColor": "#ECE3F7",
       "fontColor": "#894ED0"
     },
     {
-      "id": "6",
+      "id": "social",
       "name": "Соцсети",
       "backgroundColor": "#FFE6F4",
       "fontColor": "#FF56B7"
     },
     {
-      "id": "7",
+      "id": "nfts",
       "name": "NFT",
       "backgroundColor": "#FFF1DA",
       "fontColor": "#F78400"
     },
     {
-      "id": "8",
+      "id": "games",
       "name": "Игры",
       "backgroundColor": "#FFE5E1",
       "fontColor": "#FF5D44"
@@ -52,80 +52,80 @@
   "applications": [
     {
       "name": "Ubeswap",
-      "id": "1",
-      "categoryId": "1",
+      "id": "ubeswap",
+      "categoryId": "exchanges",
       "description": "Обменивайте любые токены и получайте вознаграждение за вклад",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
       "url": "https://app.ubeswap.org/"
     },
     {
       "name": "Moola",
-      "id": "2",
-      "categoryId": "2",
+      "id": "moola",
+      "categoryId": "lend",
       "description": "Давайте взаймы, занимайте или добавляйте в пул, чтобы заработать вознаграждение",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
     },
     {
       "name": "Bidali",
-      "id": "3",
-      "categoryId": "3",
+      "id": "bidali",
+      "categoryId": "spend",
       "description": "Покупайте подарочные карты всех любимых брендов",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
       "url": "celo://wallet/bidali"
     },
     {
       "name": "Symmetric",
-      "id": "4",
-      "categoryId": "4",
+      "id": "symmetric",
+      "categoryId": "exchanges",
       "description": "Делает DeFi доступным для всех благодаря низким тарифам, поддержке клиентов и уникальному фонду риска, который повышает безопасность.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/symmetric.png",
       "url": "https://celo.symmetric.exchange/#/swap"
     },
     {
       "name": "Mobius",
-      "id": "5",
-      "categoryId": "1",
+      "id": "mobius",
+      "categoryId": "exchanges",
       "description": "Является децентрализованной биржей, ориентированной на стабильные монеты и активы, перекочевавшие из других цепочек.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mobius.png",
       "url": "https://www.mobius.money/#/swap"
     },
     {
       "name": "Celo Tracker",
-      "id": "6",
-      "categoryId": "4",
+      "id": "celotracker",
+      "categoryId": "finance-tools",
       "description": "Управляй своим портфелем Celo от DeFi до NFT",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celo-tracker.png",
       "url": "https://celotracker.com?address={{address}}"
     },
     {
       "name": "Celo Tax",
-      "id": "7",
-      "categoryId": "1",
+      "id": "celotax",
+      "categoryId": "finance-tools",
       "description": "Проанализируй",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png",
       "url": "https://www.celo.tax/"
     },
     {
       "name": "Impact Market",
-      "id": "8",
-      "categoryId": "5",
+      "id": "impactmarket",
+      "categoryId": "social-impact",
       "description": "Децентрализованный протокол борьбы с бедностью. Пожертвуй, чтобы поддержать нуждающиеся сообщества.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/impactmarket.png",
       "url": "https://www.impactmarket.com/"
     },
     {
       "name": "NomSpace",
-      "id": "9",
-      "categoryId": "6",
+      "id": "nomspace",
+      "categoryId": "social",
       "description": "Твое имя пользователя web3 - имя для всех твоих Celo-адресов.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/nomspace.png",
       "url": "https://www.nom.space/"
     },
     {
       "name": "Poof",
-      "id": "10",
-      "categoryId": "6",
+      "id": "poofcash",
+      "categoryId": "social",
       "description": "Сделай свою сделку неотслеживаемой, отправляя и запрашивая ценности частным образом",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png",
       "url": "https://app.poof.cash/#/account/create"

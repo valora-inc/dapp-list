@@ -63,14 +63,14 @@ async function generateTranslatedFiles() {
     localizedDirectory.categories = localizedDirectory.categories.map(
       (category) => ({
         ...category,
-        name: t(category.name, lng),
+        name: t(`categories.${category.id}`, lng),
       }),
     )
     localizedDirectory.applications = localizedDirectory.applications.map(
       (application) => ({
         ...application,
-        name: t(application.name, lng),
-        description: t(application.description, lng),
+        description: t(`dapps.${application.id}`, lng),
+        logoUrl: `https://raw.githubusercontent.com/valora-inc/app-list/main/assets/${application.id}.png`,
       }),
     )
     fs.writeFileSync(

@@ -7,9 +7,9 @@
   "license": "Apache-2.0",
   "scripts": {
     "lint": "eslint --ext=.tsx,.ts,.json --fix src/",
-    "format": "prettier --loglevel error --write \"./src/**/*.ts\"",
+    "format": "prettier --loglevel error --write .",
     "validate": "jest",
-    "test": "prettier --check \"./src/**/*.ts\" && eslint --ext=.tsx,.ts,.json src/ && jest"
+    "test": "prettier --check . && eslint --ext=.tsx,.ts,.json src/ && jest"
   },
   "prettier": "@valora/prettier-config",
   "devDependencies": {

@@ -54,7 +54,7 @@
       "name": "Ubeswap",
       "id": "ubeswap",
       "categoryId": "exchanges",
-      "description": "Обменивайте любые токены и получайте вознаграждение за вклад",
+      "description": "Is a mobile-first decentralized exchange, featuring the widest selection of tokens.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
       "url": "https://app.ubeswap.org/"
     },
@@ -62,7 +62,7 @@
       "name": "Moola",
       "id": "moola",
       "categoryId": "lend",
-      "description": "Давайте взаймы, занимайте или добавляйте в пул, чтобы заработать вознаграждение",
+      "description": "Start earning interest on your CELO, cUSD, cEUR.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
     },
@@ -78,7 +78,7 @@
       "name": "Symmetric",
       "id": "symmetric",
       "categoryId": "exchanges",
-      "description": "Делает DeFi доступным для всех благодаря низким тарифам, поддержке клиентов и уникальному фонду риска, который повышает безопасность.",
+      "description": "Makes DeFi accessible to everyone through low fees, customer support and a Unique Risk Fund that increases safety.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/symmetric.png",
       "url": "https://celo.symmetric.exchange/#/swap"
     },
@@ -86,7 +86,7 @@
       "name": "Mobius",
       "id": "mobius",
       "categoryId": "exchanges",
-      "description": "Является децентрализованной биржей, ориентированной на стабильные монеты и активы, перекочевавшие из других цепочек.",
+      "description": "Is a decentralized exchange focused on stable coins and assets bridged from other chains.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mobius.png",
       "url": "https://www.mobius.money/#/swap"
     },
@@ -94,7 +94,7 @@
       "name": "Celo Tracker",
       "id": "celotracker",
       "categoryId": "finance-tools",
-      "description": "Управляй своим портфелем Celo от DeFi до NFT",
+      "description": "Manage your Celo Portfolio from DeFi to NFTs",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celo-tracker.png",
       "url": "https://celotracker.com?address={{address}}"
     },
@@ -102,7 +102,7 @@
       "name": "Celo Tax",
       "id": "celotax",
       "categoryId": "finance-tools",
-      "description": "Проанализируй",
+      "description": "Analyse & download your transactions for tax or accounting purposes.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png",
       "url": "https://www.celo.tax/"
     },
@@ -110,7 +110,7 @@
       "name": "Impact Market",
       "id": "impactmarket",
       "categoryId": "social-impact",
-      "description": "Децентрализованный протокол борьбы с бедностью. Пожертвуй, чтобы поддержать нуждающиеся сообщества.",
+      "description": "Decentralized Poverty Alleviation Protocol. Donate to support communities in need.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/impactmarket.png",
       "url": "https://www.impactmarket.com/"
     },
@@ -118,7 +118,7 @@
       "name": "NomSpace",
       "id": "nomspace",
       "categoryId": "social",
-      "description": "Твое имя пользователя web3 - имя для всех твоих Celo-адресов.",
+      "description": "Your web3 username, a name for all your Celo addresses.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/nomspace.png",
       "url": "https://www.nom.space/"
     },
@@ -126,7 +126,7 @@
       "name": "Poof",
       "id": "poofcash",
       "categoryId": "social",
-      "description": "Сделай свою сделку неотслеживаемой, отправляя и запрашивая ценности частным образом",
+      "description": "Make your transaction untraceble by sending and requesting value privately",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png",
       "url": "https://app.poof.cash/#/account/create"
     }

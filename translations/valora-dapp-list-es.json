@@ -14,7 +14,7 @@
     },
     {
       "id": "3",
-      "name": "Usa cripto",
+      "name": "Gasta",
       "backgroundColor": "#FDF0CE",
       "fontColor": "#BF8800"
     },
@@ -54,7 +54,7 @@
       "name": "Ubeswap",
       "id": "1",
       "categoryId": "1",
-      "description": "Intercambia tokens y gana recompensas",
+      "description": "Exchange descentralizado móvil que ofrece la más amplia selección de tokens.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
       "url": "https://app.ubeswap.org/"
     },
@@ -62,7 +62,7 @@
       "name": "Moola",
       "id": "2",
       "categoryId": "2",
-      "description": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas",
+      "description": "Empieza a ganar intereses sobre tus CELO, cUSD y cEUR.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
     },
@@ -70,7 +70,7 @@
       "name": "Bidali",
       "id": "3",
       "categoryId": "3",
-      "description": "Compra tarjetas de regalo de tus marcas preferidas",
+      "description": "Compra tarjetas de regalo de tus marcas preferidas.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
       "url": "celo://wallet/bidali"
     },
@@ -78,7 +78,7 @@
       "name": "Symmetric",
       "id": "4",
       "categoryId": "4",
-      "description": "dapps.symmetric",
+      "description": "DeFi al alcance de todos gracias a las tarifas bajas, su asistencia al usuario y un fondo de riesgo único que aumenta la seguridad.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/symmetric.png",
       "url": "https://celo.symmetric.exchange/#/swap"
     },
@@ -86,7 +86,7 @@
       "name": "Mobius",
       "id": "5",
       "categoryId": "1",
-      "description": "dapps.mobius",
+      "description": "Conoce este exchange descentralizado de stablecoins y activos de otras cadenas.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mobius.png",
       "url": "https://www.mobius.money/#/swap"
     },
@@ -94,7 +94,7 @@
       "name": "Celo Tracker",
       "id": "6",
       "categoryId": "4",
-      "description": "dapps.celotracker",
+      "description": "Gestiona tu cartera Celo, desde productos DeFi a NFTs.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celo-tracker.png",
       "url": "https://celotracker.com?address={{address}}"
     },
@@ -102,7 +102,7 @@
       "name": "Celo Tax",
       "id": "7",
       "categoryId": "1",
-      "description": "dapps.celotax",
+      "description": "Analiza y descarga tus transacciones para calcular tus impuestos.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png",
       "url": "https://www.celo.tax/"
     },
@@ -110,7 +110,7 @@
       "name": "Impact Market",
       "id": "8",
       "categoryId": "5",
-      "description": "dapps.impactmarket",
+      "description": "Conoce este protocolo descentralizado para el alivio a la pobreza. Dona fondos para apoyar a las comunidades necesitadas.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/impactmarket.png",
       "url": "https://www.impactmarket.com/"
     },
@@ -118,7 +118,7 @@
       "name": "NomSpace",
       "id": "9",
       "categoryId": "6",
-      "description": "dapps.nomspace",
+      "description": "Crea tu nombre de usuario en la Web3 y úsalo en todas tus direcciones Celo.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/nomspace.png",
       "url": "https://www.nom.space/"
     },
@@ -126,7 +126,7 @@
       "name": "Poof",
       "id": "10",
       "categoryId": "6",
-      "description": "dapps.poofcash",
+      "description": "Envía y recibe valor de forma privada y anónima.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png",
       "url": "https://app.poof.cash/#/account/create"
     }

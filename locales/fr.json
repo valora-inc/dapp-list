@@ -10,8 +10,15 @@
     "games": "Jeux"
   },
   "dapps": {
+    "mobius": "Est un échange décentralisé axé sur les pièces et les actifs stables issus d'autres chaînes.",
+    "symmetric": "Rend DeFi accessible à tout le monde grâce à des frais réduits, une assistance client et un Fonds de risque unique qui augmente la sécurité.",
     "ubeswap": "Échangez tokens et gagnez des récompenses",
     "moola": "Prêtez, empruntez ou ajoutez à un pool pour gagner des récompenses",
+    "celotracker": "Gère ton portefeuille Celo de DeFi à NFTs",
+    "celotax": "Analyse",
+    "impactmarket": "Protocole décentralisé de lutte contre la pauvreté. Fais un don pour soutenir les communautés dans le besoin.",
+    "nomspace": "Ton nom d'utilisateur web3, un nom pour toutes tes adresses Celo.",
+    "poofcash": "Rends ta transaction intraçable en envoyant et en demandant de la valeur en privé.",
     "bidali": "Achetez des cartes-cadeaux auprès de vos marques préférées"
   }
 }

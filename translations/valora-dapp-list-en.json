@@ -78,7 +78,7 @@
       "name": "Symmetric",
       "id": "4",
       "categoryId": "4",
-      "description": "dapps.symmetric",
+      "description": "Makes DeFi accessible to everyone through low fees, customer support and a Unique Risk Fund that increases safety.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/symmetric.png",
       "url": "https://celo.symmetric.exchange/#/swap"
     },
@@ -86,7 +86,7 @@
       "name": "Mobius",
       "id": "5",
       "categoryId": "1",
-      "description": "dapps.mobius",
+      "description": "Is a decentralized exchange focused on stable coins and assets bridged from other chains.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mobius.png",
       "url": "https://www.mobius.money/#/swap"
     },
@@ -94,7 +94,7 @@
       "name": "Celo Tracker",
       "id": "6",
       "categoryId": "4",
-      "description": "dapps.celotracker",
+      "description": "Manage your Celo Portfolio from DeFi to NFTs",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celo-tracker.png",
       "url": "https://celotracker.com?address={{address}}"
     },
@@ -102,7 +102,7 @@
       "name": "Celo Tax",
       "id": "7",
       "categoryId": "1",
-      "description": "dapps.celotax",
+      "description": "Analyse & download your transactions for tax or accounting purposes.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png",
       "url": "https://www.celo.tax/"
     },
@@ -110,7 +110,7 @@
       "name": "Impact Market",
       "id": "8",
       "categoryId": "5",
-      "description": "dapps.impactmarket",
+      "description": "Decentralized Poverty Alleviation Protocol. Donate to support communities in need.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/impactmarket.png",
       "url": "https://www.impactmarket.com/"
     },
@@ -118,7 +118,7 @@
       "name": "NomSpace",
       "id": "9",
       "categoryId": "6",
-      "description": "dapps.nomspace",
+      "description": "Your web3 username, a name for all your Celo addresses.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/nomspace.png",
       "url": "https://www.nom.space/"
     },
@@ -126,7 +126,7 @@
       "name": "Poof",
       "id": "10",
       "categoryId": "6",
-      "description": "dapps.poofcash",
+      "description": "Make your transaction untraceble by sending and requesting value privately",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png",
       "url": "https://app.poof.cash/#/account/create"
     }

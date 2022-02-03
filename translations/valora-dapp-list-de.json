@@ -54,7 +54,7 @@
       "name": "Ubeswap",
       "id": "1",
       "categoryId": "1",
-      "description": "Tausche Tokens und verdiene Rewards",
+      "description": "Ist eine dezentrale Börse mit der größten Auswahl an Token, die es auf dem Handy gibt.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
       "url": "https://app.ubeswap.org/"
     },
@@ -62,7 +62,7 @@
       "name": "Moola",
       "id": "2",
       "categoryId": "2",
-      "description": "Leihe, verleihe, oder füge Krypto zu einem Pool hinzu, um Rewards zu verdienen",
+      "description": "Fang an, Zinsen auf deinen CELO, cUSD, cEUR zu verdienen.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
     },

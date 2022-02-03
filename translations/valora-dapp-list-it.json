@@ -54,7 +54,7 @@
       "name": "Ubeswap",
       "id": "1",
       "categoryId": "1",
-      "description": "Scambia qualsiasi token e ottieni ricompense per aver contribuito",
+      "description": "Scambia qualsiasi token e ottieni ricompense per aver contribuito.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
       "url": "https://app.ubeswap.org/"
     },
@@ -62,7 +62,7 @@
       "name": "Moola",
       "id": "2",
       "categoryId": "2",
-      "description": "Richiedi un prestito, presta o aggiungi a un pool per ottenere ricompense",
+      "description": "Richiedi un prestito, presta o aggiungi a un pool per ottenere ricompense.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
     },
@@ -126,7 +126,7 @@
       "name": "Poof",
       "id": "10",
       "categoryId": "6",
-      "description": "Rendi la tua transazione non rintracciabile inviando e richiedendo valore privatamente",
+      "description": "Invia e richiedi valore privatamente.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png",
       "url": "https://app.poof.cash/#/account/create"
     }

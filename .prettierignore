@@ -1,0 +1,9 @@
+package.json
+
+# Ignore Crowdin generated files (often they are written with no final newline)
+locales/*.json
+# Except for the base lang which is maintained by hand
+locales/base.json
+
+# Ignore generated translation files
+translations

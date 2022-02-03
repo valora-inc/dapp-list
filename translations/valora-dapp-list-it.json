@@ -73,6 +73,62 @@
       "description": "Acquista buoni regalo da tutti i tuoi marchi preferiti",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
       "url": "celo://wallet/bidali"
+    },
+    {
+      "name": "Symmetric",
+      "id": "4",
+      "categoryId": "4",
+      "description": "dapps.symmetric",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/symmetric.png",
+      "url": "https://celo.symmetric.exchange/#/swap"
+    },
+    {
+      "name": "Mobius",
+      "id": "5",
+      "categoryId": "1",
+      "description": "dapps.mobius",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mobius.png",
+      "url": "https://www.mobius.money/#/swap"
+    },
+    {
+      "name": "CeloTracker",
+      "id": "6",
+      "categoryId": "4",
+      "description": "dapps.celotracker",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotracker.png",
+      "url": "https://celotracker.com/portfolio"
+    },
+    {
+      "name": "Celo Tax",
+      "id": "7",
+      "categoryId": "1",
+      "description": "dapps.celotax",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png",
+      "url": "https://www.celo.tax/"
+    },
+    {
+      "name": "Impact Market",
+      "id": "8",
+      "categoryId": "5",
+      "description": "dapps.impactmarket",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/impactmarket.png",
+      "url": "https://www.impactmarket.com/"
+    },
+    {
+      "name": "NomSpace",
+      "id": "9",
+      "categoryId": "6",
+      "description": "dapps.nomspace",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/nomspace.png",
+      "url": "https://www.nom.space/"
+    },
+    {
+      "name": "Poof",
+      "id": "10",
+      "categoryId": "6",
+      "description": "dapps.poofcash",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png",
+      "url": "https://app.poof.cash/#/account/create"
     }
   ]
 }

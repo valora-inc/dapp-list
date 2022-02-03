@@ -1,6 +1,5 @@
 import { schema } from './schema'
 const appList = require('./valora-dapp-list.json')
-const translations = require('../locales/base.json')
 
 describe('valora-dapp-list.json', () => {
   it('complies with schema', () => {

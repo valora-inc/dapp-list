@@ -1,48 +1,134 @@
 {
   "categories": [
     {
-      "id": "1",
+      "id": "exchanges",
       "name": "Échanger",
       "backgroundColor": "#DEF8EA",
       "fontColor": "#1AB775"
     },
     {
-      "id": "2",
+      "id": "lend",
       "name": "Prêter, emprunter et gagner",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE"
     },
     {
-      "id": "3",
+      "id": "spend",
       "name": "Dépenser",
       "backgroundColor": "#FDF0CE",
       "fontColor": "#BF8800"
+    },
+    {
+      "id": "finance-tools",
+      "name": "Outils financiers",
+      "backgroundColor": "#E5E8FB",
+      "fontColor": "#4E61E2"
+    },
+    {
+      "id": "social-impact",
+      "name": "Impact social",
+      "backgroundColor": "#ECE3F7",
+      "fontColor": "#894ED0"
+    },
+    {
+      "id": "social",
+      "name": "Social",
+      "backgroundColor": "#FFE6F4",
+      "fontColor": "#FF56B7"
+    },
+    {
+      "id": "nfts",
+      "name": "NFTs",
+      "backgroundColor": "#FFF1DA",
+      "fontColor": "#F78400"
+    },
+    {
+      "id": "games",
+      "name": "Jeux",
+      "backgroundColor": "#FFE5E1",
+      "fontColor": "#FF5D44"
     }
   ],
   "applications": [
     {
       "name": "Ubeswap",
-      "id": "1",
-      "categoryId": "1",
-      "description": "Échangez tokens et gagnez des récompenses",
+      "id": "ubeswap",
+      "categoryId": "exchanges",
+      "description": "Échangez tokens et gagnez des récompenses.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
       "url": "https://app.ubeswap.org/"
     },
     {
       "name": "Moola",
-      "id": "2",
-      "categoryId": "2",
-      "description": "Prêtez, empruntez ou ajoutez à un pool pour gagner des récompenses",
+      "id": "moola",
+      "categoryId": "lend",
+      "description": "Prêtez, empruntez ou ajoutez à un pool pour gagner des récompenses.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
     },
     {
       "name": "Bidali",
-      "id": "3",
-      "categoryId": "3",
+      "id": "bidali",
+      "categoryId": "spend",
       "description": "Achetez des cartes-cadeaux auprès de vos marques préférées",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
       "url": "celo://wallet/bidali"
+    },
+    {
+      "name": "Symmetric",
+      "id": "symmetric",
+      "categoryId": "exchanges",
+      "description": "DeFi accessible grâce à des frais réduits, une assistance client et un fonds de risque unique qui augmente la sécurité.",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/symmetric.png",
+      "url": "https://celo.symmetric.exchange/#/swap"
+    },
+    {
+      "name": "Mobius",
+      "id": "mobius",
+      "categoryId": "exchanges",
+      "description": "Échange décentralisé axé sur les stablecoins et les actifs d'autres chaînes.",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mobius.png",
+      "url": "https://www.mobius.money/#/swap"
+    },
+    {
+      "name": "Celo Tracker",
+      "id": "celotracker",
+      "categoryId": "finance-tools",
+      "description": "Gérez votre portefeuille Celo de DeFi à NFTs.",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celo-tracker.png",
+      "url": "https://celotracker.com?address={{address}}"
+    },
+    {
+      "name": "Celo Tax",
+      "id": "celotax",
+      "categoryId": "finance-tools",
+      "description": "Analysez et téléchargez vos transactions à des fins fiscales ou comptables.",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png",
+      "url": "https://www.celo.tax/"
+    },
+    {
+      "name": "Impact Market",
+      "id": "impactmarket",
+      "categoryId": "social-impact",
+      "description": "Protocole décentralisé de lutte contre la pauvreté. Donnez pour aider les communautés dans le besoin.",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/impactmarket.png",
+      "url": "https://www.impactmarket.com/"
+    },
+    {
+      "name": "NomSpace",
+      "id": "nomspace",
+      "categoryId": "social",
+      "description": "Votre nom d'utilisateur á la Web3, un nom pour toutes vos adresses Celo.",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/nomspace.png",
+      "url": "https://www.nom.space/"
+    },
+    {
+      "name": "Poof",
+      "id": "poofcash",
+      "categoryId": "social",
+      "description": "Envoyez et demandez de la valeur en privé.",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png",
+      "url": "https://app.poof.cash/#/account/create"
     }
   ]
 }

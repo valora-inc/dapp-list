@@ -1,48 +1,134 @@
 {
   "categories": [
     {
-      "id": "1",
+      "id": "exchanges",
       "name": "Tauschen",
       "backgroundColor": "#DEF8EA",
       "fontColor": "#1AB775"
     },
     {
-      "id": "2",
+      "id": "lend",
       "name": "Leihen, verleihen und verdienen",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE"
     },
     {
-      "id": "3",
+      "id": "spend",
       "name": "Ausgeben",
       "backgroundColor": "#FDF0CE",
       "fontColor": "#BF8800"
+    },
+    {
+      "id": "finance-tools",
+      "name": "Finanzinstrumente",
+      "backgroundColor": "#E5E8FB",
+      "fontColor": "#4E61E2"
+    },
+    {
+      "id": "social-impact",
+      "name": "Soziale Auswirkung",
+      "backgroundColor": "#ECE3F7",
+      "fontColor": "#894ED0"
+    },
+    {
+      "id": "social",
+      "name": "Sozial",
+      "backgroundColor": "#FFE6F4",
+      "fontColor": "#FF56B7"
+    },
+    {
+      "id": "nfts",
+      "name": "NFTs",
+      "backgroundColor": "#FFF1DA",
+      "fontColor": "#F78400"
+    },
+    {
+      "id": "games",
+      "name": "Spiele",
+      "backgroundColor": "#FFE5E1",
+      "fontColor": "#FF5D44"
     }
   ],
   "applications": [
     {
       "name": "Ubeswap",
-      "id": "1",
-      "categoryId": "1",
-      "description": "Tausche Tokens und verdiene Rewards",
+      "id": "ubeswap",
+      "categoryId": "exchanges",
+      "description": "Ist eine dezentrale Börse mit der größten Auswahl an Token, die es auf dem Handy gibt.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
       "url": "https://app.ubeswap.org/"
     },
     {
       "name": "Moola",
-      "id": "2",
-      "categoryId": "2",
-      "description": "Leihe, verleihe, oder füge Krypto zu einem Pool hinzu, um Rewards zu verdienen",
+      "id": "moola",
+      "categoryId": "lend",
+      "description": "Fang an, Zinsen auf deinen CELO, cUSD, cEUR zu verdienen.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
     },
     {
       "name": "Bidali",
-      "id": "3",
-      "categoryId": "3",
+      "id": "bidali",
+      "categoryId": "spend",
       "description": "Kaufe Geschenkkarten von deinen Lieblingsmarken",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
       "url": "celo://wallet/bidali"
+    },
+    {
+      "name": "Symmetric",
+      "id": "symmetric",
+      "categoryId": "exchanges",
+      "description": "Macht DeFi durch niedrige Gebühren, Kundenbetreuung und einen einzigartigen Risikofonds, der die Sicherheit erhöht, für alle zugänglich.",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/symmetric.png",
+      "url": "https://celo.symmetric.exchange/#/swap"
+    },
+    {
+      "name": "Mobius",
+      "id": "mobius",
+      "categoryId": "exchanges",
+      "description": "Ist eine dezentrale Börse, die sich auf stabile Münzen und Vermögenswerte konzentriert, die von anderen Ketten überbrückt werden.",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mobius.png",
+      "url": "https://www.mobius.money/#/swap"
+    },
+    {
+      "name": "Celo Tracker",
+      "id": "celotracker",
+      "categoryId": "finance-tools",
+      "description": "Verwalte dein Celo Portfolio von DeFi bis NFTs",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celo-tracker.png",
+      "url": "https://celotracker.com?address={{address}}"
+    },
+    {
+      "name": "Celo Tax",
+      "id": "celotax",
+      "categoryId": "finance-tools",
+      "description": "Analysiere",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png",
+      "url": "https://www.celo.tax/"
+    },
+    {
+      "name": "Impact Market",
+      "id": "impactmarket",
+      "categoryId": "social-impact",
+      "description": "Dezentrales Protokoll zur Armutsbekämpfung. Spende, um Gemeinden in Not zu unterstützen.",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/impactmarket.png",
+      "url": "https://www.impactmarket.com/"
+    },
+    {
+      "name": "NomSpace",
+      "id": "nomspace",
+      "categoryId": "social",
+      "description": "Dein web3-Benutzername, ein Name für alle deine Celo-Adressen.",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/nomspace.png",
+      "url": "https://www.nom.space/"
+    },
+    {
+      "name": "Poof",
+      "id": "poofcash",
+      "categoryId": "social",
+      "description": "Mach deine Transaktion unauffindbar, indem du den Wert privat sendest und anforderst",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png",
+      "url": "https://app.poof.cash/#/account/create"
     }
   ]
 }

@@ -52,7 +52,7 @@
   "applications": [
     {
       "name": "Ubeswap",
-      "id": "1",
+      "id": "ubeswap",
       "categoryId": "1",
       "description": "dapps.ubeswap",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
@@ -60,7 +60,7 @@
     },
     {
       "name": "Moola",
-      "id": "2",
+      "id": "moola",
       "categoryId": "2",
       "description": "dapps.moola",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
@@ -68,7 +68,7 @@
     },
     {
       "name": "Bidali",
-      "id": "3",
+      "id": "bidali",
       "categoryId": "3",
       "description": "dapps.bidali",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Symmetric",
-      "id": "4",
+      "id": "symmetric",
       "categoryId": "4",
       "description": "dapps.symmetric",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/symmetric.png",
@@ -84,7 +84,7 @@
     },
     {
       "name": "Mobius",
-      "id": "5",
+      "id": "mobius",
       "categoryId": "1",
       "description": "dapps.mobius",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mobius.png",
@@ -92,7 +92,7 @@
     },
     {
       "name": "Celo Tracker",
-      "id": "6",
+      "id": "celotracker",
       "categoryId": "4",
       "description": "dapps.celotracker",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celo-tracker.png",
@@ -100,7 +100,7 @@
     },
     {
       "name": "Celo Tax",
-      "id": "7",
+      "id": "celotax",
       "categoryId": "1",
       "description": "dapps.celotax",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png",
@@ -108,7 +108,7 @@
     },
     {
       "name": "Impact Market",
-      "id": "8",
+      "id": "impactmarket",
       "categoryId": "5",
       "description": "dapps.impactmarket",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/impactmarket.png",
@@ -116,7 +116,7 @@
     },
     {
       "name": "NomSpace",
-      "id": "9",
+      "id": "nomspace",
       "categoryId": "6",
       "description": "dapps.nomspace",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/nomspace.png",
@@ -124,7 +124,7 @@
     },
     {
       "name": "Poof",
-      "id": "10",
+      "id": "poofcash",
       "categoryId": "6",
       "description": "dapps.poofcash",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png",

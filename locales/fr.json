@@ -10,8 +10,15 @@
     "games": "Jeux"
   },
   "dapps": {
-    "ubeswap": "Échangez tokens et gagnez des récompenses",
-    "moola": "Prêtez, empruntez ou ajoutez à un pool pour gagner des récompenses",
+    "mobius": "Échange décentralisé axé sur les stablecoins et les actifs d'autres chaînes.",
+    "symmetric": "DeFi accessible grâce à des frais réduits, une assistance client et un fonds de risque unique qui augmente la sécurité.",
+    "ubeswap": "Échangez tokens et gagnez des récompenses.",
+    "moola": "Prêtez, empruntez ou ajoutez à un pool pour gagner des récompenses.",
+    "celotracker": "Gérez votre portefeuille Celo de DeFi à NFTs.",
+    "celotax": "Analysez et téléchargez vos transactions à des fins fiscales ou comptables.",
+    "impactmarket": "Protocole décentralisé de lutte contre la pauvreté. Donnez pour aider les communautés dans le besoin.",
+    "nomspace": "Votre nom d'utilisateur á la Web3, un nom pour toutes vos adresses Celo.",
+    "poofcash": "Envoyez et demandez de la valeur en privé.",
     "bidali": "Achetez des cartes-cadeaux auprès de vos marques préférées"
   }
 }

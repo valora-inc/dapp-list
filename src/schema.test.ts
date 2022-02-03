@@ -9,13 +9,6 @@ describe('valora-dapp-list.json', () => {
   })
 })
 
-describe('translations base json file', () => {
-  it('has the necessary keys', () => {
-    expect(Object.keys(translations)).toContain('categories')
-    expect(Object.keys(translations)).toContain('dapps')
-  })
-})
-
 describe('invalid dapp list arrays', () => {
   it('errors on object', () => {
     expect(`${schema.validate({}).error}`).toBe(

@@ -14,7 +14,7 @@
     },
     {
       "id": "spend",
-      "name": "Gasta",
+      "name": "Usa cripto",
       "backgroundColor": "#FDF0CE",
       "fontColor": "#BF8800"
     },
@@ -54,7 +54,7 @@
       "name": "Ubeswap",
       "id": "ubeswap",
       "categoryId": "exchanges",
-      "description": "Exchange descentralizado móvil que ofrece la más amplia selección de tokens.",
+      "description": "Intercambia tokens y gana recompensas",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
       "url": "https://app.ubeswap.org/"
     },
@@ -62,7 +62,7 @@
       "name": "Moola",
       "id": "moola",
       "categoryId": "lend",
-      "description": "Empieza a ganar intereses sobre tus CELO, cUSD y cEUR.",
+      "description": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
     },
@@ -70,7 +70,7 @@
       "name": "Bidali",
       "id": "bidali",
       "categoryId": "spend",
-      "description": "Compra tarjetas de regalo de tus marcas preferidas.",
+      "description": "Compra tarjetas de regalo de tus marcas preferidas",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
       "url": "celo://wallet/bidali"
     },
@@ -94,7 +94,7 @@
       "name": "Celo Tracker",
       "id": "celotracker",
       "categoryId": "finance-tools",
-      "description": "Gestiona tu cartera Celo, desde productos DeFi a NFTs.",
+      "description": "Gestiona tu cartera Celo, desde productos DeFi a NFTs",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celo-tracker.png",
       "url": "https://celotracker.com?address={{address}}"
     },
@@ -102,7 +102,7 @@
       "name": "Celo Tax",
       "id": "celotax",
       "categoryId": "finance-tools",
-      "description": "Analiza y descarga tus transacciones para calcular tus impuestos.",
+      "description": "Analiza y descarga tus transacciones para calcular tus impuestos",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png",
       "url": "https://www.celo.tax/"
     },
@@ -126,7 +126,7 @@
       "name": "Poof",
       "id": "poofcash",
       "categoryId": "social",
-      "description": "Envía y recibe valor de forma privada y anónima.",
+      "description": "Envía y recibe valor de forma privada y anónima",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png",
       "url": "https://app.poof.cash/#/account/create"
     }

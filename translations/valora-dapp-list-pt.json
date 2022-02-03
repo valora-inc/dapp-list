@@ -54,7 +54,7 @@
       "name": "Ubeswap",
       "id": "ubeswap",
       "categoryId": "exchanges",
-      "description": "Exchange móvel descentralizado, apresentando a mais ampla seleção de fichas",
+      "description": "Troque tokens e ganhe recompensas por contribuir",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
       "url": "https://app.ubeswap.org/"
     },
@@ -62,7 +62,7 @@
       "name": "Moola",
       "id": "moola",
       "categoryId": "lend",
-      "description": "Comece a ganhar juros no seu CELO, cUSD e cEUR.",
+      "description": "Empreste, peça emprestado ou adicione cripto a uma pool por recompensas",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
     },

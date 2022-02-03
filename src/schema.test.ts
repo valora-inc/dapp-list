@@ -256,7 +256,6 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 'ubeswap',
-
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -290,7 +289,6 @@ describe('invalid applications entries', () => {
           name: 1,
           id: 'ubeswap',
           categoryId: 'exchanges',
-
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -308,7 +306,6 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 1,
           categoryId: 'exchanges',
-
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -318,21 +315,20 @@ describe('invalid applications entries', () => {
     )
   })
 
-  it('errors on invalid categoryId type', () => {
+  it('errors on invalid categoryId reference', () => {
     const testDappObject = {
       categories: [category],
       applications: [
         {
           name: 'Ubeswap',
           id: 'ubeswap',
-          categoryId: 1,
-
+          categoryId: 'exchanges-something', // This category id doesn't exist in the categories array
           url: 'https://app.ubeswap.org/',
         },
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].categoryId" must be a string',
+      'ValidationError: "applications[0].categoryId" must be [ref:root:categories]',
     )
   })
 
@@ -397,7 +393,6 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap-something', // the matching asset doesn't exist in the repo
           categoryId: 'exchanges',
-
           url: 'https://app.ubeswap.org/',
         },
       ],

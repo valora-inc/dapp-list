@@ -41,17 +41,22 @@ const checkMatchingAsset: CustomValidator = (value) => {
   return value
 }
 
+// Matches an existing category id in the categories array
+const categoryRef = Joi.ref('/categories', {
+  in: true,
+  adjust: (nodes) => nodes.map((node: any) => node.id),
+})
+
 export const schema = Joi.object({
   categories: Joi.array()
     .items(
       Joi.object({
         id: Joi.string()
           .pattern(humanIdPattern)
-          .custom(
-            (id, helpers) =>
-              checkMatchingLocalization(`categories.${id}`, helpers),
-            'has a matching localized name',
-          )
+          .custom((id, helpers) => {
+            checkMatchingLocalization(`categories.${id}`, helpers)
+            return id
+          }, 'has a matching localized name')
           .required(),
         backgroundColor: Joi.string().pattern(colorCodePattern).required(),
         fontColor: Joi.string().pattern(colorCodePattern).required(),
@@ -71,13 +76,13 @@ export const schema = Joi.object({
         id: Joi.string()
           .pattern(humanIdPattern)
           .custom(checkMatchingAsset, 'has a matching asset')
-          .custom(
-            (id, helpers) => checkMatchingLocalization(`dapps.${id}`, helpers),
-            'has a matching localized description',
-          )
+          .custom((id, helpers) => {
+            checkMatchingLocalization(`dapps.${id}`, helpers)
+            return id
+          }, 'has a matching localized description')
           .required(),
         name: Joi.string().required(),
-        categoryId: Joi.string().required(),
+        categoryId: Joi.valid(categoryRef).required(),
         url: Joi.string()
           .replace('{{address}}', '')
           .uri({

@@ -32,22 +32,22 @@ There are some fields that need to be translated into different languages, and t
 
 ### Dapps
 
-| Property | Description |
-| -------- | ----------- |
-| `name`   | The name of the Dapp. |
-| `id`     | A unique identifier for the Dapp. The current pattern is to use numbers, but any unique string will do. |
-| `categoryId` | The category id under which the Dapp should show up. |
-| `description` | The description of the Dapp. It should be translated, so don't put the actual description here, just a translation key like `dapps.ubeswap`. |
-| `logoUrl` | The URL of the logo image. The image must be a 256 x 256 PNG. Add the image to the `assets` folder and it will be available after merging in a URL with this format: `https://raw.githubusercontent.com/valora-inc/app-list/main/assets/{imageFileName}` |
-| `url` | The URL to open when the Dapp is selected. Can also be a deep link to open in-app. |
+| Property      | Description                                                                                                                                                                                                                                              |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `name`        | The name of the Dapp.                                                                                                                                                                                                                                    |
+| `id`          | A unique identifier for the Dapp. The current pattern is to use numbers, but any unique string will do.                                                                                                                                                  |
+| `categoryId`  | The category id under which the Dapp should show up.                                                                                                                                                                                                     |
+| `description` | The description of the Dapp. It should be translated, so don't put the actual description here, just a translation key like `dapps.ubeswap`.                                                                                                             |
+| `logoUrl`     | The URL of the logo image. The image must be a 256 x 256 PNG. Add the image to the `assets` folder and it will be available after merging in a URL with this format: `https://raw.githubusercontent.com/valora-inc/app-list/main/assets/{imageFileName}` |
+| `url`         | The URL to open when the Dapp is selected. Can also be a deep link to open in-app.                                                                                                                                                                       |
 
 #### Templating
 
 Valora has basic support for replacing the following template
 parameters in a Dapps URL:
 
-| Parameter   | Description |
-| ----------- | ----------- |
+| Parameter     | Description            |
+| ------------- | ---------------------- |
 | `{{address}}` | Valora Account Address |
 
 For example:
@@ -58,12 +58,12 @@ https://celotracker.com/?address={{address}}
 
 ### Categories
 
-| Property | Description |
-| -------- | ----------- |
-| `id`     | A unique identifier for the category. The current pattern is to use numbers, but any unique string will do. |
-| `name`   | The name of the category. It should be translated, so don't put the actual name here, just a translation key like `categories.games`. |
-| `backgroundColor` | The color for the background of the category in-app. |
-| `fontColor` | The color for the font color of the category in-app. |
+| Property          | Description                                                                                                                           |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`              | A unique identifier for the category. The current pattern is to use numbers, but any unique string will do.                           |
+| `name`            | The name of the category. It should be translated, so don't put the actual name here, just a translation key like `categories.games`. |
+| `backgroundColor` | The color for the background of the category in-app.                                                                                  |
+| `fontColor`       | The color for the font color of the category in-app.                                                                                  |
 
 ## Development
 

@@ -28,7 +28,7 @@
       "id": "social-impact",
       "backgroundColor": "#ECE3F7",
       "fontColor": "#894ED0",
-      "name": "Aufschlag"
+      "name": "Wirkung"
     },
     {
       "id": "social",
@@ -63,7 +63,7 @@
       "id": "moola",
       "categoryId": "lend",
       "url": "https://app.moola.market/",
-      "description": "Verleihe, leihe oder füge etwas zu einem Pool hinzu, um Belohnungen zu verdienen",
+      "description": "Leihe, verleihe, oder füge Krypto zu einem Pool hinzu, um Rewards zu verdienen",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/moola.png"
     },
     {

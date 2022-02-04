@@ -55,7 +55,7 @@
       "id": "ubeswap",
       "categoryId": "exchanges",
       "url": "https://app.ubeswap.org/",
-      "description": "Intercambiar cualquier token, entrar en un pool o cultivar tus criptomonedas",
+      "description": "Intercambia tokens, entra a un fondo o participa del yield farming",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/ubeswap.png"
     },
     {
@@ -63,7 +63,7 @@
       "id": "moola",
       "categoryId": "lend",
       "url": "https://app.moola.market/",
-      "description": "Presta, pide prestado o añade a un fondo común para ganar recompensas",
+      "description": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/moola.png"
     },
     {
@@ -103,7 +103,7 @@
       "id": "celotax",
       "categoryId": "finance-tools",
       "url": "https://www.celo.tax/",
-      "description": "Analizar tus transacciones para los impuestos o la contabilidad",
+      "description": "Analiza tus transacciones para calcular tus impuestos",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotax.png"
     },
     {
@@ -111,7 +111,7 @@
       "id": "impactmarket",
       "categoryId": "social-impact",
       "url": "https://www.impactmarket.com/",
-      "description": "Apoyar a las comunidades necesitadas y aliviar la pobreza",
+      "description": "Apoya a las comunidades necesitadas y ayuda a aliviar la pobreza",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/impactmarket.png"
     },
     {
@@ -127,7 +127,7 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create",
-      "description": "Haz que tus transacciones no sean rastreables",
+      "description": "Haz que tus transacciones sean imposibles de rastrear",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/poofcash.png"
     }
   ]

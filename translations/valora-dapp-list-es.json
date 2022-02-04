@@ -56,7 +56,7 @@
       "categoryId": "exchanges",
       "url": "https://app.ubeswap.org/",
       "description": "Exchange descentralizado móvil que ofrece la más amplia selección de tokens.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/ubeswap.png"
     },
     {
       "name": "Moola",
@@ -64,7 +64,7 @@
       "categoryId": "lend",
       "url": "https://app.moola.market/",
       "description": "Empieza a ganar intereses sobre tus CELO, cUSD y cEUR.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/moola.png"
     },
     {
       "name": "Bidali",
@@ -72,7 +72,7 @@
       "categoryId": "spend",
       "url": "celo://wallet/bidali",
       "description": "Compra tarjetas de regalo de tus marcas preferidas.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/bidali.png"
     },
     {
       "name": "Symmetric",
@@ -80,7 +80,7 @@
       "categoryId": "exchanges",
       "url": "https://celo.symmetric.exchange/#/swap",
       "description": "DeFi al alcance de todos gracias a las tarifas bajas, su asistencia al usuario y un fondo de riesgo único que aumenta la seguridad.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/symmetric.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/symmetric.png"
     },
     {
       "name": "Mobius",
@@ -88,7 +88,7 @@
       "categoryId": "exchanges",
       "url": "https://www.mobius.money/#/swap",
       "description": "Conoce este exchange descentralizado de stablecoins y activos de otras cadenas.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mobius.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/mobius.png"
     },
     {
       "name": "Celo Tracker",
@@ -96,7 +96,7 @@
       "categoryId": "finance-tools",
       "url": "https://celotracker.com?address={{address}}",
       "description": "Gestiona tu cartera Celo, desde productos DeFi a NFTs.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotracker.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotracker.png"
     },
     {
       "name": "Celo Tax",
@@ -104,7 +104,7 @@
       "categoryId": "finance-tools",
       "url": "https://www.celo.tax/",
       "description": "Analiza y descarga tus transacciones para calcular tus impuestos.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotax.png"
     },
     {
       "name": "Impact Market",
@@ -112,7 +112,7 @@
       "categoryId": "social-impact",
       "url": "https://www.impactmarket.com/",
       "description": "Conoce este protocolo descentralizado para el alivio a la pobreza. Dona fondos para apoyar a las comunidades necesitadas.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/impactmarket.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/impactmarket.png"
     },
     {
       "name": "NomSpace",
@@ -120,7 +120,7 @@
       "categoryId": "social",
       "url": "https://www.nom.space/",
       "description": "Crea tu nombre de usuario en la Web3 y úsalo en todas tus direcciones Celo.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/nomspace.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/nomspace.png"
     },
     {
       "name": "Poof",
@@ -128,7 +128,7 @@
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create",
       "description": "Envía y recibe valor de forma privada y anónima.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/poofcash.png"
     }
   ]
 }

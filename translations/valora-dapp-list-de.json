@@ -56,7 +56,7 @@
       "categoryId": "exchanges",
       "url": "https://app.ubeswap.org/",
       "description": "Ist eine dezentrale Börse mit der größten Auswahl an Token, die es auf dem Handy gibt.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/ubeswap.png"
     },
     {
       "name": "Moola",
@@ -64,7 +64,7 @@
       "categoryId": "lend",
       "url": "https://app.moola.market/",
       "description": "Fang an, Zinsen auf deinen CELO, cUSD, cEUR zu verdienen.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/moola.png"
     },
     {
       "name": "Bidali",
@@ -72,7 +72,7 @@
       "categoryId": "spend",
       "url": "celo://wallet/bidali",
       "description": "Kaufe Geschenkkarten von deinen Lieblingsmarken",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/bidali.png"
     },
     {
       "name": "Symmetric",
@@ -80,7 +80,7 @@
       "categoryId": "exchanges",
       "url": "https://celo.symmetric.exchange/#/swap",
       "description": "Macht DeFi durch niedrige Gebühren, Kundenbetreuung und einen einzigartigen Risikofonds, der die Sicherheit erhöht, für alle zugänglich.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/symmetric.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/symmetric.png"
     },
     {
       "name": "Mobius",
@@ -88,7 +88,7 @@
       "categoryId": "exchanges",
       "url": "https://www.mobius.money/#/swap",
       "description": "Ist eine dezentrale Börse, die sich auf stabile Münzen und Vermögenswerte konzentriert, die von anderen Ketten überbrückt werden.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mobius.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/mobius.png"
     },
     {
       "name": "Celo Tracker",
@@ -96,7 +96,7 @@
       "categoryId": "finance-tools",
       "url": "https://celotracker.com?address={{address}}",
       "description": "Verwalte dein Celo Portfolio von DeFi bis NFTs",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotracker.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotracker.png"
     },
     {
       "name": "Celo Tax",
@@ -104,7 +104,7 @@
       "categoryId": "finance-tools",
       "url": "https://www.celo.tax/",
       "description": "Analysiere",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotax.png"
     },
     {
       "name": "Impact Market",
@@ -112,7 +112,7 @@
       "categoryId": "social-impact",
       "url": "https://www.impactmarket.com/",
       "description": "Dezentrales Protokoll zur Armutsbekämpfung. Spende, um Gemeinden in Not zu unterstützen.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/impactmarket.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/impactmarket.png"
     },
     {
       "name": "NomSpace",
@@ -120,7 +120,7 @@
       "categoryId": "social",
       "url": "https://www.nom.space/",
       "description": "Dein web3-Benutzername, ein Name für alle deine Celo-Adressen.",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/nomspace.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/nomspace.png"
     },
     {
       "name": "Poof",
@@ -128,7 +128,7 @@
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create",
       "description": "Mach deine Transaktion unauffindbar, indem du den Wert privat sendest und anforderst",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png"
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/poofcash.png"
     }
   ]
 }

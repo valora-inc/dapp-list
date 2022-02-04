@@ -2,9 +2,9 @@ import Joi, { CustomValidator } from 'joi'
 import base from '../locales/base.json'
 import i18next from 'i18next'
 import fs from 'fs'
-import { URL } from 'url'
 import path from 'path'
 
+const humanIdPattern = /^[a-zA-Z0-9-]+$/
 const colorCodePattern = /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/
 
 i18next
@@ -32,8 +32,7 @@ const checkMatchingLocalization: CustomValidator = (value) => {
 }
 
 const checkMatchingAsset: CustomValidator = (value) => {
-  const url = new URL(value)
-  const filename = path.basename(url.pathname)
+  const filename = `${value}.png`
   const assetPath = path.join(__dirname, '../assets', filename)
   if (!fs.existsSync(assetPath)) {
     throw new Error(`Missing asset at '${path.relative(__dirname, assetPath)}'`)
@@ -42,15 +41,22 @@ const checkMatchingAsset: CustomValidator = (value) => {
   return value
 }
 
+// Matches an existing category id in the categories array
+const categoryRef = Joi.ref('/categories', {
+  in: true,
+  adjust: (nodes) => nodes.map((node: any) => node.id),
+})
+
 export const schema = Joi.object({
   categories: Joi.array()
     .items(
       Joi.object({
-        id: Joi.string().required(),
-        name: Joi.string()
-          // Matches categories.something
-          .pattern(/^categories\.([a-zA-Z0-9-]+)$/)
-          .custom(checkMatchingLocalization, 'has a matching localization')
+        id: Joi.string()
+          .pattern(humanIdPattern)
+          .custom((id, helpers) => {
+            checkMatchingLocalization(`categories.${id}`, helpers)
+            return id
+          }, 'has a matching localized name')
           .required(),
         backgroundColor: Joi.string().pattern(colorCodePattern).required(),
         fontColor: Joi.string().pattern(colorCodePattern).required(),
@@ -58,7 +64,7 @@ export const schema = Joi.object({
     )
     .min(1)
     .unique((category0, category1) => {
-      const uniqueProperties = ['id', 'name', 'backgroundColor', 'fontColor']
+      const uniqueProperties = ['id', 'backgroundColor', 'fontColor']
       return uniqueProperties
         .map((property) => category0[property] === category1[property])
         .some((value) => value)
@@ -67,22 +73,16 @@ export const schema = Joi.object({
   applications: Joi.array()
     .items(
       Joi.object({
-        id: Joi.string().required(),
-        name: Joi.string().required(),
-        categoryId: Joi.string().required(),
-        description: Joi.string()
-          // Matches dapps.something
-          .pattern(/^dapps\.([a-zA-Z0-9-]+)$/)
-          .custom(checkMatchingLocalization, 'has a matching localization')
-          .required(),
-        logoUrl: Joi.string()
-          // For now only allow assets within this repo
-          .pattern(
-            /^https:\/\/raw.githubusercontent.com\/valora-inc\/app-list\/main\/assets\/[^/]+\.png$/,
-          )
-          .uri()
+        id: Joi.string()
+          .pattern(humanIdPattern)
           .custom(checkMatchingAsset, 'has a matching asset')
+          .custom((id, helpers) => {
+            checkMatchingLocalization(`dapps.${id}`, helpers)
+            return id
+          }, 'has a matching localized description')
           .required(),
+        name: Joi.string().required(),
+        categoryId: Joi.valid(categoryRef).required(),
         url: Joi.string()
           .replace('{{address}}', '')
           .uri({
@@ -93,7 +93,7 @@ export const schema = Joi.object({
     )
     .min(1)
     .unique((application0, application1) => {
-      const uniqueProperties = ['id', 'name', 'description']
+      const uniqueProperties = ['id', 'name']
       return uniqueProperties
         .map((property) => application0[property] === application1[property])
         .some((value) => value)

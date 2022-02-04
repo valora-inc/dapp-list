@@ -4,21 +4,21 @@
     "lend": "Prêter, emprunter et gagner",
     "spend": "Dépenser",
     "finance-tools": "Outils financiers",
-    "social-impact": "Impact social",
+    "social-impact": "Impact",
     "social": "Social",
     "nfts": "NFTs",
     "games": "Jeux"
   },
   "dapps": {
-    "mobius": "Échange décentralisé axé sur les stablecoins et les actifs d'autres chaînes.",
-    "symmetric": "DeFi accessible grâce à des frais réduits, une assistance client et un fonds de risque unique qui augmente la sécurité.",
-    "ubeswap": "Échangez tokens et gagnez des récompenses.",
-    "moola": "Prêtez, empruntez ou ajoutez à un pool pour gagner des récompenses.",
+    "mobius": "Échange de stablecoins et d'actifs entre les blockchains",
+    "symmetric": "Accède à DeFi avec un fonds de risque unique pour plus de sécurité",
+    "ubeswap": "Échange des jetons, entre dans un pool ou farm ta crypto.",
+    "moola": "Prête, emprunte ou ajoute à un pool pour gagner des récompenses.",
     "celotracker": "Gérez votre portefeuille Celo de DeFi à NFTs.",
-    "celotax": "Analysez et téléchargez vos transactions à des fins fiscales ou comptables.",
-    "impactmarket": "Protocole décentralisé de lutte contre la pauvreté. Donnez pour aider les communautés dans le besoin.",
-    "nomspace": "Votre nom d'utilisateur á la Web3, un nom pour toutes vos adresses Celo.",
-    "poofcash": "Envoyez et demandez de la valeur en privé.",
+    "celotax": "Analyse tes transactions pour les impôts ou la comptabilité",
+    "impactmarket": "Soutenir les communautés dans le besoin et réduire la pauvreté",
+    "nomspace": "Create a username you can use across Web3",
+    "poofcash": "Make your transactions untraceable",
     "bidali": "Achetez des cartes-cadeaux auprès de vos marques préférées"
   }
 }

@@ -10,15 +10,15 @@
     "games": "Игры"
   },
   "dapps": {
-    "mobius": "Is a decentralized exchange focused on stable coins and assets bridged from other chains.",
-    "symmetric": "Makes DeFi accessible to everyone through low fees, customer support and a Unique Risk Fund that increases safety.",
-    "ubeswap": "Is a mobile-first decentralized exchange, featuring the widest selection of tokens.",
-    "moola": "Start earning interest on your CELO, cUSD, cEUR.",
-    "celotracker": "Manage your Celo Portfolio from DeFi to NFTs",
-    "celotax": "Analyse & download your transactions for tax or accounting purposes.",
-    "impactmarket": "Decentralized Poverty Alleviation Protocol. Donate to support communities in need.",
-    "nomspace": "Your web3 username, a name for all your Celo addresses.",
-    "poofcash": "Make your transaction untraceble by sending and requesting value privately",
+    "mobius": "Является децентрализованной биржей, ориентированной на стабильные криптовалюты и активы, получаемые из других блокчейнов по принципу мостов.",
+    "symmetric": "Обеспечивает доступность децентрализованных финансов (DeFi) для всех за счет низких комиссий, поддержки клиентов и уникального фонда рисков, повышающего безопасность.",
+    "ubeswap": "Является первой мобильной децентрализованной биржей, предлагающей самый широкий выбор токенов.",
+    "moola": "Начните зарабатывать проценты на ваши CELO, cUSD, cEUR.",
+    "celotracker": "Управляйте своим портфелем Celo от DeFi до токенов NFT",
+    "celotax": "Проанализируйте и загрузите свои транзакции для налогового и бухгалтерского учета.",
+    "impactmarket": "Децентрализованный протокол снижения уровня бедности. Внесите пожертвование для поддержки нуждающихся.",
+    "nomspace": "Ваше имя пользователя web3, имя для всех ваших адресов Celo.",
+    "poofcash": "Сделайте свои транзакции неотслеживаемыми путем конфиденциальной отправки и запроса платежей",
     "bidali": "Покупайте подарочные карты всех любимых брендов"
   }
 }

@@ -55,7 +55,7 @@
       "id": "ubeswap",
       "categoryId": "exchanges",
       "url": "https://app.ubeswap.org/",
-      "description": "Ist eine dezentrale Börse mit der größten Auswahl an Token, die es auf dem Handy gibt.",
+      "description": "Ist eine Mobilgeräte-orientierte dezentrale Börse mit der größten Auswahl an Token.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png"
     },
     {
@@ -79,7 +79,7 @@
       "id": "symmetric",
       "categoryId": "exchanges",
       "url": "https://celo.symmetric.exchange/#/swap",
-      "description": "Macht DeFi durch niedrige Gebühren, Kundenbetreuung und einen einzigartigen Risikofonds, der die Sicherheit erhöht, für alle zugänglich.",
+      "description": "Macht DeFi durch niedrige Gebühren, Kundenbetreuung und einen einzigartigen Risikofonds, der die Sicherheit erhöht, für jeden zugänglich.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/symmetric.png"
     },
     {
@@ -87,7 +87,7 @@
       "id": "mobius",
       "categoryId": "exchanges",
       "url": "https://www.mobius.money/#/swap",
-      "description": "Ist eine dezentrale Börse, die sich auf stabile Münzen und Vermögenswerte konzentriert, die von anderen Ketten überbrückt werden.",
+      "description": "Ist ein dezentraler Austausch, der sich auf stabile Münzen und Vermögenswerte konzentriert, die von anderen Ketten überbrückt werden.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mobius.png"
     },
     {
@@ -103,7 +103,7 @@
       "id": "celotax",
       "categoryId": "finance-tools",
       "url": "https://www.celo.tax/",
-      "description": "Analysiere",
+      "description": "Analyse und Download Ihrer Transaktionen zu steuerlichen oder buchhalterischen Zwecken.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png"
     },
     {
@@ -119,7 +119,7 @@
       "id": "nomspace",
       "categoryId": "social",
       "url": "https://www.nom.space/",
-      "description": "Dein web3-Benutzername, ein Name für alle deine Celo-Adressen.",
+      "description": "Dein web3-Benutzername, ein Name für alle Ihre Celo-Adressen.",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/nomspace.png"
     },
     {
@@ -127,7 +127,7 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create",
-      "description": "Mach deine Transaktion unauffindbar, indem du den Wert privat sendest und anforderst",
+      "description": "Machen Sie Ihre Transaktion unauffindbar, indem Sie den Wert privat sendem und anforderm",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png"
     }
   ]

@@ -55,7 +55,7 @@
       "id": "ubeswap",
       "categoryId": "exchanges",
       "url": "https://app.ubeswap.org/",
-      "description": "Scambia qualsiasi token, entra in un pool o coltiva le tue crypto",
+      "description": "Scambia qualsiasi token, entra in un pool o partecipi a progetti di yield farming",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/ubeswap.png"
     },
     {
@@ -63,7 +63,7 @@
       "id": "moola",
       "categoryId": "lend",
       "url": "https://app.moola.market/",
-      "description": "Presta, prendi in prestito o aggiungi a un gruppo per guadagnare premi",
+      "description": "Richiedi un prestito, presta o aggiungi a un pool per ottenere ricompense",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/moola.png"
     },
     {
@@ -103,7 +103,7 @@
       "id": "celotax",
       "categoryId": "finance-tools",
       "url": "https://www.celo.tax/",
-      "description": "Analizza le tue transazioni per le tasse o la contabilità",
+      "description": "Analizza le tue transazioni per scopi fiscali o contabili",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotax.png"
     },
     {
@@ -111,7 +111,7 @@
       "id": "impactmarket",
       "categoryId": "social-impact",
       "url": "https://www.impactmarket.com/",
-      "description": "Sostenere le comunità in difficoltà e alleviare la povertà",
+      "description": "Aiuti le comunità in difficoltà per ridurre la povertà",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/impactmarket.png"
     },
     {
@@ -119,7 +119,7 @@
       "id": "nomspace",
       "categoryId": "social",
       "url": "https://www.nom.space/",
-      "description": "Crea un nome utente che puoi utilizzare in tutto il Web3",
+      "description": "Crea un nome utente che puoi usare in Web3",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/nomspace.png"
     },
     {

@@ -10,15 +10,15 @@
     "games": "Spiele"
   },
   "dapps": {
-    "mobius": "Ist eine dezentrale Börse, die sich auf stabile Münzen und Vermögenswerte konzentriert, die von anderen Ketten überbrückt werden.",
-    "symmetric": "Macht DeFi durch niedrige Gebühren, Kundenbetreuung und einen einzigartigen Risikofonds, der die Sicherheit erhöht, für alle zugänglich.",
-    "ubeswap": "Ist eine dezentrale Börse mit der größten Auswahl an Token, die es auf dem Handy gibt.",
+    "mobius": "Ist ein dezentraler Austausch, der sich auf stabile Münzen und Vermögenswerte konzentriert, die von anderen Ketten überbrückt werden.",
+    "symmetric": "Macht DeFi durch niedrige Gebühren, Kundenbetreuung und einen einzigartigen Risikofonds, der die Sicherheit erhöht, für jeden zugänglich.",
+    "ubeswap": "Ist eine Mobilgeräte-orientierte dezentrale Börse mit der größten Auswahl an Token.",
     "moola": "Fang an, Zinsen auf deinen CELO, cUSD, cEUR zu verdienen.",
     "celotracker": "Verwalte dein Celo Portfolio von DeFi bis NFTs",
-    "celotax": "Analysiere",
+    "celotax": "Analyse und Download Ihrer Transaktionen zu steuerlichen oder buchhalterischen Zwecken.",
     "impactmarket": "Dezentrales Protokoll zur Armutsbekämpfung. Spende, um Gemeinden in Not zu unterstützen.",
-    "nomspace": "Dein web3-Benutzername, ein Name für alle deine Celo-Adressen.",
-    "poofcash": "Mach deine Transaktion unauffindbar, indem du den Wert privat sendest und anforderst",
+    "nomspace": "Dein web3-Benutzername, ein Name für alle Ihre Celo-Adressen.",
+    "poofcash": "Machen Sie Ihre Transaktion unauffindbar, indem Sie den Wert privat sendem und anforderm",
     "bidali": "Kaufe Geschenkkarten von deinen Lieblingsmarken"
   }
 }

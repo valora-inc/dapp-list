@@ -70,7 +70,7 @@ async function generateTranslatedFiles() {
       (application) => ({
         ...application,
         description: t(`dapps.${application.id}`, lng),
-        logoUrl: `https://raw.githubusercontent.com/valora-inc/app-list/main/assets/${application.id}.png`,
+        logoUrl: `https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/${application.id}.png`,
       }),
     )
     fs.writeFileSync(

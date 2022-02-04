@@ -5,7 +5,7 @@ A curated list of Dapps featured in the Valora wallet.
 Here's an example on what it looks like in action (note that it might become slightly outdated, but the general layout remains):
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/valora-inc/app-list/main/in-app-example.png" width=40%>
+  <img src="https://raw.githubusercontent.com/valora-inc/dapp-list/main/in-app-example.png" width=40%>
 </p>
 
 ## The Dapp Bake Off
@@ -39,7 +39,7 @@ There are some fields that need to be translated into different languages, and t
 | `categoryId` | The category id under which the Dapp should show up.                                       |
 | `url`        | The URL to open when the Dapp is selected. Can also be a deep link to open in-app.         |
 
-The logo of the Dapp must be a 256 x 256 PNG added to the `assets` folder. It will be available after merging in a URL with this format: `https://raw.githubusercontent.com/valora-inc/app-list/main/assets/{id}.png`.
+The logo of the Dapp must be a 256 x 256 PNG added to the `assets` folder. It will be available after merging in a URL with this format: `https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/{id}.png`.
 
 The English description of the Dapp should be added to [`locales/base.json`](locales/base.json) under the path `dapps.{id}`.
 

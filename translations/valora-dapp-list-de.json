@@ -95,7 +95,7 @@
       "id": "celotracker",
       "categoryId": "finance-tools",
       "url": "https://celotracker.com?address={{address}}",
-      "description": "Manage your Celo Portfolio from DeFi to NFTs",
+      "description": "Verwalte dein Celo Portfolio von DeFi bis NFTs",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotracker.png"
     },
     {

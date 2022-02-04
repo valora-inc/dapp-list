@@ -129,6 +129,14 @@
       "description": "dapps.poofcash",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png",
       "url": "https://app.poof.cash/#/account/create"
+    },
+    {
+      "name": "Mento-Fi",
+      "id": "mentofi",
+      "categoryId": "exchanges",
+      "description": "dapps.mentofi",
+      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mentofi.png",
+      "url": "https://mento.finance/"
     }
   ]
 }

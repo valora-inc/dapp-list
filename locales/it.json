@@ -12,12 +12,12 @@
   "dapps": {
     "mobius": "Scambia stablecoin e asset tra blockchain",
     "symmetric": "Accedi a DeFi con un fondo di rischio unico per una maggiore sicurezza",
-    "ubeswap": "Scambia qualsiasi token, entra in un pool o coltiva le tue crypto",
-    "moola": "Presta, prendi in prestito o aggiungi a un gruppo per guadagnare premi",
+    "ubeswap": "Scambia qualsiasi token, entra in un pool o partecipi a progetti di yield farming",
+    "moola": "Richiedi un prestito, presta o aggiungi a un pool per ottenere ricompense",
     "celotracker": "Gestisci il tuo portafoglio Celo da DeFi a NFT.",
-    "celotax": "Analizza le tue transazioni per le tasse o la contabilità",
-    "impactmarket": "Sostenere le comunità in difficoltà e alleviare la povertà",
-    "nomspace": "Crea un nome utente che puoi utilizzare in tutto il Web3",
+    "celotax": "Analizza le tue transazioni per scopi fiscali o contabili",
+    "impactmarket": "Aiuti le comunità in difficoltà per ridurre la povertà",
+    "nomspace": "Crea un nome utente che puoi usare in Web3",
     "poofcash": "Rendi le tue transazioni non rintracciabili",
     "bidali": "Acquista buoni regalo da tutti i tuoi marchi preferiti"
   }

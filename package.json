@@ -7,15 +7,15 @@
   "license": "Apache-2.0",
   "scripts": {
     "lint": "eslint --ext=.tsx,.ts,.json --fix src/",
-    "format": "prettier --loglevel error --write \"./src/**/*.ts\"",
+    "format": "prettier --loglevel error --write .",
     "validate": "jest",
-    "test": "prettier --check \"./src/**/*.ts\" && eslint --ext=.tsx,.ts,.json src/ && jest"
+    "test": "prettier --check . && eslint --ext=.tsx,.ts,.json src/ && jest"
   },
   "prettier": "@valora/prettier-config",
   "devDependencies": {
     "@types/jest": "^27.4.0",
     "@types/node": "^17.0.7",
-    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
     "@valora/eslint-config-typescript": "^0.0.1",
     "@valora/prettier-config": "^0.0.1",
     "eslint": "^8.8.0",

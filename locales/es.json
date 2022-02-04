@@ -2,7 +2,7 @@
   "categories": {
     "exchanges": "Cambia",
     "lend": "Presta, toma prestado y gana",
-    "spend": "Usa cripto",
+    "spend": "Gasta",
     "finance-tools": "Herramientas financieras",
     "social-impact": "Impacto social",
     "social": "Social",
@@ -10,8 +10,15 @@
     "games": "Juegos"
   },
   "dapps": {
-    "ubeswap": "Intercambia tokens y gana recompensas",
-    "moola": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas",
-    "bidali": "Compra tarjetas de regalo de tus marcas preferidas"
+    "mobius": "Conoce este exchange descentralizado de stablecoins y activos de otras cadenas.",
+    "symmetric": "DeFi al alcance de todos gracias a las tarifas bajas, su asistencia al usuario y un fondo de riesgo único que aumenta la seguridad.",
+    "ubeswap": "Exchange descentralizado móvil que ofrece la más amplia selección de tokens.",
+    "moola": "Empieza a ganar intereses sobre tus CELO, cUSD y cEUR.",
+    "celotracker": "Gestiona tu cartera Celo, desde productos DeFi a NFTs.",
+    "celotax": "Analiza y descarga tus transacciones para calcular tus impuestos.",
+    "impactmarket": "Conoce este protocolo descentralizado para el alivio a la pobreza. Dona fondos para apoyar a las comunidades necesitadas.",
+    "nomspace": "Crea tu nombre de usuario en la Web3 y úsalo en todas tus direcciones Celo.",
+    "poofcash": "Envía y recibe valor de forma privada y anónima.",
+    "bidali": "Compra tarjetas de regalo de tus marcas preferidas."
   }
 }

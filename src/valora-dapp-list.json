@@ -1,50 +1,42 @@
 {
   "categories": [
     {
-      "id": "1",
-      "name": "categories.exchanges",
+      "id": "exchanges",
       "backgroundColor": "#DEF8EA",
       "fontColor": "#1AB775"
     },
     {
-      "id": "2",
-      "name": "categories.lend",
+      "id": "lend",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE"
     },
     {
-      "id": "3",
-      "name": "categories.spend",
+      "id": "spend",
       "backgroundColor": "#FDF0CE",
       "fontColor": "#BF8800"
     },
     {
-      "id": "4",
-      "name": "categories.finance-tools",
+      "id": "finance-tools",
       "backgroundColor": "#E5E8FB",
       "fontColor": "#4E61E2"
     },
     {
-      "id": "5",
-      "name": "categories.social-impact",
+      "id": "social-impact",
       "backgroundColor": "#ECE3F7",
       "fontColor": "#894ED0"
     },
     {
-      "id": "6",
-      "name": "categories.social",
+      "id": "social",
       "backgroundColor": "#FFE6F4",
       "fontColor": "#FF56B7"
     },
     {
-      "id": "7",
-      "name": "categories.nfts",
+      "id": "nfts",
       "backgroundColor": "#FFF1DA",
       "fontColor": "#F78400"
     },
     {
-      "id": "8",
-      "name": "categories.games",
+      "id": "games",
       "backgroundColor": "#FFE5E1",
       "fontColor": "#FF5D44"
     }
@@ -52,34 +44,68 @@
   "applications": [
     {
       "name": "Ubeswap",
-      "id": "1",
-      "categoryId": "1",
-      "description": "dapps.ubeswap",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
+      "id": "ubeswap",
+      "categoryId": "exchanges",
       "url": "https://app.ubeswap.org/"
     },
     {
       "name": "Moola",
-      "id": "2",
-      "categoryId": "2",
-      "description": "dapps.moola",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
+      "id": "moola",
+      "categoryId": "lend",
       "url": "https://app.moola.market/"
     },
     {
       "name": "Bidali",
-      "id": "3",
-      "categoryId": "3",
-      "description": "dapps.bidali",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
+      "id": "bidali",
+      "categoryId": "spend",
       "url": "celo://wallet/bidali"
     },
     {
+      "name": "Symmetric",
+      "id": "symmetric",
+      "categoryId": "exchanges",
+      "url": "https://celo.symmetric.exchange/#/swap"
+    },
+    {
+      "name": "Mobius",
+      "id": "mobius",
+      "categoryId": "exchanges",
+      "url": "https://www.mobius.money/#/swap"
+    },
+    {
+      "name": "Celo Tracker",
+      "id": "celotracker",
+      "categoryId": "finance-tools",
+      "url": "https://celotracker.com?address={{address}}"
+    },
+    {
+      "name": "Celo Tax",
+      "id": "celotax",
+      "categoryId": "finance-tools",
+      "url": "https://www.celo.tax/"
+    },
+    {
+      "name": "Impact Market",
+      "id": "impactmarket",
+      "categoryId": "social-impact",
+      "url": "https://www.impactmarket.com/"
+    },
+    {
+      "name": "NomSpace",
+      "id": "nomspace",
+      "categoryId": "social",
+      "url": "https://www.nom.space/"
+    },
+    {
+      "name": "Poof",
+      "id": "poofcash",
+      "categoryId": "social",
+      "url": "https://app.poof.cash/#/account/create"
+    },
+    {
       "name": "Yanda",
-      "id": "4",
-      "categoryId": "4",
-      "description": "dapps.yanda",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/yanda.png",
+      "id": "yanda",
+      "categoryId": "finance-tools",
       "url": "https://defi.app.yanda.io/"
     }
   ]

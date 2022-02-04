@@ -4,21 +4,21 @@
     "lend": "Presta, toma prestado y gana",
     "spend": "Usa cripto",
     "finance-tools": "Herramientas financieras",
-    "social-impact": "Impact",
+    "social-impact": "Impacto",
     "social": "Social",
     "nfts": "NFTs",
     "games": "Juegos"
   },
   "dapps": {
-    "mobius": "Swap stablecoins and assets between blockchains",
-    "symmetric": "Access DeFi with a unique risk fund for added safety",
-    "ubeswap": "Swap any tokens, enter a pool, or farm your crypto",
-    "moola": "Lend, borrow, or add to a pool to earn rewards",
+    "mobius": "Intercambia stablecoins y activos entre blockchains",
+    "symmetric": "Accede a un mundo DeFi con un fondo de riesgo único para mayor seguridad",
+    "ubeswap": "Intercambiar cualquier token, entrar en un pool o cultivar tus criptomonedas",
+    "moola": "Presta, pide prestado o añade a un fondo común para ganar recompensas",
     "celotracker": "Gestiona tu cartera Celo, desde productos DeFi a NFTs",
-    "celotax": "Analyze your transactions for taxes or accounting",
-    "impactmarket": "Support communities in need and alleviate poverty",
-    "nomspace": "Create a username you can use across Web3",
-    "poofcash": "Make your transactions untraceable",
+    "celotax": "Analizar tus transacciones para los impuestos o la contabilidad",
+    "impactmarket": "Apoyar a las comunidades necesitadas y aliviar la pobreza",
+    "nomspace": "Crea un nombre de usuario que puedas utilizar en toda la Web3",
+    "poofcash": "Haz que tus transacciones no sean rastreables",
     "bidali": "Compra tarjetas de regalo de tus marcas preferidas"
   }
 }

@@ -28,6 +28,12 @@ const checkMatchingLocalization: CustomValidator = (value) => {
     )
   }
 
+  if (localizedValue[localizedValue.length - 1] === '.') {
+    throw new Error(
+      `Localization key '${value}' in 'locales/base.json' must not have a period at the end`,
+    )
+  }
+
   return value
 }
 

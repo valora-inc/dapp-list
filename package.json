@@ -24,7 +24,7 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-react-native": "^4.0.0",
-    "i18next": "~21.6.10",
+    "i18next": "~21.6.11",
     "image-size": "^1.0.1",
     "jest": "^27.4.7",
     "joi": "^17.6.0",

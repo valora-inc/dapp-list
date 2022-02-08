@@ -71,7 +71,7 @@
       "id": "bidali",
       "categoryId": "spend",
       "url": "celo://wallet/bidali",
-      "description": "Kaufe Geschenkkarten von deinen Lieblingsmarken",
+      "description": "Verwende Krypto, um Geschenkkarten zu kaufen",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/bidali.png"
     },
     {
@@ -87,7 +87,7 @@
       "id": "mobius",
       "categoryId": "exchanges",
       "url": "https://www.mobius.money/#/swap",
-      "description": "Tausche Stablecoins und Vermögenswerte zwischen Blockchains",
+      "description": "Tausche Stablecoins und verdiene Rewards",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/mobius.png"
     },
     {

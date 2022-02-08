@@ -1,5 +1,11 @@
 import { schema } from './schema'
+import fs from 'fs'
+import i18next from 'i18next'
 const appList = require('./valora-dapp-list.json')
+
+beforeEach(() => {
+  jest.clearAllMocks()
+})
 
 describe('valora-dapp-list.json', () => {
   it('complies with schema', () => {
@@ -29,8 +35,7 @@ describe('invalid dapp list arrays', () => {
     const testDappObject = {
       categories: [
         {
-          id: '1',
-          name: 'categories.exchanges',
+          id: 'exchanges',
           backgroundColor: '#DEF8EA',
           fontColor: '#1AB775',
         },
@@ -48,7 +53,6 @@ describe('invalid categories entries', () => {
     const testDappObject = {
       categories: [
         {
-          name: 'categories.exchanges',
           backgroundColor: '#DEF8EA',
           fontColor: '#1AB775',
         },
@@ -60,28 +64,11 @@ describe('invalid categories entries', () => {
     )
   })
 
-  it('errors on missing name', () => {
-    const testDappObject = {
-      categories: [
-        {
-          id: '1',
-          backgroundColor: '#DEF8EA',
-          fontColor: '#1AB775',
-        },
-      ],
-      applications: [],
-    }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "categories[0].name" is required',
-    )
-  })
-
   it('errors on missing backgroundColor', () => {
     const testDappObject = {
       categories: [
         {
-          id: '1',
-          name: 'categories.exchanges',
+          id: 'exchanges',
           fontColor: '#1AB775',
         },
       ],
@@ -96,8 +83,7 @@ describe('invalid categories entries', () => {
     const testDappObject = {
       categories: [
         {
-          id: '1',
-          name: 'categories.exchanges',
+          id: 'exchanges',
           backgroundColor: '#DEF8EA',
         },
       ],
@@ -113,7 +99,6 @@ describe('invalid categories entries', () => {
       categories: [
         {
           id: 1,
-          name: 'categories.exchanges',
           backgroundColor: '#DEF8EA',
           fontColor: '#1AB775',
         },
@@ -125,29 +110,11 @@ describe('invalid categories entries', () => {
     )
   })
 
-  it('errors on invalid name type', () => {
-    const testDappObject = {
-      categories: [
-        {
-          id: '1',
-          name: 1,
-          backgroundColor: '#DEF8EA',
-          fontColor: '#1AB775',
-        },
-      ],
-      applications: [],
-    }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "categories[0].name" must be a string',
-    )
-  })
-
   it('errors on invalid backgroundColor type', () => {
     const testDappObject = {
       categories: [
         {
-          id: '1',
-          name: 'categories.exchanges',
+          id: 'exchanges',
           backgroundColor: 1,
           fontColor: '#1AB775',
         },
@@ -163,8 +130,7 @@ describe('invalid categories entries', () => {
     const testDappObject = {
       categories: [
         {
-          id: '1',
-          name: 'categories.exchanges',
+          id: 'exchanges',
           backgroundColor: '#DEF8EA',
           fontColor: 1,
         },
@@ -180,8 +146,7 @@ describe('invalid categories entries', () => {
     const testDappObject = {
       categories: [
         {
-          id: '1',
-          name: 'categories.exchanges',
+          id: 'exchanges',
           backgroundColor: 'black',
           fontColor: '#1AB775',
         },
@@ -197,8 +162,7 @@ describe('invalid categories entries', () => {
     const testDappObject = {
       categories: [
         {
-          id: '1',
-          name: 'categories.exchanges',
+          id: 'exchanges',
           backgroundColor: '#DEF8EA',
           fontColor: 'white',
         },
@@ -214,8 +178,7 @@ describe('invalid categories entries', () => {
     const testDappObject = {
       categories: [
         {
-          id: '1',
-          name: 'categories.exchanges-something', // This key is missing in locales/base.json
+          id: 'exchanges-something', // The matching key is missing in locales/base.json
           backgroundColor: '#DEF8EA',
           fontColor: '#1AB775',
         },
@@ -223,7 +186,24 @@ describe('invalid categories entries', () => {
       applications: [],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
-      "ValidationError: \"categories[0].name\" failed custom validation because Missing localization key 'categories.exchanges-something' in 'locales/base.json'",
+      "ValidationError: \"categories[0].id\" failed custom validation because Missing localization key 'categories.exchanges-something' in 'locales/base.json'",
+    )
+  })
+
+  it('errors on period at the end of the localized name', () => {
+    jest.spyOn(i18next, 't').mockReturnValueOnce('Exchanges.')
+    const testDappObject = {
+      categories: [
+        {
+          id: 'exchanges',
+          backgroundColor: '#DEF8EA',
+          fontColor: '#1AB775',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      "ValidationError: \"categories[0].id\" failed custom validation because Localization key 'categories.exchanges' in 'locales/base.json' must not have a period at the end",
     )
   })
 
@@ -231,14 +211,12 @@ describe('invalid categories entries', () => {
     const testDappObject = {
       categories: [
         {
-          id: '1',
-          name: 'categories.exchanges',
+          id: 'exchanges',
           backgroundColor: '#DEF8EA',
           fontColor: '#1AB775',
         },
         {
-          id: '1',
-          name: 'categories.exchanges',
+          id: 'exchanges',
           backgroundColor: '#DEF8EA',
           fontColor: '#1AB775',
         },
@@ -253,8 +231,7 @@ describe('invalid categories entries', () => {
 
 describe('invalid applications entries', () => {
   const category = {
-    id: '1',
-    name: 'categories.exchanges',
+    id: 'exchanges',
     backgroundColor: '#DEF8EA',
     fontColor: '#1AB775',
   }
@@ -263,11 +240,8 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          id: '1',
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          id: 'ubeswap',
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -283,10 +257,7 @@ describe('invalid applications entries', () => {
       applications: [
         {
           name: 'Ubeswap',
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -302,10 +273,7 @@ describe('invalid applications entries', () => {
       applications: [
         {
           name: 'Ubeswap',
-          id: '1',
-          description: 'dapps.ubeswap',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          id: 'ubeswap',
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -315,54 +283,14 @@ describe('invalid applications entries', () => {
     )
   })
 
-  it('errors on missing description', () => {
-    const testDappObject = {
-      categories: [category],
-      applications: [
-        {
-          name: 'Ubeswap',
-          id: '1',
-          categoryId: '1',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
-          url: 'https://app.ubeswap.org/',
-        },
-      ],
-    }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].description" is required',
-    )
-  })
-
-  it('errors on missing logoUrl', () => {
-    const testDappObject = {
-      categories: [category],
-      applications: [
-        {
-          name: 'Ubeswap',
-          id: '1',
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          url: 'https://app.ubeswap.org/',
-        },
-      ],
-    }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].logoUrl" is required',
-    )
-  })
-
   it('errors on missing url', () => {
     const testDappObject = {
       categories: [category],
       applications: [
         {
           name: 'Ubeswap',
-          id: '1',
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          id: 'ubeswap',
+          categoryId: 'exchanges',
         },
       ],
     }
@@ -377,11 +305,8 @@ describe('invalid applications entries', () => {
       applications: [
         {
           name: 1,
-          id: '1',
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          id: 'ubeswap',
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -398,10 +323,7 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 1,
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -411,62 +333,20 @@ describe('invalid applications entries', () => {
     )
   })
 
-  it('errors on invalid categoryId type', () => {
+  it('errors on invalid categoryId reference', () => {
     const testDappObject = {
       categories: [category],
       applications: [
         {
           name: 'Ubeswap',
-          id: '1',
-          categoryId: 1,
-          description: 'dapps.ubeswap',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          id: 'ubeswap',
+          categoryId: 'exchanges-something', // This category id doesn't exist in the categories array
           url: 'https://app.ubeswap.org/',
         },
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].categoryId" must be a string',
-    )
-  })
-
-  it('errors on invalid description type', () => {
-    const testDappObject = {
-      categories: [category],
-      applications: [
-        {
-          name: 'Ubeswap',
-          id: '1',
-          categoryId: '1',
-          description: 1,
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
-          url: 'https://app.ubeswap.org/',
-        },
-      ],
-    }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].description" must be a string',
-    )
-  })
-
-  it('errors on invalid logoUrl type', () => {
-    const testDappObject = {
-      categories: [category],
-      applications: [
-        {
-          name: 'Ubeswap',
-          id: '1',
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          logoUrl: 1,
-          url: 'https://app.ubeswap.org/',
-        },
-      ],
-    }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].logoUrl" must be a string',
+      'ValidationError: "applications[0].categoryId" must be [ref:root:categories]',
     )
   })
 
@@ -476,11 +356,8 @@ describe('invalid applications entries', () => {
       applications: [
         {
           name: 'Ubeswap',
-          id: '1',
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          id: 'ubeswap',
+          categoryId: 'exchanges',
           url: 1,
         },
       ],
@@ -490,36 +367,14 @@ describe('invalid applications entries', () => {
     )
   })
 
-  it('errors on invalid logoUrl uri', () => {
-    const testDappObject = {
-      categories: [category],
-      applications: [
-        {
-          name: 'Ubeswap',
-          id: '1',
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          logoUrl: 'javascript:alert("Hello World")',
-          url: 'https://app.ubeswap.org/',
-        },
-      ],
-    }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].logoUrl" with value "javascript:alert("Hello World")" fails to match the required pattern: /^https:\\/\\/raw.githubusercontent.com\\/valora-inc\\/app-list\\/main\\/assets\\/[^/]+\\.png$/',
-    )
-  })
-
   it('errors on invalid url uri', () => {
     const testDappObject = {
       categories: [category],
       applications: [
         {
           name: 'Ubeswap',
-          id: '1',
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          id: 'ubeswap',
+          categoryId: 'exchanges',
           url: 'javascript:alert("Hello World")',
         },
       ],
@@ -530,22 +385,21 @@ describe('invalid applications entries', () => {
   })
 
   it('errors on missing localized description', () => {
+    jest.spyOn(fs, 'existsSync').mockReturnValueOnce(true)
+
     const testDappObject = {
       categories: [category],
       applications: [
         {
           name: 'Ubeswap',
-          id: '1',
-          categoryId: '1',
-          description: 'dapps.ubeswap-something', // this key doesn't exist in locales/base.json
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          id: 'ubeswap-something', // the matching key doesn't exist in locales/base.json
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
-      "ValidationError: \"applications[0].description\" failed custom validation because Missing localization key 'dapps.ubeswap-something' in 'locales/base.json'",
+      "ValidationError: \"applications[0].id\" failed custom validation because Missing localization key 'dapps.ubeswap-something' in 'locales/base.json'",
     )
   })
 
@@ -555,17 +409,36 @@ describe('invalid applications entries', () => {
       applications: [
         {
           name: 'Ubeswap',
-          id: '1',
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap-something.png', // This asset doesn't exist in the repo
+          id: 'ubeswap-something', // the matching asset doesn't exist in the repo
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].logoUrl" failed custom validation because Missing asset at \'../assets/ubeswap-something.png\'',
+      'ValidationError: "applications[0].id" failed custom validation because Missing asset at \'../assets/ubeswap-something.png\'',
+    )
+  })
+
+  it('errors on period at the end of the localized name', () => {
+    jest
+      .spyOn(i18next, 't')
+      .mockReturnValueOnce(
+        'Swap any tokens, enter a pool, or farm your crypto.',
+      )
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: 'ubeswap',
+          categoryId: 'exchanges',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      "ValidationError: \"categories[0].id\" failed custom validation because Localization key 'categories.exchanges' in 'locales/base.json' must not have a period at the end",
     )
   })
 
@@ -575,20 +448,14 @@ describe('invalid applications entries', () => {
       applications: [
         {
           name: 'Ubeswap',
-          id: '1',
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          id: 'ubeswap',
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
         {
           name: 'Ubeswap',
-          id: '1',
-          categoryId: '1',
-          description: 'dapps.ubeswap',
-          logoUrl:
-            'https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png',
+          id: 'ubeswap',
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],

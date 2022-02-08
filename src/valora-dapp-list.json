@@ -2,49 +2,41 @@
   "categories": [
     {
       "id": "exchanges",
-      "name": "categories.exchanges",
       "backgroundColor": "#DEF8EA",
       "fontColor": "#1AB775"
     },
     {
       "id": "lend",
-      "name": "categories.lend",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE"
     },
     {
       "id": "spend",
-      "name": "categories.spend",
       "backgroundColor": "#FDF0CE",
       "fontColor": "#BF8800"
     },
     {
       "id": "finance-tools",
-      "name": "categories.finance-tools",
       "backgroundColor": "#E5E8FB",
       "fontColor": "#4E61E2"
     },
     {
       "id": "social-impact",
-      "name": "categories.social-impact",
       "backgroundColor": "#ECE3F7",
       "fontColor": "#894ED0"
     },
     {
       "id": "social",
-      "name": "categories.social",
       "backgroundColor": "#FFE6F4",
       "fontColor": "#FF56B7"
     },
     {
       "id": "nfts",
-      "name": "categories.nfts",
       "backgroundColor": "#FFF1DA",
       "fontColor": "#F78400"
     },
     {
       "id": "games",
-      "name": "categories.games",
       "backgroundColor": "#FFE5E1",
       "fontColor": "#FF5D44"
     }
@@ -54,80 +46,60 @@
       "name": "Ubeswap",
       "id": "ubeswap",
       "categoryId": "exchanges",
-      "description": "dapps.ubeswap",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/ubeswap.png",
       "url": "https://app.ubeswap.org/"
     },
     {
       "name": "Moola",
       "id": "moola",
       "categoryId": "lend",
-      "description": "dapps.moola",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/moola.png",
       "url": "https://app.moola.market/"
     },
     {
       "name": "Bidali",
       "id": "bidali",
       "categoryId": "spend",
-      "description": "dapps.bidali",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/bidali.png",
       "url": "celo://wallet/bidali"
     },
     {
       "name": "Symmetric",
       "id": "symmetric",
       "categoryId": "exchanges",
-      "description": "dapps.symmetric",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/symmetric.png",
       "url": "https://celo.symmetric.exchange/#/swap"
     },
     {
       "name": "Mobius",
       "id": "mobius",
       "categoryId": "exchanges",
-      "description": "dapps.mobius",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/mobius.png",
       "url": "https://www.mobius.money/#/swap"
     },
     {
       "name": "Celo Tracker",
       "id": "celotracker",
       "categoryId": "finance-tools",
-      "description": "dapps.celotracker",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celo-tracker.png",
       "url": "https://celotracker.com?address={{address}}"
     },
     {
       "name": "Celo Tax",
       "id": "celotax",
       "categoryId": "finance-tools",
-      "description": "dapps.celotax",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/celotax.png",
       "url": "https://www.celo.tax/"
     },
     {
       "name": "Impact Market",
       "id": "impactmarket",
       "categoryId": "social-impact",
-      "description": "dapps.impactmarket",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/impactmarket.png",
       "url": "https://www.impactmarket.com/"
     },
     {
-      "name": "NomSpace",
+      "name": "Nomspace",
       "id": "nomspace",
       "categoryId": "social",
-      "description": "dapps.nomspace",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/nomspace.png",
       "url": "https://www.nom.space/"
     },
     {
       "name": "Poof",
       "id": "poofcash",
       "categoryId": "social",
-      "description": "dapps.poofcash",
-      "logoUrl": "https://raw.githubusercontent.com/valora-inc/app-list/main/assets/poofcash.png",
       "url": "https://app.poof.cash/#/account/create"
     },
     {

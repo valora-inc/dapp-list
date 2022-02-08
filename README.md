@@ -45,7 +45,8 @@ The English description of the Dapp should be added to [`locales/base.json`](loc
 
 Please make sure that the description follows these guidelines:
 
-- All the descriptions should aim to be one sentence long, and should describe what action is possible with this dapp (Example: "Is a decentralized exchange focused on stable coins and assets bridged from other chains" :arrow_right: "Swap stable coins and assets bridged form other chains").
+- Dapp descriptions must be 50 characters or less and describe what the user can do with the dapp. Dapp descriptions should not have a period at the end, but should adhere to American english spelling and punctuation otherwise.
+  Example: Swap tokens through a decentralized exchange
 - Should not include a period at the end of the description.
 
 #### Templating

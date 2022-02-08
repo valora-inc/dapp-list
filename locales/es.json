@@ -10,7 +10,7 @@
     "games": "Juegos"
   },
   "dapps": {
-    "mobius": "Intercambia stablecoins y gana recompensas con tus criptomonedas",
+    "mobius": "Intercambia stablecoins y gana recompensas en cripto",
     "symmetric": "Accede a un mundo DeFi con un fondo de riesgo único para mayor seguridad",
     "ubeswap": "Intercambia tokens, entra a un fondo o participa del yield farming",
     "moola": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas",
@@ -19,6 +19,6 @@
     "impactmarket": "Apoya a las comunidades necesitadas y ayuda a aliviar la pobreza",
     "nomspace": "Crea un nombre de usuario que puedas utilizar en toda la Web3",
     "poofcash": "Haz que tus transacciones sean imposibles de rastrear",
-    "bidali": "Utiliza el cripto para comprar tarjetas de regalo"
+    "bidali": "Usa tus criptomonedas para comprar tarjetas de regalo"
   }
 }

@@ -101,6 +101,12 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create"
+    },
+    {
+      "name": "My Dapp",
+      "id": "mydapp",
+      "categoryId": "games",
+      "url": "https://mydapp.com"
     }
   ]
 }

@@ -4,21 +4,22 @@
     "lend": "Lend, Borrow & Earn",
     "spend": "Spend",
     "finance-tools": "Financial Tools",
-    "social-impact": "Social Impact",
+    "social-impact": "Impact",
     "social": "Social",
     "nfts": "NFTs",
     "games": "Games"
   },
   "dapps": {
-    "mobius": "Is a decentralized exchange focused on stable coins and assets bridged from other chains.",
-    "symmetric": "Makes DeFi accessible to everyone through low fees, customer support and a Unique Risk Fund that increases safety.",
-    "ubeswap": "Swap any tokens, and earn rewards for contributing",
-    "moola": "Lend, Borrow or add to a pool to earn rewards",
+    "mobius": "Swap stablecoins and earn rewards on your crypto",
+    "symmetric": "Access DeFi with a unique risk fund for added safety",
+    "ubeswap": "Swap any tokens, enter a pool, or farm your crypto",
+    "moola": "Lend, borrow, or add to a pool to earn rewards",
     "celotracker": "Manage your Celo Portfolio from DeFi to NFTs",
-    "celotax": "Analyse & download your transactions for tax or accounting purposes.",
-    "impactmarket": "Decentralized Poverty Alleviation Protocol. Donate to support communities in need.",
-    "nomspace": "Your web3 username, a name for all your Celo addresses.",
-    "poofcash": "Make your transaction untraceble by sending and requesting value privately",
-    "bidali": "Purchase gift cards from all your favorite brands"
+    "celotax": "Analyze your transactions for taxes or accounting",
+    "impactmarket": "Support communities in need and alleviate poverty",
+    "nomspace": "Create a username you can use across Web3",
+    "poofcash": "Make your transactions untraceable",
+    "bidali": "Use crypto to purchase gift cards",
+    "mydapp": "This is my dapp"
   }
 }

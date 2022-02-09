@@ -10,15 +10,15 @@
     "games": "Games"
   },
   "dapps": {
-    "mobius": "Swap stablecoins and earn rewards on your crypto",
-    "symmetric": "Access DeFi with a unique risk fund for added safety",
-    "ubeswap": "Swap any tokens, enter a pool, or farm your crypto",
-    "moola": "Lend, borrow, or add to a pool to earn rewards",
-    "celotracker": "Manage your Celo Portfolio from DeFi to NFTs",
-    "celotax": "Analyze your transactions for taxes or accounting",
-    "impactmarket": "Support communities in need and alleviate poverty",
-    "nomspace": "Create a username you can use across Web3",
-    "poofcash": "Make your transactions untraceable",
-    "bidali": "Use crypto to purchase gift cards"
+    "Mobius": "Swap stablecoins and earn rewards on your crypto",
+    "Symmetric": "Access DeFi with a unique risk fund for added safety",
+    "Ubeswap": "Swap any tokens, enter a pool, or farm your crypto",
+    "Moola": "Lend, borrow, or add to a pool to earn rewards",
+    "Celo Tracker": "Manage your Celo Portfolio from DeFi to NFTs",
+    "Celo tax": "Analyze your transactions for taxes or accounting",
+    "impactMarket": "Support communities in need and alleviate poverty",
+    "Nomspace": "Create a username you can use across Web3",
+    "Poof": "Make your transactions untraceable",
+    "Bidali": "Use crypto to purchase gift cards"
   }
 }

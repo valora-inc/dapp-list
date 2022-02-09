@@ -101,6 +101,12 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create"
+    },
+    {
+      "name": "Award Pool",
+      "id": "awardpool",
+      "categoryId": "nft",
+      "url": "https://app.awardpool.com/0x/demo"
     }
   ]
 }

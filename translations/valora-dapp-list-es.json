@@ -16,7 +16,7 @@
       "id": "spend",
       "backgroundColor": "#FDF0CE",
       "fontColor": "#BF8800",
-      "name": "Gasta"
+      "name": "Usa cripto"
     },
     {
       "id": "finance-tools",
@@ -28,7 +28,7 @@
       "id": "social-impact",
       "backgroundColor": "#ECE3F7",
       "fontColor": "#894ED0",
-      "name": "Impacto social"
+      "name": "Impacto"
     },
     {
       "id": "social",
@@ -55,7 +55,7 @@
       "id": "ubeswap",
       "categoryId": "exchanges",
       "url": "https://app.ubeswap.org/",
-      "description": "Exchange descentralizado móvil que ofrece la más amplia selección de tokens.",
+      "description": "Intercambia tokens, entra a un fondo o participa del yield farming",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/ubeswap.png"
     },
     {
@@ -63,7 +63,7 @@
       "id": "moola",
       "categoryId": "lend",
       "url": "https://app.moola.market/",
-      "description": "Empieza a ganar intereses sobre tus CELO, cUSD y cEUR.",
+      "description": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/moola.png"
     },
     {
@@ -71,7 +71,7 @@
       "id": "bidali",
       "categoryId": "spend",
       "url": "celo://wallet/bidali",
-      "description": "Compra tarjetas de regalo de tus marcas preferidas.",
+      "description": "Usa tus criptomonedas para comprar tarjetas de regalo",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/bidali.png"
     },
     {
@@ -79,7 +79,7 @@
       "id": "symmetric",
       "categoryId": "exchanges",
       "url": "https://celo.symmetric.exchange/#/swap",
-      "description": "DeFi al alcance de todos gracias a las tarifas bajas, su asistencia al usuario y un fondo de riesgo único que aumenta la seguridad.",
+      "description": "Accede a un mundo DeFi con un fondo de riesgo único para mayor seguridad",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/symmetric.png"
     },
     {
@@ -87,7 +87,7 @@
       "id": "mobius",
       "categoryId": "exchanges",
       "url": "https://www.mobius.money/#/swap",
-      "description": "Conoce este exchange descentralizado de stablecoins y activos de otras cadenas.",
+      "description": "Intercambia stablecoins y gana recompensas en cripto",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/mobius.png"
     },
     {
@@ -95,7 +95,7 @@
       "id": "celotracker",
       "categoryId": "finance-tools",
       "url": "https://celotracker.com?address={{address}}",
-      "description": "Gestiona tu cartera Celo, desde productos DeFi a NFTs.",
+      "description": "Gestiona tu cartera Celo, desde productos DeFi a NFTs",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotracker.png"
     },
     {
@@ -103,7 +103,7 @@
       "id": "celotax",
       "categoryId": "finance-tools",
       "url": "https://www.celo.tax/",
-      "description": "Analiza y descarga tus transacciones para calcular tus impuestos.",
+      "description": "Analiza tus transacciones para calcular tus impuestos",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotax.png"
     },
     {
@@ -111,15 +111,15 @@
       "id": "impactmarket",
       "categoryId": "social-impact",
       "url": "https://www.impactmarket.com/",
-      "description": "Conoce este protocolo descentralizado para el alivio a la pobreza. Dona fondos para apoyar a las comunidades necesitadas.",
+      "description": "Apoya a las comunidades necesitadas y ayuda a aliviar la pobreza",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/impactmarket.png"
     },
     {
-      "name": "NomSpace",
+      "name": "Nomspace",
       "id": "nomspace",
       "categoryId": "social",
       "url": "https://www.nom.space/",
-      "description": "Crea tu nombre de usuario en la Web3 y úsalo en todas tus direcciones Celo.",
+      "description": "Crea un nombre de usuario que puedas utilizar en toda la Web3",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/nomspace.png"
     },
     {
@@ -127,7 +127,7 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create",
-      "description": "Envía y recibe valor de forma privada y anónima.",
+      "description": "Haz que tus transacciones sean imposibles de rastrear",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/poofcash.png"
     }
   ]

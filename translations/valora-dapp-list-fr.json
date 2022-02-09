@@ -107,7 +107,7 @@
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotax.png"
     },
     {
-      "name": "Impact Market",
+      "name": "impactMarket",
       "id": "impactmarket",
       "categoryId": "social-impact",
       "url": "https://www.impactmarket.com/",
@@ -119,7 +119,7 @@
       "id": "nomspace",
       "categoryId": "social",
       "url": "https://www.nom.space/",
-      "description": "Créez un nom d'utilisateur que vous pouvez utiliser sur la Web3",
+      "description": "Crée un nom d'utilisateur unique pour tes adresses Celo",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/nomspace.png"
     },
     {

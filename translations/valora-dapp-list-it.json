@@ -28,7 +28,7 @@
       "id": "social-impact",
       "backgroundColor": "#ECE3F7",
       "fontColor": "#894ED0",
-      "name": "Impatto Sociale"
+      "name": "Impatto"
     },
     {
       "id": "social",
@@ -55,7 +55,7 @@
       "id": "ubeswap",
       "categoryId": "exchanges",
       "url": "https://app.ubeswap.org/",
-      "description": "Scambia qualsiasi token e ottieni ricompense per aver contribuito.",
+      "description": "Scambia qualsiasi token, entra in un pool o partecipi a progetti di yield farming",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/ubeswap.png"
     },
     {
@@ -63,7 +63,7 @@
       "id": "moola",
       "categoryId": "lend",
       "url": "https://app.moola.market/",
-      "description": "Richiedi un prestito, presta o aggiungi a un pool per ottenere ricompense.",
+      "description": "Richiedi un prestito, presta o aggiungi a un pool per ottenere ricompense",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/moola.png"
     },
     {
@@ -71,7 +71,7 @@
       "id": "bidali",
       "categoryId": "spend",
       "url": "celo://wallet/bidali",
-      "description": "Acquista buoni regalo da tutti i tuoi marchi preferiti",
+      "description": "Usa criptovalute per acquistare carte regalo",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/bidali.png"
     },
     {
@@ -79,7 +79,7 @@
       "id": "symmetric",
       "categoryId": "exchanges",
       "url": "https://celo.symmetric.exchange/#/swap",
-      "description": "DeFi accessibile a tutti grazie alle commissioni basse, assistenza e un fondo unico di rischio che aumenta la sicurezza.",
+      "description": "Accedi a DeFi con un fondo di rischio unico per una maggiore sicurezza",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/symmetric.png"
     },
     {
@@ -87,7 +87,7 @@
       "id": "mobius",
       "categoryId": "exchanges",
       "url": "https://www.mobius.money/#/swap",
-      "description": "Conosci questo exchange decentralizzato di stablecoin e asset da altre catene.",
+      "description": "Scambia stablecoin e ottieni ricompense sulle tue cripto",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/mobius.png"
     },
     {
@@ -103,23 +103,23 @@
       "id": "celotax",
       "categoryId": "finance-tools",
       "url": "https://www.celo.tax/",
-      "description": "Analizza e scarica le tue transazioni per scopi fiscali o contabili.",
+      "description": "Analizza le tue transazioni per scopi fiscali o contabili",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotax.png"
     },
     {
-      "name": "Impact Market",
+      "name": "impactMarket",
       "id": "impactmarket",
       "categoryId": "social-impact",
       "url": "https://www.impactmarket.com/",
-      "description": "Protocollo decentralizzato di riduzione della povertà. Dona per sostenere le comunità in difficoltà.",
+      "description": "Aiuti le comunità in difficoltà per ridurre la povertà",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/impactmarket.png"
     },
     {
-      "name": "NomSpace",
+      "name": "Nomspace",
       "id": "nomspace",
       "categoryId": "social",
       "url": "https://www.nom.space/",
-      "description": "Il tuo nome utente nel Web3, un nome per tutti i tuoi indirizzi Celo.",
+      "description": "Crea un nome utente unico per i tuoi indirizzi Celo",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/nomspace.png"
     },
     {
@@ -127,7 +127,7 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create",
-      "description": "Invia e richiedi valore privatamente.",
+      "description": "Rendi le tue transazioni non rintracciabili",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/poofcash.png"
     }
   ]

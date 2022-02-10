@@ -2,23 +2,23 @@
   "categories": {
     "exchanges": "Cambia",
     "lend": "Presta, toma prestado y gana",
-    "spend": "Gasta",
+    "spend": "Usa cripto",
     "finance-tools": "Herramientas financieras",
-    "social-impact": "Impacto social",
+    "social-impact": "Impacto",
     "social": "Social",
     "nfts": "NFTs",
     "games": "Juegos"
   },
   "dapps": {
-    "mobius": "Conoce este exchange descentralizado de stablecoins y activos de otras cadenas.",
-    "symmetric": "DeFi al alcance de todos gracias a las tarifas bajas, su asistencia al usuario y un fondo de riesgo único que aumenta la seguridad.",
-    "ubeswap": "Exchange descentralizado móvil que ofrece la más amplia selección de tokens.",
-    "moola": "Empieza a ganar intereses sobre tus CELO, cUSD y cEUR.",
-    "celotracker": "Gestiona tu cartera Celo, desde productos DeFi a NFTs.",
-    "celotax": "Analiza y descarga tus transacciones para calcular tus impuestos.",
-    "impactmarket": "Conoce este protocolo descentralizado para el alivio a la pobreza. Dona fondos para apoyar a las comunidades necesitadas.",
-    "nomspace": "Crea tu nombre de usuario en la Web3 y úsalo en todas tus direcciones Celo.",
-    "poofcash": "Envía y recibe valor de forma privada y anónima.",
-    "bidali": "Compra tarjetas de regalo de tus marcas preferidas."
+    "mobius": "Intercambia stablecoins y gana recompensas en cripto",
+    "symmetric": "Accede a un mundo DeFi con un fondo de riesgo único para mayor seguridad",
+    "ubeswap": "Intercambia tokens, entra a un fondo o participa del yield farming",
+    "moola": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas",
+    "celotracker": "Gestiona tu cartera Celo, desde productos DeFi a NFTs",
+    "celotax": "Analiza tus transacciones para calcular tus impuestos",
+    "impactmarket": "Apoya a las comunidades necesitadas y ayuda a aliviar la pobreza",
+    "nomspace": "Create a unique username for your Celo addresses",
+    "poofcash": "Haz que tus transacciones sean imposibles de rastrear",
+    "bidali": "Usa tus criptomonedas para comprar tarjetas de regalo"
   }
 }

@@ -28,7 +28,7 @@
       "id": "social-impact",
       "backgroundColor": "#ECE3F7",
       "fontColor": "#894ED0",
-      "name": "Социальные последствия"
+      "name": "Воздействие"
     },
     {
       "id": "social",
@@ -71,7 +71,7 @@
       "id": "bidali",
       "categoryId": "spend",
       "url": "celo://wallet/bidali",
-      "description": "Покупайте подарочные карты всех любимых брендов",
+      "description": "Покупайте подарочные",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/bidali.png"
     },
     {
@@ -79,7 +79,7 @@
       "id": "symmetric",
       "categoryId": "exchanges",
       "url": "https://celo.symmetric.exchange/#/swap",
-      "description": "Делает DeFi доступным для всех благодаря низким тарифам, поддержке клиентов и уникальному фонду риска, который повышает безопасность.",
+      "description": "Получи доступ к DeFi с уникальным фондом риска для дополнительной меры безопасности",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/symmetric.png"
     },
     {
@@ -87,7 +87,7 @@
       "id": "mobius",
       "categoryId": "exchanges",
       "url": "https://www.mobius.money/#/swap",
-      "description": "Является децентрализованной биржей, ориентированной на стабильные монеты и активы, перекочевавшие из других цепочек.",
+      "description": "Обменивайте стейблкоины и получайте вознаграждение",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/mobius.png"
     },
     {
@@ -95,7 +95,7 @@
       "id": "celotracker",
       "categoryId": "finance-tools",
       "url": "https://celotracker.com?address={{address}}",
-      "description": "Управляй своим портфелем Celo от DeFi до NFT",
+      "description": "Управляйте своим портфелем Celo от DeFi до токенов NFT",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotracker.png"
     },
     {
@@ -103,23 +103,23 @@
       "id": "celotax",
       "categoryId": "finance-tools",
       "url": "https://www.celo.tax/",
-      "description": "Проанализируй",
+      "description": "Проанализируйте свои транзакции для налогового и бухгалтерского учета",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotax.png"
     },
     {
-      "name": "Impact Market",
+      "name": "impactMarket",
       "id": "impactmarket",
       "categoryId": "social-impact",
       "url": "https://www.impactmarket.com/",
-      "description": "Децентрализованный протокол борьбы с бедностью. Пожертвуй, чтобы поддержать нуждающиеся сообщества.",
+      "description": "Внесите пожертвование для поддержки нуждающихся",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/impactmarket.png"
     },
     {
-      "name": "NomSpace",
+      "name": "Nomspace",
       "id": "nomspace",
       "categoryId": "social",
       "url": "https://www.nom.space/",
-      "description": "Твое имя пользователя web3 - имя для всех твоих Celo-адресов.",
+      "description": "Create a unique username for your Celo addresses",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/nomspace.png"
     },
     {
@@ -127,7 +127,7 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create",
-      "description": "Сделай свою сделку неотслеживаемой, отправляя и запрашивая ценности частным образом",
+      "description": "Сделай свои транзакции неотслеживаемыми",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/poofcash.png"
     }
   ]

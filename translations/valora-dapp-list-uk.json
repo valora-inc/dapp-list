@@ -4,49 +4,49 @@
       "id": "exchanges",
       "backgroundColor": "#DEF8EA",
       "fontColor": "#1AB775",
-      "name": "Обменять"
+      "name": "Swap"
     },
     {
       "id": "lend",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE",
-      "name": "Давайте взаймы, занимайте и зарабатывайте"
+      "name": "Lend, Borrow & Earn"
     },
     {
       "id": "spend",
       "backgroundColor": "#FDF0CE",
       "fontColor": "#BF8800",
-      "name": "Потратить"
+      "name": "Spend"
     },
     {
       "id": "finance-tools",
       "backgroundColor": "#E5E8FB",
       "fontColor": "#4E61E2",
-      "name": "Финансовые инструменты"
+      "name": "Financial Tools"
     },
     {
       "id": "social-impact",
       "backgroundColor": "#ECE3F7",
       "fontColor": "#894ED0",
-      "name": "Воздействие"
+      "name": "Impact"
     },
     {
       "id": "social",
       "backgroundColor": "#FFE6F4",
       "fontColor": "#FF56B7",
-      "name": "Соцсети"
+      "name": "Social"
     },
     {
       "id": "nfts",
       "backgroundColor": "#FFF1DA",
       "fontColor": "#F78400",
-      "name": "NFT"
+      "name": "NFTs"
     },
     {
       "id": "games",
       "backgroundColor": "#FFE5E1",
       "fontColor": "#FF5D44",
-      "name": "Игры"
+      "name": "Games"
     }
   ],
   "applications": [
@@ -55,7 +55,7 @@
       "id": "ubeswap",
       "categoryId": "exchanges",
       "url": "https://app.ubeswap.org/",
-      "description": "Обменивайте любые токены и получайте вознаграждение за вклад",
+      "description": "Swap any tokens, enter a pool, or farm your crypto",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/ubeswap.png"
     },
     {
@@ -63,7 +63,7 @@
       "id": "moola",
       "categoryId": "lend",
       "url": "https://app.moola.market/",
-      "description": "Давайте взаймы, занимайте или добавляйте в пул, чтобы заработать вознаграждение",
+      "description": "Lend, borrow, or add to a pool to earn rewards",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/moola.png"
     },
     {
@@ -71,7 +71,7 @@
       "id": "bidali",
       "categoryId": "spend",
       "url": "celo://wallet/bidali",
-      "description": "Покупайте подарочные",
+      "description": "Use crypto to purchase gift cards",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/bidali.png"
     },
     {
@@ -79,7 +79,7 @@
       "id": "symmetric",
       "categoryId": "exchanges",
       "url": "https://celo.symmetric.exchange/#/swap",
-      "description": "Получи доступ к DeFi с уникальным фондом риска для дополнительной меры безопасности",
+      "description": "Access DeFi with a unique risk fund for added safety",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/symmetric.png"
     },
     {
@@ -87,7 +87,7 @@
       "id": "mobius",
       "categoryId": "exchanges",
       "url": "https://www.mobius.money/#/swap",
-      "description": "Обменивайте стейблкоины и получайте вознаграждение",
+      "description": "Swap stablecoins and earn rewards on your crypto",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/mobius.png"
     },
     {
@@ -95,7 +95,7 @@
       "id": "celotracker",
       "categoryId": "finance-tools",
       "url": "https://celotracker.com?address={{address}}",
-      "description": "Управляйте своим портфелем Celo от DeFi до токенов NFT",
+      "description": "Manage your Celo Portfolio from DeFi to NFTs",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotracker.png"
     },
     {
@@ -103,7 +103,7 @@
       "id": "celotax",
       "categoryId": "finance-tools",
       "url": "https://www.celo.tax/",
-      "description": "Проанализируйте свои транзакции для налогового и бухгалтерского учета",
+      "description": "Analyze your transactions for taxes or accounting",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/celotax.png"
     },
     {
@@ -111,7 +111,7 @@
       "id": "impactmarket",
       "categoryId": "social-impact",
       "url": "https://www.impactmarket.com/",
-      "description": "Внесите пожертвование для поддержки нуждающихся",
+      "description": "Support communities in need and alleviate poverty",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/impactmarket.png"
     },
     {
@@ -119,7 +119,7 @@
       "id": "nomspace",
       "categoryId": "social",
       "url": "https://www.nom.space/",
-      "description": "Ваше имя пользователя web3, имя для всех ваших адресов Celo",
+      "description": "Create a unique username for your Celo addresses",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/nomspace.png"
     },
     {
@@ -127,7 +127,7 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create",
-      "description": "Сделай свои транзакции неотслеживаемыми",
+      "description": "Make your transactions untraceable",
       "logoUrl": "https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/poofcash.png"
     }
   ]

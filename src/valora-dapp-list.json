@@ -101,6 +101,12 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create"
+    },
+    {
+      "name": "Talent Protocol",
+      "id": "talentprotocol",
+      "categoryId": "social",
+      "url": "https://beta.talentprotocol.com/sign_up?code=SUP-VALORA"
     }
   ]
 }

@@ -101,6 +101,12 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create"
+    },
+    {
+      "name": "SpaceFi",
+      "id": "spacefi",
+      "categoryId": "exchanges",
+      "url": "https://www.spacefi.io"
     }
   ]
 }

@@ -39,6 +39,11 @@
       "id": "games",
       "backgroundColor": "#FFE5E1",
       "fontColor": "#FF5D44"
+    },
+    {
+      "id": "marketplace",
+      "backgroundColor": "#009a92",
+      "fontColor": "#ffffff"
     }
   ],
   "applications": [

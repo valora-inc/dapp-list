@@ -101,6 +101,12 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create"
+    },
+    {
+      "name": "Revo",
+      "id": "revoMarket",
+      "categoryId": "exchanges",
+      "url": "https://revo.market"
     }
   ]
 }

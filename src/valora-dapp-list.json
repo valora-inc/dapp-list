@@ -101,6 +101,12 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create"
+    },
+    {
+      "name": "heymate",
+      "id": "heymate",
+      "categoryId": "marketplace",
+      "url": "https://d2imjavhwdl65c.cloudfront.net/"
     }
   ]
 }

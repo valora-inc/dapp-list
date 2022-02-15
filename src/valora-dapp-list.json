@@ -101,6 +101,12 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create"
+    },
+    {
+      "name": "Cyberbox",
+      "id": "cyberbox",
+      "categoryId": "nfts",
+      "url": "https://cyberbox.art/"
     }
   ]
 }

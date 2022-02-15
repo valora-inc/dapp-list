@@ -101,6 +101,12 @@
       "id": "poofcash",
       "categoryId": "social",
       "url": "https://app.poof.cash/#/account/create"
+    },
+    {
+      "name": "ImmortalDAO Finance",
+      "id": "immortaldao-finance",
+      "categoryId": "finance-tools",
+      "url": "https://www.immortaldao.finance"
     }
   ]
 }

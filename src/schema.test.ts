@@ -1,5 +1,6 @@
 import { schema } from './schema'
 import fs from 'fs'
+import i18next from 'i18next'
 const appList = require('./valora-dapp-list.json')
 
 beforeEach(() => {
@@ -186,6 +187,23 @@ describe('invalid categories entries', () => {
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
       "ValidationError: \"categories[0].id\" failed custom validation because Missing localization key 'categories.exchanges-something' in 'locales/base.json'",
+    )
+  })
+
+  it('errors on period at the end of the localized name', () => {
+    jest.spyOn(i18next, 't').mockReturnValueOnce('Exchanges.')
+    const testDappObject = {
+      categories: [
+        {
+          id: 'exchanges',
+          backgroundColor: '#DEF8EA',
+          fontColor: '#1AB775',
+        },
+      ],
+      applications: [],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      "ValidationError: \"categories[0].id\" failed custom validation because Localization key 'categories.exchanges' in 'locales/base.json' must not have a period at the end",
     )
   })
 
@@ -399,6 +417,28 @@ describe('invalid applications entries', () => {
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].id" failed custom validation because Missing asset at \'../assets/ubeswap-something.png\'',
+    )
+  })
+
+  it('errors on period at the end of the localized name', () => {
+    jest
+      .spyOn(i18next, 't')
+      .mockReturnValueOnce(
+        'Swap any tokens, enter a pool, or farm your crypto.',
+      )
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: 'ubeswap',
+          categoryId: 'exchanges',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      "ValidationError: \"categories[0].id\" failed custom validation because Localization key 'categories.exchanges' in 'locales/base.json' must not have a period at the end",
     )
   })
 

@@ -103,6 +103,12 @@
       "url": "https://app.poof.cash/#/account/create"
     },
     {
+      "name": "Flywallet",
+      "id": "flywallet",
+      "categoryId": "spend",
+      "url": "https://pro.flywallet.io"
+    },
+    {
       "name": "ImmortalDAO Finance",
       "id": "immortaldao-finance",
       "categoryId": "finance-tools",

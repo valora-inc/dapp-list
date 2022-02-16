@@ -107,6 +107,12 @@
       "id": "flywallet",
       "categoryId": "spend",
       "url": "https://pro.flywallet.io"
+    },
+    {
+      "name": "ImmortalDAO Finance",
+      "id": "immortaldao-finance",
+      "categoryId": "finance-tools",
+      "url": "https://www.immortaldao.finance"
     }
   ]
 }

@@ -113,6 +113,12 @@
       "id": "immortaldao-finance",
       "categoryId": "finance-tools",
       "url": "https://www.immortaldao.finance"
+    },
+    {
+      "name": "Celo Pay",
+      "id": "celo-pay",
+      "categoryId": "finance-tools",
+      "url": "https://celo.trelis.com"
     }
   ]
 }

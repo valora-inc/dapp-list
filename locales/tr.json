@@ -4,13 +4,13 @@
     "lend": "Borç Verme, Ödünç Alma ve Kazanma",
     "spend": "Harcama",
     "finance-tools": "Finansal Araçlar",
-    "social-impact": "Impact",
-    "social": "Social",
-    "nfts": "NFTs",
-    "games": "Games"
+    "social-impact": "Etki",
+    "social": "Sosyal",
+    "nfts": "NFT'ler",
+    "games": "Oyunlar"
   },
   "dapps": {
-    "mobius": "Swap stablecoins and earn rewards on your crypto",
+    "mobius": "Stablecoin'leri swap yaparak kriptoparalarınızla ödüller kazanın",
     "symmetric": "Access DeFi with a unique risk fund for added safety",
     "ubeswap": "Swap any token, enter a pool, or farm your crypto",
     "moola": "Lend, borrow, or add to a pool to earn rewards",

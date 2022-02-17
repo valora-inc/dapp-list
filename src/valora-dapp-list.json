@@ -85,13 +85,13 @@
       "url": "https://www.celo.tax/"
     },
     {
-      "name": "Impact Market",
+      "name": "impactMarket",
       "id": "impactmarket",
       "categoryId": "social-impact",
       "url": "https://www.impactmarket.com/"
     },
     {
-      "name": "NomSpace",
+      "name": "Nomspace",
       "id": "nomspace",
       "categoryId": "social",
       "url": "https://www.nom.space/"
@@ -107,6 +107,18 @@
       "id": "pinnata",
       "categoryId": "lend",
       "url": "https://www.pinnata.xyz/#/"
+    },
+    {
+      "name": "Flywallet",
+      "id": "flywallet",
+      "categoryId": "spend",
+      "url": "https://pro.flywallet.io"
+    },
+    {
+      "name": "ImmortalDAO Finance",
+      "id": "immortaldao-finance",
+      "categoryId": "finance-tools",
+      "url": "https://www.immortaldao.finance"
     }
   ]
 }

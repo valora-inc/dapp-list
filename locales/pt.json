@@ -4,21 +4,22 @@
     "lend": "Empreste, peça emprestado e ganhe",
     "spend": "Gaste",
     "finance-tools": "Ferramentas Financeiras",
-    "social-impact": "Impacto social",
+    "social-impact": "Impacto",
     "social": "Social",
     "nfts": "NFTs",
     "games": "Jogos"
   },
   "dapps": {
-    "mobius": "Conheça este exchange descentralizado de stablecoins e ativos ligados a outras cadeias.",
-    "symmetric": "DeFi acessível através de tarifas baixas, suporte ao usuário e um fundo de risco único que aumenta a segurança.",
-    "ubeswap": "Exchange móvel descentralizado, apresentando a mais ampla seleção de fichas",
-    "moola": "Comece a ganhar juros no seu CELO, cUSD e cEUR.",
-    "celotracker": "Gerencie seu portfólio Celo, desde produtos DeFi até NFTs.",
-    "celotax": "Analise e baixe suas transações para fins fiscais ou contabilísticos.",
-    "impactmarket": "Conhece este protocolo descentralizado de alívio à pobreza. Doe para apoiar as comunidades necessitadas.",
-    "nomspace": "Seu nome de usuário na Web3, um nome para todos os endereços Celo.",
-    "poofcash": "Envie e solicite valor confidencialmente.",
-    "bidali": "Compre vales-presente de suas marcas favoritas"
+    "mobius": "Troque stablecoins e ganhe recompensas cripto",
+    "symmetric": "Acesse as DeFi com um fundo de risco único para maior segurança",
+    "ubeswap": "Troque tokens, entre em um pool ou participe de yield farming",
+    "moola": "Empreste, peça emprestado ou adicione cripto a uma pool por recompensas",
+    "celotracker": "Gerencie seu portfólio Celo, desde produtos DeFi até NFTs",
+    "celotax": "Analise suas transações para fins fiscais ou contabilísticos",
+    "impactmarket": "Apoie as comunidades necessitadas e reduza a pobreza",
+    "nomspace": "Crie um nome de usuário único para seus endereços Celo",
+    "poofcash": "Torne suas transações indetectáveis",
+    "bidali": "Compre vales-presente com criptomoedas",
+    "immortaldao-finance": "Participe de bond ou stake de seus tokens IMMO"
   }
 }

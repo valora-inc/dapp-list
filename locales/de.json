@@ -4,21 +4,22 @@
     "lend": "Leihen, verleihen und verdienen",
     "spend": "Ausgeben",
     "finance-tools": "Finanzinstrumente",
-    "social-impact": "Soziale Auswirkung",
+    "social-impact": "Wirkung",
     "social": "Sozial",
     "nfts": "NFTs",
     "games": "Spiele"
   },
   "dapps": {
-    "mobius": "Ist eine dezentrale Börse, die sich auf stabile Münzen und Vermögenswerte konzentriert, die von anderen Ketten überbrückt werden.",
-    "symmetric": "Macht DeFi durch niedrige Gebühren, Kundenbetreuung und einen einzigartigen Risikofonds, der die Sicherheit erhöht, für alle zugänglich.",
-    "ubeswap": "Ist eine dezentrale Börse mit der größten Auswahl an Token, die es auf dem Handy gibt.",
-    "moola": "Fang an, Zinsen auf deinen CELO, cUSD, cEUR zu verdienen.",
+    "mobius": "Tausche Stablecoins und verdiene Rewards",
+    "symmetric": "Zugang zu DeFi mit einem einzigartigen Risikofonds für zusätzliche Sicherheit",
+    "ubeswap": "Tausche beliebige Token, trete einem Pool bei oder baue dein Kryptowährung auf",
+    "moola": "Leihe, verleihe, oder füge Krypto zu einem Pool hinzu, um Rewards zu verdienen",
     "celotracker": "Verwalte dein Celo Portfolio von DeFi bis NFTs",
-    "celotax": "Analysiere",
-    "impactmarket": "Dezentrales Protokoll zur Armutsbekämpfung. Spende, um Gemeinden in Not zu unterstützen.",
-    "nomspace": "Dein web3-Benutzername, ein Name für alle deine Celo-Adressen.",
-    "poofcash": "Mach deine Transaktion unauffindbar, indem du den Wert privat sendest und anforderst",
-    "bidali": "Kaufe Geschenkkarten von deinen Lieblingsmarken"
+    "celotax": "Analysiere deine Transaktionen für Steuern oder Buchhaltung",
+    "impactmarket": "Gemeinden in Not unterstützen und Armut lindern",
+    "nomspace": "Erstelle einen eindeutigen Benutzernamen für deine Celo Adressen",
+    "poofcash": "Mach deine Transaktionen unauffindbar",
+    "bidali": "Verwende Krypto, um Geschenkkarten zu kaufen",
+    "immortaldao-finance": "Mitwirkung bei Bonding und Staking deine IMMO-Tokens, um Rewards zu verdienen"
   }
 }

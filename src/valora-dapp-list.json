@@ -113,6 +113,12 @@
       "id": "immortaldao-finance",
       "categoryId": "finance-tools",
       "url": "https://www.immortaldao.finance"
+    },
+    {
+      "name": "GoodGhosting",
+      "id": "goodghosting",
+      "categoryId": "games",
+      "url": "https://goodghosting.com/"
     }
   ]
 }

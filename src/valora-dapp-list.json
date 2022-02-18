@@ -113,6 +113,12 @@
       "id": "immortaldao-finance",
       "categoryId": "finance-tools",
       "url": "https://www.immortaldao.finance"
+    },
+    {
+      "name": "Ariswap",
+      "id": "ariswap",
+      "categoryId": "nfts",
+      "url": "https://ariswap.co/"
     }
   ]
 }

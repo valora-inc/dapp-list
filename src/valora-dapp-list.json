@@ -131,6 +131,12 @@
       "id": "trelispay",
       "categoryId": "finance-tools",
       "url": "https://celo.trelis.com"
+    },
+    {
+      "name": "ChiSpend - Super App",
+      "id": "chimoney-chispend",
+      "categoryId": "spend",
+      "url": "https://chispend.com/?cSContext=valora"
     }
   ]
 }

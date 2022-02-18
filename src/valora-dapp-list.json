@@ -257,6 +257,12 @@
       "id": "spirals",
       "categoryId": "social-impact",
       "url": "https://app.spirals.so"
+    },
+    {
+      "name": "Ariswap",
+      "id": "ariswap",
+      "categoryId": "nfts",
+      "url": "https://ariswap.co/"
     }
   ]
 }

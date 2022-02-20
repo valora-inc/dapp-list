@@ -113,6 +113,12 @@
       "id": "immortaldao-finance",
       "categoryId": "finance-tools",
       "url": "https://www.immortaldao.finance"
+    },
+    {
+      "name": "SpaceFi",
+      "id": "spacefi",
+      "categoryId": "exchanges",
+      "url": "https://www.spacefi.io"
     }
   ]
 }

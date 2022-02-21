@@ -119,6 +119,12 @@
       "id": "immortaldao-finance",
       "categoryId": "finance-tools",
       "url": "https://www.immortaldao.finance"
+    },
+    {
+      "name": "Swap Bitssa",
+      "id": "SwapBitssa",
+      "categoryId": "exchanges",
+      "url": "https://swap.bitssa.com"
     }
   ]
 }

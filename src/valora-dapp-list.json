@@ -103,6 +103,12 @@
       "url": "https://app.poof.cash/#/account/create"
     },
     {
+      "name": "Pinnata",
+      "id": "pinnata",
+      "categoryId": "lend",
+      "url": "https://www.pinnata.xyz/#/"
+    },
+    {
       "name": "Flywallet",
       "id": "flywallet",
       "categoryId": "spend",

@@ -11,8 +11,8 @@ Here's an example on what it looks like in action (note that it might become sli
 ## The Dapp Bake Off
 
 You can submit your Dapp to the [Valora Dapp Bake
-Off](https://valoraapp.com/bakeoff) from February 1st 2022 to February
-15th 2022 by:
+Off](https://valoraapp.com/bakeoff) before February
+18th 2022 5:00 PM PST (UTC−8) by:
 
 1. following the directions in [Adding new items](#adding-new-items) to add your Dapp to the list;
 1. creating a pull request and complete the task lists in the pull request template; and

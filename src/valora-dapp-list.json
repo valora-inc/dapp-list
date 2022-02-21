@@ -115,10 +115,10 @@
       "url": "https://www.immortaldao.finance"
     },
     {
-        "name": "Swap Bitssa", 
-        "id": "swapbitssa",
-        "categoryId": "exchanges",
-        "url": "https://swap-bitssa.com"
+      "name": "Swap Bitssa",
+      "id": "swapbitssa",
+      "categoryId": "exchanges",
+      "url": "https://swap-bitssa.com"
     }
   ]
 }

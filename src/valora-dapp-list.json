@@ -113,6 +113,12 @@
       "id": "immortaldao-finance",
       "categoryId": "finance-tools",
       "url": "https://www.immortaldao.finance"
+    },
+    {
+      "name": "BlockCash",
+      "id": "blockcash",
+      "categoryId": "exchanges",
+      "url": "https://www.blockcash.finance"
     }
   ]
 }

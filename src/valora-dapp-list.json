@@ -103,6 +103,24 @@
       "url": "https://app.poof.cash/#/account/create"
     },
     {
+      "name": "Pinnata",
+      "id": "pinnata",
+      "categoryId": "lend",
+      "url": "https://www.pinnata.xyz/#/"
+    },
+    {
+      "name": "Flywallet",
+      "id": "flywallet",
+      "categoryId": "spend",
+      "url": "https://pro.flywallet.io"
+    },
+    {
+      "name": "ImmortalDAO Finance",
+      "id": "immortaldao-finance",
+      "categoryId": "finance-tools",
+      "url": "https://www.immortaldao.finance"
+    },
+    {
       "name": "Cyberbox",
       "id": "cyberbox",
       "categoryId": "nfts",

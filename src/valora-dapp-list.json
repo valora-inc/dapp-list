@@ -119,6 +119,12 @@
       "id": "immortaldao-finance",
       "categoryId": "finance-tools",
       "url": "https://www.immortaldao.finance"
+    },
+    {
+      "name": "Cyberbox",
+      "id": "cyberbox",
+      "categoryId": "nfts",
+      "url": "https://cyberbox.art/"
     }
   ]
 }

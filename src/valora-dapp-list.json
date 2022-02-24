@@ -116,7 +116,7 @@
     },
     {
       "name": "Trelis Pay",
-      "id": "trelis-pay",
+      "id": "celo-pay",
       "categoryId": "finance-tools",
       "url": "https://celo.trelis.com"
     }

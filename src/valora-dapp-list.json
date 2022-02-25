@@ -125,6 +125,12 @@
       "id": "swapbitssa",
       "categoryId": "exchanges",
       "url": "https://swap.bitssa.com"
+    },
+    {
+      "name": "Trelis Pay",
+      "id": "trelispay",
+      "categoryId": "finance-tools",
+      "url": "https://celo.trelis.com"
     }
   ]
 }

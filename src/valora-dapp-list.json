@@ -113,5 +113,41 @@
       "categoryId": "marketplace",
       "url": "https://d2imjavhwdl65c.cloudfront.net/"
     }
+    {
+      "name": "Pinnata",
+      "id": "pinnata",
+      "categoryId": "lend",
+      "url": "https://www.pinnata.xyz/#/"
+    },
+    {
+      "name": "Flywallet",
+      "id": "flywallet",
+      "categoryId": "spend",
+      "url": "https://pro.flywallet.io"
+    },
+    {
+      "name": "ImmortalDAO Finance",
+      "id": "immortaldao-finance",
+      "categoryId": "finance-tools",
+      "url": "https://www.immortaldao.finance"
+    },
+    {
+      "name": "Swap Bitssa",
+      "id": "swapbitssa",
+      "categoryId": "exchanges",
+      "url": "https://swap.bitssa.com"
+    },
+    {
+      "name": "Trelis Pay",
+      "id": "trelispay",
+      "categoryId": "finance-tools",
+      "url": "https://celo.trelis.com"
+    },
+    {
+      "name": "ChiSpend - Super App",
+      "id": "chimoney-chispend",
+      "categoryId": "spend",
+      "url": "https://chispend.com/?cSContext=valora"
+    }
   ]
 }

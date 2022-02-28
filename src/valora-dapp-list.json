@@ -133,6 +133,12 @@
       "url": "https://celo.trelis.com"
     },
     {
+      "name": "ChiSpend - Super App",
+      "id": "chimoney-chispend",
+      "categoryId": "spend",
+      "url": "https://chispend.com/?cSContext=valora"
+    },
+    {
       "name": "Cyberbox",
       "id": "cyberbox",
       "categoryId": "nfts",

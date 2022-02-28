@@ -12,7 +12,7 @@ Here's an example on what it looks like in action (note that it might become sli
 
 Submissions for the Dapp Bake Off are closed.
 
-If you made a submission, you have until February 28th 2022 5:00 PM
+If you made a submission, you have until March 2nd 2022 11:59 PM
 PST (UTC−8) to address feedback from the Valora team.
 
 ## Adding new items

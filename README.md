@@ -10,15 +10,10 @@ Here's an example on what it looks like in action (note that it might become sli
 
 ## The Dapp Bake Off
 
-You can submit your Dapp to the [Valora Dapp Bake
-Off](https://valoraapp.com/bakeoff) from February 1st 2022 to February
-15th 2022 by:
+Submissions for the Dapp Bake Off are closed.
 
-1. following the directions in [Adding new items](#adding-new-items) to add your Dapp to the list;
-1. creating a pull request and complete the task lists in the pull request template; and
-1. responding to feedback in your pull request from the Valora team.
-
-If you have questions about this process, please join `#bakeoff` on the [Valora Discord](https://valoraapp.co/discord).
+If you made a submission, you have until March 2nd 2022 11:59 PM
+PST (UTC−8) to address feedback from the Valora team.
 
 ## Adding new items
 
@@ -29,6 +24,8 @@ There are some fields that need to be translated into different languages, and t
 - To write the description, open the file [`locales/base.json`](locales/base.json). This json also has two root objects, `categories` and `dapps`. In our previous example, we'd add under `dapps` a new field called `ubeswap` and write the description there.
 - After doing this you should open a PR and ask someone on the Valora team to review it so it can be merged. Once it's merged, the Valora Inc translations team will receive the new strings and translate them into all the supported languages.
 - Once they do, Crowdin will automatially open a PR with all the translations. After the Valora team merges this Crowdin PR the new categories or Dapp will be visible in the Valora Wallet.
+
+We encourage (and in many cases will require) basic documentation so users will understand what your dapp does and how to get started. We have summarized [Best Practices for User Documentation](./user-documentation-best-practices.md) to help dapps author a basic documentation that we think will be effective.
 
 ### Dapps
 

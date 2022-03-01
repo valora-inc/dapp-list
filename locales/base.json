@@ -12,14 +12,20 @@
   "dapps": {
     "mobius": "Swap stablecoins and earn rewards on your crypto",
     "symmetric": "Access DeFi with a unique risk fund for added safety",
-    "ubeswap": "Swap any tokens, enter a pool, or farm your crypto",
+    "ubeswap": "Swap any token, enter a pool, or farm your crypto",
     "moola": "Lend, borrow, or add to a pool to earn rewards",
     "celotracker": "Manage your Celo Portfolio from DeFi to NFTs",
     "celotax": "Analyze your transactions for taxes or accounting",
     "impactmarket": "Support communities in need and alleviate poverty",
     "nomspace": "Create a unique username for your Celo addresses",
     "poofcash": "Make your transactions untraceable",
-    "bidali": "Use crypto to purchase gift cards",
+    "bidali": "Purchase gift cards from all your favorite brands",
+    "pinnata": "Cross-chain leveraged yield farming protocol on Celo",
+    "flywallet": "Book flights around the world with cUSD and cEUR",
+    "immortaldao-finance": "Bond and Stake your IMMO tokens to earn rewards",
+    "swapbitssa": "The global platform for exchanging stablecoins to fiat currencies",
+    "trelispay": "Easily accept cStable payments on your dApp or website",
+    "chimoney-chispend": "Spend your cryptocurrency on real world products and services",
     "talentprotocol": "Professional network where you can support talent"
   }
 }

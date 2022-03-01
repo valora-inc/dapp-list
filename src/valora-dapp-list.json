@@ -137,6 +137,12 @@
       "id": "chimoney-chispend",
       "categoryId": "spend",
       "url": "https://chispend.com/?cSContext=valora"
+    },
+    {
+      "name": "Talent Protocol",
+      "id": "talentprotocol",
+      "categoryId": "social",
+      "url": "https://beta.talentprotocol.com/sign_up?code=SUP-VALORA"
     }
   ]
 }

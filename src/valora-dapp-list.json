@@ -103,6 +103,12 @@
       "url": "https://app.poof.cash/#/account/create"
     },
     {
+      "name": "Mento-Fi",
+      "id": "mentofi",
+      "categoryId": "exchanges",
+      "url": "https://mento.finance/"
+    },
+    {
       "name": "Pinnata",
       "id": "pinnata",
       "categoryId": "lend",
@@ -137,6 +143,12 @@
       "id": "chimoney-chispend",
       "categoryId": "spend",
       "url": "https://chispend.com/?cSContext=valora"
+    },
+    {
+      "name": "Talent Protocol",
+      "id": "talentprotocol",
+      "categoryId": "social",
+      "url": "https://beta.talentprotocol.com/sign_up?code=SUP-VALORA"
     },
     {
       "name": "GoodGhosting",

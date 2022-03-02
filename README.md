@@ -23,7 +23,7 @@ There are some fields that need to be translated into different languages, and t
 - The process to add a new category or Dapp is analogous, we'll use adding a new Dapp as example. For Dapps, we need to add a new item to the `applications` array. Valora Inc will do translations, so you don't put an actual description there.
 - To write the description, open the file [`locales/base.json`](locales/base.json). This json also has two root objects, `categories` and `dapps`. In our previous example, we'd add under `dapps` a new field called `ubeswap` and write the description there.
 - After doing this you should open a PR and ask someone on the Valora team to review it so it can be merged. Once it's merged, the Valora Inc translations team will receive the new strings and translate them into all the supported languages.
-- Once they do, Crowdin will automatially open a PR with all the translations. After the Valora team merges this Crowdin PR the new categories or Dapp will be visible in the Valora Wallet.
+- Once they do, Crowdin will automatically open a PR with all the translations. After the Valora team merges this Crowdin PR the new categories or Dapp will be visible in the Valora Wallet.
 
 We encourage (and in many cases will require) basic documentation so users will understand what your dapp does and how to get started. We have summarized [Best Practices for User Documentation](./user-documentation-best-practices.md) to help dapps author a basic documentation that we think will be effective.
 

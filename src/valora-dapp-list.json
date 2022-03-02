@@ -103,6 +103,60 @@
       "url": "https://app.poof.cash/#/account/create"
     },
     {
+      "name": "Mento-Fi",
+      "id": "mentofi",
+      "categoryId": "exchanges",
+      "url": "https://mento.finance/"
+    },
+    {
+      "name": "Pinnata",
+      "id": "pinnata",
+      "categoryId": "lend",
+      "url": "https://www.pinnata.xyz/#/"
+    },
+    {
+      "name": "Flywallet",
+      "id": "flywallet",
+      "categoryId": "spend",
+      "url": "https://pro.flywallet.io"
+    },
+    {
+      "name": "ImmortalDAO Finance",
+      "id": "immortaldao-finance",
+      "categoryId": "finance-tools",
+      "url": "https://www.immortaldao.finance"
+    },
+    {
+      "name": "Swap Bitssa",
+      "id": "swapbitssa",
+      "categoryId": "exchanges",
+      "url": "https://swap.bitssa.com"
+    },
+    {
+      "name": "Trelis Pay",
+      "id": "trelispay",
+      "categoryId": "finance-tools",
+      "url": "https://celo.trelis.com"
+    },
+    {
+      "name": "ChiSpend - Super App",
+      "id": "chimoney-chispend",
+      "categoryId": "spend",
+      "url": "https://chispend.com/?cSContext=valora"
+    },
+    {
+      "name": "Talent Protocol",
+      "id": "talentprotocol",
+      "categoryId": "social",
+      "url": "https://beta.talentprotocol.com/sign_up?code=SUP-VALORA"
+    },
+    {
+      "name": "GoodGhosting",
+      "id": "goodghosting",
+      "categoryId": "games",
+      "url": "https://goodghosting.com/"
+    },
+    {
       "name": "Revo",
       "id": "revo",
       "categoryId": "exchanges",

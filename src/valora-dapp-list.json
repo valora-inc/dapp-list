@@ -155,6 +155,12 @@
       "id": "goodghosting",
       "categoryId": "games",
       "url": "https://goodghosting.com/"
+    },
+    {
+      "name": "Revo",
+      "id": "revo",
+      "categoryId": "exchanges",
+      "url": "https://revo.market"
     }
   ]
 }

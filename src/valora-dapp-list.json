@@ -103,6 +103,12 @@
       "url": "https://app.poof.cash/#/account/create"
     },
     {
+      "name": "Mento-Fi",
+      "id": "mentofi",
+      "categoryId": "exchanges",
+      "url": "https://mento.finance/"
+    },
+    {
       "name": "Pinnata",
       "id": "pinnata",
       "categoryId": "lend",

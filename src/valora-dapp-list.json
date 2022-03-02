@@ -149,6 +149,12 @@
       "id": "talentprotocol",
       "categoryId": "social",
       "url": "https://beta.talentprotocol.com/sign_up?code=SUP-VALORA"
+    },
+    {
+      "name": "GoodGhosting",
+      "id": "goodghosting",
+      "categoryId": "games",
+      "url": "https://goodghosting.com/"
     }
   ]
 }

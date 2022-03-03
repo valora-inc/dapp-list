@@ -1,26 +1,35 @@
 {
   "categories": {
     "exchanges": "Swap",
-    "lend": "Borç Verme, Ödünç Alma ve Kazanma",
+    "lend": "Borç Verme, Borç Alma & Kazanma",
     "spend": "Harcama",
     "finance-tools": "Finansal Araçlar",
-    "social-impact": "Etki",
+    "social-impact": "Etki Yaratma",
     "social": "Sosyal",
     "nfts": "NFT'ler",
     "games": "Oyunlar"
   },
   "dapps": {
     "mobius": "Stablecoin'leri swap yaparak kriptoparalarınızla ödüller kazanın",
-    "symmetric": "Artırılmış güvenlik için benzersiz bir risk fonuyla DeFi'ye erişin",
-    "ubeswap": "Herhangi bir tokeni swap yapın, bir havuza dahil olun veya kriptoparanızla farming yapın",
-    "moola": "Ödünç vererek, alarak veya bir havuza dahil olarak ödüller kazanın",
-    "celotracker": "Celo Portföyünüzdeki DeFi ürünlerini ve NFT'leri yönetin",
-    "celotax": "İşlemlerinizi vergilendirme veya muhasebe amacıyla analiz edin",
-    "impactmarket": "İhtiyacı olan toplulukları destekleyin ve yoksulluğu azaltın",
-    "nomspace": "Celo adresleriniz için eşsiz bir kullanıcı adı oluşturun",
+    "symmetric": "Benzersiz risk fonuna sahip artırılmış güvenlikli DeFi'a erişin",
+    "ubeswap": "Token swaplayın, havuzlara katılın ve kriptonuzla farming yapın",
+    "moola": "Borç vererek, borç alarak veya bir havuza katılarak ödüller kazanın",
+    "celotracker": "Celo Portföyünüzü yönetin (DeFi, NFT'ler vb)",
+    "celotax": "İşlemlerinizi vergilendirme veya muhasebe açısından analiz edin",
+    "impactmarket": "Topluluklara destek vererek yoksulluğu azaltmamıza yardımcı olun",
+    "nomspace": "Celo adresleriniz için size özel bir kullanıcı adı oluşturun",
     "poofcash": "İşlemlerinizi takip edilemez hale getirin",
+    "mentofi": "Exchange between Celo native currencies with Mento",
+    "bidali": "Favori markalarınızdan hediye kartları satın alın",
+    "pinnata": "Celo'da bulunan zincirler arası kaldıraçlı farming protokolü",
     "flywallet": "cUSD ve cEUR kullanarak dünya çapında uçuş rezervasyonları yapın",
-    "bidali": "Hediye kartları satın almak için kriptoparalarınızı kullanın",
-    "immortaldao-finance": "IMMO tokenlarınızı bağlayarak veya stake ederek ödüller kazanın"
+    "immortaldao-finance": "IMMO tokenlarınızı bağlayarak veya stake ederek ödüller kazanın",
+    "swapbitssa": "Stablecoin'leri itibari para birimine dönüştürebileceğiniz global platform",
+    "trelispay": "Easily accept cStable payments on your dApp or website",
+    "chimoney-chispend": "Spend your cryptocurrency on real world products and services",
+    "talentprotocol": "Professional network where you can support talent",
+    "goodghosting": "Gamified DeFi pools that reward regular savers",
+    "revo": "Easy yield farming with auto compound interest",
+    "niftydrop": "Distribute NFTs to friends and customers"
   }
 }

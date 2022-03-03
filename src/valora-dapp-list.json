@@ -155,6 +155,18 @@
       "id": "goodghosting",
       "categoryId": "games",
       "url": "https://goodghosting.com/"
+    },
+    {
+      "name": "Revo",
+      "id": "revo",
+      "categoryId": "exchanges",
+      "url": "https://revo.market"
+    },
+    {
+      "name": "Niftydrop",
+      "id": "niftydrop",
+      "categoryId": "nfts",
+      "url": "https://niftydrop.net"
     }
   ]
 }

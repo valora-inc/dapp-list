@@ -1,7 +1,7 @@
 {
   "categories": {
     "exchanges": "Scambia",
-    "lend": "Richiedi un prestito, presta e guadagna",
+    "lend": "Richiedi oppure concedi un prestito",
     "spend": "Spendi",
     "finance-tools": "Strumenti Finanziari",
     "social-impact": "Impatto",
@@ -11,12 +11,12 @@
   },
   "dapps": {
     "mobius": "Scambia stablecoin e ottieni ricompense sulle tue cripto",
-    "symmetric": "Accedi a DeFi con un fondo di rischio unico per una maggiore sicurezza",
-    "ubeswap": "Scambia qualsiasi token, entra in un pool o partecipi a progetti di yield farming",
-    "moola": "Richiedi un prestito, presta o aggiungi a un pool per ottenere ricompense",
-    "celotracker": "Gestisci il tuo portafoglio Celo da DeFi a NFT.",
+    "symmetric": "Accedi alla DeFi con un fondo di rischio unico per una maggiore sicurezza",
+    "ubeswap": "Scambia qualsiasi token, entra in una pool o partecipi a progetti di yield farming",
+    "moola": "Richiedi un prestito, presta o aggiungi fondi a una pool per ottenere ricompense",
+    "celotracker": "Gestisci il tuo portafoglio Celo della DeFi agli NFT.",
     "celotax": "Analizza le tue transazioni per scopi fiscali o contabili",
-    "impactmarket": "Aiuti le comunità in difficoltà per ridurre la povertà",
+    "impactmarket": "Aiuti alle comunità in difficoltà per ridurre la povertà",
     "nomspace": "Crea un nome utente univoco per i tuoi indirizzi Celo",
     "poofcash": "Rendi le tue transazioni non rintracciabili",
     "mentofi": "Scambio di valute native Celo con Mento",

@@ -167,6 +167,12 @@
       "id": "niftydrop",
       "categoryId": "nfts",
       "url": "https://niftydrop.net"
+    },
+    {
+      "name": "Doni",
+      "id": "doni",
+      "categoryId": "social-impact",
+      "url": "https://doni.app/campaigns/?category=All"
     }
   ]
 }

@@ -167,6 +167,12 @@
       "id": "niftydrop",
       "categoryId": "nfts",
       "url": "https://niftydrop.net"
+    },
+    {
+      "name": "NFT Viewer",
+      "id": "nftviewer",
+      "categoryId": "nfts",
+      "url": "https://nfts.valoraapp.com/nfts?address={{address}}"
     }
   ]
 }

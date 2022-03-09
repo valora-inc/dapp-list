@@ -173,6 +173,12 @@
       "id": "nftviewer",
       "categoryId": "nfts",
       "url": "https://nfts.valoraapp.com/nfts?address={{address}}"
+    },
+    {
+      "name": "Doni",
+      "id": "doni",
+      "categoryId": "social-impact",
+      "url": "https://doni.app/campaigns/?category=All"
     }
   ]
 }

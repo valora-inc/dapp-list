@@ -159,7 +159,7 @@
     {
       "name": "Revo",
       "id": "revo",
-      "categoryId": "exchanges",
+      "categoryId": "lend",
       "url": "https://revo.market"
     },
     {
@@ -167,6 +167,18 @@
       "id": "niftydrop",
       "categoryId": "nfts",
       "url": "https://niftydrop.net"
+    },
+    {
+      "name": "NFT Viewer",
+      "id": "nftviewer",
+      "categoryId": "nfts",
+      "url": "https://nfts.valoraapp.com/nfts?address={{address}}"
+    },
+    {
+      "name": "Doni",
+      "id": "doni",
+      "categoryId": "social-impact",
+      "url": "https://doni.app/campaigns/?category=All"
     },
     {
       "name": "Cyberbox",

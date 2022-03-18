@@ -179,6 +179,12 @@
       "id": "doni",
       "categoryId": "social-impact",
       "url": "https://doni.app/campaigns/?category=All"
+    },
+    {
+      "name": "Cyberbox",
+      "id": "cyberbox",
+      "categoryId": "nfts",
+      "url": "https://cyberbox.art/"
     }
   ]
 }

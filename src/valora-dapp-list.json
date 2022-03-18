@@ -172,7 +172,7 @@
       "name": "NFT Viewer",
       "id": "nftviewer",
       "categoryId": "nfts",
-      "url": "https://nfts.valoraapp.com/nfts?address={{address}}"
+      "url": "https://nfts.valoraapp.com/nfts?address={{address}}&hide-header=true"
     },
     {
       "name": "Doni",

@@ -185,6 +185,12 @@
       "id": "cyberbox",
       "categoryId": "nfts",
       "url": "https://cyberbox.art/"
+    },
+    {
+      "name": "ChurritoFi",
+      "id": "churritofi",
+      "categoryId": "financial-tools",
+      "url": "https://churrito.fi"
     }
   ]
 }

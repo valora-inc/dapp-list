@@ -12,6 +12,12 @@ concurrency:
   group: env-${{ github.ref }}
 
 jobs:
+  check-for-sh:
+    name: Check for .sh
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: "echo '*** Do not write .sh scripts! ***'; ! find . -type f -name '*.sh' | grep ."
   test:
     name: Test
     runs-on: ubuntu-latest

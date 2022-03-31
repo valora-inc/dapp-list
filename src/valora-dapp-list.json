@@ -172,13 +172,19 @@
       "name": "NFT Viewer",
       "id": "nftviewer",
       "categoryId": "nfts",
-      "url": "https://nfts.valoraapp.com/nfts?address={{address}}"
+      "url": "https://nfts.valoraapp.com/nfts?address={{address}}&hide-header=true"
     },
     {
       "name": "Doni",
       "id": "doni",
       "categoryId": "social-impact",
       "url": "https://doni.app/campaigns/?category=All"
+    },
+    {
+      "name": "Cyberbox",
+      "id": "cyberbox",
+      "categoryId": "nfts",
+      "url": "https://cyberbox.art/"
     }
   ]
 }

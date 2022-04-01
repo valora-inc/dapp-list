@@ -185,6 +185,18 @@
       "id": "cyberbox",
       "categoryId": "nfts",
       "url": "https://cyberbox.art/"
+    },
+    {
+      "name": "alities",
+      "id": "alities",
+      "categoryId": "nfts",
+      "url": "https://alities.io/"
+    },
+    {
+      "name": "ChurritoFi",
+      "id": "churritofi",
+      "categoryId": "finance-tools",
+      "url": "https://churrito.fi"
     }
   ]
 }

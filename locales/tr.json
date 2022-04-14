@@ -10,7 +10,7 @@
     "games": "Oyunlar"
   },
   "dapps": {
-    "mobius": "Stablecoin'leri swap yaparak kriptoparalarınızla ödüller kazanın",
+    "mobius": "Stablecoinleri swap yaparak kripto paralarınızla ödüller kazanın",
     "symmetric": "Benzersiz risk fonuna sahip artırılmış güvenlikli DeFi'a erişin",
     "ubeswap": "Token swap, pool'a girme ve farming",
     "moola": "Borç vererek, borç alarak veya bir havuza katılarak ödüller kazanın",
@@ -19,12 +19,12 @@
     "impactmarket": "İhtiyaç sahiplerine destek olun",
     "nomspace": "Celo adresleriniz için size özel bir kullanıcı adı oluşturun",
     "poofcash": "İşlemlerinizi takip edilemez hale getirin",
-    "mentofi": "Mento ile Celo yerel para birimleri arasında değişim yapın",
+    "mentofi": "Mento ile Celo varlıkları arasında değişim yapın",
     "bidali": "Hediye kartları satın alın",
     "pinnata": "Celo'da bulunan zincirler arası kaldıraçlı farming protokolü",
     "flywallet": "cUSD ve cEUR kullanarak dünya çapında uçuş rezervasyonları yapın",
     "immortaldao-finance": "IMMO tokenlarınızı bağlayarak veya stake ederek ödüller kazanın",
-    "swapbitssa": "Stablecoin'leri itibari para birimine dönüştürebileceğiniz global platform",
+    "swapbitssa": "Stablecoinleri itibari para birimine dönüştürebileceğiniz global platform",
     "trelispay": "dApp veya web sitenizde cStable ödemelerini kolayca kabul edin",
     "chimoney-chispend": "Kripto paranızı gerçek dünya ürünlerine ve hizmetlerine harcayın",
     "talentprotocol": "Yetenekleri destekleyebileceğiniz profesyonel ağ",
@@ -32,7 +32,9 @@
     "revo": "Otomatik bileşik faizle kolay yield farming",
     "niftydrop": "NFT'leri arkadaşlarınıza ve müşterilerinize dağıtın",
     "nftviewer": "NFT koleksiyonlarınızı görüntüleyin",
-    "doni": "Önemli olan sebepler için para toplayın",
-    "cyberbox": "NFT Marketplace on Celo"
+    "doni": "Sosyal etki için fon toplayın",
+    "cyberbox": "Celo'da NFT Pazar",
+    "alities": "Etkili topluluklar için NFT'ler ve rozetler",
+    "churritofi": "CELO tokenlarınızı stake"
   }
 }

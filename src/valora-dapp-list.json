@@ -197,6 +197,12 @@
       "id": "churritofi",
       "categoryId": "finance-tools",
       "url": "https://churrito.fi"
+    },
+    {
+      "name": "Plastiks",
+      "id": "plastiks",
+      "categoryId": "nfts",
+      "url": "https://app.plastiks.io"
     }
   ]
 }

@@ -8,14 +8,10 @@ Here's an example on what it looks like in action (note that it might become sli
   <img src="https://raw.githubusercontent.com/valora-inc/dapp-list/main/in-app-example.png" width=40%>
 </p>
 
-## The Dapp Bake Off
-
-Submissions for the Dapp Bake Off are closed.
-
-If you made a submission, you have until March 2nd 2022 11:59 PM
-PST (UTC−8) to address feedback from the Valora team.
-
 ## Adding new items
+
+If you're adding a new Dapp, please read over the [Valora Dapps Page
+Application](https://valoraapp.com/submit-dapp) before proceeding.
 
 There are some fields that need to be translated into different languages, and this is done by Valora, so to add a new Dapp or category you need to follow the following steps:
 

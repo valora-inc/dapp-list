@@ -203,6 +203,12 @@
       "id": "plastiks",
       "categoryId": "nfts",
       "url": "https://app.plastiks.io"
+    },
+    {
+      "name": "ReSource",
+      "id": "resource",
+      "categoryId": "lend",
+      "url": "https://app.resource.finance"
     }
   ]
 }

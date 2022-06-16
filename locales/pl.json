@@ -1,0 +1,42 @@
+{
+  "categories": {
+    "exchanges": "Zamień",
+    "lend": "Pożyczaj, pożyczaj",
+    "spend": "Spend",
+    "finance-tools": "Narzędzia finansowe",
+    "social-impact": "Impact",
+    "social": "Social",
+    "nfts": "NFTs",
+    "games": "Gry"
+  },
+  "dapps": {
+    "mobius": "Wymieniaj stablecoiny i zdobywaj nagrody za swoje kryptowaluty",
+    "symmetric": "Dostęp do DeFi z unikalnym funduszem ryzyka dla większego bezpieczeństwa",
+    "ubeswap": "Wymień dowolny token, wejdź do puli lub farmuj swoją kryptowalutę",
+    "moola": "Pożyczaj, pożyczaj lub dodaj do puli, aby zdobywać nagrody",
+    "celotracker": "Zarządzaj swoim portfelem Celo od DeFi do NFT",
+    "celotax": "Analizuj swoje transakcje pod kątem podatków lub księgowości",
+    "impactmarket": "Wspieraj wspólnoty w potrzebie i zmniejszaj ubóstwo",
+    "nomspace": "Utwórz unikalną nazwę użytkownika dla swoich adresów w Celo",
+    "poofcash": "Uczyń swoje transakcje niemożliwymi do wyśledzenia",
+    "mentofi": "Wymiana między rodzimymi walutami Celo i Mento",
+    "bidali": "Kupuj karty upominkowe wszystkich swoich ulubionych marek",
+    "pinnata": "Protokół Cross-chain leveraged yield farming na Celo",
+    "flywallet": "Rezerwuj loty na całym świecie za pomocą cUSD i cEUR",
+    "immortaldao-finance": "Łącz i stawiaj swoje tokeny IMMO, aby zdobywać nagrody",
+    "swapbitssa": "Globalna platforma wymiany stablecoinów na waluty fiat",
+    "trelispay": "Łatwo akceptuj płatności cStable w swojej aplikacji dApp lub na stronie internetowej",
+    "chimoney-chispend": "Wydawaj swoją kryptowalutę na produkty i usługi z prawdziwego świata",
+    "talentprotocol": "Profesjonalna sieć, w której możesz wspierać talenty",
+    "goodghosting": "Pule DeFi z grami, które nagradzają regularnie oszczędzających",
+    "revo": "Rolnictwo o łatwych plonach z automatycznym procentem składanym",
+    "niftydrop": "Rozpowszechniaj NFT wśród przyjaciół i klientów",
+    "nftviewer": "Zobacz swoje kolekcje NFT",
+    "doni": "Zbieraj fundusze na cele, które mają znaczenie",
+    "cyberbox": "ReFi NFT Marketplace",
+    "alities": "NFT i odznaki Proof-of-Belonging dla społeczności kierujących się wpływem",
+    "churritofi": "Łatwe tyczenie CELO",
+    "plastiks": "NFT użytkowe do odzysku tworzyw sztucznych",
+    "qavah": "Zdecentralizowana i bezpłatna platforma crowdfundingowa"
+  }
+}

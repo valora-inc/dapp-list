@@ -1,18 +1,18 @@
 {
   "categories": {
-    "exchanges": "Wymieniaj",
+    "exchanges": "Zamieniaj",
     "lend": "Pożyczaj i zarabiaj",
     "spend": "Wydawaj",
     "finance-tools": "Narzędzia finansowe",
     "social-impact": "Zmiana na lepsze",
     "social": "Społeczność",
-    "nfts": "Niewymienialne tokeny",
+    "nfts": "NFT",
     "games": "Gry"
   },
   "dapps": {
-    "mobius": "Wymieniaj stablecoiny i zdobywaj nagrody za kryptowaluty",
+    "mobius": "Zamień stablecoiny i zdobywaj nagrody za kryptowaluty",
     "symmetric": "Uzyskaj dostęp do usług DeFi z funduszem o unikalnym ryzyku dla dodatkowego bezpieczeństwa",
-    "ubeswap": "Wymień dowolny token, wejdź do puli lub farmuj swoją kryptowalutę",
+    "ubeswap": "Zamień dowolny token, wejdź do puli lub farmuj swoją kryptowalutę",
     "moola": "Pożyczaj od innych i innym oraz dodawaj do puli, aby zdobywać nagrody",
     "celotracker": "Zarządzaj swoim portfelem Celo od DeFi po niewymienialne tokeny",
     "celotax": "Analizuj swoje transakcje pod kątem podatków i księgowości",

@@ -203,6 +203,18 @@
       "id": "plastiks",
       "categoryId": "nfts",
       "url": "https://app.plastiks.io"
+    },
+    {
+      "name": "Qavah",
+      "id": "qavah",
+      "categoryId": "social-impact",
+      "url": "https://qavah.me"
+    },
+    {
+      "name": "ReSource",
+      "id": "resource",
+      "categoryId": "lend",
+      "url": "https://app.resource.finance"
     }
   ]
 }

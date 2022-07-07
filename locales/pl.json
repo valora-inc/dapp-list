@@ -1,0 +1,43 @@
+{
+  "categories": {
+    "exchanges": "Zamieniaj",
+    "lend": "Pożyczaj i zarabiaj",
+    "spend": "Wydawaj",
+    "finance-tools": "Narzędzia finansowe",
+    "social-impact": "Zmiana na lepsze",
+    "social": "Społeczność",
+    "nfts": "NFT",
+    "games": "Gry"
+  },
+  "dapps": {
+    "mobius": "Zamień stablecoiny i zdobywaj nagrody za kryptowaluty",
+    "symmetric": "Uzyskaj dostęp do usług DeFi z funduszem o unikalnym ryzyku dla dodatkowego bezpieczeństwa",
+    "ubeswap": "Zamień dowolny token, wejdź do puli lub farmuj swoją kryptowalutę",
+    "moola": "Pożyczaj od innych i innym oraz dodawaj do puli, aby zdobywać nagrody",
+    "celotracker": "Zarządzaj swoim portfelem Celo od DeFi po niewymienialne tokeny",
+    "celotax": "Analizuj swoje transakcje pod kątem podatków i księgowości",
+    "impactmarket": "Wspieraj potrzebujące społeczności i zmniejszaj ubóstwo",
+    "nomspace": "Utwórz niepowtarzalną nazwę dla swoich adresów Celo",
+    "poofcash": "Zadbaj o niewykrywalność swoich transakcji",
+    "mentofi": "Korzystaj z Mento i wymieniaj natywne waluty Celo",
+    "bidali": "Kupuj karty upominkowe swoich ulubionych marek",
+    "pinnata": "Przesyłaj między łańcuchami protokół yield farmingu z dźwignią w Celo",
+    "flywallet": "Rezerwuj loty na całym świecie, płacąc w cUSD i cEUR",
+    "immortaldao-finance": "Obliguj i stawiaj tokeny IMMO, aby zdobywać nagrody",
+    "swapbitssa": "Globalna platforma wymiany stablecoinów na waluty fiat",
+    "trelispay": "W łatwy i szybki sposób akceptuj płatności cStable w Dapp lub w witrynie internetowej",
+    "chimoney-chispend": "Wydawaj swoją kryptowalutę na realne produkty i usługi",
+    "talentprotocol": "Profesjonalna sieć, w której możesz wspierać talenty",
+    "goodghosting": "Grywalizowane pule DeFi, które nagradzają regularnie oszczędzających",
+    "revo": "Łatwy yield farming z automatycznym procentem składanym",
+    "niftydrop": "Dystrybuuj niewymienialne tokeny znajomym i klientom",
+    "nftviewer": "Zobacz swoje kolekcje NFT",
+    "doni": "Zbieraj fundusze na szczytne cele",
+    "cyberbox": "Rynek ReFi NFT",
+    "alities": "NFT i odznaki Proof-of-Belonging dla społeczności pomagających innym",
+    "churritofi": "Uproszczony staking CELO",
+    "plastiks": "NFT użytkowe do recyklingu tworzyw sztucznych",
+    "qavah": "Zdecentralizowana i bezpłatna platforma crowdfundingowa",
+    "resource": "Stawka SOURCE pomoże zabezpieczyć linie kredytowe dla firm zajmujących się regeneracją na ReSource"
+  }
+}

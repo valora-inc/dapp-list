@@ -215,6 +215,12 @@
       "id": "resource",
       "categoryId": "lend",
       "url": "https://app.resource.finance"
+    },
+    {
+      "name": "EthicHub",
+      "id": "ethichub",
+      "categoryId": "finance-tools",
+      "url": "https://ethix.ethichub.com"
     }
   ]
 }

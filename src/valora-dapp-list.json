@@ -215,12 +215,6 @@
       "id": "resource",
       "categoryId": "lend",
       "url": "https://app.resource.finance"
-    },
-    {
-      "name": "Mezumo",
-      "id": "mezumo",
-      "categoryId": "exchanges",
-      "url": "https://mezumo.xyz/"
     }
   ]
 }

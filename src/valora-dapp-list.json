@@ -215,6 +215,12 @@
       "id": "resource",
       "categoryId": "lend",
       "url": "https://app.resource.finance"
+    },
+    {
+      "name": "Uniswap",
+      "id": "uniswap",
+      "categoryId": "exchanges",
+      "url": "https://app.uniswap.org/#/swap?chain=celo"
     }
   ]
 }

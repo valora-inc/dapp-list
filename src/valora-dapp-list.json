@@ -221,6 +221,12 @@
       "id": "mezumo",
       "categoryId": "exchanges",
       "url": "https://mezumo.xyz/"
+    },
+    {
+      "name": "Uniswap",
+      "id": "uniswap",
+      "categoryId": "exchanges",
+      "url": "https://app.uniswap.org/#/swap?chain=celo"
     }
   ]
 }

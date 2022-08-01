@@ -217,6 +217,12 @@
       "url": "https://app.resource.finance"
     },
     {
+      "name": "EthicHub",
+      "id": "ethichub",
+      "categoryId": "finance-tools",
+      "url": "https://ethix.ethichub.com"
+    },
+    {
       "name": "Mezumo",
       "id": "mezumo",
       "categoryId": "exchanges",

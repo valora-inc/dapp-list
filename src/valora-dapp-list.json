@@ -103,12 +103,6 @@
       "url": "https://www.nom.space/"
     },
     {
-      "name": "Poof",
-      "id": "poofcash",
-      "categoryId": "social",
-      "url": "https://app.poof.cash/#/account/create"
-    },
-    {
       "name": "Mento-Fi",
       "id": "mentofi",
       "categoryId": "exchanges",

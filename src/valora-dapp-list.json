@@ -43,6 +43,12 @@
   ],
   "applications": [
     {
+      "name": "Staked Celo",
+      "id": "staked-celo",
+      "categoryId": "lend",
+      "url": "https://app.stcelo.xyz/"
+    },
+    {
       "name": "Ubeswap",
       "id": "ubeswap",
       "categoryId": "exchanges",

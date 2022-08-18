@@ -43,6 +43,12 @@
   ],
   "applications": [
     {
+      "name": "Toucan Protocol",
+      "id": "toucan",
+      "categoryId": "social-impact",
+      "url": "https://toucan.earth/"
+    },
+    {
       "name": "Staked Celo",
       "id": "staked-celo",
       "categoryId": "lend",

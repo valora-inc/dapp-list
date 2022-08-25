@@ -10,6 +10,7 @@
     "games": "Juegos"
   },
   "dapps": {
+    "staked-celo": "Gana recompensas sin perder liquidez con el staking de Celo.",
     "mobius": "Intercambia stablecoins y gana recompensas en cripto",
     "symmetric": "Accede a un mundo DeFi con un fondo de riesgo único para mayor seguridad",
     "ubeswap": "Intercambia tokens, entra a un fondo o participa del yield farming",

@@ -43,6 +43,12 @@
   ],
   "applications": [
     {
+      "name": "Staked Celo",
+      "id": "staked-celo",
+      "categoryId": "lend",
+      "url": "https://app.stcelo.xyz/"
+    },
+    {
       "name": "Ubeswap",
       "id": "ubeswap",
       "categoryId": "exchanges",
@@ -95,12 +101,6 @@
       "id": "nomspace",
       "categoryId": "social",
       "url": "https://www.nom.space/"
-    },
-    {
-      "name": "Poof",
-      "id": "poofcash",
-      "categoryId": "social",
-      "url": "https://app.poof.cash/#/account/create"
     },
     {
       "name": "Mento-Fi",
@@ -215,6 +215,30 @@
       "id": "resource",
       "categoryId": "lend",
       "url": "https://app.resource.finance"
+    },
+    {
+      "name": "EthicHub",
+      "id": "ethichub",
+      "categoryId": "lend",
+      "url": "https://ethix.ethichub.com"
+    },
+    {
+      "name": "Mezumo",
+      "id": "mezumo",
+      "categoryId": "exchanges",
+      "url": "https://mezumo.xyz/"
+    },
+    {
+      "name": "Uniswap",
+      "id": "uniswap",
+      "categoryId": "exchanges",
+      "url": "https://app.uniswap.org/#/swap?chain=celo"
+    },
+    {
+      "name": "Pixpress",
+      "id": "pixpress",
+      "categoryId": "exchanges",
+      "url": "https://pixpress.pixelava.space"
     }
   ]
 }

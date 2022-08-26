@@ -10,6 +10,7 @@
     "games": "Jogos"
   },
   "dapps": {
+    "staked-celo": "Faça o staking de Celo e ganhe recompensas mantendo seus ativos líquidos",
     "mobius": "Troque stablecoins e ganhe recompensas cripto",
     "symmetric": "Acesse as DeFi com um fundo de risco único para maior segurança",
     "ubeswap": "Troque tokens, entre em um pool ou participe de yield farming",
@@ -18,7 +19,6 @@
     "celotax": "Analise suas transações para fins fiscais ou contabilísticos",
     "impactmarket": "Apoie as comunidades necessitadas e reduza a pobreza",
     "nomspace": "Crie um nome de usuário único para seus endereços Celo",
-    "poofcash": "Torne suas transações indetectáveis",
     "mentofi": "Troque moedas nativas de Celo",
     "bidali": "Compre vales-presente de todas as suas marcas favoritas",
     "pinnata": "Protocolo de mineração de liquidez de cadeia cruzada na Celo",
@@ -38,6 +38,9 @@
     "churritofi": "Staking de CELO facilitado",
     "plastiks": "NFTs utilitários para recuperação de plástico",
     "qavah": "Plataforma de financiamento coletivo gratuita e descentralizada",
-    "resource": "Stake SOURCE para ajudar a garantir linhas de crédito para empresas regenerativas na ReSource"
+    "resource": "Faça o staking de SOURCE para ajudar a colateralizar linhas de crédito de negócios regenerativos no ReSource",
+    "ethichub": "Empreste capital a agricultores não bancados",
+    "mezumo": "Comprar tokens utilizando uma estratégia chamada Média de custos do dólar (DCA)",
+    "uniswap": "Troque tokens ou ganhe rendimento ao fornecer liquidez"
   }
 }

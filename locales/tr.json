@@ -10,6 +10,7 @@
     "games": "Oyunlar"
   },
   "dapps": {
+    "staked-celo": "Celo riskine karşı ödüller kazanın ve varlıklarınızı likit tutun",
     "mobius": "Stablecoinleri swap yaparak kripto paralarınızla ödüller kazanın",
     "symmetric": "Benzersiz risk fonuna sahip artırılmış güvenlikli DeFi'a erişin",
     "ubeswap": "Token swap, pool'a girme ve farming",
@@ -18,7 +19,6 @@
     "celotax": "İşlemlerinizi vergilendirme veya muhasebe açısından analiz edin",
     "impactmarket": "İhtiyaç sahiplerine destek olun",
     "nomspace": "Celo adresleriniz için size özel bir kullanıcı adı oluşturun",
-    "poofcash": "İşlemlerinizi takip edilemez hale getirin",
     "mentofi": "Mento ile Celo varlıkları arasında değişim yapın",
     "bidali": "Hediye kartları satın alın",
     "pinnata": "Celo'da bulunan zincirler arası kaldıraçlı farming protokolü",
@@ -38,6 +38,9 @@
     "churritofi": "CELO tokenlarınızı stake",
     "plastiks": "Plastik kurtarma için NFT'leri kullanın",
     "qavah": "Merkezi olmayan ve ücretsiz kitlesel fonlama platformu",
-    "resource": "Stake SOURCE to help collateralize credit lines for regenerative businesses on ReSource"
+    "resource": "ReSource'ta yenilenebilir işletmeler için kredi limitlerini teminatlandırmaya yardımcı olmak için SOURCE'u stake edin",
+    "ethichub": "Banka hesabı olmayan çiftçilere uygun fiyatlı sermaye ödünç verilmesi",
+    "mezumo": "Dolar Maliyet Ortalaması (DCA) adlı basit bir stratejiyle token satın alın",
+    "uniswap": "Likidite sağlayarak token takaslayın veya yield elde edin"
   }
 }

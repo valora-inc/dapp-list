@@ -10,6 +10,7 @@
     "games": "Oyunlar"
   },
   "dapps": {
+    "toucan": "Tokenized carbon credits for climate action at scale",
     "staked-celo": "Celo riskine karşı ödüller kazanın ve varlıklarınızı likit tutun",
     "mobius": "Stablecoinleri swap yaparak kripto paralarınızla ödüller kazanın",
     "symmetric": "Benzersiz risk fonuna sahip artırılmış güvenlikli DeFi'a erişin",
@@ -41,6 +42,7 @@
     "resource": "ReSource'ta yenilenebilir işletmeler için kredi limitlerini teminatlandırmaya yardımcı olmak için SOURCE'u stake edin",
     "ethichub": "Banka hesabı olmayan çiftçilere uygun fiyatlı sermaye ödünç verilmesi",
     "mezumo": "Dolar Maliyet Ortalaması (DCA) adlı basit bir stratejiyle token satın alın",
-    "uniswap": "Likidite sağlayarak token takaslayın veya yield elde edin"
+    "uniswap": "Likidite sağlayarak token takaslayın veya yield elde edin",
+    "pixpress": "Swap any amount of any crypto assets with others peer-to-peer and earn rewards"
   }
 }

@@ -10,6 +10,7 @@
     "games": "Gry"
   },
   "dapps": {
+    "toucan": "Tokenizowane kredyty węglowe dla działań klimatycznych na skalę",
     "staked-celo": "Stakuj Celo i zdobywaj nagrody, zachowując płynność swoich aktywów",
     "mobius": "Zamień stablecoiny i zdobywaj nagrody za kryptowaluty",
     "symmetric": "Uzyskaj dostęp do usług DeFi z funduszem o unikalnym ryzyku dla dodatkowego bezpieczeństwa",
@@ -41,6 +42,7 @@
     "resource": "Stawka SOURCE pomoże zabezpieczyć linie kredytowe dla firm zajmujących się regeneracją",
     "ethichub": "Pożyczanie niedrogiego kapitału nieposiadającym rachunku bankowego rolnikom",
     "mezumo": "Kupuj tokeny, używając prostej strategii zwanej uśrednianie kosztów dolara\n",
-    "uniswap": "Zamień tokeny lub uzyskaj dochód poprzez zapewnienie płynności"
+    "uniswap": "Zamień tokeny lub uzyskaj dochód poprzez zapewnienie płynności",
+    "pixpress": "Wymieniaj dowolną ilość dowolnych kryptowalut z innymi osobami w systemie peer-to-peer i zdobywaj nagrody"
   }
 }

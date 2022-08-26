@@ -233,6 +233,12 @@
       "id": "uniswap",
       "categoryId": "exchanges",
       "url": "https://app.uniswap.org/#/swap?chain=celo"
+    },
+    {
+      "name": "Pixpress",
+      "id": "pixpress",
+      "categoryId": "exchanges",
+      "url": "https://pixpress.pixelava.space"
     }
   ]
 }

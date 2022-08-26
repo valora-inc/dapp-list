@@ -10,6 +10,7 @@
     "games": "Jeux"
   },
   "dapps": {
+    "toucan": "Des crédits carbone tokenisés pour une action climatique à l'échelle",
     "staked-celo": "Staking de CELO pour des récompenses tout en gardant tes actifs liquides.",
     "mobius": "Échangez des stablecoins et gagnez des récompenses",
     "symmetric": "Accèdez à DeFi avec un fonds de risque unique pour plus de sécurité",
@@ -41,6 +42,7 @@
     "resource": "Stake SOURCE pour aider à garantir les lignes de crédit pour les entreprises régénératives sur ReSource",
     "ethichub": "Prêtez du capital abordable à des agriculteurs non bancarisés",
     "mezumo": "Achète des jetons en utilisant la méthode de la moyenne d'achat en dollars (DCA)",
-    "uniswap": "Échangez des jetons ou profitez d'un retour en proposant des liquidités"
+    "uniswap": "Échangez des jetons ou profitez d'un retour en proposant des liquidités",
+    "pixpress": "Échange n'importe quelle quantité de n'importe quel actif cryptographique avec d'autres personnes en peer-to-peer et gagne des récompenses."
   }
 }

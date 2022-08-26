@@ -235,6 +235,12 @@
       "url": "https://app.stcelo.xyz/"
     },
     {
+      "name": "Pixpress",
+      "id": "pixpress",
+      "categoryId": "exchanges",
+      "url": "https://pixpress.pixelava.space"
+    },
+    {
       "name": "Toucan Protocol",
       "id": "toucan",
       "categoryId": "social-impact",

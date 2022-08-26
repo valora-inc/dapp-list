@@ -10,6 +10,7 @@
     "games": "Giochi"
   },
   "dapps": {
+    "toucan": "Crediti di carbonio gettonati per un'azione climatica di scala",
     "staked-celo": "Metti in staking su Celo e guadagna ricompense senza perdere liquidità",
     "mobius": "Scambia stablecoin e ottieni ricompense sulle tue cripto",
     "symmetric": "Accedi alla DeFi con un fondo di rischio unico per una maggiore sicurezza",
@@ -41,6 +42,7 @@
     "resource": "Metti in staking SOURCE per collateralizzare linee di credito per attività rigenerative su ReSource",
     "ethichub": "Presta capitale a prezzi accessibili ad agricoltori non supportati da banche",
     "mezumo": "Acquista i token utilizzando una strategia chiamata Piano di Accumulo del capitale (PAC)",
-    "uniswap": "Scambia token o guadagna fornendo liquidità"
+    "uniswap": "Scambia token o guadagna fornendo liquidità",
+    "pixpress": "Scambia qualsiasi quantità di criptovalute con altri peer-to-peer e guadagna ricompense"
   }
 }

@@ -239,6 +239,12 @@
       "id": "pixpress",
       "categoryId": "exchanges",
       "url": "https://pixpress.pixelava.space"
+    },
+    {
+      "name": "Spirals",
+      "id": "spirals",
+      "categoryId": "social-impact",
+      "url": "https://demo.spirals.so"
     }
   ]
 }

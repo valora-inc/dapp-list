@@ -43,12 +43,6 @@
   ],
   "applications": [
     {
-      "name": "Staked Celo",
-      "id": "staked-celo",
-      "categoryId": "lend",
-      "url": "https://app.stcelo.xyz/"
-    },
-    {
       "name": "Ubeswap",
       "id": "ubeswap",
       "categoryId": "exchanges",
@@ -233,6 +227,18 @@
       "id": "uniswap",
       "categoryId": "exchanges",
       "url": "https://app.uniswap.org/#/swap?chain=celo"
+    },
+    {
+      "name": "Staked Celo",
+      "id": "staked-celo",
+      "categoryId": "lend",
+      "url": "https://app.stcelo.xyz/"
+    },
+    {
+      "name": "Pixpress",
+      "id": "pixpress",
+      "categoryId": "exchanges",
+      "url": "https://pixpress.pixelava.space"
     }
   ]
 }

@@ -245,6 +245,12 @@
       "id": "pooltogether",
       "categoryId": "lend",
       "url": "https://v3.pooltogether.com/pools?filter=celo"
+    },
+    {
+      "name": "Cask",
+      "id": "cask",
+      "categoryId": "finance-tools",
+      "url": "https://www.cask.fi"
     }
   ]
 }

@@ -239,6 +239,12 @@
       "id": "pixpress",
       "categoryId": "exchanges",
       "url": "https://pixpress.pixelava.space"
+    },
+    {
+      "name": "PoolTogether",
+      "id": "pooltogether",
+      "categoryId": "lend",
+      "url": "https://v3.pooltogether.com/pools?filter=celo"
     }
   ]
 }

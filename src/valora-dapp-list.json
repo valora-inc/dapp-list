@@ -241,6 +241,12 @@
       "url": "https://pixpress.pixelava.space"
     },
     {
+      "name": "PoolTogether",
+      "id": "pooltogether",
+      "categoryId": "lend",
+      "url": "https://v3.pooltogether.com/pools?filter=celo"
+    },
+    {
       "name": "Spirals",
       "id": "spirals",
       "categoryId": "social-impact",

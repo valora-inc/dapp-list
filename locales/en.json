@@ -43,6 +43,7 @@
     "mezumo": "Buy tokens over time using a simple strategy called Dollar-Cost Averaging (DCA)",
     "uniswap": "Swap tokens or earn yield by providing liquidity",
     "pixpress": "Swap any amount of any crypto assets with others peer-to-peer and earn rewards",
-    "pooltogether": "Save while participating in prize raffles"
+    "pooltogether": "Save while participating in prize raffles",
+    "cask": "Auto-buy crypto (DCA) or send peer-to-peer payments"
   }
 }

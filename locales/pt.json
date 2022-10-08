@@ -43,6 +43,7 @@
     "mezumo": "Comprar tokens utilizando uma estratégia chamada Média de custos do dólar (DCA)",
     "uniswap": "Troque tokens ou ganhe rendimento ao fornecer liquidez",
     "pixpress": "Troque ativos cripto com outros usuários e ganhe recompensas",
-    "pooltogether": "Economize enquanto participa de sorteios"
+    "pooltogether": "Economize enquanto participa de sorteios",
+    "cask": "Compra automática de criptografia (DCA) ou envio de pagamentos ponto-a-ponto"
   }
 }

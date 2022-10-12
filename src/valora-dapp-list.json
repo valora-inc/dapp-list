@@ -148,7 +148,7 @@
       "name": "GoodGhosting",
       "id": "goodghosting",
       "categoryId": "lend",
-      "url": "https://goodghosting.com/?utm_source=valora"
+      "url": "https://goodghosting.com/#/pools?network=celo&utm_source=valora"
     },
     {
       "name": "Revo",
@@ -245,6 +245,18 @@
       "id": "pooltogether",
       "categoryId": "lend",
       "url": "https://v3.pooltogether.com/pools?filter=celo"
+    },
+    {
+      "name": "Cask",
+      "id": "cask",
+      "categoryId": "finance-tools",
+      "url": "https://www.cask.fi"
+    },
+    {
+      "name": "Spirals",
+      "id": "spirals",
+      "categoryId": "social-impact",
+      "url": "https://app.spirals.so"
     }
   ]
 }

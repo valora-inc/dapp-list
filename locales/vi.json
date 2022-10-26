@@ -10,7 +10,7 @@
     "games": "Trò chơi"
   },
   "dapps": {
-    "staked-celo": "Stake Celo and earn rewards while keeping your assets liquid",
+    "staked-celo": "Ký gửi Celo và kiếm tiền thưởng trong khi vẫn duy trì khả năng thanh khoản của tài sản",
     "mobius": "Trao đổi stablecoin và kiếm tiền thưởng từ tiền điện tử",
     "symmetric": "Tiếp cận DeFi bằng một khoản tiền với rủi ro duy nhất để tăng độ an toàn",
     "ubeswap": "Trao đổi token, tham gia mỏ đào hoặc khai thác thanh khoản tiền điện tử",
@@ -38,14 +38,14 @@
     "churritofi": "Dễ dàng ký gửi CELO",
     "plastiks": "NFT tiện ích cho hoạt động tái chế nhựa",
     "qavah": "Nền tảng gây quỹ cộng đồng miễn phí và phi tập trung",
-    "resource": "Stake SOURCE to help collateralize credit lines for regenerative businesses on ReSource",
-    "ethichub": "Lend affordable capital to unbanked farmers",
-    "mezumo": "Buy tokens over time using a simple strategy called Dollar-Cost Averaging (DCA)",
-    "uniswap": "Swap tokens or earn yield by providing liquidity",
-    "pixpress": "Swap any amount of any crypto assets with others peer-to-peer and earn rewards",
-    "pooltogether": "Save while participating in prize raffles",
-    "cask": "Auto-buy crypto (DCA) or send peer-to-peer payments",
-    "spirals": "Stake CELO or cUSD and fund high-impact climate projects through staking yield",
-    "ariswap": "Easily list, sell, auction, and buy NFTs on mobile first Marketplace"
+    "resource": "Ký gửi SOURCE để hỗ trợ hạn mức tín dụng cho các doanh nghiệp tái tạo trên ReSource",
+    "ethichub": "Cấp vốn với lãi suất phải chăng cho nông dân không được ngân hàng cho vay",
+    "mezumo": "Mua token theo thời gian bằng một chiến lược đơn giản – Bình quân chi phí đầu tư (DCA)",
+    "uniswap": "Trao đổi token hoặc kiếm lời bằng cách cung cấp thanh khoản",
+    "pixpress": "Trao đổi lượng tài sản tiền điện tử bất kỳ với đồng tiền ngang hàng và kiếm tiền thưởng",
+    "pooltogether": "Tiết kiệm khi tham gia xổ số trúng thưởng",
+    "cask": "Tự động mua tiền điện tử (DCA) hoặc gửi thanh toán ngang hàng",
+    "spirals": "Ký gửi CELO hoặc cUSD và tài trợ các dự án về khí hậu có tác động lớn thông qua lợi nhuận ký gửi",
+    "ariswap": "Dễ dàng niêm yết, bán, đấu giá và mua NFT trên Trang web thương mại ưu tiên thiết bị di động"
   }
 }

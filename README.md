@@ -16,6 +16,12 @@ Application](https://valoraapp.com/submit-dapp) before proceeding.
 If you're ready to add a new dapp, see [Adding new
 dapps](./docs/adding-new-dapps.md).
 
+We encourage (and in many cases will require) basic documentation so
+users will understand what your dapp does and how to get started. We
+have summarized [Best Practices for User
+Documentation](./docs/user-documentation-best-practices.md) to help dapps
+author a basic documentation that we think will be effective.
+
 ## Development
 
 ```

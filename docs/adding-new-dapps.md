@@ -11,8 +11,6 @@ There are some fields that need to be translated into different languages, and t
 - After doing this you should open a PR and ask someone on the Valora team to review it so it can be merged. Once it's merged, the Valora Inc translations team will receive the new strings and translate them into all the supported languages.
 - Once they do, Crowdin will automatically open a PR with all the translations. After the Valora team merges this Crowdin PR the new categories or Dapp will be visible in the Valora Wallet.
 
-We encourage (and in many cases will require) basic documentation so users will understand what your dapp does and how to get started. We have summarized [Best Practices for User Documentation](./user-documentation-best-practices.md) to help dapps author a basic documentation that we think will be effective.
-
 ## Dapps
 
 | Property     | Description                                                                                |

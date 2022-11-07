@@ -157,12 +157,6 @@
       "url": "https://revo.market"
     },
     {
-      "name": "Niftydrop",
-      "id": "niftydrop",
-      "categoryId": "nfts",
-      "url": "https://niftydrop.net"
-    },
-    {
       "name": "NFT Viewer",
       "id": "nftviewer",
       "categoryId": "nfts",
@@ -179,17 +173,11 @@
       "id": "cyberbox",
       "categoryId": "nfts",
       "url": "https://cyberbox.art/"
-    },
-    {
-      "name": "alities",
-      "id": "alities",
-      "categoryId": "nfts",
-      "url": "https://alities.io/"
-    },
+    },    
     {
       "name": "ChurritoFi",
       "id": "churritofi",
-      "categoryId": "finance-tools",
+      "categoryId": "lend",
       "url": "https://churrito.fi"
     },
     {

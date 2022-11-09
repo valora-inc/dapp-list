@@ -172,7 +172,8 @@
       "name": "Cyberbox",
       "id": "cyberbox",
       "categoryId": "nfts",
-      "url": "https://cyberbox.art/"
+      "url": "https://cyberbox.art/",
+      "canPurchaseNfts": true
     },
     {
       "name": "ChurritoFi",
@@ -184,7 +185,8 @@
       "name": "Plastiks",
       "id": "plastiks",
       "categoryId": "nfts",
-      "url": "https://app.plastiks.io"
+      "url": "https://app.plastiks.io",
+      "canPurchaseNfts": true
     },
     {
       "name": "Qavah",
@@ -250,7 +252,8 @@
       "name": "Ariswap",
       "id": "ariswap",
       "categoryId": "nfts",
-      "url": "https://ariswap.co/"
+      "url": "https://ariswap.co/",
+      "canPurchaseNfts": true
     }
   ]
 }

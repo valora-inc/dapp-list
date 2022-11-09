@@ -96,6 +96,7 @@ export const schema = Joi.object({
             scheme: ['celo', 'https'],
           })
           .required(),
+        canPurchaseNfts: Joi.boolean().strict().optional(),
       }),
     )
     .min(1)

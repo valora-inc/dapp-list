@@ -254,6 +254,13 @@
       "categoryId": "nfts",
       "url": "https://ariswap.co/",
       "canPurchaseNfts": true
+    },
+    {
+      "name": "Ipermatch",
+      "id": "ipermatch",
+      "categoryId": "games",
+      "url": "https://app.ipermatch.it/",
+      "canPurchaseNfts": true
     }
   ]
 }

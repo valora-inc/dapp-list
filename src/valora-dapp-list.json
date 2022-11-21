@@ -261,6 +261,13 @@
       "categoryId": "games",
       "url": "https://app.ipermatch.it/",
       "canPurchaseNfts": true
+    },
+    {
+      "name": "Curve",
+      "id": "curve",
+      "categoryId": "exchanges",
+      "url": "https://curve.fi/#/celo/swap",
+      "canPurchaseNfts": false
     }
   ]
 }

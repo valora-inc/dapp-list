@@ -384,6 +384,24 @@ describe('invalid applications entries', () => {
     )
   })
 
+  it('errors on invalid canPurchaseNfts type', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: 'ubeswap',
+          categoryId: 'exchanges',
+          url: 'https://app.ubeswap.org/',
+          canPurchaseNfts: 'true',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].canPurchaseNfts" must be a boolean',
+    )
+  })
+
   it('errors on missing localized description', () => {
     jest.spyOn(fs, 'existsSync').mockReturnValueOnce(true)
 

@@ -139,12 +139,6 @@
       "url": "https://chispend.com/?cSContext=valora"
     },
     {
-      "name": "Talent Protocol",
-      "id": "talentprotocol",
-      "categoryId": "social",
-      "url": "https://beta.talentprotocol.com/sign_up?code=SUP-VALORA"
-    },
-    {
       "name": "GoodGhosting",
       "id": "goodghosting",
       "categoryId": "lend",
@@ -161,12 +155,6 @@
       "id": "nftviewer",
       "categoryId": "nfts",
       "url": "https://nfts.valoraapp.com/nfts?address={{address}}&hide-header=true"
-    },
-    {
-      "name": "Doni",
-      "id": "doni",
-      "categoryId": "social-impact",
-      "url": "https://doni.app/campaigns/?category=All"
     },
     {
       "name": "Cyberbox",

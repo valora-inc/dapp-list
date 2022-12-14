@@ -64,7 +64,7 @@
       "name": "Symmetric",
       "id": "symmetric",
       "categoryId": "exchanges",
-      "url": "https://celo.symmetric.exchange/#/swap"
+      "url": "https://celo.symm.fi/#/"
     },
     {
       "name": "Mobius",
@@ -121,8 +121,8 @@
       "url": "https://www.immortaldao.finance"
     },
     {
-      "name": "Swap Bitssa",
-      "id": "swapbitssa",
+      "name": "Alphafortress (Bitssa)",
+      "id": "alphafortress",
       "categoryId": "exchanges",
       "url": "https://swap.bitssa.com"
     },
@@ -137,12 +137,6 @@
       "id": "chimoney-chispend",
       "categoryId": "spend",
       "url": "https://chispend.com/?cSContext=valora"
-    },
-    {
-      "name": "Talent Protocol",
-      "id": "talentprotocol",
-      "categoryId": "social",
-      "url": "https://beta.talentprotocol.com/sign_up?code=SUP-VALORA"
     },
     {
       "name": "GoodGhosting",
@@ -161,12 +155,6 @@
       "id": "nftviewer",
       "categoryId": "nfts",
       "url": "https://nfts.valoraapp.com/nfts?address={{address}}&hide-header=true"
-    },
-    {
-      "name": "Doni",
-      "id": "doni",
-      "categoryId": "social-impact",
-      "url": "https://doni.app/campaigns/?category=All"
     },
     {
       "name": "Cyberbox",
@@ -205,12 +193,6 @@
       "id": "ethichub",
       "categoryId": "lend",
       "url": "https://ethix.ethichub.com"
-    },
-    {
-      "name": "Mezumo",
-      "id": "mezumo",
-      "categoryId": "exchanges",
-      "url": "https://mezumo.xyz/"
     },
     {
       "name": "Uniswap",
@@ -268,6 +250,12 @@
       "categoryId": "exchanges",
       "url": "https://curve.fi/#/celo/swap",
       "canPurchaseNfts": false
+    },
+    {
+      "name": "Valora Rewards",
+      "id": "valora-rewards",
+      "categoryId": "lend",
+      "url": "https://rewards.valoraapp.com?address={{address}}"
     }
   ]
 }

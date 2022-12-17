@@ -67,6 +67,12 @@
       "url": "https://celo.symm.fi/#/"
     },
     {
+      "name": "Mobius",
+      "id": "mobius",
+      "categoryId": "exchanges",
+      "url": "https://www.mobius.money/#/swap"
+    },
+    {
       "name": "Celo Tracker",
       "id": "celotracker",
       "categoryId": "finance-tools",

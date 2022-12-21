@@ -10,7 +10,7 @@
     "games": "Oyunlar"
   },
   "dapps": {
-    "staked-celo": "Celo riskine karşı ödüller kazanın ve varlıklarınızı likit tutun",
+    "staked-celo": "CELO riskine karşı ödüller kazanın ve varlıklarınızı likit tutun",
     "mobius": "Stablecoinleri swap yaparak kripto paralarınızla ödüller kazanın",
     "symmetric": "Benzersiz risk fonuna sahip artırılmış güvenlikli DeFi'a erişin",
     "ubeswap": "Token swap, pool'a girme ve farming",
@@ -24,23 +24,26 @@
     "pinnata": "Celo'da bulunan zincirler arası kaldıraçlı farming protokolü",
     "flywallet": "cUSD ve cEUR kullanarak dünya çapında uçuş rezervasyonları yapın",
     "immortaldao-finance": "IMMO tokenlarınızı bağlayarak veya stake ederek ödüller kazanın",
-    "swapbitssa": "Stablecoinleri itibari para birimine dönüştürebileceğiniz global platform",
+    "alphafortress": "Sabit coinleri fiat para birimlerine çevirin",
     "trelispay": "dApp veya web sitenizde cStable ödemelerini kolayca kabul edin",
     "chimoney-chispend": "Kripto paranızı gerçek dünya ürünlerine ve hizmetlerine harcayın",
-    "talentprotocol": "Yetenekleri destekleyebileceğiniz profesyonel ağ",
     "goodghosting": "Düzenli tasarruf sahiplerini ödüllendiren oyunlaştırılmış DeFi havuzları",
     "revo": "Otomatik bileşik faizle kolay yield farming",
-    "niftydrop": "NFT'leri arkadaşlarınıza ve müşterilerinize dağıtın",
     "nftviewer": "NFT koleksiyonlarınızı görüntüleyin",
-    "doni": "Sosyal etki için fon toplayın",
     "cyberbox": "ReFi NFT Pazar",
-    "alities": "Etkili topluluklar için NFT'ler ve rozetler",
     "churritofi": "CELO tokenlarınızı stake",
     "plastiks": "Plastik kurtarma için NFT'leri kullanın",
     "qavah": "Merkezi olmayan ve ücretsiz kitlesel fonlama platformu",
     "resource": "ReSource'ta yenilenebilir işletmeler için kredi limitlerini teminatlandırmaya yardımcı olmak için SOURCE'u stake edin",
     "ethichub": "Banka hesabı olmayan çiftçilere uygun fiyatlı sermaye ödünç verilmesi",
-    "mezumo": "Dolar Maliyet Ortalaması (DCA) adlı basit bir stratejiyle token satın alın",
-    "uniswap": "Likidite sağlayarak token takaslayın veya yield elde edin"
+    "uniswap": "Likidite sağlayarak token takaslayın veya yield elde edin",
+    "pixpress": "Kripto para birimlerini diğer kullanıcılarla değiştirin ve ödüller kazanın",
+    "pooltogether": "Gelecek için tasarruf edin ve çekilişlere katılın",
+    "cask": "Otomatik kripto satın alın (DCA) veya eşler arası ödeme gönderin",
+    "spirals": "CELO veya cUSD stake edin ve stake yield'ını belirleyerek yüksek etkili iklim projelerini fonlayın",
+    "ariswap": "Mobil ilk Marketplace'te NFT'leri kolayca listeleyin, satın, açık artırmaya çıkarın ve satın alın",
+    "ipermatch": "Fantezi futbol oynamanın, NFT futbolcularını toplamanın ve yönetmenin ve SİZİN takımınızın Menajeri olmanın yeni yolu",
+    "curve": "Son derece verimli al-sat ile stablecoin alışverişi yapın",
+    "valora-rewards": "Celo hakkında bilgi edinerek ödüller kazanın"
   }
 }

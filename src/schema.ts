@@ -17,6 +17,7 @@ i18next
     lng: 'base',
   })
   .catch((reason: any) =>
+    // eslint-disable-next-line no-console
     console.error('Config', 'Failed to init i18n', reason),
   )
 
@@ -95,6 +96,7 @@ export const schema = Joi.object({
             scheme: ['celo', 'https'],
           })
           .required(),
+        canPurchaseNfts: Joi.boolean().strict().optional(),
       }),
     )
     .min(1)

@@ -64,7 +64,7 @@
       "name": "Symmetric",
       "id": "symmetric",
       "categoryId": "exchanges",
-      "url": "https://celo.symmetric.exchange/#/swap"
+      "url": "https://celo.symm.fi/#/"
     },
     {
       "name": "Mobius",
@@ -121,8 +121,8 @@
       "url": "https://www.immortaldao.finance"
     },
     {
-      "name": "Swap Bitssa",
-      "id": "swapbitssa",
+      "name": "Alphafortress (Bitssa)",
+      "id": "alphafortress",
       "categoryId": "exchanges",
       "url": "https://swap.bitssa.com"
     },
@@ -139,16 +139,10 @@
       "url": "https://chispend.com/?cSContext=valora"
     },
     {
-      "name": "Talent Protocol",
-      "id": "talentprotocol",
-      "categoryId": "social",
-      "url": "https://beta.talentprotocol.com/sign_up?code=SUP-VALORA"
-    },
-    {
       "name": "GoodGhosting",
       "id": "goodghosting",
       "categoryId": "lend",
-      "url": "https://goodghosting.com/?utm_source=valora"
+      "url": "https://goodghosting.com/#/pools?network=celo&utm_source=valora"
     },
     {
       "name": "Revo",
@@ -157,46 +151,30 @@
       "url": "https://revo.market"
     },
     {
-      "name": "Niftydrop",
-      "id": "niftydrop",
-      "categoryId": "nfts",
-      "url": "https://niftydrop.net"
-    },
-    {
       "name": "NFT Viewer",
       "id": "nftviewer",
       "categoryId": "nfts",
       "url": "https://nfts.valoraapp.com/nfts?address={{address}}&hide-header=true"
     },
     {
-      "name": "Doni",
-      "id": "doni",
-      "categoryId": "social-impact",
-      "url": "https://doni.app/campaigns/?category=All"
-    },
-    {
       "name": "Cyberbox",
       "id": "cyberbox",
       "categoryId": "nfts",
-      "url": "https://cyberbox.art/"
-    },
-    {
-      "name": "alities",
-      "id": "alities",
-      "categoryId": "nfts",
-      "url": "https://alities.io/"
+      "url": "https://cyberbox.art/",
+      "canPurchaseNfts": true
     },
     {
       "name": "ChurritoFi",
       "id": "churritofi",
-      "categoryId": "finance-tools",
+      "categoryId": "lend",
       "url": "https://churrito.fi"
     },
     {
       "name": "Plastiks",
       "id": "plastiks",
       "categoryId": "nfts",
-      "url": "https://app.plastiks.io"
+      "url": "https://app.plastiks.io",
+      "canPurchaseNfts": true
     },
     {
       "name": "Qavah",
@@ -217,12 +195,6 @@
       "url": "https://ethix.ethichub.com"
     },
     {
-      "name": "Mezumo",
-      "id": "mezumo",
-      "categoryId": "exchanges",
-      "url": "https://mezumo.xyz/"
-    },
-    {
       "name": "Uniswap",
       "id": "uniswap",
       "categoryId": "exchanges",
@@ -239,6 +211,57 @@
       "id": "pixpress",
       "categoryId": "exchanges",
       "url": "https://pixpress.pixelava.space"
+    },
+    {
+      "name": "PoolTogether",
+      "id": "pooltogether",
+      "categoryId": "lend",
+      "url": "https://v3.pooltogether.com/pools?filter=celo"
+    },
+    {
+      "name": "Cask",
+      "id": "cask",
+      "categoryId": "finance-tools",
+      "url": "https://app.cask.fi"
+    },
+    {
+      "name": "Spirals",
+      "id": "spirals",
+      "categoryId": "social-impact",
+      "url": "https://app.spirals.so"
+    },
+    {
+      "name": "Ariswap",
+      "id": "ariswap",
+      "categoryId": "nfts",
+      "url": "https://ariswap.co/",
+      "canPurchaseNfts": true
+    },
+    {
+      "name": "Ipermatch",
+      "id": "ipermatch",
+      "categoryId": "games",
+      "url": "https://app.ipermatch.it/",
+      "canPurchaseNfts": true
+    },
+    {
+      "name": "Curve",
+      "id": "curve",
+      "categoryId": "exchanges",
+      "url": "https://curve.fi/#/celo/swap",
+      "canPurchaseNfts": false
+    },
+    {
+      "name": "Valora Rewards",
+      "id": "valora-rewards",
+      "categoryId": "lend",
+      "url": "https://rewards.valoraapp.com?address={{address}}"
+    },
+    {
+      "name": "Toucan Protocol",
+      "id": "toucan",
+      "categoryId": "social-impact",
+      "url": "https://app.toucan.earth/cross-chain?chainId=42220"
     }
   ]
 }

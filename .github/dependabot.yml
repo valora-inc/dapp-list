@@ -1,6 +1,0 @@
-version: 2
-updates:
-  - package-ecosystem: 'npm' # For dependabot npm is synonymous to yarn
-    directory: '/'
-    schedule:
-      interval: 'daily'

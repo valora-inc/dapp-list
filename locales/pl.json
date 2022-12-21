@@ -10,7 +10,7 @@
     "games": "Gry"
   },
   "dapps": {
-    "staked-celo": "Stakuj Celo i zdobywaj nagrody, zachowując płynność swoich aktywów",
+    "staked-celo": "Stakuj CELO i zdobywaj nagrody, zachowując płynność swoich aktywów",
     "mobius": "Zamień stablecoiny i zdobywaj nagrody za kryptowaluty",
     "symmetric": "Uzyskaj dostęp do usług DeFi z funduszem o unikalnym ryzyku dla dodatkowego bezpieczeństwa",
     "ubeswap": "Zamień dowolny token, wejdź do puli lub farmuj swoją kryptowalutę",
@@ -24,23 +24,26 @@
     "pinnata": "Przesyłaj między łańcuchami protokół yield farmingu z dźwignią w Celo",
     "flywallet": "Rezerwuj loty na całym świecie, płacąc w cUSD i cEUR",
     "immortaldao-finance": "Obliguj i stawiaj tokeny IMMO, aby zdobywać nagrody",
-    "swapbitssa": "Globalna platforma wymiany stablecoinów na waluty fiat",
+    "alphafortress": "Wymień stablecoinów na waluty fiat",
     "trelispay": "W łatwy i szybki sposób akceptuj płatności cStable w Dapp lub w witrynie internetowej",
     "chimoney-chispend": "Wydawaj swoją kryptowalutę na realne produkty i usługi",
-    "talentprotocol": "Profesjonalna sieć, w której możesz wspierać talenty",
     "goodghosting": "Grywalizowane pule DeFi, które nagradzają regularnie oszczędzających",
     "revo": "Łatwy yield farming z automatycznym procentem składanym",
-    "niftydrop": "Dystrybuuj niewymienialne tokeny znajomym i klientom",
     "nftviewer": "Zobacz swoje kolekcje NFT",
-    "doni": "Zbieraj fundusze na szczytne cele",
     "cyberbox": "Rynek ReFi NFT",
-    "alities": "NFT i odznaki Proof-of-Belonging dla społeczności pomagających innym",
     "churritofi": "Uproszczony staking CELO",
     "plastiks": "NFT użytkowe do recyklingu tworzyw sztucznych",
     "qavah": "Zdecentralizowana i bezpłatna platforma crowdfundingowa",
     "resource": "Stawka SOURCE pomoże zabezpieczyć linie kredytowe dla firm zajmujących się regeneracją",
     "ethichub": "Pożyczanie niedrogiego kapitału nieposiadającym rachunku bankowego rolnikom",
-    "mezumo": "Kupuj tokeny, używając prostej strategii zwanej uśrednianie kosztów dolara\n",
-    "uniswap": "Zamień tokeny lub uzyskaj dochód poprzez zapewnienie płynności"
+    "uniswap": "Zamień tokeny lub uzyskaj dochód poprzez zapewnienie płynności",
+    "pixpress": "Zamień kryptowaluty z innymi użytkownikami i zdobywaj nagrody",
+    "pooltogether": "Oszczędzaj na przyszłość i weź udział w loteriach",
+    "cask": "Automatycznie kupuj kryptowaluty (DCA) lub wysyłaj płatności peer-to-peer",
+    "spirals": "Stawka CELO lub cUSD i finansowanie projektów klimatycznych",
+    "ariswap": "Łatwe wystawianie, sprzedawanie, licytowanie i kupowanie NFT na pierwszym mobilnym Rynku",
+    "ipermatch": "Nowy sposób na grę w piłkę nożną fantasy, zbieranie i zarządzanie piłkarzami NFT oraz bycie menedżerem swojej drużyny",
+    "curve": "Wymieniaj kryptowaluty stablecoin za pomocą niezwykle wydajnego tradingu",
+    "valora-rewards": "Zdobywaj nagrody, ucząc się o Celo"
   }
 }

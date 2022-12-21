@@ -10,7 +10,7 @@
     "games": "Games"
   },
   "dapps": {
-    "staked-celo": "Stake Celo and earn rewards while keeping your assets liquid",
+    "staked-celo": "Stake CELO and earn rewards while keeping your assets liquid",
     "mobius": "Swap stablecoins and earn rewards on your crypto",
     "symmetric": "Access DeFi with a unique risk fund for added safety",
     "ubeswap": "Swap any token, enter a pool, or farm your crypto",
@@ -42,6 +42,10 @@
     "ethichub": "Lend affordable capital to unbanked farmers",
     "mezumo": "Buy tokens over time using a simple strategy called Dollar-Cost Averaging (DCA)",
     "uniswap": "Swap tokens or earn yield by providing liquidity",
-    "pixpress": "Swap any amount of any crypto assets with others peer-to-peer and earn rewards"
+    "pixpress": "Swap any amount of any crypto assets with others peer-to-peer and earn rewards",
+    "pooltogether": "Save while participating in prize raffles",
+    "cask": "Auto-buy crypto (DCA) or send peer-to-peer payments",
+    "spirals": "Stake CELO or cUSD and fund high-impact climate projects through staking yield",
+    "ariswap": "Easily list, sell, auction, and buy NFTs on mobile first Marketplace"
   }
 }

@@ -256,6 +256,12 @@
       "id": "valora-rewards",
       "categoryId": "lend",
       "url": "https://rewards.valoraapp.com?address={{address}}"
+    },
+    {
+      "name": "Toucan Protocol",
+      "id": "toucan",
+      "categoryId": "social-impact",
+      "url": "https://app.toucan.earth/cross-chain?chainId=42220"
     }
   ]
 }

@@ -262,6 +262,12 @@
       "id": "toucan",
       "categoryId": "social-impact",
       "url": "https://app.toucan.earth/cross-chain?chainId=42220"
+    },
+    {
+      "name": "Kolor",
+      "id": "kolor",
+      "categoryId": "social-impact",
+      "url": "https://dapp.kolorapp.com"
     }
   ]
 }

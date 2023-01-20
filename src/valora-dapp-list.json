@@ -213,12 +213,6 @@
       "url": "https://pixpress.pixelava.space"
     },
     {
-      "name": "PoolTogether",
-      "id": "pooltogether",
-      "categoryId": "lend",
-      "url": "https://v4.pooltogether.com"
-    },
-    {
       "name": "Cask",
       "id": "cask",
       "categoryId": "finance-tools",

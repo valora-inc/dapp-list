@@ -216,7 +216,7 @@
       "name": "PoolTogether",
       "id": "pooltogether",
       "categoryId": "lend",
-      "url": "https://v3.pooltogether.com/pools?filter=celo"
+      "url": "https://v4.pooltogether.com"
     },
     {
       "name": "Cask",

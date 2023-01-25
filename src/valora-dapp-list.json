@@ -216,7 +216,7 @@
       "name": "PoolTogether",
       "id": "pooltogether",
       "categoryId": "lend",
-      "url": "https://v3.pooltogether.com/pools?filter=celo"
+      "url": "https://v4.pooltogether.com"
     },
     {
       "name": "Cask",
@@ -264,10 +264,10 @@
       "url": "https://app.toucan.earth/cross-chain?chainId=42220"
     },
     {
-      "name": "Kolor",
-      "id": "kolor",
-      "categoryId": "social-impact",
-      "url": "https://dapp.kolorapp.com"
+      "name": "Cred Protocol",
+      "id": "cred",
+      "categoryId": "finance-tools",
+      "url": "https://app.credprotocol.com/"
     }
   ]
 }

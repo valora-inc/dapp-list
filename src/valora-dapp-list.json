@@ -268,6 +268,12 @@
       "id": "cred",
       "categoryId": "finance-tools",
       "url": "https://app.credprotocol.com/"
+    },
+    {
+      "name": "Kolor",
+      "id": "kolor",
+      "categoryId": "social-impact",
+      "url": "https://dapp.kolorapp.com"
     }
   ]
 }

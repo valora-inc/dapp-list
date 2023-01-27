@@ -6,7 +6,7 @@
       "fontColor": "#1AB775"
     },
     {
-      "id": "lend",
+      "id": "lend-borrow-earn",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE"
     },
@@ -51,7 +51,7 @@
     {
       "name": "Moola",
       "id": "moola",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
       "url": "https://app.moola.market/"
     },
     {
@@ -105,7 +105,7 @@
     {
       "name": "Pinnata",
       "id": "pinnata",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
       "url": "https://www.pinnata.xyz/#/"
     },
     {
@@ -141,13 +141,13 @@
     {
       "name": "GoodGhosting",
       "id": "goodghosting",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
       "url": "https://goodghosting.com/#/pools?network=celo&utm_source=valora"
     },
     {
       "name": "Revo",
       "id": "revo",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
       "url": "https://revo.market"
     },
     {
@@ -166,7 +166,7 @@
     {
       "name": "ChurritoFi",
       "id": "churritofi",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
       "url": "https://churrito.fi"
     },
     {
@@ -185,13 +185,13 @@
     {
       "name": "ReSource",
       "id": "resource",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
       "url": "https://app.resource.finance"
     },
     {
       "name": "EthicHub",
       "id": "ethichub",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
       "url": "https://ethix.ethichub.com"
     },
     {
@@ -203,7 +203,7 @@
     {
       "name": "Staked Celo",
       "id": "staked-celo",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
       "url": "https://app.stcelo.xyz/"
     },
     {
@@ -215,7 +215,7 @@
     {
       "name": "PoolTogether",
       "id": "pooltogether",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
       "url": "https://v4.pooltogether.com"
     },
     {
@@ -254,7 +254,7 @@
     {
       "name": "Valora Rewards",
       "id": "valora-rewards",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
       "url": "https://rewards.valoraapp.com?address={{address}}"
     },
     {

@@ -258,6 +258,7 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -275,11 +276,29 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           url: 'https://app.ubeswap.org/',
+          categories: ['exchanges'],
         },
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].categoryId" is required',
+    )
+  })
+
+  it('errors on missing categories', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: 'ubeswap',
+          url: 'https://app.ubeswap.org/',
+          categoryId: 'exchanges',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].categories" is required',
     )
   })
 
@@ -291,6 +310,7 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
         },
       ],
     }
@@ -341,12 +361,31 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges-something', // This category id doesn't exist in the categories array
+          categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
         },
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].categoryId" must be [ref:root:categories]',
+    )
+  })
+
+  it('errors on invalid categories reference', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: 'ubeswap',
+          categoryId: 'exchanges', 
+          categories: ['exchanges-something'],  // This category id doesn't exist in the categories array
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].categories[0]" must be [ref:root:categories]',
     )
   })
 
@@ -358,6 +397,7 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
           url: 1,
         },
       ],
@@ -375,6 +415,7 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
           url: 'javascript:alert("Hello World")',
         },
       ],
@@ -392,6 +433,7 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
           canPurchaseNfts: 'true',
         },
@@ -468,12 +510,14 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
         },
         {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
         },
       ],

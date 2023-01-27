@@ -65,6 +65,7 @@ export const schema = Joi.object({
             return id
           }, 'has a matching localized name')
           .required(),
+        // TODO: Remove color contraints once we move all user to the new dapps version.
         backgroundColor: Joi.string().pattern(colorCodePattern).required(),
         fontColor: Joi.string().pattern(colorCodePattern).required(),
       }),
@@ -90,6 +91,7 @@ export const schema = Joi.object({
           .required(),
         name: Joi.string().required(),
         categoryId: Joi.valid(categoryRef).required(),
+        categories: Joi.array().items(Joi.valid(categoryRef)).min(1).required(),
         url: Joi.string()
           .replace('{{address}}', '')
           .uri({

@@ -378,8 +378,8 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 'ubeswap',
-          deprecatedCategoryId: 'exchanges', 
-          categories: ['exchanges-something'],  // This category id doesn't exist in the categories array
+          deprecatedCategoryId: 'exchanges',
+          categories: ['exchanges-something'], // This category id doesn't exist in the categories array
           url: 'https://app.ubeswap.org/',
         },
       ],

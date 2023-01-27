@@ -4,45 +4,55 @@
       "id": "exchanges",
       "backgroundColor": "#DEF8EA",
       "fontColor": "#1AB775"
-    }, {
+    },
+    {
       "id": "lend-borrow-earn",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE"
-    }, {
+    },
+    {
       "id": "spend",
       "backgroundColor": "#FDF0CE",
       "fontColor": "#BF8800"
-    }, {
+    },
+    {
       "id": "finance-tools",
       "backgroundColor": "#E5E8FB",
       "fontColor": "#4E61E2"
-    }, {
+    },
+    {
       "id": "social-impact",
       "backgroundColor": "#ECE3F7",
       "fontColor": "#894ED0"
-    }, {
+    },
+    {
       "id": "social",
       "backgroundColor": "#FFE6F4",
       "fontColor": "#FF56B7"
-    }, {
+    },
+    {
       "id": "nfts",
       "backgroundColor": "#FFF1DA",
       "fontColor": "#F78400"
-    }, {
+    },
+    {
       "id": "games",
       "backgroundColor": "#FFE5E1",
       "fontColor": "#FF5D44"
-    }, {
+    },
+    {
       "id": "lend",
-      "backgroundColor": "#DEF8EB", 
+      "backgroundColor": "#DEF8EB",
       "fontColor": "#1AB776"
-    }, {
+    },
+    {
       "id": "borrow",
-      "backgroundColor": "#DEF8EC", 
+      "backgroundColor": "#DEF8EC",
       "fontColor": "#1AB777"
-    }, {
+    },
+    {
       "id": "earn",
-      "backgroundColor": "#DEF8ED", 
+      "backgroundColor": "#DEF8ED",
       "fontColor": "#1AB778"
     }
   ],

@@ -60,140 +60,140 @@
     {
       "name": "Ubeswap",
       "id": "ubeswap",
-      "deprecatedCategoryId": "exchanges",
+      "categoryId": "exchanges",
       "categories": ["exchanges"],
       "url": "https://app.ubeswap.org/"
     },
     {
       "name": "Moola",
       "id": "moola",
-      "deprecatedCategoryId": "lend-borrow-earn",
+      "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://app.moola.market/"
     },
     {
       "name": "Bidali",
       "id": "bidali",
-      "deprecatedCategoryId": "spend",
+      "categoryId": "spend",
       "categories": ["spend"],
       "url": "celo://wallet/bidali"
     },
     {
       "name": "Symmetric",
       "id": "symmetric",
-      "deprecatedCategoryId": "exchanges",
+      "categoryId": "exchanges",
       "categories": ["exchanges"],
       "url": "https://celo.symm.fi/#/"
     },
     {
       "name": "Mobius",
       "id": "mobius",
-      "deprecatedCategoryId": "exchanges",
+      "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
       "url": "https://www.mobius.money/#/swap"
     },
     {
       "name": "Celo Tracker",
       "id": "celotracker",
-      "deprecatedCategoryId": "finance-tools",
+      "categoryId": "finance-tools",
       "categories": ["finance-tools"],
       "url": "https://celotracker.com?address={{address}}"
     },
     {
       "name": "Celo Tax",
       "id": "celotax",
-      "deprecatedCategoryId": "finance-tools",
+      "categoryId": "finance-tools",
       "categories": ["finance-tools"],
       "url": "https://www.celo.tax/"
     },
     {
       "name": "impactMarket",
       "id": "impactmarket",
-      "deprecatedCategoryId": "social-impact",
+      "categoryId": "social-impact",
       "categories": ["social-impact"],
       "url": "https://www.impactmarket.com/"
     },
     {
       "name": "Nomspace",
       "id": "nomspace",
-      "deprecatedCategoryId": "social",
+      "categoryId": "social",
       "categories": ["social"],
       "url": "https://www.nom.space/"
     },
     {
       "name": "Mento-Fi",
       "id": "mentofi",
-      "deprecatedCategoryId": "exchanges",
+      "categoryId": "exchanges",
       "categories": ["exchanges"],
       "url": "https://mento.finance/"
     },
     {
       "name": "Pinnata",
       "id": "pinnata",
-      "deprecatedCategoryId": "lend-borrow-earn",
+      "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://www.pinnata.xyz/#/"
     },
     {
       "name": "Flywallet",
       "id": "flywallet",
-      "deprecatedCategoryId": "spend",
+      "categoryId": "spend",
       "categories": ["spend"],
       "url": "https://pro.flywallet.io"
     },
     {
       "name": "ImmortalDAO Finance",
       "id": "immortaldao-finance",
-      "deprecatedCategoryId": "finance-tools",
+      "categoryId": "finance-tools",
       "categories": ["finance-tools"],
       "url": "https://www.immortaldao.finance"
     },
     {
       "name": "Alphafortress (Bitssa)",
       "id": "alphafortress",
-      "deprecatedCategoryId": "exchanges",
+      "categoryId": "exchanges",
       "categories": ["exchanges"],
       "url": "https://swap.bitssa.com"
     },
     {
       "name": "Trelis Pay",
       "id": "trelispay",
-      "deprecatedCategoryId": "finance-tools",
+      "categoryId": "finance-tools",
       "categories": ["finance-tools"],
       "url": "https://celo.trelis.com"
     },
     {
       "name": "ChiSpend - Super App",
       "id": "chimoney-chispend",
-      "deprecatedCategoryId": "spend",
+      "categoryId": "spend",
       "categories": ["spend"],
       "url": "https://chispend.com/?cSContext=valora"
     },
     {
       "name": "GoodGhosting",
       "id": "goodghosting",
-      "deprecatedCategoryId": "lend-borrow-earn",
+      "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://goodghosting.com/#/pools?network=celo&utm_source=valora"
     },
     {
       "name": "Revo",
       "id": "revo",
-      "deprecatedCategoryId": "lend-borrow-earn",
+      "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://revo.market"
     },
     {
       "name": "NFT Viewer",
       "id": "nftviewer",
-      "deprecatedCategoryId": "nfts",
+      "categoryId": "nfts",
       "categories": ["nfts"],
       "url": "https://nfts.valoraapp.com/nfts?address={{address}}&hide-header=true"
     },
     {
       "name": "Cyberbox",
       "id": "cyberbox",
-      "deprecatedCategoryId": "nfts",
+      "categoryId": "nfts",
       "categories": ["nfts"],
       "url": "https://cyberbox.art/",
       "canPurchaseNfts": true
@@ -201,14 +201,14 @@
     {
       "name": "ChurritoFi",
       "id": "churritofi",
-      "deprecatedCategoryId": "lend-borrow-earn",
+      "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://churrito.fi"
     },
     {
       "name": "Plastiks",
       "id": "plastiks",
-      "deprecatedCategoryId": "nfts",
+      "categoryId": "nfts",
       "categories": ["nfts"],
       "url": "https://app.plastiks.io",
       "canPurchaseNfts": true
@@ -216,70 +216,70 @@
     {
       "name": "Qavah",
       "id": "qavah",
-      "deprecatedCategoryId": "social-impact",
+      "categoryId": "social-impact",
       "categories": ["social-impact"],
       "url": "https://qavah.me"
     },
     {
       "name": "ReSource",
       "id": "resource",
-      "deprecatedCategoryId": "lend-borrow-earn",
+      "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://app.resource.finance"
     },
     {
       "name": "EthicHub",
       "id": "ethichub",
-      "deprecatedCategoryId": "lend-borrow-earn",
+      "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://ethix.ethichub.com"
     },
     {
       "name": "Uniswap",
       "id": "uniswap",
-      "deprecatedCategoryId": "exchanges",
+      "categoryId": "exchanges",
       "categories": ["exchanges"],
       "url": "https://app.uniswap.org/#/swap?chain=celo"
     },
     {
       "name": "Staked Celo",
       "id": "staked-celo",
-      "deprecatedCategoryId": "lend-borrow-earn",
+      "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://app.stcelo.xyz/"
     },
     {
       "name": "Pixpress",
       "id": "pixpress",
-      "deprecatedCategoryId": "exchanges",
+      "categoryId": "exchanges",
       "categories": ["exchanges"],
       "url": "https://pixpress.pixelava.space"
     },
     {
       "name": "PoolTogether",
       "id": "pooltogether",
-      "deprecatedCategoryId": "lend-borrow-earn",
+      "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://v4.pooltogether.com"
     },
     {
       "name": "Cask",
       "id": "cask",
-      "deprecatedCategoryId": "finance-tools",
+      "categoryId": "finance-tools",
       "categories": ["finance-tools"],
       "url": "https://app.cask.fi"
     },
     {
       "name": "Spirals",
       "id": "spirals",
-      "deprecatedCategoryId": "social-impact",
+      "categoryId": "social-impact",
       "categories": ["social-impact"],
       "url": "https://app.spirals.so"
     },
     {
       "name": "Ariswap",
       "id": "ariswap",
-      "deprecatedCategoryId": "nfts",
+      "categoryId": "nfts",
       "categories": ["nfts"],
       "url": "https://ariswap.co/",
       "canPurchaseNfts": true
@@ -287,7 +287,7 @@
     {
       "name": "Ipermatch",
       "id": "ipermatch",
-      "deprecatedCategoryId": "games",
+      "categoryId": "games",
       "categories": ["games"],
       "url": "https://app.ipermatch.it/",
       "canPurchaseNfts": true
@@ -295,7 +295,7 @@
     {
       "name": "Curve",
       "id": "curve",
-      "deprecatedCategoryId": "exchanges",
+      "categoryId": "exchanges",
       "categories": ["exchanges"],
       "url": "https://curve.fi/#/celo/swap",
       "canPurchaseNfts": false
@@ -303,21 +303,21 @@
     {
       "name": "Valora Rewards",
       "id": "valora-rewards",
-      "deprecatedCategoryId": "lend-borrow-earn",
+      "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://rewards.valoraapp.com?address={{address}}"
     },
     {
       "name": "Toucan Protocol",
       "id": "toucan",
-      "deprecatedCategoryId": "social-impact",
+      "categoryId": "social-impact",
       "categories": ["social-impact"],
       "url": "https://app.toucan.earth/cross-chain?chainId=42220"
     },
     {
       "name": "Cred Protocol",
       "id": "cred",
-      "deprecatedCategoryId": "finance-tools",
+      "categoryId": "finance-tools",
       "categories": ["finance-tools"],
       "url": "https://app.credprotocol.com/"
     }

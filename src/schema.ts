@@ -90,7 +90,7 @@ export const schema = Joi.object({
           }, 'has a matching localized description')
           .required(),
         name: Joi.string().required(),
-        deprecatedCategoryId: Joi.valid(categoryRef).required(),
+        categoryId: Joi.valid(categoryRef).required(),
         categories: Joi.array().items(Joi.valid(categoryRef)).min(1).required(),
         url: Joi.string()
           .replace('{{address}}', '')

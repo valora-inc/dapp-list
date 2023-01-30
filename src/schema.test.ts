@@ -241,7 +241,7 @@ describe('invalid applications entries', () => {
       applications: [
         {
           id: 'ubeswap',
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -257,7 +257,7 @@ describe('invalid applications entries', () => {
       applications: [
         {
           name: 'Ubeswap',
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
         },
@@ -268,7 +268,7 @@ describe('invalid applications entries', () => {
     )
   })
 
-  it('errors on missing deprecatedCategoryId', () => {
+  it('errors on missing categoryId', () => {
     const testDappObject = {
       categories: [category],
       applications: [
@@ -281,7 +281,7 @@ describe('invalid applications entries', () => {
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].deprecatedCategoryId" is required',
+      'ValidationError: "applications[0].categoryId" is required',
     )
   })
 
@@ -293,7 +293,7 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           url: 'https://app.ubeswap.org/',
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
         },
       ],
     }
@@ -309,7 +309,7 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 'ubeswap',
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           categories: ['exchanges'],
         },
       ],
@@ -326,7 +326,7 @@ describe('invalid applications entries', () => {
         {
           name: 1,
           id: 'ubeswap',
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -343,7 +343,7 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 1,
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -353,21 +353,21 @@ describe('invalid applications entries', () => {
     )
   })
 
-  it('errors on invalid deprecatedCategoryId reference', () => {
+  it('errors on invalid categoryId reference', () => {
     const testDappObject = {
       categories: [category],
       applications: [
         {
           name: 'Ubeswap',
           id: 'ubeswap',
-          deprecatedCategoryId: 'exchanges-something', // This category id doesn't exist in the categories array
+          categoryId: 'exchanges-something', // This category id doesn't exist in the categories array
           categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
         },
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].deprecatedCategoryId" must be [ref:root:categories]',
+      'ValidationError: "applications[0].categoryId" must be [ref:root:categories]',
     )
   })
 
@@ -378,7 +378,7 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 'ubeswap',
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           categories: ['exchanges-something'], // This category id doesn't exist in the categories array
           url: 'https://app.ubeswap.org/',
         },
@@ -396,7 +396,7 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 'ubeswap',
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           categories: ['exchanges'],
           url: 1,
         },
@@ -414,7 +414,7 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 'ubeswap',
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           categories: ['exchanges'],
           url: 'javascript:alert("Hello World")',
         },
@@ -432,7 +432,7 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 'ubeswap',
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
           canPurchaseNfts: 'true',
@@ -453,7 +453,7 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 'ubeswap-something', // the matching key doesn't exist in locales/base.json
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -470,7 +470,7 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 'ubeswap-something', // the matching asset doesn't exist in the repo
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -492,7 +492,7 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 'ubeswap',
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -509,14 +509,14 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           id: 'ubeswap',
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
         },
         {
           name: 'Ubeswap',
           id: 'ubeswap',
-          deprecatedCategoryId: 'exchanges',
+          categoryId: 'exchanges',
           categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
         },

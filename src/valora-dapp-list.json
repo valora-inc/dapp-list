@@ -103,12 +103,6 @@
       "url": "https://mento.finance/"
     },
     {
-      "name": "Pinnata",
-      "id": "pinnata",
-      "categoryId": "lend",
-      "url": "https://www.pinnata.xyz/#/"
-    },
-    {
       "name": "Flywallet",
       "id": "flywallet",
       "categoryId": "spend",

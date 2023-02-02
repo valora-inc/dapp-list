@@ -224,7 +224,7 @@
       "name": "EthicHub",
       "id": "ethichub",
       "categoryId": "lend-borrow-earn",
-      "categories": ["lend", "earn", "social-impact",],
+      "categories": ["lend", "earn", "social-impact"],
       "url": "https://ethix.ethichub.com"
     },
     {

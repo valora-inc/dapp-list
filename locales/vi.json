@@ -21,7 +21,6 @@
     "nomspace": "Tạo tên người dùng duy nhất cho địa chỉ Celo",
     "mentofi": "Quy đổi giữa các loại tiền tệ có trong Celo với Mento",
     "bidali": "Mua thẻ quà tặng từ tất cả các thương hiệu bạn yêu thích",
-    "pinnata": "Giao thức khai thác thanh khoản có đòn bẩy qua chuỗi chéo trên Celo",
     "flywallet": "Đặt vé máy bay đi khắp thế giới bằng cUSD và cEUR",
     "immortaldao-finance": "Liên kết và ký gửi token IMMO để kiếm tiền thưởng",
     "alphafortress": "Quy đổi stablecoin sang tiền pháp định",
@@ -45,6 +44,7 @@
     "ipermatch": "Cách thức mới để chơi bóng đá ảo, tập hợp và quản lý cầu thủ bằng NFT và trở thành Quản lý đội bóng CỦA BẠN",
     "curve": "Trao đổi stablecoin thông qua giao dịch cực kỳ hiệu quả",
     "valora-rewards": "Kiếm tiền thưởng bằng cách tìm hiểu về Celo",
-    "toucan": "Tokenized carbon credits for climate action at scale"
+    "toucan": "Tokenized carbon credits for climate action at scale",
+    "cred": "Decentralized credit scoring & quantifying on-chain lending risk"
   }
 }

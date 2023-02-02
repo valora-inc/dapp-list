@@ -21,7 +21,6 @@
     "nomspace": "สร้างชื่อผู้ใช้ที่ไม่ซ้ำกันเป็นที่อยู่ Celo ของคุณ",
     "mentofi": "แลกเปลี่ยนระหว่างสกุลเงินหลัก Celo กับ Mento",
     "bidali": "ซื้อบัตรของขวัญจากทุกแบรนด์ที่คุณชื่นชอบ",
-    "pinnata": "Cross-chain โปรโตคอล Yield Farming แบบมีเลเวอเรจบน Celo",
     "flywallet": "จองเที่ยวบินทั่วโลกด้วย cUSD และ cEUR",
     "immortaldao-finance": "บอนและสเตกโทเค็น IMMO เพื่อรับรางวัล",
     "alphafortress": "แลกเปลี่ยน Stablecoin เป็นสกุลเงินตรา",
@@ -45,6 +44,7 @@
     "ipermatch": "วิธีใหม่ในการเล่นฟุตบอลแฟนตาซี เก็บและจัดการนักฟุตบอล NFT และเป็นผู้จัดการทีมของคุณเอง",
     "curve": "แลกเปลี่ยน Stablecoin ด้วยการเทรดที่มีประสิทธิภาพสูง",
     "valora-rewards": "รับรางวัลจากการเรียนรู้เกี่ยวกับ Celo",
-    "toucan": "Tokenized carbon credits for climate action at scale"
+    "toucan": "Tokenized carbon credits for climate action at scale",
+    "cred": "Decentralized credit scoring & quantifying on-chain lending risk"
   }
 }

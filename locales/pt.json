@@ -8,9 +8,9 @@
     "social": "Social",
     "nfts": "NFTs",
     "games": "Jogos",
-    "lend": "Emprestar",
-    "borrow": "Empréstimo",
-    "earn": "Ganhar"
+    "lend": "Empreste",
+    "borrow": "Peça emprestado",
+    "earn": "Ganhe"
   },
   "dapps": {
     "staked-celo": "Faça o staking de CELO e ganhe recompensas mantendo seus ativos líquidos",
@@ -47,7 +47,7 @@
     "ipermatch": "A nova maneira de jogar fantasy football, receber e gerenciar NFTs de jogadores e ser o técnico da SUA equipe",
     "curve": "Troque stablecoins com negociações extremamente eficientes",
     "valora-rewards": "Ganhe recompensas ao aprender sobre a Celo",
-    "toucan": "Créditos de carbono Tokenized para acção climática à escala",
-    "cred": "Obtenha a sua pontuação de crédito web3 grátis"
+    "toucan": "Créditos de carbono para acção climática",
+    "cred": "Obtenha a sua pontuação de crédito Web3 grátis"
   }
 }

@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "สว็อป",
-    "lend": "ให้ยืม ยืมและสร้างรายได้",
+    "lend-borrow-earn": "ให้ยืม ยืมและสร้างรายได้",
     "spend": "ใช้เงิน",
     "finance-tools": "เครื่องมือทางการเงิน",
     "social-impact": "ผลกระทบ",
     "social": "ทางสังคม",
     "nfts": "NFT",
-    "games": "เกม"
+    "games": "เกม",
+    "lend": "Lend",
+    "borrow": "Borrow",
+    "earn": "สร้างรายได้"
   },
   "dapps": {
     "staked-celo": "สเตก Celo และรับรางวัลไปพร้อมกับการรักษาสภาพคล่องในสินทรัพย์ของคุณ",

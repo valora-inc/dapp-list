@@ -8,8 +8,8 @@
     "social": "Xã hội",
     "nfts": "NFT",
     "games": "Trò chơi",
-    "lend": "Lend",
-    "borrow": "Borrow",
+    "lend": "Cho mượn",
+    "borrow": "Vay mượn",
     "earn": "Kiếm tiền"
   },
   "dapps": {
@@ -47,7 +47,7 @@
     "ipermatch": "Cách thức mới để chơi bóng đá ảo, tập hợp và quản lý cầu thủ bằng NFT và trở thành Quản lý đội bóng CỦA BẠN",
     "curve": "Trao đổi stablecoin thông qua giao dịch cực kỳ hiệu quả",
     "valora-rewards": "Kiếm tiền thưởng bằng cách tìm hiểu về Celo",
-    "toucan": "Tokenized carbon credits for climate action at scale",
-    "cred": "Get your free web3 Credit Score"
+    "toucan": "Tín dụng carbon được mã hóa cho hành động khí hậu trên quy mô lớn",
+    "cred": "Nhận điểm tín dụng web3 miễn phí của bạn"
   }
 }

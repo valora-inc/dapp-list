@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "Trao đổi",
-    "lend": "Vay, cho vay và kiếm tiền",
+    "lend-borrow-earn": "Vay, cho vay và kiếm tiền",
     "spend": "Chi tiêu",
     "finance-tools": "Công cụ tài chính",
     "social-impact": "Tác động",
     "social": "Xã hội",
     "nfts": "NFT",
-    "games": "Trò chơi"
+    "games": "Trò chơi",
+    "lend": "Lend",
+    "borrow": "Borrow",
+    "earn": "Kiếm tiền"
   },
   "dapps": {
     "staked-celo": "Ký gửi CELO và kiếm tiền thưởng trong khi vẫn duy trì khả năng thanh khoản của tài sản",

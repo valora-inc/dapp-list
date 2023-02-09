@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "Cambia",
-    "lend": "Presta, toma prestado y gana",
+    "lend-borrow-earn": "Presta, toma prestado y gana",
     "spend": "Usa cripto",
     "finance-tools": "Herramientas financieras",
     "social-impact": "Impacto",
     "social": "Social",
     "nfts": "NFTs",
-    "games": "Juegos"
+    "games": "Juegos",
+    "lend": "Presta",
+    "borrow": "Pide prestado",
+    "earn": "Gana"
   },
   "dapps": {
     "staked-celo": "Gana recompensas sin perder liquidez con el staking de Celo",

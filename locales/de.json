@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "Tauschen",
-    "lend": "Leihen, verleihen und verdienen",
+    "lend-borrow-earn": "Leihen, verleihen und verdienen",
     "spend": "Ausgeben",
     "finance-tools": "Finanzinstrumente",
     "social-impact": "Wirkung",
     "social": "Sozial",
     "nfts": "NFTs",
-    "games": "Spiele"
+    "games": "Spiele",
+    "lend": "Leihe",
+    "borrow": "Ausleihen",
+    "earn": "Erhalte"
   },
   "dapps": {
     "staked-celo": "Stake Celo ein und verdiene Rewards, während du dein Vermögen liquide hältst",

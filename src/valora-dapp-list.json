@@ -6,7 +6,7 @@
       "fontColor": "#1AB775"
     },
     {
-      "id": "lend",
+      "id": "lend-borrow-earn",
       "backgroundColor": "#DEF8F7",
       "fontColor": "#07A0AE"
     },
@@ -39,6 +39,21 @@
       "id": "games",
       "backgroundColor": "#FFE5E1",
       "fontColor": "#FF5D44"
+    },
+    {
+      "id": "lend",
+      "backgroundColor": "#DEF8EB",
+      "fontColor": "#1AB776"
+    },
+    {
+      "id": "borrow",
+      "backgroundColor": "#DEF8EC",
+      "fontColor": "#1AB777"
+    },
+    {
+      "id": "earn",
+      "backgroundColor": "#DEF8ED",
+      "fontColor": "#1AB778"
     }
   ],
   "applications": [
@@ -46,127 +61,148 @@
       "name": "Ubeswap",
       "id": "ubeswap",
       "categoryId": "exchanges",
+      "categories": ["exchanges", "earn"],
       "url": "https://app.ubeswap.org/"
     },
     {
       "name": "Moola",
       "id": "moola",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["lend", "borrow", "earn"],
       "url": "https://app.moola.market/"
     },
     {
       "name": "Bidali",
       "id": "bidali",
       "categoryId": "spend",
+      "categories": ["spend"],
       "url": "celo://wallet/bidali"
     },
     {
       "name": "Symmetric",
       "id": "symmetric",
       "categoryId": "exchanges",
+      "categories": ["exchanges", "earn"],
       "url": "https://celo.symm.fi/#/"
     },
     {
       "name": "Mobius",
       "id": "mobius",
       "categoryId": "exchanges",
+      "categories": ["exchanges", "earn"],
       "url": "https://www.mobius.money/#/swap"
     },
     {
       "name": "Celo Tracker",
       "id": "celotracker",
       "categoryId": "finance-tools",
+      "categories": ["finance-tools"],
       "url": "https://celotracker.com?address={{address}}"
     },
     {
       "name": "Celo Tax",
       "id": "celotax",
       "categoryId": "finance-tools",
+      "categories": ["finance-tools"],
       "url": "https://www.celo.tax/"
     },
     {
       "name": "impactMarket",
       "id": "impactmarket",
       "categoryId": "social-impact",
+      "categories": ["social-impact", "earn"],
       "url": "https://www.impactmarket.com/"
     },
     {
       "name": "Nomspace",
       "id": "nomspace",
       "categoryId": "social",
+      "categories": ["social"],
       "url": "https://www.nom.space/"
     },
     {
       "name": "Mento-Fi",
       "id": "mentofi",
       "categoryId": "exchanges",
+      "categories": ["exchanges"],
       "url": "https://mento.finance/"
     },
     {
       "name": "Flywallet",
       "id": "flywallet",
       "categoryId": "spend",
+      "categories": ["spend", "social-impact"],
       "url": "https://pro.flywallet.io"
     },
     {
       "name": "ImmortalDAO Finance",
       "id": "immortaldao-finance",
       "categoryId": "finance-tools",
+      "categories": ["finance-tools", "earn"],
       "url": "https://www.immortaldao.finance"
     },
     {
       "name": "Alphafortress (Bitssa)",
       "id": "alphafortress",
       "categoryId": "exchanges",
+      "categories": ["exchanges", "finance-tools"],
       "url": "https://swap.bitssa.com"
     },
     {
       "name": "Trelis Pay",
       "id": "trelispay",
       "categoryId": "finance-tools",
+      "categories": ["finance-tools"],
       "url": "https://celo.trelis.com"
     },
     {
       "name": "ChiSpend - Super App",
       "id": "chimoney-chispend",
       "categoryId": "spend",
+      "categories": ["spend"],
       "url": "https://chispend.com/?cSContext=valora"
     },
     {
       "name": "GoodGhosting",
       "id": "goodghosting",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["earn"],
       "url": "https://goodghosting.com/#/pools?network=celo&utm_source=valora"
     },
     {
       "name": "Revo",
       "id": "revo",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["earn"],
       "url": "https://revo.market"
     },
     {
       "name": "NFT Viewer",
       "id": "nftviewer",
       "categoryId": "nfts",
+      "categories": ["nfts"],
       "url": "https://nfts.valoraapp.com/nfts?address={{address}}&hide-header=true"
     },
     {
       "name": "Cyberbox",
       "id": "cyberbox",
       "categoryId": "nfts",
+      "categories": ["nfts", "social-impact"],
       "url": "https://cyberbox.art/",
       "canPurchaseNfts": true
     },
     {
       "name": "ChurritoFi",
       "id": "churritofi",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["earn"],
       "url": "https://churrito.fi"
     },
     {
       "name": "Plastiks",
       "id": "plastiks",
       "categoryId": "nfts",
+      "categories": ["nfts", "social-impact"],
       "url": "https://app.plastiks.io",
       "canPurchaseNfts": true
     },
@@ -174,60 +210,70 @@
       "name": "Qavah",
       "id": "qavah",
       "categoryId": "social-impact",
+      "categories": ["social-impact"],
       "url": "https://qavah.me"
     },
     {
       "name": "ReSource",
       "id": "resource",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["earn", "social-impact"],
       "url": "https://app.resource.finance"
     },
     {
       "name": "EthicHub",
       "id": "ethichub",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["lend", "earn", "social-impact"],
       "url": "https://ethix.ethichub.com"
     },
     {
       "name": "Uniswap",
       "id": "uniswap",
       "categoryId": "exchanges",
+      "categories": ["exchanges", "earn"],
       "url": "https://app.uniswap.org/#/swap?chain=celo"
     },
     {
       "name": "Staked Celo",
       "id": "staked-celo",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["earn"],
       "url": "https://app.stcelo.xyz/"
     },
     {
       "name": "Pixpress",
       "id": "pixpress",
       "categoryId": "exchanges",
+      "categories": ["exchanges", "earn"],
       "url": "https://pixpress.pixelava.space"
     },
     {
       "name": "PoolTogether",
       "id": "pooltogether",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["earn"],
       "url": "https://v4.pooltogether.com"
     },
     {
       "name": "Cask",
       "id": "cask",
       "categoryId": "finance-tools",
+      "categories": ["finance-tools"],
       "url": "https://app.cask.fi"
     },
     {
       "name": "Spirals",
       "id": "spirals",
       "categoryId": "social-impact",
+      "categories": ["social-impact", "earn"],
       "url": "https://app.spirals.so"
     },
     {
       "name": "Ariswap",
       "id": "ariswap",
       "categoryId": "nfts",
+      "categories": ["nfts"],
       "url": "https://ariswap.co/",
       "canPurchaseNfts": true
     },
@@ -235,6 +281,7 @@
       "name": "Ipermatch",
       "id": "ipermatch",
       "categoryId": "games",
+      "categories": ["games", "nfts"],
       "url": "https://app.ipermatch.it/",
       "canPurchaseNfts": true
     },
@@ -242,25 +289,29 @@
       "name": "Curve",
       "id": "curve",
       "categoryId": "exchanges",
+      "categories": ["exchanges", "earn"],
       "url": "https://curve.fi/#/celo/swap",
       "canPurchaseNfts": false
     },
     {
       "name": "Valora Rewards",
       "id": "valora-rewards",
-      "categoryId": "lend",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["earn"],
       "url": "https://rewards.valoraapp.com?address={{address}}"
     },
     {
       "name": "Toucan Protocol",
       "id": "toucan",
       "categoryId": "social-impact",
+      "categories": ["social-impact"],
       "url": "https://app.toucan.earth/cross-chain?chainId=42220"
     },
     {
       "name": "Cred Protocol",
       "id": "cred",
       "categoryId": "finance-tools",
+      "categories": ["finance-tools"],
       "url": "https://app.credprotocol.com/"
     }
   ]

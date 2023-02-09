@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "Échanger",
-    "lend": "Prêter, emprunter et gagner",
+    "lend-borrow-earn": "Prêter, emprunter et gagner",
     "spend": "Dépenser",
     "finance-tools": "Outils financiers",
     "social-impact": "Impact",
     "social": "Social",
     "nfts": "NFTs",
-    "games": "Jeux"
+    "games": "Jeux",
+    "lend": "Prêter",
+    "borrow": "Emprunte",
+    "earn": "Gagnez"
   },
   "dapps": {
     "staked-celo": "Staking de CELO pour des récompenses tout en gardant tes actifs liquides.",
@@ -44,7 +47,7 @@
     "ipermatch": "La nouvelle façon de jouer au football fantasy, de collecter et de gérer les footballeurs NFT et de gérer votre équipe",
     "curve": "Échangez des stablecoins avec un trading extrêmement efficace",
     "valora-rewards": "Gagnez des récompenses en apprenant sur Celo",
-    "toucan": "Des crédits carbone tokenisés pour une action climatique à l'échelle",
-    "cred": "Obtiens ton score de crédit web3 gratuit"
+    "toucan": "Des crédits carbone tokenisés pour l'action climatique",
+    "cred": "Obtenez votre cote de crédit Web3 gratuite"
   }
 }

@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "Swap",
-    "lend": "Borç Verme, Borç Alma & Kazanma",
+    "lend-borrow-earn": "Borç Verme, Borç Alma & Kazanma",
     "spend": "Harcama",
     "finance-tools": "Finansal Araçlar",
     "social-impact": "Etki Yaratma",
     "social": "Sosyal",
     "nfts": "NFT'ler",
-    "games": "Oyunlar"
+    "games": "Oyunlar",
+    "lend": "Ödünç vermek",
+    "borrow": "Ödünç almak",
+    "earn": "Kazan"
   },
   "dapps": {
     "staked-celo": "CELO riskine karşı ödüller kazanın ve varlıklarınızı likit tutun",

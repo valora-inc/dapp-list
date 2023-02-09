@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "Zamieniaj",
-    "lend": "Pożyczaj i zarabiaj",
+    "lend-borrow-earn": "Pożyczaj i zarabiaj",
     "spend": "Wydawaj",
     "finance-tools": "Narzędzia finansowe",
     "social-impact": "Zmiana na lepsze",
     "social": "Społeczność",
     "nfts": "NFT",
-    "games": "Gry"
+    "games": "Gry",
+    "lend": "Pożyczaj",
+    "borrow": "Pożycz",
+    "earn": "Zarabiaj"
   },
   "dapps": {
     "staked-celo": "Stakuj CELO i zdobywaj nagrody, zachowując płynność swoich aktywów",

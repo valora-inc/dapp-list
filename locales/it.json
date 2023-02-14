@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "Scambia",
-    "lend": "Richiedi oppure concedi un prestito",
+    "lend-borrow-earn": "Presta, richiedi in prestito e guadagna",
     "spend": "Spendi",
     "finance-tools": "Strumenti Finanziari",
     "social-impact": "Impatto",
     "social": "Social",
     "nfts": "NFTs",
-    "games": "Giochi"
+    "games": "Giochi",
+    "lend": "Presta",
+    "borrow": "Richiedi in prestito",
+    "earn": "Guadagna"
   },
   "dapps": {
     "staked-celo": "Metti in staking su CELO e guadagna ricompense senza perdere liquidità",
@@ -44,7 +47,7 @@
     "ipermatch": "Il nuovo modo di giocare al fantacalcio, di collezionare e gestire calciatori NFT e di essere il Manager della TUA squadra",
     "curve": "Scambia stablecoin utilizzando un trading estremamente efficiente",
     "valora-rewards": "Guadagna ricompense imparando su Celo",
-    "toucan": "Crediti di carbonio gettonati per un'azione climatica di scala",
-    "cred": "Valutazione del credito decentralizzata e quantificazione del rischio di prestito sulla catena"
+    "toucan": "Crediti di carbonio per l'azione climatica",
+    "cred": "Ottieni il tuo credit scoring Web3 gratuito"
   }
 }

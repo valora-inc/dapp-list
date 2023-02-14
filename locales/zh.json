@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "交换",
-    "lend": "借出、借入和赚取",
+    "lend-borrow-earn": "借出、借入和赚取",
     "spend": "消费",
     "finance-tools": "金融工具",
     "social-impact": "影响",
     "social": "社交",
     "nfts": "NFT",
-    "games": "游戏"
+    "games": "游戏",
+    "lend": "借出",
+    "borrow": "借用",
+    "earn": "赚钱"
   },
   "dapps": {
     "staked-celo": "质押 CELO 并赚取奖励，同时保持资产流动性",
@@ -45,6 +48,6 @@
     "curve": "可交换稳定币，交易成功率极高",
     "valora-rewards": "通过了解 Celo 赚取奖励",
     "toucan": "规模化气候行动的代币化碳汇",
-    "cred": "去中心化的信用评分和量化链上借贷风险"
+    "cred": "获得你的免费web3信用评分"
   }
 }

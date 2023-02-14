@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "สว็อป",
-    "lend": "ให้ยืม ยืมและสร้างรายได้",
+    "lend-borrow-earn": "ให้ยืม ยืมและสร้างรายได้",
     "spend": "ใช้เงิน",
     "finance-tools": "เครื่องมือทางการเงิน",
     "social-impact": "ผลกระทบ",
     "social": "ทางสังคม",
     "nfts": "NFT",
-    "games": "เกม"
+    "games": "เกม",
+    "lend": "Lend",
+    "borrow": "Borrow",
+    "earn": "สร้างรายได้"
   },
   "dapps": {
     "staked-celo": "สเตก Celo และรับรางวัลไปพร้อมกับการรักษาสภาพคล่องในสินทรัพย์ของคุณ",
@@ -45,6 +48,6 @@
     "curve": "แลกเปลี่ยน Stablecoin ด้วยการเทรดที่มีประสิทธิภาพสูง",
     "valora-rewards": "รับรางวัลจากการเรียนรู้เกี่ยวกับ Celo",
     "toucan": "Tokenized carbon credits for climate action at scale",
-    "cred": "Decentralized credit scoring & quantifying on-chain lending risk"
+    "cred": "Get your free web3 Credit Score"
   }
 }

@@ -313,6 +313,13 @@
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
       "url": "https://app.credprotocol.com/"
+    },
+    {
+      "name": "SWFT AllChain Bridge",
+      "id": "swftpro",
+      "categoryId": "exchanges",
+      "categories": ["exchanges"],
+      "url": "https://allchainbridge.com/"
     }
   ]
 }

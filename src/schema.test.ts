@@ -479,7 +479,7 @@ describe('invalid applications entries', () => {
       applications: [
         {
           name: 'Ubeswap',
-          id: 'ubeswap', // the matching experiment key doesn't exist in locales/base.json
+          id: 'ubeswap',
           categoryId: 'exchanges',
           url: 'https://app.ubeswap.org/',
         },

@@ -156,11 +156,11 @@
       "url": "https://celo.trelis.com"
     },
     {
-      "name": "ChiSpend - Super App",
-      "id": "chimoney-chispend",
+      "name": "Unispend",
+      "id": "unispend",
       "categoryId": "spend",
       "categories": ["spend"],
-      "url": "https://chispend.com/?cSContext=valora"
+      "url": "https://unispend.com/?cSContext=valora"
     },
     {
       "name": "GoodGhosting",

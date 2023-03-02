@@ -88,6 +88,10 @@ export const schema = Joi.object({
             checkMatchingLocalization(`dapps.${id}`, helpers)
             return id
           }, 'has a matching localized description')
+          .custom((id, helpers) => {
+            checkMatchingLocalization(`dappsExperiment.${id}`, helpers)
+            return id
+          }, 'has a matching localized experiment description')
           .required(),
         name: Joi.string().required(),
         categoryId: Joi.valid(categoryRef).required(),

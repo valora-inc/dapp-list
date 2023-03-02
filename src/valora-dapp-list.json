@@ -163,11 +163,11 @@
       "url": "https://chispend.com/?cSContext=valora"
     },
     {
-      "name": "GoodGhosting",
-      "id": "goodghosting",
+      "name": "HaloFi",
+      "id": "halofi",
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
-      "url": "https://goodghosting.com/#/pools?network=celo&utm_source=valora"
+      "url": "https://app.halofi.me/#/?network=celo&utm_source=valora"
     },
     {
       "name": "Revo",

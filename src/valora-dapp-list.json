@@ -54,6 +54,11 @@
       "id": "earn",
       "backgroundColor": "#DEF8ED",
       "fontColor": "#1AB778"
+    },
+    {
+      "id": "bridge",
+      "backgroundColor": "#F0FFC7",
+      "fontColor": "#668A02"
     }
   ],
   "applications": [

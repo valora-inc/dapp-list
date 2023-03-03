@@ -10,7 +10,8 @@
     "games": "Gry",
     "lend": "Pożyczaj",
     "borrow": "Pożycz",
-    "earn": "Zarabiaj"
+    "earn": "Zarabiaj",
+    "bridge": "Most"
   },
   "dapps": {
     "staked-celo": "Stakuj CELO i zdobywaj nagrody, zachowując płynność swoich aktywów",
@@ -49,5 +50,43 @@
     "valora-rewards": "Zdobywaj nagrody, ucząc się o Celo",
     "toucan": "Tokenizowane kredyty węglowe dla działań klimatycznych na skalę",
     "cred": "Uzyskaj darmową ocenę kredytową web3"
+  },
+  "dappsExperiment": {
+    "staked-celo": "Stawiaj CELO i otrzymuj nagrody, zachowując płynność swoich kryptowalut",
+    "mobius": "Wymieniaj, łącz, lub stawiaj stabilne monety i otrzymuj nagrody",
+    "symmetric": "Swap lub zapewnienie płynności",
+    "ubeswap": "Wymieniaj, łącz, lub farmuj swoje kryptowaluty",
+    "moola": "Używaj, pożyczaj lub łącz kryptowaluty, otrzymując nagrody",
+    "celotracker": "Śledź i zarządzaj aktywami Celo i NFT w jednym miejscu",
+    "celotax": "Analizuj i pobieraj swoje transakcje dla celów podatkowych i księgowych",
+    "impactmarket": "Oddawaj, wbijaj paliwo i zbieraj $PACT , jednocześnie wzmacniając społeczności, które nie mają dostępu do informacji.",
+    "nomspace": "Dostosuj nazwę użytkownika do adresu swojego portfela Celo",
+    "mentofi": "Wymiana aktywów Celo",
+    "bidali": "Wykorzystaj swoje kryptowaluty do zakupu kart podarunkowych od marek z całego świata",
+    "flywallet": "Zarezerwuj loty za pomocą swoich kryptowalut (i zrównoważyć emisję CO2)",
+    "immortaldao-finance": "Wiązanie i stawianie IMMO i otrzymywanie nagród",
+    "alphafortress": "Wymień stablecoiny na swoją lokalną walutę",
+    "trelispay": "Przyjmuj płatności cyfrowe bez opłat transakcyjnych",
+    "chimoney-chispend": "Wydawaj swoje kryptowaluty na różne prezenty, produkty i usługi",
+    "goodghosting": "Wejdź do puli oszczędnościowych, aby otrzymać nagrody",
+    "revo": "Rozpocznij uprawę roślin i otrzymuj automatyczne nagrody",
+    "nftviewer": "Zobacz wszystkie swoje kolekcje Celo NFT w jednym miejscu",
+    "cyberbox": "Poznaj rynek ReFi NFT",
+    "churritofi": "Łatwo postawić CELO, aby otrzymać nagrody",
+    "plastiks": "Odkryj NFT dla odzysku tworzyw sztucznych",
+    "qavah": "Twórz lub wspieraj DeFi crowdfunding",
+    "resource": "Otrzymuj nagrody za wspieranie małych firm",
+    "ethichub": "Pożyczaj kapitał nieubankowionym rolnikom poprzez DeFi crowdfunding",
+    "uniswap": "Wymieniaj i otrzymuj nagrody poprzez zapewnienie płynności",
+    "pixpress": "Wymieniaj się między sobą, otrzymując nagrody",
+    "pooltogether": "Bierz udział w codziennych loteriach z użyciem kryptowalut, aby mieć szansę na zdobycie nagród",
+    "cask": "Automatyzuj płatności, subskrypcje i inwestycje za pomocą swoich kryptowalut",
+    "spirals": "Wspieraj projekty klimatyczne",
+    "ariswap": "Wymieniaj, sprzedawaj, wystawiaj na aukcje i kupuj NFT na rynku mobilnym",
+    "ipermatch": "Zbieraj piłkarzy NFT i zostań menedżerem SWOJEJ drużyny",
+    "curve": "Swap pomiędzy aktywami stabilnymi",
+    "valora-rewards": "Otrzymuj nagrody, poznając jednocześnie ekosystem Celo",
+    "toucan": "Wykorzystaj swoje kryptowaluty, aby stworzyć kredyty węglowe na działania na rzecz klimatu",
+    "cred": "Uzyskaj ocenę kredytową Web3"
   }
 }

@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "Swap",
-    "lend": "Lend, Borrow & Earn",
+    "lend-borrow-earn": "Lend, Borrow & Earn",
     "spend": "Spend",
     "finance-tools": "Financial Tools",
     "social-impact": "Impact",
     "social": "Social",
     "nfts": "NFTs",
-    "games": "Games"
+    "games": "Games",
+    "lend": "Lend",
+    "borrow": "Borrow",
+    "earn": "Earn"
   },
   "dapps": {
     "staked-celo": "Stake CELO and earn rewards while keeping your assets liquid",

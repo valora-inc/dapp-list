@@ -10,7 +10,8 @@
     "games": "Spiele",
     "lend": "Leihen",
     "borrow": "Verleihen",
-    "earn": "Verdienen"
+    "earn": "Verdienen",
+    "bridge": "Brücke"
   },
   "dapps": {
     "staked-celo": "Stake Celo ein und verdiene Rewards, während du dein Vermögen liquide hältst",
@@ -49,5 +50,43 @@
     "valora-rewards": "Verdiene Rewards, indem du dich über Celo informierst",
     "toucan": "Kohlenstoffgutschriften für Klimaschutzmaßnahmen in großem Maßstab",
     "cred": "Hol dir deinen Web3-Kreditwürdigkeit"
+  },
+  "dappsExperiment": {
+    "staked-celo": "Setze CELO ein und erhalte Belohnungen, während du deine Kryptowährung liquide hältst",
+    "mobius": "Tausche, lege zusammen oder setze Stablecoins ein und erhalte Belohnungen",
+    "symmetric": "Tauschen oder Liquidität bereitstellen",
+    "ubeswap": "Tausch, Pooling oder Farming deiner Kryptowährung",
+    "moola": "Verleihe, leihe oder lege deine Kryptowährung zusammen und erhalte Belohnungen",
+    "celotracker": "Verfolge und verwalte deine Celo Anlagen und NFTs an einem Ort",
+    "celotax": "Analysiere und lade deine Transaktionen für Steuern und Buchhaltung herunter",
+    "impactmarket": "Spende, pfähle und sammle $PACT , während du unterversorgten Gemeinden hilfst.",
+    "nomspace": "Lege einen Benutzernamen für deine Celo Wallet Adresse fest",
+    "mentofi": "Celo-Vermögen tauschen",
+    "bidali": "Verwende deine Kryptowährung, um Geschenkkarten von Marken weltweit zu kaufen",
+    "flywallet": "Buche Flüge mit deiner Kryptowährung (und kompensiere CO2)",
+    "immortaldao-finance": "Binde und setze IMMO und erhalte Belohnungen",
+    "alphafortress": "Konvertiere Stablecoins in deine lokale Währung",
+    "trelispay": "Akzeptiere digitale Zahlungen ohne Transaktionsgebühren",
+    "chimoney-chispend": "Gib deine Kryptowährung für eine Vielzahl von Geschenken, Produkten und Dienstleistungen aus",
+    "goodghosting": "Spartöpfe betreten, um Prämien zu erhalten",
+    "revo": "Beginne mit dem Ertragsanbau und erhalte automatische Belohnungen",
+    "nftviewer": "Zeige alle deine Celo NFT Sammlungen an einem Ort an",
+    "cyberbox": "Erkunde einen ReFi NFT-Marktplatz",
+    "churritofi": "CELO einfach einsetzen und Belohnungen erhalten",
+    "plastiks": "Entdecke NFTs für die Kunststoffrückgewinnung",
+    "qavah": "DeFi-Crowdfunding erstellen oder unterstützen",
+    "resource": "Erhalte Belohnungen, indem du kleine Unternehmen unterstützt",
+    "ethichub": "Kreditvergabe an Landwirte ohne Bankverbindung durch DeFi-Crowdfunding",
+    "uniswap": "Tausche und erhalte Belohnungen durch die Bereitstellung von Liquidität",
+    "pixpress": "Tausche Peer-to-Peer und erhalte Belohnungen",
+    "pooltogether": "Nimm mit deiner Kryptowährung an täglichen Verlosungen teil und erhalte Belohnungen",
+    "cask": "Automatisiere Zahlungen, Abonnements und Investitionen mit deiner Kryptowährung",
+    "spirals": "Klimaprojekte unterstützen",
+    "ariswap": "Listet, verkauft, versteigert und kauft NFTs auf einem mobilen Marktplatz",
+    "ipermatch": "Sammle NFT-Fußballer und sei der Manager deines Teams",
+    "curve": "Swap zwischen stabilen Vermögenswerten",
+    "valora-rewards": "Erhalte Belohnungen und lerne das Celo Ökosystem kennen",
+    "toucan": "Verwende deine Kryptowährung, um Emissionsgutschriften für den Klimaschutz zu erstellen",
+    "cred": "Hol dir deinen Web3 Credit Score"
   }
 }

@@ -322,8 +322,8 @@
     {
       "name": "SWFT AllChain Bridge",
       "id": "swftpro",
-      "categoryId": "exchanges",
-      "categories": ["exchanges"],
+      "categoryId": "bridge",
+      "categories": ["bridge", "exchanges"],
       "url": "https://www.allchainbridge.com/#/?sourceFlag=valora"
     }
   ]

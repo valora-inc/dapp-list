@@ -50,7 +50,7 @@
     "valora-rewards": "Earn rewards by learning about Celo",
     "toucan": "Tokenized carbon credits for climate action at scale",
     "cred": "Get your free web3 Credit Score",
-    "swftpro": "Simple, safe, & secure cross-chain swap on BTC/ETH/BSC/CELO/AVAX/+"
+    "swftpro": "Simple, safe, & secure cross-chain bridge for BTC/ETH/BSC/CELO/AVAX/+"
   },
   "dappsExperiment": {
     "staked-celo": "Stake CELO and get rewards while keeping your crypto liquid",
@@ -89,6 +89,6 @@
     "valora-rewards": "Get rewards while learning about the Celo ecosystem",
     "toucan": "Use your crypto to create carbon credits for climate action",
     "cred": "Get your Web3 credit score",
-    "swftpro": "Simple, safe, & secure cross-chain swap on BTC/ETH/BSC/CELO/AVAX/+"
+    "swftpro": "Simple, safe, & secure cross-chain bridge for BTC/ETH/BSC/CELO/AVAX/+"
   }
 }

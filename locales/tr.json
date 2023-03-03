@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "Swap",
-    "lend": "Borç Verme, Borç Alma & Kazanma",
+    "lend-borrow-earn": "Borç Verme, Borç Alma & Kazanma",
     "spend": "Harcama",
     "finance-tools": "Finansal Araçlar",
     "social-impact": "Etki Yaratma",
     "social": "Sosyal",
     "nfts": "NFT'ler",
-    "games": "Oyunlar"
+    "games": "Oyunlar",
+    "lend": "Ödünç vermek",
+    "borrow": "Ödünç almak",
+    "earn": "Kazan"
   },
   "dapps": {
     "staked-celo": "CELO riskine karşı ödüller kazanın ve varlıklarınızı likit tutun",
@@ -45,6 +48,6 @@
     "curve": "Son derece verimli al-sat ile stablecoin alışverişi yapın",
     "valora-rewards": "Celo hakkında bilgi edinerek ödüller kazanın",
     "toucan": "Geniş ölçekte iklim eylemi için tokenize karbon kredileri",
-    "cred": "Merkezi olmayan kredi skorlaması ve zincir içi borç verme riskinin ölçülmesi"
+    "cred": "Ücretsiz web3 Kredi Puanınızı alın"
   }
 }

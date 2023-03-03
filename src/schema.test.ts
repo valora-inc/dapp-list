@@ -3,8 +3,10 @@ import fs from 'fs'
 import i18next from 'i18next'
 const appList = require('./valora-dapp-list.json')
 
+const originalT = i18next.t
+
 beforeEach(() => {
-  jest.clearAllMocks()
+  jest.resetAllMocks()
 })
 
 describe('valora-dapp-list.json', () => {
@@ -258,6 +260,7 @@ describe('invalid applications entries', () => {
         {
           name: 'Ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
         },
       ],
@@ -275,11 +278,29 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           url: 'https://app.ubeswap.org/',
+          categories: ['exchanges'],
         },
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].categoryId" is required',
+    )
+  })
+
+  it('errors on missing categories', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: 'ubeswap',
+          url: 'https://app.ubeswap.org/',
+          categoryId: 'exchanges',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].categories" is required',
     )
   })
 
@@ -291,6 +312,7 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
         },
       ],
     }
@@ -341,12 +363,31 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges-something', // This category id doesn't exist in the categories array
+          categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
         },
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].categoryId" must be [ref:root:categories]',
+    )
+  })
+
+  it('errors on invalid categories reference', () => {
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: 'ubeswap',
+          categoryId: 'exchanges',
+          categories: ['exchanges-something'], // This category id doesn't exist in the categories array
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      'ValidationError: "applications[0].categories[0]" must be [ref:root:categories]',
     )
   })
 
@@ -358,6 +399,7 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
           url: 1,
         },
       ],
@@ -375,6 +417,7 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
           url: 'javascript:alert("Hello World")',
         },
       ],
@@ -392,6 +435,7 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
           canPurchaseNfts: 'true',
         },
@@ -418,6 +462,31 @@ describe('invalid applications entries', () => {
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
       "ValidationError: \"applications[0].id\" failed custom validation because Missing localization key 'dapps.ubeswap-something' in 'locales/base.json'",
+    )
+  })
+
+  it('errors on missing localized experiment description', () => {
+    jest.spyOn(fs, 'existsSync').mockReturnValueOnce(true)
+    jest.spyOn(i18next, 't').mockImplementation((key) => {
+      if (key === 'dappsExperiment.ubeswap') {
+        return ''
+      }
+      return originalT(key)
+    })
+
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'Ubeswap',
+          id: 'ubeswap',
+          categoryId: 'exchanges',
+          url: 'https://app.ubeswap.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      "ValidationError: \"applications[0].id\" failed custom validation because Missing localization key 'dappsExperiment.ubeswap' in 'locales/base.json'",
     )
   })
 
@@ -468,12 +537,14 @@ describe('invalid applications entries', () => {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
         },
         {
           name: 'Ubeswap',
           id: 'ubeswap',
           categoryId: 'exchanges',
+          categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
         },
       ],

@@ -1,13 +1,16 @@
 {
   "categories": {
     "exchanges": "Tauschen",
-    "lend": "Leihen, verleihen und verdienen",
+    "lend-borrow-earn": "Leihen, verleihen und verdienen",
     "spend": "Ausgeben",
     "finance-tools": "Finanzinstrumente",
     "social-impact": "Wirkung",
     "social": "Sozial",
     "nfts": "NFTs",
-    "games": "Spiele"
+    "games": "Spiele",
+    "lend": "Leihen",
+    "borrow": "Verleihen",
+    "earn": "Verdienen"
   },
   "dapps": {
     "staked-celo": "Stake Celo ein und verdiene Rewards, während du dein Vermögen liquide hältst",
@@ -44,7 +47,7 @@
     "ipermatch": "Die neue Art, Fantasy-Fußball zu spielen, NFT-Fußballer zu sammeln und zu verwalten und DEIN eigenes Team zu managen",
     "curve": "Tausche Stablecoins extrem effizient",
     "valora-rewards": "Verdiene Rewards, indem du dich über Celo informierst",
-    "toucan": "Tokenisierte Kohlenstoffgutschriften für Klimaschutzmaßnahmen in großem Maßstab",
-    "cred": "Dezentrale Kreditwürdigkeitsprüfung und Quantifizierung des Kreditrisikos in der Kette"
+    "toucan": "Kohlenstoffgutschriften für Klimaschutzmaßnahmen in großem Maßstab",
+    "cred": "Hol dir deinen Web3-Kreditwürdigkeit"
   }
 }

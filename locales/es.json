@@ -10,7 +10,8 @@
     "games": "Juegos",
     "lend": "Presta",
     "borrow": "Toma prestado",
-    "earn": "Gana"
+    "earn": "Gana",
+    "bridge": "Puente"
   },
   "dapps": {
     "staked-celo": "Gana recompensas sin perder liquidez con el staking de Celo",
@@ -49,5 +50,43 @@
     "valora-rewards": "Gana recompensas por aprender sobre Celo",
     "toucan": "Créditos de carbono tokenizados para una acción climática a escala",
     "cred": "Consigue gratis tu puntuación crediticia Web3"
+  },
+  "dappsExperiment": {
+    "staked-celo": "Apuesta CELO y obtén recompensas mientras mantienes tu cripto líquido",
+    "mobius": "Intercambia, agrupa o apuesta stablecoins y obtén recompensas",
+    "symmetric": "Intercambiar o proporcionar liquidez",
+    "ubeswap": "Intercambia, agrupa o cultiva tus criptomonedas",
+    "moola": "Presta, pide prestado o pon en común tus criptomonedas mientras obtienes recompensas",
+    "celotracker": "Rastrea y gestiona tus activos Celo y NFT en un solo lugar",
+    "celotax": "Analiza y descarga tus transacciones para impuestos y contabilidad",
+    "impactmarket": "Dona, estaca y recoge $PACT mientras das poder a las comunidades desfavorecidas",
+    "nomspace": "Personaliza un nombre de usuario para la dirección de tu monedero Celo",
+    "mentofi": "Intercambiar activos Celo",
+    "bidali": "Utiliza tus criptomonedas para comprar tarjetas regalo de marcas de todo el mundo",
+    "flywallet": "Reserva vuelos con tus criptomonedas (y compensa el CO2)",
+    "immortaldao-finance": "Fianza y apuesta IMMO y obtén recompensas",
+    "alphafortress": "Convierte stablecoins a tu moneda local",
+    "trelispay": "Acepta pagos digitales sin comisiones por transacción",
+    "chimoney-chispend": "Gasta tus criptomonedas en una gran variedad de regalos, productos y servicios",
+    "goodghosting": "Entra en las agrupaciones de ahorro para obtener recompensas",
+    "revo": "Empieza a cultivar y obtén recompensas automáticas",
+    "nftviewer": "Visualiza todas tus colecciones Celo NFT en un solo lugar",
+    "cyberbox": "Explora un mercado ReFi NFT",
+    "churritofi": "Apuesta fácilmente CELO para obtener recompensas",
+    "plastiks": "Descubre los NFT para la recuperación de plásticos",
+    "qavah": "Crea o apoya el crowdfunding DeFi",
+    "resource": "Consigue recompensas apoyando a las pequeñas empresas",
+    "ethichub": "Presta capital a agricultores no bancarizados a través de la financiación colectiva DeFi",
+    "uniswap": "Intercambia y obtén recompensas proporcionando liquidez",
+    "pixpress": "Intercambia entre iguales mientras obtienes recompensas",
+    "pooltogether": "Participa en sorteos diarios con tus criptomonedas para tener la oportunidad de conseguir recompensas",
+    "cask": "Automatiza pagos, suscripciones e inversiones con tus criptomonedas",
+    "spirals": "Apoyar proyectos climáticos",
+    "ariswap": "Lista, vende, subasta y compra NFTs en un mercado mobile-first",
+    "ipermatch": "Colecciona futbolistas NFT y sé el entrenador de TU equipo",
+    "curve": "Intercambio entre activos estables",
+    "valora-rewards": "Consigue recompensas mientras aprendes sobre el ecosistema Celo",
+    "toucan": "Utiliza tus criptomonedas para crear créditos de carbono para la acción climática",
+    "cred": "Obtén tu puntuación de crédito Web3"
   }
 }

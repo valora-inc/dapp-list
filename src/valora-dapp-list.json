@@ -318,6 +318,7 @@
       "name": "Kolor",
       "id": "kolor",
       "categoryId": "social-impact",
+      "categories": ["social-impact"],
       "url": "https://dapp.kolorapp.com"
     }
   ]

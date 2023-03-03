@@ -8,8 +8,8 @@
     "social": "ทางสังคม",
     "nfts": "NFT",
     "games": "เกม",
-    "lend": "Lend",
-    "borrow": "Borrow",
+    "lend": "ให้ยืม",
+    "borrow": "ยืม",
     "earn": "สร้างรายได้"
   },
   "dapps": {
@@ -47,7 +47,7 @@
     "ipermatch": "วิธีใหม่ในการเล่นฟุตบอลแฟนตาซี เก็บและจัดการนักฟุตบอล NFT และเป็นผู้จัดการทีมของคุณเอง",
     "curve": "แลกเปลี่ยน Stablecoin ด้วยการเทรดที่มีประสิทธิภาพสูง",
     "valora-rewards": "รับรางวัลจากการเรียนรู้เกี่ยวกับ Celo",
-    "toucan": "Tokenized carbon credits for climate action at scale",
-    "cred": "Get your free web3 Credit Score"
+    "toucan": "คาร์บอนเครดิตสำหรับการดำเนินการด้านสภาพอากาศ",
+    "cred": "รับคะแนนเครดิต web3 ของคุณ"
   }
 }

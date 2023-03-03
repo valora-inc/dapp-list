@@ -10,7 +10,8 @@
     "games": "游戏",
     "lend": "借出",
     "borrow": "借用",
-    "earn": "赚钱"
+    "earn": "赚钱",
+    "bridge": "桥梁"
   },
   "dapps": {
     "staked-celo": "质押 CELO 并赚取奖励，同时保持资产流动性",
@@ -49,5 +50,43 @@
     "valora-rewards": "通过了解 Celo 赚取奖励",
     "toucan": "规模化气候行动的代币化碳汇",
     "cred": "获得你的免费web3信用评分"
+  },
+  "dappsExperiment": {
+    "staked-celo": "投注CELO并获得奖励，同时保持你的加密货币流动性",
+    "mobius": "交换、汇集或抵押稳定币并获得奖励",
+    "symmetric": "互换或提供流动资金",
+    "ubeswap": "兑换、汇集或养殖你的加密货币",
+    "moola": "在获得奖励的同时，借出、借用或汇集你的加密货币",
+    "celotracker": "在一个地方跟踪和管理你的Celo资产和NFTs",
+    "celotax": "分析和下载你的交易，用于纳税和会计。",
+    "impactmarket": "捐赠、入股和收集 $PACT ，同时为得不到服务的社区赋权。",
+    "nomspace": "为你的Celo钱包地址定制一个用户名",
+    "mentofi": "交换塞洛资产",
+    "bidali": "用你的加密货币来购买全球品牌的礼品卡",
+    "flywallet": "用你的加密货币预订航班（并抵消二氧化碳）。",
+    "immortaldao-finance": "债券和赌注IMMO并获得奖励",
+    "alphafortress": "将稳定币转换成你的本地货币",
+    "trelispay": "接受数字支付，无交易费",
+    "chimoney-chispend": "把你的加密货币花在各种礼物、产品和服务上。",
+    "goodghosting": "进入储蓄池以获得奖励",
+    "revo": "开始产量耕作并获得自动奖励",
+    "nftviewer": "在一个地方查看您所有的Celo NFT藏品",
+    "cyberbox": "探索一个ReFi NFT市场",
+    "churritofi": "轻松押注CELO以获得奖励",
+    "plastiks": "发现用于塑料回收的NFTs",
+    "qavah": "创建或支持DeFi众筹",
+    "resource": "通过支持小企业获得奖励",
+    "ethichub": "通过DeFi众筹向无银行账户的农民借贷资金",
+    "uniswap": "交换并通过提供流动资金获得回报",
+    "pixpress": "在获得奖励的同时进行点对点的交换",
+    "pooltogether": "用你的加密货币参加每日抽奖活动，有机会获得奖励",
+    "cask": "用你的加密货币自动支付、订阅和投资",
+    "spirals": "支持气候项目",
+    "ariswap": "在一个移动优先的市场上列出、出售、拍卖和购买NFTs",
+    "ipermatch": "收集NFT足球运动员并成为你的球队经理",
+    "curve": "稳定资产之间的互换",
+    "valora-rewards": "在了解Celo生态系统的同时获得奖励",
+    "toucan": "用你的加密货币为气候行动创造碳信用额度",
+    "cred": "获取您的Web3信用评分"
   }
 }

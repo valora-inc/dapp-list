@@ -10,7 +10,8 @@
     "games": "Games",
     "lend": "Lend",
     "borrow": "Borrow",
-    "earn": "Earn"
+    "earn": "Earn",
+    "bridge": "Bridge"
   },
   "dapps": {
     "staked-celo": "Stake CELO and earn rewards while keeping your assets liquid",

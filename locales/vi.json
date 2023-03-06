@@ -49,7 +49,8 @@
     "curve": "Trao đổi stablecoin thông qua giao dịch cực kỳ hiệu quả",
     "valora-rewards": "Kiếm tiền thưởng bằng cách tìm hiểu về Celo",
     "toucan": "Tín dụng carbon được mã hóa cho hành động khí hậu trên quy mô lớn",
-    "cred": "Nhận điểm tín dụng web3 miễn phí của bạn"
+    "cred": "Nhận điểm tín dụng web3 miễn phí của bạn",
+    "kolor": "Access for conservation of Patagonian lands from everywhere"
   },
   "dappsExperiment": {
     "staked-celo": "Stake CELO and get rewards while keeping your crypto liquid",
@@ -87,6 +88,7 @@
     "curve": "Swap between stable assets",
     "valora-rewards": "Get rewards while learning about the Celo ecosystem",
     "toucan": "Use your crypto to create carbon credits for climate action",
-    "cred": "Get your Web3 credit score"
+    "cred": "Get your Web3 credit score",
+    "kolor": "Access for conservation of Patagonian lands from everywhere"
   }
 }

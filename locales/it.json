@@ -15,7 +15,6 @@
   },
   "dapps": {
     "staked-celo": "Metti in staking su CELO e guadagna ricompense senza perdere liquidità",
-    "mobius": "Scambia stablecoin e ottieni ricompense sulle tue cripto",
     "symmetric": "Accedi alla DeFi con un fondo di rischio unico per una maggiore sicurezza",
     "ubeswap": "Scambia qualsiasi token, entra in una pool o partecipa a progetti di yield farming",
     "moola": "Richiedi un prestito, presta o inserisci fondi in un pool per ottenere ricompense",
@@ -30,7 +29,7 @@
     "alphafortress": "Scambia stablecoin per valute fiat",
     "trelispay": "Accetta i pagamenti in stablecoin Celo con facilitá sulla tua dapp o sito web",
     "chimoney-chispend": "Spendi le tue criptovalute su prodotti e servizi del mondo reale",
-    "goodghosting": "Pool di DeFi che premia i risparmiatori regolari",
+    "halofi": "HaloFi (prev. GoodGhosting) helps you grow your wealth with crypto",
     "revo": "Protocollo di yield farming facile con interesse composto automatico",
     "nftviewer": "Vedi le tue collezioni NFT",
     "cyberbox": "Mercato di NFT e ReFi",
@@ -54,7 +53,6 @@
   },
   "dappsExperiment": {
     "staked-celo": "Metti in staking CELO e ricevi ricompense mantenendo la liquidità delle tue criptovalute",
-    "mobius": "Scambia o metti in staking stablecoin o usale per partecipare a pool e ricevi ricompense",
     "symmetric": "Scambia o fornisci liquidità",
     "ubeswap": "Scambia criptovalute o usale per partecipare a pool o per farming",
     "moola": "Presta, prendi in prestito o aggiungi a una pool le tue criptovalute per ricevere ricompense",
@@ -69,7 +67,7 @@
     "alphafortress": "Converti le stablecoin nella tua valuta locale",
     "trelispay": "Accetta pagamenti digitali senza commissioni sulle transazioni",
     "chimoney-chispend": "Spendi le tue criptovalute per un'ampia gamma di regali, prodotti e servizi",
-    "goodghosting": "Partecipa a saving pool per ricevere ricompense",
+    "halofi": "Be your best financial self. Hit your goals to get rewarded",
     "revo": "Inizia a fare yield-farming e ricevi ricompense automatizzate",
     "nftviewer": "Visualizza tutte le tue raccolte di NFT Celo in un'unica posizione",
     "cyberbox": "Esplora un marketplace di NFT della ReFi",

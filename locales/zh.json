@@ -15,7 +15,6 @@
   },
   "dapps": {
     "staked-celo": "质押 CELO 并赚取奖励，同时保持资产流动性",
-    "mobius": "交换稳定币并赚取加密货币奖励",
     "symmetric": "使用独特的风险基金访问 DeFi，以提高安全性",
     "ubeswap": "交换任何代币，进入矿池，或种植您的加密货币",
     "moola": "出借、借用或添加到矿池以赚取奖励",
@@ -30,7 +29,7 @@
     "alphafortress": "将稳定币兑换成法定货币",
     "trelispay": "在您的 dApp 或网站上轻松接受 cStable 付款",
     "chimoney-chispend": "消费您的加密货币购买真实世界的产品和服务",
-    "goodghosting": "奖励普通储蓄者的游戏化 DeFi 池",
+    "halofi": "HaloFi (prev. GoodGhosting) helps you grow your wealth with crypto",
     "revo": "自动产生复利的简单收益耕作",
     "nftviewer": "查看您的 NFT 藏品",
     "cyberbox": "ReFi NFT 市场",
@@ -54,7 +53,6 @@
   },
   "dappsExperiment": {
     "staked-celo": "质押 CELO 并赚取奖励，同时保持加密货币流动性",
-    "mobius": "交换、汇集或质押稳定币并赚取奖励",
     "symmetric": "交换或提供流动性",
     "ubeswap": "交换、汇集或耕作您的加密货币",
     "moola": "借出、借入或汇集您的加密货币，同时赚取奖励",
@@ -69,7 +67,7 @@
     "alphafortress": "将稳定币转换为您的本地货币",
     "trelispay": "接受数字支付，无交易费用",
     "chimoney-chispend": "用加密货币购买各种礼品、产品和服务",
-    "goodghosting": "进入储蓄池，以获取奖励",
+    "halofi": "Be your best financial self. Hit your goals to get rewarded",
     "revo": "开始收益耕作，自动获取奖励",
     "nftviewer": "一站式查看您的所有 Celo NFT 藏品",
     "cyberbox": "探索 ReFi NFT 市场",

@@ -15,7 +15,6 @@
   },
   "dapps": {
     "staked-celo": "Stake CELO and earn rewards while keeping your assets liquid",
-    "mobius": "Swap stablecoins and earn rewards on your crypto",
     "symmetric": "Access DeFi with a unique risk fund for added safety",
     "ubeswap": "Swap any token, enter a pool, or farm your crypto",
     "moola": "Lend, borrow, or add to a pool to earn rewards",
@@ -54,7 +53,6 @@
   },
   "dappsExperiment": {
     "staked-celo": "Stake CELO and get rewards while keeping your crypto liquid",
-    "mobius": "Swap, pool, or stake stablecoins and get rewards",
     "symmetric": "Swap or provide liquidity",
     "ubeswap": "Exchange, pool, or farm your crypto",
     "moola": "Lend, borrow, or pool your crypto while getting rewards",

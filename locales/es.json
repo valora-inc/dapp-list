@@ -15,7 +15,6 @@
   },
   "dapps": {
     "staked-celo": "Gana recompensas sin perder liquidez con el staking de Celo",
-    "mobius": "Intercambia stablecoins y gana recompensas en cripto",
     "symmetric": "Accede a un mundo DeFi con un fondo de riesgo único para mayor seguridad",
     "ubeswap": "Intercambia tokens, entra a un fondo o participa del yield farming",
     "moola": "Presta, toma prestado o agrega liquidez a un fondo para ganar recompensas",
@@ -30,7 +29,7 @@
     "alphafortress": "Cambia stablecoins por monedas fiduciarias",
     "trelispay": "Acepta pagos en stablecoins Celo fácilmente en tu dapp o sitio web",
     "chimoney-chispend": "Usa tus criptomonedas para pagar productos y servicios en el mundo real",
-    "goodghosting": "Fondos de DeFi gamificados que te premian por ahorrar",
+    "halofi": "HaloFi (prev. GoodGhosting) helps you grow your wealth with crypto",
     "revo": "Yield farming sencillo con protocolo de intereses compuestos automáticos",
     "nftviewer": "Visualiza tus colecciones de NFTs",
     "cyberbox": "Mercado NFT y ReFi",
@@ -54,7 +53,6 @@
   },
   "dappsExperiment": {
     "staked-celo": "Obtén recompensas sin perder liquidez con staking de CELO",
-    "mobius": "Intercambia, aporta liquidez o haz staking de stablecoins por recompensas",
     "symmetric": "Intercambia activos o aporta liquidez",
     "ubeswap": "Intercambia, aporta liquidez o participa en yield farming",
     "moola": "Presta, toma prestado o aporta liquidez con tus cripto para obtener recompensas",
@@ -69,7 +67,7 @@
     "alphafortress": "Convierte stablecoins a tu moneda local",
     "trelispay": "Acepta pagos digitales sin comisiones de transacción",
     "chimoney-chispend": "Gasta tus cripto en una gran variedad de regalos, productos y servicios",
-    "goodghosting": "Participa en fondos comunes de ahorro y obtén recompensas",
+    "halofi": "Be your best financial self. Hit your goals to get rewarded",
     "revo": "Iníciate en el yield-farming y obtén recompensas automatizadas",
     "nftviewer": "Visualiza todos tus NFTs Celo en un mismo lugar",
     "cyberbox": "Explora un mercado NFT ReFi",

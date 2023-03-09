@@ -15,7 +15,6 @@
   },
   "dapps": {
     "staked-celo": "Stake Celo ein und verdiene Rewards, während du dein Vermögen liquide hältst",
-    "mobius": "Tausche Stablecoins und verdiene Rewards",
     "symmetric": "Zugang zu DeFi mit einem einzigartigen Risikofonds für zusätzliche Sicherheit",
     "ubeswap": "Tausche beliebige Token, trete einem Pool bei oder baue dein Kryptowährung auf",
     "moola": "Leihe, verleihe, oder füge Krypto zu einem Pool hinzu, um Rewards zu verdienen",
@@ -30,7 +29,7 @@
     "alphafortress": "Stablecoins in Fiat-Währungen umtauschen",
     "trelispay": "Akzeptiere Stablecoin-Zahlungen ganz einfach in deiner Dapp oder auf der Website",
     "chimoney-chispend": "Gib dein Krypto für Produkte und Dienstleistungen in der realen Welt aus",
-    "goodghosting": "Gamifizierte DeFi-Pools, die konsistente Sparer belohnen",
+    "halofi": "HaloFi (prev. GoodGhosting) helps you grow your wealth with crypto",
     "revo": "Einfache Ertragssteigerung mit automatischem Zinseszins",
     "nftviewer": "Sieh dir deine NFT-Sammlungen an",
     "cyberbox": "ReFi und NFT-Marketplace",
@@ -54,7 +53,6 @@
   },
   "dappsExperiment": {
     "staked-celo": "Setze CELO ein und erhalte Rewards, während du deine Krypto liquide hältst",
-    "mobius": "Tausche, bündle oder stake Stablecoins und erhalte Rewards",
     "symmetric": "Tausche oder stelle Liquidität bereit",
     "ubeswap": "Tausche, bündle oder baue deine Krypto auf",
     "moola": "Verleihe, leihe oder bündle deine Krypto und erhalte dabei Rewards",
@@ -69,7 +67,7 @@
     "alphafortress": "Tausche Stablecoins in deine lokale Währung um",
     "trelispay": "Nimm digitale Zahlungen ohne Transaktionsgebühren an",
     "chimoney-chispend": "Gib deine Kryptowährung für Geschenke, Produkte und Dienstleistungen aus",
-    "goodghosting": "Beteilige dich an Spartöpfen, um Rewards zu erhalten",
+    "halofi": "Be your best financial self. Hit your goals to get rewarded",
     "revo": "Beginne mit der Ertragssteigerung und erhalte automatisch Rewards",
     "nftviewer": "Zeige deine gesamte Celo NFT-Sammlung an einem Ort",
     "cyberbox": "Erkunde einen ReFi NFT-Marktplatz",

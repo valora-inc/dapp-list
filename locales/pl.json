@@ -15,7 +15,6 @@
   },
   "dapps": {
     "staked-celo": "Stakuj CELO i zdobywaj nagrody, zachowując płynność swoich aktywów",
-    "mobius": "Zamień stablecoiny i zdobywaj nagrody za kryptowaluty",
     "symmetric": "Uzyskaj dostęp do usług DeFi z funduszem o unikalnym ryzyku dla dodatkowego bezpieczeństwa",
     "ubeswap": "Zamień dowolny token, wejdź do puli lub farmuj swoją kryptowalutę",
     "moola": "Pożyczaj od innych i innym oraz dodawaj do puli, aby zdobywać nagrody",
@@ -30,7 +29,7 @@
     "alphafortress": "Wymień stablecoinów na waluty fiat",
     "trelispay": "W łatwy i szybki sposób akceptuj płatności cStable w Dapp lub w witrynie internetowej",
     "chimoney-chispend": "Wydawaj swoją kryptowalutę na realne produkty i usługi",
-    "goodghosting": "Grywalizowane pule DeFi, które nagradzają regularnie oszczędzających",
+    "halofi": "HaloFi (prev. GoodGhosting) helps you grow your wealth with crypto",
     "revo": "Łatwy yield farming z automatycznym procentem składanym",
     "nftviewer": "Zobacz swoje kolekcje NFT",
     "cyberbox": "Rynek ReFi NFT",
@@ -54,7 +53,6 @@
   },
   "dappsExperiment": {
     "staked-celo": "Stakuj CELO i zdobywaj nagrody, zachowując płynność swoich kryptowalut",
-    "mobius": "Swapuj, łącz lub prowadź staking kryptowalut i zdobywaj nagrody",
     "symmetric": "Zamiana lub zapewnianie płynności",
     "ubeswap": "Wymieniaj, łącz lub pomnażaj swoje kryptowaluty",
     "moola": "Pożyczaj innym lub od innych albo łącz swoje kryptowaluty, jednocześnie otrzymując nagrody",
@@ -69,7 +67,7 @@
     "alphafortress": "Konwertuj stablecoiny na swoją lokalną walutę",
     "trelispay": "Akceptuj płatności cyfrowe bez opłat transakcyjnych",
     "chimoney-chispend": "Wydawaj swoje kryptowaluty na różne prezenty, produkty i usługi",
-    "goodghosting": "Wprowadzaj pule oszczędności, aby otrzymać nagrody",
+    "halofi": "Be your best financial self. Hit your goals to get rewarded",
     "revo": "Rozpocznij yield farming i otrzymuj automatyczne nagrody",
     "nftviewer": "Zobacz wszystkie swoje kolekcje Celo NFT w jednym miejscu",
     "cyberbox": "Poznaj rynek ReFi NFT",

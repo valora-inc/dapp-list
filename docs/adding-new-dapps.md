@@ -3,6 +3,7 @@ td, th {
    border: none!important;
 }
 </style>
+
 [valora-dapp-list.json]: https://github.com/valora-inc/dapp-list/blob/main/src/valora-dapp-list.json
 [base.json]: https://github.com/valora-inc/dapp-list/blob/main/locales/base.json
 
@@ -30,34 +31,36 @@ There are some fields that need to be translated into different languages, and t
 ## Dapp Logo
 
 ![logo-sizes](../readme-images/sizes.png)
- 
- Valora will use the logo or symbol you provided for your dapp at a variety of sizes throughout our app. The logo of the Dapp must be added to the `assets` folder. It will be available after merging in a URL with this format: `https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/{id}.png`. The English description of the Dapp should be added to [base.json] under the path `dapps.{id}`.
 
- <em>*The symbol will scale to various sizes in the app and should be legible no matter the size displayed</em>
+Valora will use the logo or symbol you provided for your dapp at a variety of sizes throughout our app. The logo of the Dapp must be added to the `assets` folder. It will be available after merging in a URL with this format: `https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/{id}.png`. The English description of the Dapp should be added to [base.json] under the path `dapps.{id}`.
+
+<em>\*The symbol will scale to various sizes in the app and should be legible no matter the size displayed</em>
 
 <br>
 
-### ✅ Logo Do’s 
+### ✅ Logo Do’s
+
 1. Size the symbol to 256 x 256 px.
 2. No built-in padding.
 3. Provide the symbol as a PNG file.
 4. The symbol should be in the shape of a circle. If your symbol is not a circle by default, adjust the corner radius to make it fully rounded.
 
- ![logo-sizes](../readme-images/logo-do.png)
+![logo-sizes](../readme-images/logo-do.png)
 
- <em>*Example of a symbol at the correct size, shape, and without padding</em>
+<em>\*Example of a symbol at the correct size, shape, and without padding</em>
 
 <br>
 
-### 🚫 Logo Don'ts 
+### 🚫 Logo Don'ts
+
 1. Exclude or limit text in your symbol or logo to ensure legibility when displayed at a small size.
 2. DO NOT provide your symbol or logo as a vector file (svg, ai, eps).
 3. DO NOT provide your symbol or logo as a jpg, PDF, or any other image file other than a PNG.
-4. DO NOT size your symbol or logo as a square or squircle. It must be fully rounded to display correctly in Valora. 
+4. DO NOT size your symbol or logo as a square or squircle. It must be fully rounded to display correctly in Valora.
 
-|![logo-sizes](../readme-images/logo-dont-text.png) |  ![logo-sizes](../readme-images/logo-dont-square.png) | ![logo-sizes](../readme-images/logo-dont-squircle.png)
-:-----:|:-----:|:-----:
-|<em>*DO NOT include text in your symbol</em>|  <em>*DO NOT provide a square symbol</em> |  <em>*DO NOT provide a squircle or soft-rounded symbol</em>
+| ![logo-sizes](../readme-images/logo-dont-text.png) | ![logo-sizes](../readme-images/logo-dont-square.png) |   ![logo-sizes](../readme-images/logo-dont-squircle.png)    |
+| :------------------------------------------------: | :--------------------------------------------------: | :---------------------------------------------------------: |
+|   <em>\*DO NOT include text in your symbol</em>    |      <em>\*DO NOT provide a square symbol</em>       | <em>\*DO NOT provide a squircle or soft-rounded symbol</em> |
 
 <br>
 

@@ -318,6 +318,13 @@
       "categoryId": "social-impact",
       "categories": ["social-impact"],
       "url": "https://dapp.kolorapp.com"
+    },
+    {
+      "name": "SWFT AllChain Bridge",
+      "id": "swftpro",
+      "categoryId": "bridge",
+      "categories": ["bridge", "exchanges"],
+      "url": "https://www.allchainbridge.com/#/?sourceFlag=valora"
     }
   ]
 }

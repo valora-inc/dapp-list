@@ -11,7 +11,7 @@
     "lend": "Prêter",
     "borrow": "Emprunter",
     "earn": "Gagner",
-    "bridge": "Passerelle"
+    "bridge": "Passerelles"
   },
   "dapps": {
     "staked-celo": "Staking de CELO pour des récompenses tout en gardant tes actifs liquides.",
@@ -29,7 +29,7 @@
     "alphafortress": "Échangez des stablecoins pour des monnaies fiduciaires",
     "trelispay": "Acceptez des paiements avec stablecoins Celo sur votre dapp ou site web",
     "chimoney-chispend": "Dépensez vos cryptomonnaies en produits et services du monde réel",
-    "halofi": "HaloFi (anciennement GoodGhosting) vous aide à faire fructifier votre patrimoine grâce aux crypto-monnaies",
+    "halofi": "HaloFi (GoodGhosting) vous aide à faire fructifier votre patrimoine grâce aux cryptomonnaies",
     "revo": "Protocole de yield farming facile avec intérêt composé automatique",
     "nftviewer": "Consultez vos collections NFT",
     "cyberbox": "Marché NFT et ReFi",
@@ -67,7 +67,7 @@
     "alphafortress": "Convertissez des stablecoins en votre devise locale",
     "trelispay": "Acceptez les paiements numériques sans frais de transaction",
     "chimoney-chispend": "Dépensez vos cryptomonnaies en une multitude de cadeaux, produits et services",
-    "halofi": "Sois le meilleur de toi-même sur le plan financier. Atteins tes objectifs pour être récompensé",
+    "halofi": "Soyez votre meilleur partenaire financier. Atteignez vos objectifs et recevez des récompenses",
     "revo": "Commencez le farming et recevez des récompenses automatiques",
     "nftviewer": "Consultez toutes vos collections Celo NFT en un seul endroit",
     "cyberbox": "Découvrez une place de marché ReFi NFT",

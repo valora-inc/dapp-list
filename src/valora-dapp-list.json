@@ -91,13 +91,6 @@
       "url": "https://celo.symm.fi/#/"
     },
     {
-      "name": "Mobius",
-      "id": "mobius",
-      "categoryId": "exchanges",
-      "categories": ["exchanges", "earn"],
-      "url": "https://www.mobius.money/#/swap"
-    },
-    {
       "name": "Celo Tracker",
       "id": "celotracker",
       "categoryId": "finance-tools",
@@ -137,7 +130,7 @@
       "id": "flywallet",
       "categoryId": "spend",
       "categories": ["spend", "social-impact"],
-      "url": "https://pro.flywallet.io"
+      "url": "https://app.flywallet.io"
     },
     {
       "name": "ImmortalDAO Finance",
@@ -168,11 +161,11 @@
       "url": "https://unispend.com/?cSContext=valora"
     },
     {
-      "name": "GoodGhosting",
-      "id": "goodghosting",
+      "name": "HaloFi",
+      "id": "halofi",
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
-      "url": "https://goodghosting.com/#/pools?network=celo&utm_source=valora"
+      "url": "https://app.halofi.me/#/?network=celo&utm_source=valora"
     },
     {
       "name": "Revo",
@@ -325,6 +318,13 @@
       "categoryId": "social-impact",
       "categories": ["social-impact"],
       "url": "https://dapp.kolorapp.com"
+    },
+    {
+      "name": "SWFT AllChain Bridge",
+      "id": "swftpro",
+      "categoryId": "bridge",
+      "categories": ["bridge", "exchanges"],
+      "url": "https://www.allchainbridge.com/#/?sourceFlag=valora"
     }
   ]
 }

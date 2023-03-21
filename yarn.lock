@@ -754,10 +754,10 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^29.4.0":
-  version "29.4.0"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.4.0.tgz#a8444ad1704493e84dbf07bb05990b275b3b9206"
-  integrity sha512-VaywcGQ9tPorCX/Jkkni7RWGFfI11whqzs8dvxF41P17Z+z872thvEvlIbznjPJ02kl1HMX3LmLOonsj2n7HeQ==
+"@types/jest@^29.5.0":
+  version "29.5.0"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.0.tgz#337b90bbcfe42158f39c2fb5619ad044bbb518ac"
+  integrity sha512-3Emr5VOl/aoBwnWcH/EFQvlSAmjV+XtV9GGu5mwdYew5vhQh0IUZx/60x0TzHDu09Bi7HMx10t/namdJw5QIcg==
   dependencies:
     expect "^29.0.0"
     pretty-format "^29.0.0"
@@ -2565,10 +2565,10 @@ jest@^29.5.0:
     import-local "^3.0.2"
     jest-cli "^29.5.0"
 
-joi@^17.8.3:
-  version "17.8.3"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-17.8.3.tgz#d772fe27a87a5cda21aace5cf11eee8671ca7e6f"
-  integrity sha512-q5Fn6Tj/jR8PfrLrx4fpGH4v9qM6o+vDUfD4/3vxxyg34OmKcNqYZ1qn2mpLza96S8tL0p0rIw2gOZX+/cTg9w==
+joi@^17.8.4:
+  version "17.8.4"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-17.8.4.tgz#f2d91ab8acd3cca4079ba70669c65891739234aa"
+  integrity sha512-jjdRHb5WtL+KgSHvOULQEPPv4kcl+ixd1ybOFQq3rWLgEEqc03QMmilodL0GVJE14U/SQDXkUhQUSZANGDH/AA==
   dependencies:
     "@hapi/hoek" "^9.0.0"
     "@hapi/topo" "^5.0.0"

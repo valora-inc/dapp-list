@@ -205,13 +205,6 @@
       "canPurchaseNfts": true
     },
     {
-      "name": "Qavah",
-      "id": "qavah",
-      "categoryId": "social-impact",
-      "categories": ["social-impact"],
-      "url": "https://qavah.me"
-    },
-    {
       "name": "ReSource",
       "id": "resource",
       "categoryId": "lend-borrow-earn",

@@ -53,19 +53,17 @@ jobs:
           spec: cypress/e2e/*.cy.ts
           cache-key: ${{ runner.os }}-cypress-${{ hashFiles('**/yarn.lock') }}
       - name: Report Failure to Slack
+        if: success()
         uses: edge/simple-slack-notify@v1.1.2
         with:
+          username: 'Dapp Up Check'
           channel: '#dapps-page'
           status: ${{ job.status }}
-          failure_text:
-            {
-              'title': 'Dapp Up Check Failed please investigate 🔎',
-              'value': '${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}',
-            }
-          success_text:
-            {
+          color: 'good'
+          fields: |
+            [{
               'title': 'Dapp Up Check Succeeded 🎉',
               'value': '${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}',
-            }
+            }]
         env:
           SLACK_WEBHOOK_URL: ${{ steps.slack-webhook.outputs.SLACK_WEBHOOK_URL }}

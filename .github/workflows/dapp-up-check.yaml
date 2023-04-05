@@ -38,5 +38,5 @@ jobs:
         timeout-minutes: 10
         with:
           browser: chrome
-          spec: cypress/e2e/*.cy.js
+          spec: cypress/e2e/*.cy.ts
           cache-key: ${{ runner.os }}-cypress-${{ hashFiles('**/yarn.lock') }}

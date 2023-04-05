@@ -12,6 +12,8 @@ on:
   schedule:
     - cron: '0 5 * * *' # Runs at 5 AM UTC every day
     - cron: '0 17 * * *' # Runs at 5 PM UTC every day
+  # ..and any pull request.
+  pull_request:
 
 jobs:
   dapp-up-check:

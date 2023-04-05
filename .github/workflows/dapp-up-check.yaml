@@ -60,10 +60,6 @@ jobs:
           channel: '#dapps-page'
           status: ${{ job.status }}
           color: 'good'
-          fields: |
-            [{
-              'title': 'Dapp Up Check Succeeded 🎉',
-              'value': '${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}',
-            }]
+          success_text: 'Dapp Up Check Succeeded 🎉: ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}'
         env:
           SLACK_WEBHOOK_URL: ${{ steps.slack-webhook.outputs.SLACK_WEBHOOK_URL }}

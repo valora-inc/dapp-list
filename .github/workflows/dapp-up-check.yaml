@@ -31,7 +31,7 @@ jobs:
         uses: google-github-actions/get-secretmanager-secrets@v1.0.0
         with:
           secrets: |-
-            SLACK_WEBHOOK_URL:projects/1027349420744/secrets/SLACK_DAPPS_PAGE_WEBHOOK_URL
+            SLACK_WEBHOOK_URL:projects/1067724576910/secrets/SLACK_DAPPS_PAGE_WEBHOOK_URL
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:

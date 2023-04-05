@@ -1,0 +1,33 @@
+name: Dapp Up Check
+
+## Run this on workflow manual dispatch and cron
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to check'
+        required: true
+        default: 'main'
+  # https://crontab.guru/#0_2_*_*_*
+  schedule:
+    - cron: '0 5 * * *' # Runs at 5 AM UTC every day
+    - cron: '0 17 * * *' # Runs at 5 PM UTC every day
+
+jobs:
+  dapp-up-check:
+    name: 'Dapp Up Check'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          check-latest: true
+      - uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+            */*/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
+      - run: yarn
+      - run: yarn e2e

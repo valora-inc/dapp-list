@@ -57,7 +57,15 @@ jobs:
         with:
           channel: '#dapps-page'
           status: ${{ job.status }}
-          failure_text: { "title": "Dapp Up Check Failed please investigate 🔎", "value": "${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}"}
-          success_text: { "title": "Dapp Up Check Succeeded 🎉", "value": "${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}"}
+          failure_text:
+            {
+              'title': 'Dapp Up Check Failed please investigate 🔎',
+              'value': '${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}',
+            }
+          success_text:
+            {
+              'title': 'Dapp Up Check Succeeded 🎉',
+              'value': '${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}',
+            }
         env:
           SLACK_WEBHOOK_URL: ${{ steps.slack-webhook.outputs.SLACK_WEBHOOK_URL }}

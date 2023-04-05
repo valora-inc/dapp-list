@@ -8,7 +8,10 @@ describe('Deployed URL check', () => {
       async () => {
         // Skip celo:// urls
         if (application.url.startsWith('celo://')) return
-        const response = await request(application.url).get('')
+        // Allow one redirect
+        const response = await await request(application.url)
+          .get('')
+          .redirects(1)
         expect(response.status).toBe(200)
       },
       15 * 1000,

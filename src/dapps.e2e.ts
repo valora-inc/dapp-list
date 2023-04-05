@@ -8,6 +8,6 @@ describe('Deployed URL check', () => {
       if (application.url.startsWith('celo://')) return
       const response = await request(application.url).get('')
       expect(response.status).toBe(200)
-    })
+    }, 15 * 1000)
   }
 })

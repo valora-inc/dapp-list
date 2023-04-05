@@ -2,9 +2,14 @@
 
 import data from '../../src/valora-dapp-list.json'
 
+const ignoreList = [
+  'gooddollar' // Blocks Microsoft services via Cloudflare
+]
+
 describe('Dapp Up Check', () => {
   for (const application of data.applications) {
     if (application.url.startsWith('celo://')) continue
+    if (ignoreList.includes(application.id)) continue
     it(`should return 200 for ${application.url}`, () => {
       cy.request(application.url).then((response) => {
         expect(response.status).to.eq(200)

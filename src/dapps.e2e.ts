@@ -1,5 +1,5 @@
 import data from './valora-dapp-list.json'
-import request from 'supertest'
+import fetch from 'node-fetch'
 
 describe('Deployed URL check', () => {
   for (const application of data.applications) {
@@ -9,7 +9,7 @@ describe('Deployed URL check', () => {
         // Skip celo:// urls
         if (application.url.startsWith('celo://')) return
         // Allow two redirects
-        const response = await request(application.url).get('').redirects(2)
+        const response = await fetch(application.url)
         expect(response.status).toBe(200)
       },
       15 * 1000,

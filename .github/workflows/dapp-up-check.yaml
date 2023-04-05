@@ -59,4 +59,4 @@ jobs:
           status: ${{ job.status }}
           failure_text: 'Dapp Up Check Failed please investigate 🔎 /n ${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}'
         env:
-          SLACK_WEBHOOK_URL: ${{ steps.google-secrets.outputs.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL: ${{ steps.slack-webhook.outputs.SLACK_WEBHOOK_URL }}

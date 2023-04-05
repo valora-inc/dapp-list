@@ -30,6 +30,13 @@ jobs:
           path: |
             node_modules
             */*/node_modules
-          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-      - run: yarn
-      - run: yarn e2e
+            ~/.cache/Cypress
+          key: ${{ runner.os }}-cypress-${{ hashFiles('**/yarn.lock') }}
+      # Runs Cypress
+      - name: Cypress run
+        uses: cypress-io/github-action@v5
+        timeout-minutes: 10
+        with:
+          browser: chrome
+          spec: cypress/e2e/*.cy.js
+          cache-key: ${{ runner.os }}-cypress-${{ hashFiles('**/yarn.lock') }}

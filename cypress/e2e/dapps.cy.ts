@@ -3,7 +3,7 @@
 import data from '../../src/valora-dapp-list.json'
 
 const ignoreList = [
-  'gooddollar' // Blocks Microsoft services via Cloudflare
+  'gooddollar', // Blocks Microsoft services via Cloudflare
 ]
 
 describe('Dapp Up Check', () => {

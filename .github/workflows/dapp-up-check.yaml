@@ -48,7 +48,7 @@ jobs:
         timeout-minutes: 10
         with:
           browser: chrome
-          spec: cypress/e2e/*.cy.ts
+          spec: cypress/e2e/dapps.cy.ts
           cache-key: ${{ runner.os }}-cypress-${{ hashFiles('**/yarn.lock') }}
       - name: Report Failure to Slack
         if: failure()

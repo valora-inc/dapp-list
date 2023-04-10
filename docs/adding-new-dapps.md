@@ -3,6 +3,10 @@
 
 # Adding new dapps
 
+For a detailed video walkthrough of adding dapps to the Valora dapps list, check out this [video](https://youtu.be/t6qX85P02IQ?t=221). This video is highly recommended for non-technical users as it shows how to properly fork the repository and make changes without any local development environment. For text instructions, continue reading below.
+
+## Required Changes
+
 There are some fields that need to be translated into different languages, and this is done by Valora, so to add a new Dapp or category you need to follow the following steps:
 
 - Open [valora-dapp-list.json]. You will see that it has two root objects (both arrays), `categories` and `applications`. The fields for each are described below.

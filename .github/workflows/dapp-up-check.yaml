@@ -12,6 +12,8 @@ on:
   schedule:
     - cron: '0 5 * * *' # Runs at 5 AM UTC every day
     - cron: '0 17 * * *' # Runs at 5 PM UTC every day
+  # Testing workflow - on any pull request.
+  pull_request:
 
 jobs:
   dapp-up-check:
@@ -50,15 +52,15 @@ jobs:
           browser: chrome
           spec: cypress/e2e/dapps.cy.ts
           cache-key: ${{ runner.os }}-cypress-${{ hashFiles('**/yarn.lock') }}
-      - name: Report Failure to Slack
-        if: failure()
-        uses: edge/simple-slack-notify@v1.1.2
-        with:
-          channel: '#dapps-page'
-          color: 'danger'
-          fields: |
-            [{ "title": "Action URL", "value": "${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}"}]
-          status: ${{ job.status }}
-          success_text: 'Dapp Up Check Failed Please Investigate :mag:'
-        env:
-          SLACK_WEBHOOK_URL: ${{ steps.slack-webhook.outputs.SLACK_WEBHOOK_URL }}
+      # - name: Report Failure to Slack
+      #   if: failure()
+      #   uses: edge/simple-slack-notify@v1.1.2
+      #   with:
+      #     channel: '#dapps-page'
+      #     color: 'danger'
+      #     fields: |
+      #       [{ "title": "Action URL", "value": "${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}"}]
+      #     status: ${{ job.status }}
+      #     success_text: 'Dapp Up Check Failed Please Investigate :mag:'
+      #   env:
+      #     SLACK_WEBHOOK_URL: ${{ steps.slack-webhook.outputs.SLACK_WEBHOOK_URL }}

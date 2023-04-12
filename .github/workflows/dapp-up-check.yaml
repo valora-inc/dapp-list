@@ -59,6 +59,6 @@ jobs:
           fields: |
             [{ "title": "Action URL", "value": "${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}"}]
           status: ${{ job.status }}
-          success_text: 'Dapp Up Check Failed Please Investigate :mag:'
+          failure_text: 'Dapp Up Check Failed Please Investigate :mag:'
         env:
           SLACK_WEBHOOK_URL: ${{ steps.slack-webhook.outputs.SLACK_WEBHOOK_URL }}

@@ -325,6 +325,13 @@
       "categoryId": "social-impact",
       "categories": ["social-impact", "earn", "finance-tools", "spend"],
       "url": "https://gooddapp.org"
+    },
+    {
+      "name": "JumpTask",
+      "id": "jumptask",
+      "categoryId": "earn",
+      "categories": ["earn"],
+      "url": "https://app.jumptask.io"
     }
   ]
 }

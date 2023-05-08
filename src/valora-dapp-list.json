@@ -205,13 +205,6 @@
       "canPurchaseNfts": true
     },
     {
-      "name": "Qavah",
-      "id": "qavah",
-      "categoryId": "social-impact",
-      "categories": ["social-impact"],
-      "url": "https://qavah.me"
-    },
-    {
       "name": "ReSource",
       "id": "resource",
       "categoryId": "lend-borrow-earn",
@@ -318,6 +311,20 @@
       "categoryId": "social-impact",
       "categories": ["social-impact"],
       "url": "https://dapp.kolorapp.com"
+    },
+    {
+      "name": "SWFT AllChain Bridge",
+      "id": "swftpro",
+      "categoryId": "bridge",
+      "categories": ["bridge", "exchanges"],
+      "url": "https://www.allchainbridge.com/#/?sourceFlag=valora"
+    },
+    {
+      "name": "GoodDollar",
+      "id": "gooddollar",
+      "categoryId": "social-impact",
+      "categories": ["social-impact", "earn", "finance-tools", "spend"],
+      "url": "https://gooddapp.org"
     }
   ]
 }

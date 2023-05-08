@@ -29,13 +29,12 @@
     "alphafortress": "将稳定币兑换成法定货币",
     "trelispay": "在您的 dApp 或网站上轻松接受 cStable 付款",
     "chimoney-chispend": "消费您的加密货币购买真实世界的产品和服务",
-    "halofi": "HaloFi（原GoodGhosting）帮助你用加密货币增长你的财富",
+    "halofi": "HaloFi（原 GoodGhosting）帮助您通过加密货币增加财富",
     "revo": "自动产生复利的简单收益耕作",
     "nftviewer": "查看您的 NFT 藏品",
     "cyberbox": "ReFi NFT 市场",
     "churritofi": "质押 CELO 变得很简单",
     "plastiks": "用于塑料回收的实用性 NFT",
-    "qavah": "免费的去中心化众筹平台",
     "resource": "质押 SOURCE 以帮助为 ReSource 上的再生业务提供信用额度抵押",
     "ethichub": "向无银行账户农民提供负担得起的资金",
     "uniswap": "通过提供流动性交换代币或赚取收益",
@@ -49,7 +48,9 @@
     "valora-rewards": "通过了解 Celo 赚取奖励",
     "toucan": "大规模气候行动代币化碳信用额",
     "cred": "获取您的免费 Web3 信用分数",
-    "kolor": "在任何地方均可加入保护巴塔哥尼亚土地的行动"
+    "kolor": "在任何地方均可加入保护巴塔哥尼亚土地的行动",
+    "swftpro": "将资产安全桥接到 BTC/ETH/BSC/CELO/AVAX/+",
+    "gooddollar": "每日认领或质押 UBI，以赚取和支持 UBI"
   },
   "dappsExperiment": {
     "staked-celo": "质押 CELO 并赚取奖励，同时保持加密货币流动性",
@@ -67,13 +68,12 @@
     "alphafortress": "将稳定币转换为您的本地货币",
     "trelispay": "接受数字支付，无交易费用",
     "chimoney-chispend": "用加密货币购买各种礼品、产品和服务",
-    "halofi": "做最好的金融自己。实现你的目标以获得奖励",
+    "halofi": "做好金融自我管理，实现目标以获得奖励",
     "revo": "开始收益耕作，自动获取奖励",
     "nftviewer": "一站式查看您的所有 Celo NFT 藏品",
     "cyberbox": "探索 ReFi NFT 市场",
     "churritofi": "轻松质押 ReFi NFT，以赚取奖励",
     "plastiks": "探索用于塑料回收的 NFT",
-    "qavah": "创建或支持 DeFi 众筹",
     "resource": "通过支持小型企业赚取奖励",
     "ethichub": "通过 DeFi 众筹平台向无银行账户的农民借贷资金",
     "uniswap": "交换并通过提供流动性获得奖励",
@@ -87,6 +87,8 @@
     "valora-rewards": "了解 Celo 生态系统并获得奖励",
     "toucan": "用加密货币创建气候行动碳信用额",
     "cred": "获得您的 Web3 信用分数",
-    "kolor": "在任何地方均可加入保护巴塔哥尼亚土地的行动"
+    "kolor": "在任何地方均可加入保护巴塔哥尼亚土地的行动",
+    "swftpro": "将资产安全桥接到 BTC/ETH/BSC/CELO/AVAX/+",
+    "gooddollar": "每日认领或质押 UBI，以赚取和支持 UBI"
   }
 }

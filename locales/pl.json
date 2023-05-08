@@ -35,7 +35,6 @@
     "cyberbox": "Rynek ReFi NFT",
     "churritofi": "Uproszczony staking CELO",
     "plastiks": "NFT użytkowe do recyklingu tworzyw sztucznych",
-    "qavah": "Zdecentralizowana i bezpłatna platforma crowdfundingowa",
     "resource": "Stawka SOURCE pomoże zabezpieczyć linie kredytowe dla firm zajmujących się regeneracją",
     "ethichub": "Pożyczanie niedrogiego kapitału nieposiadającym rachunku bankowego rolnikom",
     "uniswap": "Zamień tokeny lub uzyskaj dochód poprzez zapewnienie płynności",
@@ -49,7 +48,9 @@
     "valora-rewards": "Zdobywaj nagrody, ucząc się o Celo",
     "toucan": "Tokenizowane kredyty węglowe dla działań klimatycznych w dużej skali",
     "cred": "Uzyskaj darmową ocenę kredytową Web3",
-    "kolor": "Dostęp w zakresie działań dotyczących ochrony terenów Patagonii z dowolnego miejsca"
+    "kolor": "Dostęp w zakresie działań dotyczących ochrony terenów Patagonii z dowolnego miejsca",
+    "swftpro": "Przeprowadź bridge aktywów na BTC/ETH/BSC/CELO/AVAX/+ w bezpieczny sposób",
+    "gooddollar": "Podaj dzienny kurs UBI lub stawkę, aby zarabiać i wspierać UBI"
   },
   "dappsExperiment": {
     "staked-celo": "Stakuj CELO i zdobywaj nagrody, zachowując płynność swoich kryptowalut",
@@ -67,13 +68,12 @@
     "alphafortress": "Konwertuj stablecoiny na swoją lokalną walutę",
     "trelispay": "Akceptuj płatności cyfrowe bez opłat transakcyjnych",
     "chimoney-chispend": "Wydawaj swoje kryptowaluty na różne prezenty, produkty i usługi",
-    "halofi": "Bądź swoim najlepszym finansowym \"ja\". Realizuj swoje cele, aby otrzymać nagrodę",
+    "halofi": "Bądź najlepszą finansową wersją siebie. Realizuj swoje cele, aby otrzymać nagrodę",
     "revo": "Rozpocznij yield farming i otrzymuj automatyczne nagrody",
     "nftviewer": "Zobacz wszystkie swoje kolekcje Celo NFT w jednym miejscu",
     "cyberbox": "Poznaj rynek ReFi NFT",
     "churritofi": "Z łatwością prowadź stakowanie CELO, aby otrzymać nagrody",
     "plastiks": "Odkryj NFT do recyklingu tworzyw sztucznych",
-    "qavah": "Twórz lub wspieraj crowdfunding DeFi",
     "resource": "Otrzymuj nagrody poprzez wspieranie małych firm",
     "ethichub": "Pożyczaj kapitał nieubankowionym rolnikom poprzez crowdfunding DeFi",
     "uniswap": "Prowadź swap i otrzymuj nagrody poprzez zapewnienie płynności",
@@ -87,6 +87,8 @@
     "valora-rewards": "Otrzymuj nagrody, poznając jednocześnie ekosystem Celo",
     "toucan": "Wykorzystuj swoje kryptowaluty, aby stworzyć kredyty węglowe na działania na rzecz klimatu",
     "cred": "Uzyskaj ocenę kredytową Web3",
-    "kolor": "Dostęp w zakresie działań dotyczących ochrony terenów Patagonii z dowolnego miejsca"
+    "kolor": "Dostęp w zakresie działań dotyczących ochrony terenów Patagonii z dowolnego miejsca",
+    "swftpro": "Przeprowadź bridge aktywów na BTC/ETH/BSC/CELO/AVAX/+ w bezpieczny sposób",
+    "gooddollar": "Podaj dzienny kurs UBI lub stawkę, aby zarabiać i wspierać UBI"
   }
 }

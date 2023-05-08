@@ -35,7 +35,6 @@
     "cyberbox": "Mercado NFT y ReFi",
     "churritofi": "Staking en CELO sin complicaciones",
     "plastiks": "NFTs de utilidad para la recuperación de plásticos",
-    "qavah": "Plataforma de crowdfunding descentralizada y gratuita",
     "resource": "Participa en staking de SOURCE y ayuda a financiar créditos a empresas regenerativas",
     "ethichub": "Presta capital a agricultores no bancarizados",
     "uniswap": "Intercambia tokens y obtén un rendimiento pasivo por tu aporte de liquidez",
@@ -49,7 +48,9 @@
     "valora-rewards": "Gana recompensas por aprender sobre Celo",
     "toucan": "Créditos de carbono tokenizados para una acción climática a escala",
     "cred": "Consigue gratis tu puntuación crediticia en la Web3",
-    "kolor": "Contribuye a la conservación de las tierras patagónicas"
+    "kolor": "Contribuye a la conservación de las tierras patagónicas",
+    "swftpro": "Traspasa activos entre las redes BTC/ETH/BSC/CELO/AVAX y más de forma segura",
+    "gooddollar": "Recibe UBI todos los días o participa en staking para ganar y respaldar a UBI"
   },
   "dappsExperiment": {
     "staked-celo": "Obtén recompensas sin perder liquidez con staking de CELO",
@@ -73,7 +74,6 @@
     "cyberbox": "Explora un mercado NFT ReFi",
     "churritofi": "Haz staking de CELO de la manera más fácil",
     "plastiks": "Descubre los NFTs para la recuperación de plásticos",
-    "qavah": "Crea o apoya el crowdfunding DeFi",
     "resource": "Obtén recompensas por tu apoyo a pequeños emprendedores",
     "ethichub": "Presta capital a agricultores desbancarizados mediante crowdfunding DeFi",
     "uniswap": "Intercambia activos y gana recompensas por tu aporte de liquidez",
@@ -87,6 +87,8 @@
     "valora-rewards": "Gana recompensas mientras aprendes sobre el ecosistema Celo",
     "toucan": "Usa tus cripto para crear créditos de carbono para la acción climática",
     "cred": "Obtén tu puntuación crediticia en la Web3",
-    "kolor": "Contribuye a la conservación de las tierras patagónicas"
+    "kolor": "Contribuye a la conservación de las tierras patagónicas",
+    "swftpro": "Traspasa activos entre las redes BTC/ETH/BSC/CELO/AVAX y más de forma segura",
+    "gooddollar": "Recibe UBI todos los días o participa en staking para ganar y respaldar a UBI"
   }
 }

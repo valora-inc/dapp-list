@@ -11,7 +11,7 @@
     "lend": "Prêter",
     "borrow": "Emprunter",
     "earn": "Gagner",
-    "bridge": "Passerelle"
+    "bridge": "Passerelles"
   },
   "dapps": {
     "staked-celo": "Staking de CELO pour des récompenses tout en gardant tes actifs liquides.",
@@ -29,13 +29,12 @@
     "alphafortress": "Échangez des stablecoins pour des monnaies fiduciaires",
     "trelispay": "Acceptez des paiements avec stablecoins Celo sur votre dapp ou site web",
     "chimoney-chispend": "Dépensez vos cryptomonnaies en produits et services du monde réel",
-    "halofi": "HaloFi (anciennement GoodGhosting) vous aide à faire fructifier votre patrimoine grâce aux crypto-monnaies",
+    "halofi": "HaloFi (GoodGhosting) vous aide à faire fructifier votre patrimoine grâce aux cryptomonnaies",
     "revo": "Protocole de yield farming facile avec intérêt composé automatique",
     "nftviewer": "Consultez vos collections NFT",
     "cyberbox": "Marché NFT et ReFi",
     "churritofi": "Staking de CELO plus facile",
     "plastiks": "NFT utilitaires pour la récupération du plastique",
-    "qavah": "Plateforme de crowdfunding décentralisée et gratuite",
     "resource": "Stake SOURCE pour aider à garantir les lignes de crédit pour les entreprises régénératives sur ReSource",
     "ethichub": "Prêtez du capital abordable à des agriculteurs non bancarisés",
     "uniswap": "Échangez des jetons ou profitez d'un retour en proposant des liquidités",
@@ -49,7 +48,9 @@
     "valora-rewards": "Gagnez des récompenses en apprenant sur Celo",
     "toucan": "Des crédits carbone tokenisés pour l'action climatique",
     "cred": "Obtenez votre cote de crédit Web3 gratuite",
-    "kolor": "Accès pour la conservation des terres de Patagonie"
+    "kolor": "Accès pour la conservation des terres de Patagonie",
+    "swftpro": "Reliez vos actifs avec BTC/ETH/BSC/CELO/AVAX et d'autres en toute sécurité",
+    "gooddollar": "Réclamez UBI chaque jour ou participez au staking pour gagner et soutenir UBI"
   },
   "dappsExperiment": {
     "staked-celo": "Stakez le CELO et profitez de récompenses tout en gardant vos liquidités en crypto",
@@ -67,13 +68,12 @@
     "alphafortress": "Convertissez des stablecoins en votre devise locale",
     "trelispay": "Acceptez les paiements numériques sans frais de transaction",
     "chimoney-chispend": "Dépensez vos cryptomonnaies en une multitude de cadeaux, produits et services",
-    "halofi": "Sois le meilleur de toi-même sur le plan financier. Atteins tes objectifs pour être récompensé",
+    "halofi": "Soyez votre meilleur partenaire financier. Atteignez vos objectifs et recevez des récompenses",
     "revo": "Commencez le farming et recevez des récompenses automatiques",
     "nftviewer": "Consultez toutes vos collections Celo NFT en un seul endroit",
     "cyberbox": "Découvrez une place de marché ReFi NFT",
     "churritofi": "Stakez facilement le CELO pour recevoir des récompenses",
     "plastiks": "Découvrez les NFT pour la récupération du plastique",
-    "qavah": "Créez ou soutenez le crowdfunding DeFi",
     "resource": "Recevez des récompenses en soutenant les petites entreprises",
     "ethichub": "Prêtez des fonds aux agriculteurs qui n'ont pas de banque grâce au crowdfunding DeFi",
     "uniswap": "Échangez et recevez des récompenses en proposant des liquidités",
@@ -87,6 +87,8 @@
     "valora-rewards": "Recevez des récompenses en vous formant à l'écosystème Celo",
     "toucan": "Utilisez vos cryptomonnaies pour créer des crédits carbone en faveur de l'action climatique",
     "cred": "Obtenez votre score de crédit Web3",
-    "kolor": "Accès à la conservation des terres patagoniennes"
+    "kolor": "Accès à la conservation des terres patagoniennes",
+    "swftpro": "Reliez vos actifs avec BTC/ETH/BSC/CELO/AVAX et d'autres en toute sécurité",
+    "gooddollar": "Réclamez UBI chaque jour ou participez au staking pour gagner et soutenir UBI"
   }
 }

@@ -35,7 +35,6 @@
     "cyberbox": "ReFi NFT Marketplace",
     "churritofi": "Staking CELO made easy",
     "plastiks": "Utility NFTs for plastic recovery",
-    "qavah": "Decentralized and free-of-charge crowdfunding platform",
     "resource": "Stake SOURCE to help collateralize credit lines for regenerative businesses on ReSource",
     "ethichub": "Lend affordable capital to unbanked farmers",
     "uniswap": "Swap tokens or earn yield by providing liquidity",
@@ -49,7 +48,9 @@
     "valora-rewards": "Earn rewards by learning about Celo",
     "toucan": "Tokenized carbon credits for climate action at scale",
     "cred": "Get your free web3 Credit Score",
-    "kolor": "Access for conservation of Patagonian lands from everywhere"
+    "kolor": "Access for conservation of Patagonian lands from everywhere",
+    "swftpro": "Bridge assets onto BTC/ETH/BSC/CELO/AVAX/+ safely and securely",
+    "gooddollar": "Claim UBI daily or stake to earn and support UBI"
   },
   "dappsExperiment": {
     "staked-celo": "Stake CELO and get rewards while keeping your crypto liquid",
@@ -73,7 +74,6 @@
     "cyberbox": "Explore a ReFi NFT Marketplace",
     "churritofi": "Easily stake CELO to get rewards",
     "plastiks": "Discover NFTs for plastic recovery",
-    "qavah": "Create or support DeFi crowdfunding",
     "resource": "Get rewards by supporting small businesses",
     "ethichub": "Lend capital to unbanked farmers through DeFi crowdfunding",
     "uniswap": "Swap and get rewards by providing liquidity",
@@ -87,6 +87,8 @@
     "valora-rewards": "Get rewards while learning about the Celo ecosystem",
     "toucan": "Use your crypto to create carbon credits for climate action",
     "cred": "Get your Web3 credit score",
-    "kolor": "Access for conservation of Patagonian lands from everywhere"
+    "kolor": "Access for conservation of Patagonian lands from everywhere",
+    "swftpro": "Bridge assets onto BTC/ETH/BSC/CELO/AVAX/+ safely and securely",
+    "gooddollar": "Claim UBI daily or stake to earn and support UBI"
   }
 }

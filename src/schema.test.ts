@@ -438,6 +438,8 @@ describe('invalid applications entries', () => {
           categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
           canPurchaseNfts: 'true',
+          listOnAndroid: true,
+          listOnIos: false,
         },
       ],
     }
@@ -539,6 +541,8 @@ describe('invalid applications entries', () => {
           categoryId: 'exchanges',
           categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
+          listOnAndroid: true,
+          listOnIos: true,
         },
         {
           name: 'Ubeswap',
@@ -546,6 +550,8 @@ describe('invalid applications entries', () => {
           categoryId: 'exchanges',
           categories: ['exchanges'],
           url: 'https://app.ubeswap.org/',
+          listOnAndroid: true,
+          listOnIos: true,
         },
       ],
     }

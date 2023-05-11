@@ -17,14 +17,15 @@ There are some fields that need to be translated into different languages, and t
 
 ## Dapps
 
-| Property          | Description                                                                                                                                                                                                                                               |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `name`            | The name of the Dapp.                                                                                                                                                                                                                                     |
-| `id`              | A unique identifier for the Dapp. The current pattern is to use a lower-kebab-case string.                                                                                                                                                                |
-| `categoryId`      | The category id under which the Dapp should show up. This will be deprecated soon, it will be replaced by `categories`.                                                                                                                                   |
-| `categories`      | An array of category ids under which the Dapp should show up.                                                                                                                                                                                             |
-| `url`             | The URL to open when the Dapp is selected. Can also be a deep link to open in-app.                                                                                                                                                                        |
-| `canPurchaseNfts` | Whether the Dapp supports purchasing NFTs. Per [App Store guidelines](https://developer.apple.com/app-store/review/guidelines/#in-app-purchase), dapps allowing to purchase NFTs won't be visible on iOS as it would require payment via in-app purchase. |
+| Property        | Description                                                                                                                                                             |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `name`          | The name of the Dapp.                                                                                                                                                   |
+| `id`            | A unique identifier for the Dapp. The current pattern is to use a lower-kebab-case string.                                                                              |
+| `categoryId`    | The category id under which the Dapp should show up. This will be deprecated soon, it will be replaced by `categories`.                                                 |
+| `categories`    | An array of category ids under which the Dapp should show up.                                                                                                           |
+| `url`           | The URL to open when the Dapp is selected. Can also be a deep link to open in-app.                                                                                      |
+| `listOnAndroid` | Whether to list the Dapp on Android devices. Your Dapp must be compliant with the [Play Store Content Policy](https://play.google.com/about/developer-content-policy/). |
+| `listOnIos`     | Whether to list the Dapp on iOS devices. Your Dapp must be compliant with the [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/).  |
 
 The logo of the Dapp must be a 256 x 256 PNG added to the `assets` folder. It will be available after merging in a URL with this format: `https://raw.githubusercontent.com/valora-inc/dapp-list/main/assets/{id}.png`.
 
@@ -60,3 +61,21 @@ https://celotracker.com/?address={{address}}
 | `fontColor`       | The color for the font color of the category in-app.                                       |
 
 The English description of the category should be added to [base.json] under the path `categories.{id}`.
+
+## FAQs
+
+### What might prevent my Dapp from being listed on iOS?
+
+The [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
+are constantly evolving and we encourage all Dapp builders to follow
+those changes.
+
+There are a few common Dapp features that the App Store Review
+Guidelines currently prohibit (_N.B._, this is not an exhaustive list):
+
+- Purchasing NFTs without [In App Purchase](https://developer.apple.com/app-store/review/guidelines/#in-app-purchase)). This
+  convention is targeted at collectible use cases for NFTs (instead of
+  other uses cases like using NFTs to represent liquidity pool
+  positions).
+- Gambling with assets that might be construed as ["real money"](https://developer.apple.com/app-store/review/guidelines/#gaming-gambling-and-lotteries) without
+  a conventional gambling license.

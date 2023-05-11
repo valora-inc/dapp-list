@@ -61,3 +61,21 @@ https://celotracker.com/?address={{address}}
 | `fontColor`       | The color for the font color of the category in-app.                                       |
 
 The English description of the category should be added to [base.json] under the path `categories.{id}`.
+
+## FAQs
+
+### What might prevent my Dapp from being listed on iOS?
+
+The [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)
+are constantly evolving and we encourage all Dapp builders to follow
+those changes.
+
+There are a few common Dapp features that the App Store Review
+Guidelines currently prohibit (_N.B._, this is not an exhaustive list):
+
+- Purchasing NFTs without [In App Purchase](https://developer.apple.com/app-store/review/guidelines/#in-app-purchase)). This
+  convention is targeted at collectible use cases for NFTs (instead of
+  other uses cases like using NFTs to represent liquidity pool
+  positions).
+- Gambling with assets that might be construed as ["real money"](https://developer.apple.com/app-store/review/guidelines/#gaming-gambling-and-lotteries) without
+  a conventional gambling license.

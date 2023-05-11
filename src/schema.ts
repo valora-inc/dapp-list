@@ -54,7 +54,7 @@ const categoryRef = Joi.ref('/categories', {
   adjust: (nodes) => nodes.map((node: any) => node.id),
 })
 
-export const schema = Joi.object({
+export const dappListSchema = Joi.object({
   categories: Joi.array()
     .items(
       Joi.object({

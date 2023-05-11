@@ -1,4 +1,4 @@
-import { schema } from './schema'
+import { dappListSchema } from './schema'
 import fs from 'fs'
 import i18next from 'i18next'
 const appList = require('./valora-dapp-list.json')
@@ -11,14 +11,14 @@ beforeEach(() => {
 
 describe('valora-dapp-list.json', () => {
   it('complies with schema', () => {
-    const validationResult = schema.validate(appList)
+    const validationResult = dappListSchema.validate(appList)
     expect(validationResult.error).toBe(undefined)
   })
 })
 
 describe('invalid dapp list arrays', () => {
   it('errors on object', () => {
-    expect(`${schema.validate({}).error}`).toBe(
+    expect(`${dappListSchema.validate({}).error}`).toBe(
       'ValidationError: "categories" is required',
     )
   })
@@ -28,7 +28,7 @@ describe('invalid dapp list arrays', () => {
       categories: [],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "categories" must contain at least 1 items',
     )
   })
@@ -44,7 +44,7 @@ describe('invalid dapp list arrays', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications" must contain at least 1 items',
     )
   })
@@ -61,7 +61,7 @@ describe('invalid categories entries', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "categories[0].id" is required',
     )
   })
@@ -76,7 +76,7 @@ describe('invalid categories entries', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "categories[0].backgroundColor" is required',
     )
   })
@@ -91,7 +91,7 @@ describe('invalid categories entries', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "categories[0].fontColor" is required',
     )
   })
@@ -107,7 +107,7 @@ describe('invalid categories entries', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "categories[0].id" must be a string',
     )
   })
@@ -123,7 +123,7 @@ describe('invalid categories entries', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "categories[0].backgroundColor" must be a string',
     )
   })
@@ -139,7 +139,7 @@ describe('invalid categories entries', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "categories[0].fontColor" must be a string',
     )
   })
@@ -155,7 +155,7 @@ describe('invalid categories entries', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "categories[0].backgroundColor" with value "black" fails to match the required pattern: /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/',
     )
   })
@@ -171,7 +171,7 @@ describe('invalid categories entries', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "categories[0].fontColor" with value "white" fails to match the required pattern: /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/',
     )
   })
@@ -187,7 +187,7 @@ describe('invalid categories entries', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       "ValidationError: \"categories[0].id\" failed custom validation because Missing localization key 'categories.exchanges-something' in 'locales/base.json'",
     )
   })
@@ -204,7 +204,7 @@ describe('invalid categories entries', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       "ValidationError: \"categories[0].id\" failed custom validation because Localization key 'categories.exchanges' in 'locales/base.json' must not have a period at the end",
     )
   })
@@ -225,7 +225,7 @@ describe('invalid categories entries', () => {
       ],
       applications: [],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "categories[1]" contains a duplicate value',
     )
   })
@@ -248,7 +248,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].name" is required',
     )
   })
@@ -265,7 +265,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].id" is required',
     )
   })
@@ -282,7 +282,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].categoryId" is required',
     )
   })
@@ -299,7 +299,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].categories" is required',
     )
   })
@@ -316,7 +316,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].url" is required',
     )
   })
@@ -333,7 +333,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].name" must be a string',
     )
   })
@@ -350,7 +350,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].id" must be a string',
     )
   })
@@ -368,7 +368,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].categoryId" must be [ref:root:categories]',
     )
   })
@@ -386,7 +386,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].categories[0]" must be [ref:root:categories]',
     )
   })
@@ -404,7 +404,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].url" must be a string',
     )
   })
@@ -422,7 +422,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].url" must be a valid uri with a scheme matching the celo|https pattern',
     )
   })
@@ -443,7 +443,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].canPurchaseNfts" must be a boolean',
     )
   })
@@ -462,7 +462,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       "ValidationError: \"applications[0].id\" failed custom validation because Missing localization key 'dapps.ubeswap-something' in 'locales/base.json'",
     )
   })
@@ -487,7 +487,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       "ValidationError: \"applications[0].id\" failed custom validation because Missing localization key 'dappsExperiment.ubeswap' in 'locales/base.json'",
     )
   })
@@ -504,7 +504,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[0].id" failed custom validation because Missing asset at \'../assets/ubeswap-something.png\'',
     )
   })
@@ -526,7 +526,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       "ValidationError: \"categories[0].id\" failed custom validation because Localization key 'categories.exchanges' in 'locales/base.json' must not have a period at the end",
     )
   })
@@ -555,7 +555,7 @@ describe('invalid applications entries', () => {
         },
       ],
     }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
+    expect(`${dappListSchema.validate(testDappObject).error}`).toBe(
       'ValidationError: "applications[1]" contains a duplicate value',
     )
   })

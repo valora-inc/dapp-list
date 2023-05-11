@@ -221,7 +221,6 @@
       "categoryId": "nfts",
       "categories": ["nfts", "social-impact"],
       "url": "https://cyberbox.art/",
-      "canPurchaseNfts": true,
       "listOnAndroid": true,
       "listOnIos": false
     },
@@ -240,7 +239,6 @@
       "categoryId": "nfts",
       "categories": ["nfts", "social-impact"],
       "url": "https://app.plastiks.io",
-      "canPurchaseNfts": true,
       "listOnAndroid": true,
       "listOnIos": false
     },
@@ -322,7 +320,6 @@
       "categoryId": "nfts",
       "categories": ["nfts"],
       "url": "https://ariswap.co/",
-      "canPurchaseNfts": true,
       "listOnAndroid": true,
       "listOnIos": false
     },
@@ -332,7 +329,6 @@
       "categoryId": "games",
       "categories": ["games", "nfts"],
       "url": "https://app.ipermatch.it/",
-      "canPurchaseNfts": true,
       "listOnAndroid": true,
       "listOnIos": false
     },
@@ -342,7 +338,6 @@
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
       "url": "https://curve.fi/#/celo/swap",
-      "canPurchaseNfts": false,
       "listOnAndroid": true,
       "listOnIos": true
     },

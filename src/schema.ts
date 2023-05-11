@@ -104,7 +104,6 @@ export const schema = Joi.object({
           .required(),
         listOnAndroid: Joi.boolean().strict().required(),
         listOnIos: Joi.boolean().strict().required(),
-        canPurchaseNfts: Joi.boolean().strict().optional(),
       }),
     )
     .min(1)

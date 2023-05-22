@@ -446,31 +446,6 @@ describe('invalid applications entries', () => {
     )
   })
 
-  it('errors on missing localized experiment description', () => {
-    jest.spyOn(fs, 'existsSync').mockReturnValueOnce(true)
-    jest.spyOn(i18next, 't').mockImplementation((key) => {
-      if (key === 'dappsExperiment.ubeswap') {
-        return ''
-      }
-      return originalT(key)
-    })
-
-    const testDappObject = {
-      categories: [category],
-      applications: [
-        {
-          name: 'Ubeswap',
-          id: 'ubeswap',
-          categoryId: 'exchanges',
-          url: 'https://app.ubeswap.org/',
-        },
-      ],
-    }
-    expect(`${schema.validate(testDappObject).error}`).toBe(
-      "ValidationError: \"applications[0].id\" failed custom validation because Missing localization key 'dappsExperiment.ubeswap' in 'locales/base.json'",
-    )
-  })
-
   it('errors on missing asset in the repo', () => {
     const testDappObject = {
       categories: [category],

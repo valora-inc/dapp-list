@@ -408,7 +408,7 @@
       "name": "Masa Prosperity Passport",
       "id": "masa",
       "categoryId": "social",
-      "categories": ["social"],
+      "categories": ["social", "earn", "nft"],
       "url": "https://app.prosperity.global/",
       "listOnAndroid": true,
       "listOnIos": true

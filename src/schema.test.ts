@@ -3,8 +3,6 @@ import fs from 'fs'
 import i18next from 'i18next'
 const appList = require('./valora-dapp-list.json')
 
-const originalT = i18next.t
-
 beforeEach(() => {
   jest.resetAllMocks()
 })

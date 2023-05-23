@@ -88,10 +88,6 @@ export const schema = Joi.object({
             checkMatchingLocalization(`dapps.${id}`, helpers)
             return id
           }, 'has a matching localized description')
-          .custom((id, helpers) => {
-            checkMatchingLocalization(`dappsExperiment.${id}`, helpers)
-            return id
-          }, 'has a matching localized experiment description')
           .required(),
         name: Joi.string().required(),
         categoryId: Joi.valid(categoryRef).required(),
@@ -102,7 +98,8 @@ export const schema = Joi.object({
             scheme: ['celo', 'https'],
           })
           .required(),
-        canPurchaseNfts: Joi.boolean().strict().optional(),
+        listOnAndroid: Joi.boolean().strict().required(),
+        listOnIos: Joi.boolean().strict().required(),
       }),
     )
     .min(1)

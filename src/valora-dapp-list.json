@@ -67,119 +67,153 @@
       "id": "ubeswap",
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
-      "url": "https://app.ubeswap.org/"
+      "url": "https://app.ubeswap.org/",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Moola",
       "id": "moola",
       "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
-      "url": "https://app.moola.market/"
+      "url": "https://app.moola.market/",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Bidali",
       "id": "bidali",
       "categoryId": "spend",
       "categories": ["spend"],
-      "url": "celo://wallet/bidali"
+      "url": "celo://wallet/bidali",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Symmetric",
       "id": "symmetric",
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
-      "url": "https://celo.symm.fi/#/"
+      "url": "https://celo.symm.fi/#/",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Celo Tracker",
       "id": "celotracker",
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
-      "url": "https://celotracker.com?address={{address}}"
+      "url": "https://celotracker.com?address={{address}}",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Celo Tax",
       "id": "celotax",
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
-      "url": "https://www.celo.tax/"
+      "url": "https://www.celo.tax/",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "impactMarket",
       "id": "impactmarket",
       "categoryId": "social-impact",
       "categories": ["social-impact", "earn"],
-      "url": "https://app.impactmarket.com/"
+      "url": "https://app.impactmarket.com/",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Nomspace",
       "id": "nomspace",
       "categoryId": "social",
       "categories": ["social"],
-      "url": "https://www.nom.space/"
+      "url": "https://www.nom.space/",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Mento-Fi",
       "id": "mentofi",
       "categoryId": "exchanges",
       "categories": ["exchanges"],
-      "url": "https://mento.finance/"
+      "url": "https://mento.finance/",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Flywallet",
       "id": "flywallet",
       "categoryId": "spend",
       "categories": ["spend", "social-impact"],
-      "url": "https://app.flywallet.io"
+      "url": "https://app.flywallet.io",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "ImmortalDAO Finance",
       "id": "immortaldao-finance",
       "categoryId": "finance-tools",
       "categories": ["finance-tools", "earn"],
-      "url": "https://www.immortaldao.finance"
+      "url": "https://www.immortaldao.finance",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Alphafortress (Bitssa)",
       "id": "alphafortress",
       "categoryId": "exchanges",
       "categories": ["exchanges", "finance-tools"],
-      "url": "https://swap.bitssa.com"
+      "url": "https://swap.bitssa.com",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Trelis Pay",
       "id": "trelispay",
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
-      "url": "https://celo.trelis.com"
+      "url": "https://celo.trelis.com",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "ChiSpend - Super App",
       "id": "chimoney-chispend",
       "categoryId": "spend",
       "categories": ["spend"],
-      "url": "https://chispend.com/?cSContext=valora"
+      "url": "https://chispend.com/?cSContext=valora",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "HaloFi",
       "id": "halofi",
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
-      "url": "https://app.halofi.me/#/?network=celo&utm_source=valora"
+      "url": "https://app.halofi.me/#/?network=celo&utm_source=valora",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Revo",
       "id": "revo",
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
-      "url": "https://revo.market"
+      "url": "https://revo.market",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "NFT Viewer",
       "id": "nftviewer",
       "categoryId": "nfts",
       "categories": ["nfts"],
-      "url": "https://nfts.valoraapp.com/nfts?address={{address}}&hide-header=true"
+      "url": "https://nfts.valoraapp.com/nfts?address={{address}}&hide-header=true",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Cyberbox",
@@ -187,14 +221,17 @@
       "categoryId": "nfts",
       "categories": ["nfts", "social-impact"],
       "url": "https://cyberbox.art/",
-      "canPurchaseNfts": true
+      "listOnAndroid": true,
+      "listOnIos": false
     },
     {
       "name": "ChurritoFi",
       "id": "churritofi",
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
-      "url": "https://churrito.fi"
+      "url": "https://churrito.fi",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Plastiks",
@@ -202,63 +239,80 @@
       "categoryId": "nfts",
       "categories": ["nfts", "social-impact"],
       "url": "https://app.plastiks.io",
-      "canPurchaseNfts": true
+      "listOnAndroid": true,
+      "listOnIos": false
     },
     {
       "name": "ReSource",
       "id": "resource",
       "categoryId": "lend-borrow-earn",
       "categories": ["earn", "social-impact"],
-      "url": "https://app.resource.finance"
+      "url": "https://app.resource.finance",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "EthicHub",
       "id": "ethichub",
       "categoryId": "lend-borrow-earn",
       "categories": ["lend", "earn", "social-impact"],
-      "url": "https://ethix.ethichub.com"
+      "url": "https://ethix.ethichub.com",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Uniswap",
       "id": "uniswap",
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
-      "url": "https://app.uniswap.org/#/swap?chain=celo"
+      "url": "https://app.uniswap.org/#/swap?chain=celo",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Staked Celo",
       "id": "staked-celo",
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
-      "url": "https://app.stcelo.xyz/"
+      "url": "https://app.stcelo.xyz/",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Pixpress",
       "id": "pixpress",
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
-      "url": "https://pixpress.pixelava.space"
+      "url": "https://pixpress.pixelava.space",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "PoolTogether",
       "id": "pooltogether",
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
-      "url": "https://v4.pooltogether.com"
+      "url": "https://v4.pooltogether.com",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Cask",
       "id": "cask",
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
-      "url": "https://app.cask.fi"
+      "url": "https://app.cask.fi",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Spirals",
       "id": "spirals",
       "categoryId": "social-impact",
       "categories": ["social-impact", "earn"],
-      "url": "https://app.spirals.so"
+      "url": "https://app.spirals.so",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Ariswap",
@@ -266,7 +320,8 @@
       "categoryId": "nfts",
       "categories": ["nfts"],
       "url": "https://ariswap.co/",
-      "canPurchaseNfts": true
+      "listOnAndroid": true,
+      "listOnIos": false
     },
     {
       "name": "Ipermatch",
@@ -274,7 +329,8 @@
       "categoryId": "games",
       "categories": ["games", "nfts"],
       "url": "https://app.ipermatch.it/",
-      "canPurchaseNfts": true
+      "listOnAndroid": true,
+      "listOnIos": false
     },
     {
       "name": "Curve",
@@ -282,56 +338,71 @@
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
       "url": "https://curve.fi/#/celo/swap",
-      "canPurchaseNfts": false
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Valora Rewards",
       "id": "valora-rewards",
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
-      "url": "https://rewards.valoraapp.com?address={{address}}"
+      "url": "https://rewards.valoraapp.com?address={{address}}",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Toucan Protocol",
       "id": "toucan",
       "categoryId": "social-impact",
       "categories": ["social-impact"],
-      "url": "https://app.toucan.earth/cross-chain?chainId=42220"
+      "url": "https://app.toucan.earth/cross-chain?chainId=42220",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Cred Protocol",
       "id": "cred",
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
-      "url": "https://app.credprotocol.com/?utm_source=valora"
+      "url": "https://app.credprotocol.com/?utm_source=valora",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Kolor",
       "id": "kolor",
       "categoryId": "social-impact",
       "categories": ["social-impact"],
-      "url": "https://dapp.kolorapp.com"
+      "url": "https://dapp.kolorapp.com",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "SWFT AllChain Bridge",
       "id": "swftpro",
       "categoryId": "bridge",
       "categories": ["bridge", "exchanges"],
-      "url": "https://www.allchainbridge.com/#/?sourceFlag=valora"
+      "url": "https://www.allchainbridge.com/#/?sourceFlag=valora",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "GoodDollar",
       "id": "gooddollar",
       "categoryId": "social-impact",
       "categories": ["social-impact", "earn", "finance-tools", "spend"],
-      "url": "https://gooddapp.org"
+      "url": "https://gooddapp.org",
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "JumpTask",
       "id": "jumptask",
       "categoryId": "earn",
       "categories": ["earn"],
-      "url": "https://app.jumptask.io"
+      "url": "https://app.jumptask.io",
+      "listOnAndroid": true,
+      "listOnIos": false
     }
   ]
 }

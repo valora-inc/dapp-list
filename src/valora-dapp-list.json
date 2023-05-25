@@ -393,7 +393,7 @@
       "categories": ["social-impact", "earn", "finance-tools", "spend"],
       "url": "https://gooddapp.org",
       "listOnAndroid": true,
-      "listOnIos": true
+      "listOnIos": false
     },
     {
       "name": "JumpTask",

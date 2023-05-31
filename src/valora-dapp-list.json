@@ -393,7 +393,7 @@
       "categories": ["social-impact", "earn", "finance-tools", "spend"],
       "url": "https://gooddapp.org",
       "listOnAndroid": true,
-      "listOnIos": true
+      "listOnIos": false
     },
     {
       "name": "JumpTask",
@@ -411,7 +411,7 @@
       "categories": ["social", "earn", "nfts"],
       "url": "https://app.prosperity.global/",
       "listOnAndroid": true,
-      "listOnIos": true
+      "listOnIos": false
     }
   ]
 }

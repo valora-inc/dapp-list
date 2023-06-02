@@ -216,15 +216,6 @@
       "listOnIos": true
     },
     {
-      "name": "Cyberbox",
-      "id": "cyberbox",
-      "categoryId": "nfts",
-      "categories": ["nfts", "social-impact"],
-      "url": "https://cyberbox.art/",
-      "listOnAndroid": true,
-      "listOnIos": false
-    },
-    {
       "name": "ChurritoFi",
       "id": "churritofi",
       "categoryId": "lend-borrow-earn",

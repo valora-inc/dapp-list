@@ -360,15 +360,6 @@
       "listOnIos": true
     },
     {
-      "name": "Kolor",
-      "id": "kolor",
-      "categoryId": "social-impact",
-      "categories": ["social-impact"],
-      "url": "https://dapp.kolorapp.com",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
       "name": "SWFT AllChain Bridge",
       "id": "swftpro",
       "categoryId": "bridge",

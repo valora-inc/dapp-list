@@ -59,6 +59,11 @@
       "id": "bridge",
       "backgroundColor": "#F0FFC7",
       "fontColor": "#668A02"
+    },
+    {
+      "id": "transport",
+      "backgroundColor": "#4C986C",
+      "fontColor": "#1E3947"
     }
   ],
   "applications": [
@@ -394,6 +399,24 @@
       "url": "https://app.prosperity.global/",
       "listOnAndroid": true,
       "listOnIos": false
+    },
+    {
+      "name": "bloXmoveNG",
+      "id": "bloxmoveng",
+      "categoryId": "transport",
+      "categories": ["transport"],
+      "url": "https://bloxmove.ng/",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "bloXmoveNG Driver",
+      "id": "bloxmoveng-driver",
+      "categoryId": "transport",
+      "categories": ["transport"],
+      "url": "https://bloxmove.ng/",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

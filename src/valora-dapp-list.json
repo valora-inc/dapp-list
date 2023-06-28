@@ -216,15 +216,6 @@
       "listOnIos": true
     },
     {
-      "name": "Cyberbox",
-      "id": "cyberbox",
-      "categoryId": "nfts",
-      "categories": ["nfts", "social-impact"],
-      "url": "https://cyberbox.art/",
-      "listOnAndroid": true,
-      "listOnIos": false
-    },
-    {
       "name": "ChurritoFi",
       "id": "churritofi",
       "categoryId": "lend-borrow-earn",
@@ -315,15 +306,6 @@
       "listOnIos": true
     },
     {
-      "name": "Ariswap",
-      "id": "ariswap",
-      "categoryId": "nfts",
-      "categories": ["nfts"],
-      "url": "https://ariswap.co/",
-      "listOnAndroid": true,
-      "listOnIos": false
-    },
-    {
       "name": "Ipermatch",
       "id": "ipermatch",
       "categoryId": "games",
@@ -369,15 +351,6 @@
       "listOnIos": true
     },
     {
-      "name": "Kolor",
-      "id": "kolor",
-      "categoryId": "social-impact",
-      "categories": ["social-impact"],
-      "url": "https://dapp.kolorapp.com",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
       "name": "SWFT AllChain Bridge",
       "id": "swftpro",
       "categoryId": "bridge",
@@ -393,7 +366,7 @@
       "categories": ["social-impact", "earn", "finance-tools", "spend"],
       "url": "https://gooddapp.org",
       "listOnAndroid": true,
-      "listOnIos": false
+      "listOnIos": true
     },
     {
       "name": "JumpTask",

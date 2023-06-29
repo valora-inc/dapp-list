@@ -135,11 +135,11 @@
       "listOnIos": true
     },
     {
-      "name": "Mento-Fi",
-      "id": "mentofi",
+      "name": "Mento",
+      "id": "mento",
       "categoryId": "exchanges",
       "categories": ["exchanges"],
-      "url": "https://mento.finance/",
+      "url": "https://app.mento.org",
       "listOnAndroid": true,
       "listOnIos": true
     },

@@ -385,6 +385,15 @@
       "url": "https://app.prosperity.global/",
       "listOnAndroid": true,
       "listOnIos": false
+    },
+    {
+      "name": "Sarafu Network",
+      "id": "sarafu",
+      "categoryId": "social-impact",
+      "categories": ["social-impact"],
+      "url": "https://sarafu.network",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

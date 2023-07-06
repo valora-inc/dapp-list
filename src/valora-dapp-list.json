@@ -266,8 +266,8 @@
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
       "url": "https://app.stcelo.xyz/",
-      "listOnAndroid": false,
-      "listOnIos": false
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Pixpress",
@@ -275,8 +275,8 @@
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
       "url": "https://pixpress.pixelava.space",
-      "listOnAndroid": false,
-      "listOnIos": false
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "PoolTogether",
@@ -320,8 +320,8 @@
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
       "url": "https://curve.fi/#/celo/swap",
-      "listOnAndroid": false,
-      "listOnIos": false
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Valora Rewards",

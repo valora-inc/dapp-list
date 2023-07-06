@@ -194,8 +194,8 @@
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
       "url": "https://app.halofi.me/#/?network=celo&utm_source=valora",
-      "listOnAndroid": false,
-      "listOnIos": false
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Revo",

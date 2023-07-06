@@ -68,8 +68,8 @@
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
       "url": "https://app.ubeswap.org/",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "Moola",
@@ -77,8 +77,8 @@
       "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://app.moola.market/",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "Bidali",
@@ -95,8 +95,8 @@
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
       "url": "https://celo.symm.fi/#/",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "Celo Tracker",
@@ -104,8 +104,8 @@
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
       "url": "https://celotracker.com?address={{address}}",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "Celo Tax",
@@ -113,8 +113,8 @@
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
       "url": "https://www.celo.tax/",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "impactMarket",
@@ -131,8 +131,8 @@
       "categoryId": "social",
       "categories": ["social"],
       "url": "https://www.nom.space/",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "Mento",
@@ -158,8 +158,8 @@
       "categoryId": "finance-tools",
       "categories": ["finance-tools", "earn"],
       "url": "https://www.immortaldao.finance",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "Alphafortress (Bitssa)",
@@ -167,8 +167,8 @@
       "categoryId": "exchanges",
       "categories": ["exchanges", "finance-tools"],
       "url": "https://swap.bitssa.com",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "Trelis Pay",
@@ -176,8 +176,8 @@
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
       "url": "https://celo.trelis.com",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "ChiSpend - Super App",
@@ -185,8 +185,8 @@
       "categoryId": "spend",
       "categories": ["spend"],
       "url": "https://chispend.com/?cSContext=valora",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "HaloFi",
@@ -194,8 +194,8 @@
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
       "url": "https://app.halofi.me/#/?network=celo&utm_source=valora",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "Revo",
@@ -203,8 +203,8 @@
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
       "url": "https://revo.market",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "NFT Viewer",
@@ -239,8 +239,8 @@
       "categoryId": "lend-borrow-earn",
       "categories": ["earn", "social-impact"],
       "url": "https://app.resource.finance",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "EthicHub",
@@ -284,8 +284,8 @@
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
       "url": "https://v4.pooltogether.com",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "Cask",
@@ -293,8 +293,8 @@
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
       "url": "https://app.cask.fi",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "Spirals",
@@ -302,8 +302,8 @@
       "categoryId": "social-impact",
       "categories": ["social-impact", "earn"],
       "url": "https://app.spirals.so",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "Ipermatch",
@@ -329,8 +329,8 @@
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
       "url": "https://rewards.valoraapp.com?address={{address}}",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "Toucan Protocol",
@@ -356,8 +356,8 @@
       "categoryId": "bridge",
       "categories": ["bridge", "exchanges"],
       "url": "https://www.allchainbridge.com/#/?sourceFlag=valora",
-      "listOnAndroid": true,
-      "listOnIos": true
+      "listOnAndroid": false,
+      "listOnIos": false
     },
     {
       "name": "GoodDollar",

@@ -270,15 +270,6 @@
       "listOnIos": true
     },
     {
-      "name": "Pixpress",
-      "id": "pixpress",
-      "categoryId": "exchanges",
-      "categories": ["exchanges", "earn"],
-      "url": "https://pixpress.pixelava.space",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
       "name": "PoolTogether",
       "id": "pooltogether",
       "categoryId": "lend-borrow-earn",

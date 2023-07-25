@@ -77,8 +77,8 @@
       "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://app.moola.market/",
-      "listOnAndroid": false,
-      "listOnIos": false
+      "listOnAndroid": true,
+      "listOnIos": true
     },
     {
       "name": "Bidali",

@@ -376,6 +376,15 @@
       "url": "https://app.prosperity.global/",
       "listOnAndroid": true,
       "listOnIos": false
+    },
+    {
+      "name": "ImmortalX",
+      "id": "immortalx",
+      "categoryId": "finance-tools",
+      "categories": ["finance-tools", "earn"],
+      "url": "https://app.immortalx.io",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

@@ -1,0 +1,64 @@
+name: Dapp Up Check
+
+## Run this on workflow manual dispatch and cron
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to check'
+        required: true
+        default: 'main'
+  # https://crontab.guru/#0_2_*_*_*
+  schedule:
+    - cron: '0 5 * * *' # Runs at 5 AM UTC every day
+    - cron: '0 17 * * *' # Runs at 5 PM UTC every day
+
+jobs:
+  dapp-up-check:
+    name: 'Dapp Up Check'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Google Secrets
+        uses: google-github-actions/auth@v1
+        id: google-secrets
+        with:
+          project_id: celo-mobile-alfajores
+          credentials_json: ${{ secrets.ALFAJORES_SERVICE_ACCOUNT_KEY }}
+      - name: Fetch Secrets
+        id: slack-webhook
+        uses: google-github-actions/get-secretmanager-secrets@v1.0.1
+        with:
+          secrets: |-
+            SLACK_WEBHOOK_URL:projects/1067724576910/secrets/SLACK_DAPPS_PAGE_WEBHOOK_URL
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          check-latest: true
+      - uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+            */*/node_modules
+            ~/.cache/Cypress
+          key: ${{ runner.os }}-cypress-${{ hashFiles('**/yarn.lock') }}
+      # Runs Cypress
+      - name: Cypress run
+        uses: cypress-io/github-action@v5
+        timeout-minutes: 10
+        with:
+          browser: chrome
+          spec: cypress/e2e/dapps.cy.ts
+          cache-key: ${{ runner.os }}-cypress-${{ hashFiles('**/yarn.lock') }}
+      - name: Report Failure to Slack
+        if: failure()
+        uses: edge/simple-slack-notify@v1.1.2
+        with:
+          channel: '#dapps-page'
+          color: 'danger'
+          fields: |
+            [{ "title": "Action URL", "value": "${env.GITHUB_SERVER_URL}/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}"}]
+          status: ${{ job.status }}
+          failure_text: 'Dapp Up Check Failed Please Investigate :mag:'
+        env:
+          SLACK_WEBHOOK_URL: ${{ steps.slack-webhook.outputs.SLACK_WEBHOOK_URL }}

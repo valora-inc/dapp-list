@@ -2,9 +2,7 @@ import base from '../locales/base.json'
 import valoraDappList from './valora-dapp-list.json'
 
 describe('locales', () => {
-  const applicationIds = Object.keys(base.dapps).concat(
-    Object.keys(base.dappsExperiment),
-  )
+  const applicationIds = Object.keys(base.dapps)
 
   it.each(applicationIds)(
     '%s has an associated application entry',

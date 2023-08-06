@@ -378,6 +378,15 @@
       "listOnIos": false
     },
     {
+      "name": "LlamaSwap",
+      "id": "llamaswap",
+      "categoryId": "exchanges",
+      "categories": ["exchanges"],
+      "url": "https://swap.defillama.com/?chain=celo",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
       "name": "ImmortalX",
       "id": "immortalx",
       "categoryId": "finance-tools",

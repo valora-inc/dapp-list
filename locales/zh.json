@@ -37,6 +37,7 @@
     "resource": "通过支持小型企业赚取奖励",
     "ethichub": "通过 DeFi 众筹平台向无银行账户的农民借贷资金",
     "uniswap": "交换并通过提供流动性获得奖励",
+    "double": "通过提供流动性获得奖励",
     "pooltogether": "用加密货币参加每日抽奖，有机会获得奖励",
     "cask": "用加密货币实现自动支付、订阅和投资",
     "spirals": "支持气候项目",
@@ -48,6 +49,8 @@
     "swftpro": "将资产安全桥接到 BTC/ETH/BSC/CELO/AVAX/+",
     "gooddollar": "每日认领或质押 UBI，以赚取和支持 UBI",
     "jumptask": "通过玩游戏、解题或分享赚取加密货币",
-    "masa": "认领一个免费的 .celo 域名，推荐朋友并赚取奖励。"
+    "masa": "认领一个免费的 .celo 域名，推荐朋友并赚取奖励。",
+    "llamaswap": "Find the best route for your trade giving you the best execution prices in DeFi",
+    "immortalx": "Trade crypto with low fees directly from your wallet, with up to 50x leverage"
   }
 }

@@ -252,6 +252,15 @@
       "listOnIos": true
     },
     {
+      "name": "Double",
+      "id": "double",
+      "categoryId": "exchanges",
+      "categories": ["exchanges", "earn"],
+      "url": "https://app.double2win.xyz/#/lend?chain=celo",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
       "name": "Uniswap",
       "id": "uniswap",
       "categoryId": "exchanges",

@@ -37,6 +37,7 @@
     "resource": "Recevez des récompenses en soutenant les petites entreprises",
     "ethichub": "Prêtez des fonds aux agriculteurs qui n'ont pas de banque grâce au crowdfunding DeFi",
     "uniswap": "Échangez et recevez des récompenses en proposant des liquidités",
+    "double": "Obtenir des récompenses en fournissant des liquidités",
     "pooltogether": "Participez aux tirages au sort quotidiens avec vos cryptomonnaies pour avoir une chance de recevoir des récompenses",
     "cask": "Automatisez vos paiements, abonnements et investissements avec vos cryptomonnaies",
     "spirals": "Soutenez les projets en faveur de la protection du climat",
@@ -48,6 +49,8 @@
     "swftpro": "Reliez vos actifs avec BTC/ETH/BSC/CELO/AVAX et d'autres en toute sécurité",
     "gooddollar": "Réclamez UBI chaque jour ou participez au staking pour gagner et soutenir UBI",
     "jumptask": "Gagnez des crypto en jouant, en résolvant ou en partageant",
-    "masa": "Obtenez un domaine .celo gratuit, invitez vos amis pour des récompenses"
+    "masa": "Obtenez un domaine .celo gratuit, invitez vos amis pour des récompenses",
+    "llamaswap": "Trouve le meilleur itinéraire pour ton commerce en te donnant les meilleurs prix d'exécution dans DeFi.",
+    "immortalx": "Échange des crypto-monnaies avec de faibles frais directement depuis ton portefeuille, avec un effet de levier pouvant aller jusqu'à 50x."
   }
 }

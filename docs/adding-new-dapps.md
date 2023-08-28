@@ -62,6 +62,50 @@ https://celotracker.com/?address={{address}}
 
 The English description of the category should be added to [base.json] under the path `categories.{id}`.
 
+## Showing Valora as a Preferred Wallet
+
+We kindly request your consideration for the integration of Valora into the list of recommended wallets, should this be feasible. This integration would offer users a seamless experience in accessing your decentralized application through Valora. For your convenience, we have provided examples of how such integration can be achieved using prevalent frameworks. If your framework of choice is not delineated below or if you require any assistance, please do not hesitate to contact us through the [#Dapp-dev channel on Discord](https://discord.com/channels/886972503560433675/887422238071087154).
+
+### [@web3modal/react - Docs](https://docs.walletconnect.com/2.0/web3modal/react/wagmi/options#explorerexcludedwalletids-optional)
+
+```JavaScript
+import { Web3Modal } from '@web3modal/react'
+...
+<Web3Modal
+  projectId={projectId}
+  ethereumClient={ethereumClient}
+  explorerRecommendedWalletIds={[
+    // Valora Wallet ID https://walletconnect.com/explorer/valora
+    'd01c7758d741b363e637a817a09bcf579feae4db9f5bb16f599fdd1f66e2f974',
+    // Additional wallets here...
+  ]}
+/>
+```
+
+### [@celo/react-celo - Docs](https://github.com/celo-org/react-celo#default-wallets-and-customization)
+
+```JavaScript
+import { CeloProvider } from '@celo/react-celo'
+...
+<CeloProvider
+  dapp={{
+    name: 'My awesome dApp',
+    description: 'My awesome description',
+    url: 'https://example.com',
+    icon: 'https://example.com/icon.png'
+  }}
+  connectModal={{
+    title: <span>Connect to Valora</span>,
+    providersOptions: {
+      // This should hide all wallets expect for Valora
+      hideFromDefaults: Object.keys(SupportedProviders).filter(provider => provider !== 'Valora') as SupportedProviders[],
+      // This option toggles on and off the search bar
+      searchable: false,
+    },
+  }}
+>
+```
+
 ## FAQs
 
 ### What might prevent my Dapp from being listed on iOS?

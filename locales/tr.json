@@ -24,7 +24,7 @@
     "nomspace": "Celo cüzdan adresiniz için bir kullanıcı adını özelleştirin",
     "mento": "Celo varlıklarını takas edin",
     "bidali": "Dünya çapındaki markalardan hediye kartları satın almak için kriptonuzu kullanın",
-    "flywallet": "Kriptonuzla uçuş rezervasyonu yapın (ve CO2'yi dengeleyin)",
+    "flywallet": "Kripto paranızla uçuş rezervasyonu yapın ve tasarruf edin",
     "immortaldao-finance": "IMMO bağlayarak veya stake ederek ödüller kazanın",
     "alphafortress": "Sabit coinleri yerel para biriminize dönüştürün",
     "trelispay": "İşlem ücreti olmadan dijital ödemeleri kabul edin",
@@ -37,7 +37,7 @@
     "resource": "Küçük işletmeleri destekleyerek ödüller kazanın",
     "ethichub": "DeFi kitlesel fonlama aracılığıyla banka hesabı olmayan çiftçilere sermaye ödünç verin",
     "uniswap": "Takas edin ve likidite sağlayarak ödüller kazanın",
-    "pixpress": "Ödüller kazanırken eşler arası takas yapın",
+    "double": "Likidite sağlayarak ödüller kazanın",
     "pooltogether": "Ödül kazanma şansı için kriptonuzla günlük çekilişlere katılın",
     "cask": "Kriptonuzla ödemeleri, abonelikleri ve yatırımları otomatikleştirin",
     "spirals": "İklim projelerini destekleyin",
@@ -49,6 +49,8 @@
     "swftpro": "Varlıkları emniyetli ve güvenli şekilde BTC/ETH/BSC/CELO/AVAX/+ üzerinde bir araya getirin",
     "gooddollar": "UBI kazanmak ve UBI'yi desteklemek için günlük UBI alın veya stake edin",
     "jumptask": "Oynadıkça, çözdükçe veya paylaştıkça kripto kazanın",
-    "masa": "Ücretsiz bir .celo alan adı talep edin, arkadaşlarınızı yönlendirin ve ödüller kazanın"
+    "masa": "Ücretsiz bir .celo alan adı talep edin, arkadaşlarınızı yönlendirin ve ödüller kazanın",
+    "llamaswap": "DeFi'de size en iyi işlem fiyatlarını sunarak işleminiz için en iyi rotayı bulun",
+    "immortalx": "Doğrudan cüzdanınızdan düşük ücretlerle, 50x'e kadar kaldıraçla kripto ticareti yapın"
   }
 }

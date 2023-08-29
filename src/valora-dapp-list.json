@@ -403,6 +403,15 @@
       "url": "https://app.immortalx.io",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Sarafu Network",
+      "id": "sarafu",
+      "categoryId": "social-impact",
+      "categories": ["social-impact"],
+      "url": "https://sarafu.network",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

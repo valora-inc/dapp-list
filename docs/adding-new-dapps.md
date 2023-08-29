@@ -64,7 +64,7 @@ The English description of the category should be added to [base.json] under the
 
 ## Showing Valora as a Preferred Wallet
 
-We kindly request your consideration for the integration of Valora into the list of recommended wallets, should this be feasible. This integration would offer users a seamless experience in accessing your decentralized application through Valora. For your convenience, we have provided examples of how such integration can be achieved using prevalent frameworks. If your framework of choice is not delineated below or if you require any assistance, please do not hesitate to contact us through the [#Dapp-dev channel on Discord](https://discord.com/channels/886972503560433675/887422238071087154).
+Please consider adding Valora into the list of recommended wallets for your Dapp as this offers users a more seamless experience for Valora users. For your convenience, we have provided examples of how such an integration can be achieved using prevalent frameworks. If your framework of choice is not detailed below or if you require any assistance, please do not hesitate to contact us through the [#Dapp-dev channel on Discord](https://discord.com/channels/886972503560433675/887422238071087154).
 
 ### [@web3modal/react - Docs](https://docs.walletconnect.com/2.0/web3modal/react/wagmi/options#explorerexcludedwalletids-optional)
 

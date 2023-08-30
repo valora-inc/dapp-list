@@ -24,7 +24,7 @@
     "nomspace": "ปรับแต่งชื่อผู้ใช้สำหรับที่อยู่กระเป๋าเงิน Celo ของคุณ",
     "mento": "แลกเปลี่ยนสินทรัพย์ Celo",
     "bidali": "ใช้คริปโตของคุณซื้อบัตรของขวัญจากแบรนด์ต่างๆ ทั่วโลก",
-    "flywallet": "Book and save for flights with your crypto",
+    "flywallet": "จองและประหยัดค่าตั๋วเครื่องบินด้วยคริปโตของคุณ",
     "immortaldao-finance": "บอนและสเตก IMMO แล้วรับรางวัล",
     "alphafortress": "แปลง Stablecoin เป็นสกุลเงินในประเทศของคุณ",
     "trelispay": "รับชำระเงินดิจิทัลโดยไม่มีค่าธรรมเนียมธุรกรรม",
@@ -37,7 +37,7 @@
     "resource": "รับรางวัลโดยการสนับสนุนธุรกิจขนาดเล็ก",
     "ethichub": "ให้เงินกู้ยืมแก่เกษตรกรที่เข้าไม่ถึงเงินทุนจากธนาคารผ่านการระดมทุน DeFi",
     "uniswap": "สว็อปและรับรางวัลด้วยการให้บริการสภาพคล่อง",
-    "double": "Get rewards by providing liquidity",
+    "double": "รับรางวัลจากการให้บริการสภาพคล่อง",
     "pooltogether": "ร่วมจับฉลากลุ้นรับรางวัลด้วยคริปโตของคุณทุกวัน",
     "cask": "ทำให้การชำระเงิน การสมัครสมาชิก และการลงทุนเป็นระบบอัตโนมัติด้วยคริปโตของคุณ",
     "spirals": "สนับสนุนโครงการด้านสภาพอากาศ",
@@ -50,8 +50,8 @@
     "gooddollar": "รับ UBI รายวันหรือสเตกเพื่อรับและสนับสนุน UBI",
     "jumptask": "รับคริปโตขณะที่คุณเล่น แก้ปัญหาหรือแชร์",
     "masa": "ขอโดเมน .celo ฟรี แนะนำเพื่อนและรับเงินรางวัล",
-    "llamaswap": "Find the best route for your trade giving you the best execution prices in DeFi",
-    "immortalx": "Trade crypto with low fees directly from your wallet, with up to 50x leverage",
-    "sarafu": "Create, use and explore Community Asset Vouchers with Grassroots Economics"
+    "llamaswap": "ค้นหาเส้นทางที่ดีที่สุดสำหรับการเทรดของคุณที่จะให้ราคาดำเนินการที่ดีที่สุดใน DeFi",
+    "immortalx": "เทรดคริปโตโดยตรงจากกระเป๋าเงินของคุณด้วยค่าธรรมเนียมที่ต่ำ พร้อมเลเวอเรจสูงสุด 50 เท่า",
+    "sarafu": "สร้าง ใช้ และสำรวจ Community Asset Voucher ด้วยเศรษฐศาสตร์ระดับรากหญ้า"
   }
 }

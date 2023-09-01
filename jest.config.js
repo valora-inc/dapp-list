@@ -2,12 +2,7 @@ module.exports = {
   watchman: false,
   moduleFileExtensions: ['ts', 'js', 'json'],
   transform: {
-    '^.+\\.(ts)$': 'ts-jest',
+    '^.+\\.(ts|tsx)$': ['ts-jest', { tsconfig: 'tsconfig.json' }],
   },
   testPathIgnorePatterns: ['dist'],
-  globals: {
-    'ts-jest': {
-      tsconfig: 'tsconfig.json',
-    },
-  },
 }

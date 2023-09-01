@@ -4,7 +4,7 @@ import i18next from 'i18next'
 const appList = require('./valora-dapp-list.json')
 
 beforeEach(() => {
-  jest.resetAllMocks()
+  jest.restoreAllMocks()
 })
 
 describe('valora-dapp-list.json', () => {

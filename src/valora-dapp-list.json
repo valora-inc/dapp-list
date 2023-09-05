@@ -99,15 +99,6 @@
       "listOnIos": false
     },
     {
-      "name": "Celo Tracker",
-      "id": "celotracker",
-      "categoryId": "finance-tools",
-      "categories": ["finance-tools"],
-      "url": "https://celotracker.com?address={{address}}",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "Celo Tax",
       "id": "celotax",
       "categoryId": "finance-tools",

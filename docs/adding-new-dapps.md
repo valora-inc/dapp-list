@@ -49,7 +49,7 @@ parameters in a Dapps URL:
 For example:
 
 ```
-https://celotracker.com/?address={{address}}
+https://example.com/?address={{address}}
 ```
 
 ## Categories

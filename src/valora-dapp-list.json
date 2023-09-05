@@ -171,15 +171,6 @@
       "listOnIos": false
     },
     {
-      "name": "Trelis Pay",
-      "id": "trelispay",
-      "categoryId": "finance-tools",
-      "categories": ["finance-tools"],
-      "url": "https://celo.trelis.com",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "ChiSpend - Super App",
       "id": "chimoney-chispend",
       "categoryId": "spend",

@@ -324,15 +324,6 @@
       "listOnIos": true
     },
     {
-      "name": "Valora Rewards",
-      "id": "valora-rewards",
-      "categoryId": "lend-borrow-earn",
-      "categories": ["earn"],
-      "url": "https://rewards.valoraapp.com?address={{address}}",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "Toucan Protocol",
       "id": "toucan",
       "categoryId": "social-impact",

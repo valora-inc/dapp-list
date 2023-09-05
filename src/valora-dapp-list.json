@@ -198,15 +198,6 @@
       "listOnIos": true
     },
     {
-      "name": "Revo",
-      "id": "revo",
-      "categoryId": "lend-borrow-earn",
-      "categories": ["earn"],
-      "url": "https://revo.market",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "NFT Viewer",
       "id": "nftviewer",
       "categoryId": "nfts",

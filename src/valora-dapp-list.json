@@ -297,15 +297,6 @@
       "listOnIos": false
     },
     {
-      "name": "Spirals",
-      "id": "spirals",
-      "categoryId": "social-impact",
-      "categories": ["social-impact", "earn"],
-      "url": "https://app.spirals.so",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "Ipermatch",
       "id": "ipermatch",
       "categoryId": "games",

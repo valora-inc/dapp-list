@@ -180,15 +180,6 @@
       "listOnIos": false
     },
     {
-      "name": "ChiSpend - Super App",
-      "id": "chimoney-chispend",
-      "categoryId": "spend",
-      "categories": ["spend"],
-      "url": "https://chispend.com/?cSContext=valora",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "HaloFi",
       "id": "halofi",
       "categoryId": "lend-borrow-earn",

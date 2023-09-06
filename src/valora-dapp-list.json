@@ -108,15 +108,6 @@
       "listOnIos": true
     },
     {
-      "name": "Nomspace",
-      "id": "nomspace",
-      "categoryId": "social",
-      "categories": ["social"],
-      "url": "https://www.nom.space/",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "Mento",
       "id": "mento",
       "categoryId": "exchanges",

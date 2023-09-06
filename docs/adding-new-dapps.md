@@ -82,28 +82,39 @@ import { Web3Modal } from '@web3modal/react'
 />
 ```
 
-### [@celo/react-celo - Docs](https://github.com/celo-org/react-celo#default-wallets-and-customization)
+### [@celo/rainbowkit-celo - Docs](https://docs.celo.org/developer/rainbowkit-celo)
 
 ```JavaScript
-import { CeloProvider } from '@celo/react-celo'
+// Make sure to use wagmi e.g. 0.12.x or 1.x.x
+import { connectorsForWallets } from '@rainbow-me/rainbowkit'
+import { publicProvider } from 'wagmi/providers/public'
+
+const { chains, provider } = configureChains(
+  [Alfajores, Celo],
+  [publicProvider()]
+)
+
+const connectors = connectorsForWallets([
+  {
+    groupName: "Recommended with CELO",
+    wallets: [
+      Valora({ chains }),
+      // Additional wallets here...
+    ],
+  },
+])
+
+const wagmiClient = createClient({
+  autoConnect: true,
+  connectors,
+  provider,
+})
 ...
-<CeloProvider
-  dapp={{
-    name: 'My awesome dApp',
-    description: 'My awesome description',
-    url: 'https://example.com',
-    icon: 'https://example.com/icon.png'
-  }}
-  connectModal={{
-    title: <span>Connect to Valora</span>,
-    providersOptions: {
-      // This should hide all wallets expect for Valora
-      hideFromDefaults: Object.keys(SupportedProviders).filter(provider => provider !== 'Valora') as SupportedProviders[],
-      // This option toggles on and off the search bar
-      searchable: false,
-    },
-  }}
->
+<WagmiConfig config={wagmiConfig}>
+  <RainbowKitProvider chains={chains}>
+    <YourApp />
+  </RainbowKitProvider>
+</WagmiConfig>
 ```
 
 ## FAQs

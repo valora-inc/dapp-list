@@ -279,15 +279,6 @@
       "listOnIos": false
     },
     {
-      "name": "Cask",
-      "id": "cask",
-      "categoryId": "finance-tools",
-      "categories": ["finance-tools"],
-      "url": "https://app.cask.fi",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "Spirals",
       "id": "spirals",
       "categoryId": "social-impact",

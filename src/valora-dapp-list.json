@@ -189,15 +189,6 @@
       "listOnIos": false
     },
     {
-      "name": "ReSource",
-      "id": "resource",
-      "categoryId": "lend-borrow-earn",
-      "categories": ["earn", "social-impact"],
-      "url": "https://app.resource.finance",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "EthicHub",
       "id": "ethichub",
       "categoryId": "lend-borrow-earn",

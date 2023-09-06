@@ -126,15 +126,6 @@
       "listOnIos": true
     },
     {
-      "name": "ImmortalDAO Finance",
-      "id": "immortaldao-finance",
-      "categoryId": "finance-tools",
-      "categories": ["finance-tools", "earn"],
-      "url": "https://www.immortaldao.finance",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "Alphafortress (Bitssa)",
       "id": "alphafortress",
       "categoryId": "exchanges",

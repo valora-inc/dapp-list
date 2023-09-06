@@ -189,15 +189,6 @@
       "listOnIos": true
     },
     {
-      "name": "PoolTogether",
-      "id": "pooltogether",
-      "categoryId": "lend-borrow-earn",
-      "categories": ["earn"],
-      "url": "https://v4.pooltogether.com",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "Ipermatch",
       "id": "ipermatch",
       "categoryId": "games",

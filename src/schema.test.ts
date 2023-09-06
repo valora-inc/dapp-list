@@ -4,7 +4,7 @@ import i18next from 'i18next'
 const appList = require('./valora-dapp-list.json')
 
 beforeEach(() => {
-  jest.resetAllMocks()
+  jest.restoreAllMocks()
 })
 
 describe('valora-dapp-list.json', () => {
@@ -191,7 +191,7 @@ describe('invalid categories entries', () => {
   })
 
   it('errors on period at the end of the localized name', () => {
-    jest.spyOn(i18next, 't').mockReturnValueOnce('Exchanges.')
+    jest.spyOn(i18next, 't').mockReturnValueOnce('Social Impact.')
     const testDappObject = {
       categories: [
         {
@@ -231,18 +231,18 @@ describe('invalid categories entries', () => {
 
 describe('invalid applications entries', () => {
   const category = {
-    id: 'exchanges',
+    id: 'social-impact',
     backgroundColor: '#DEF8EA',
     fontColor: '#1AB775',
   }
-  it('errors on empty applications array', () => {
+  it('errors on missing name', () => {
     const testDappObject = {
       categories: [category],
       applications: [
         {
-          id: 'ubeswap',
-          categoryId: 'exchanges',
-          url: 'https://app.ubeswap.org/',
+          id: 'gooddollar',
+          categoryId: 'social-impact',
+          url: 'https://gooddapp.org/',
         },
       ],
     }
@@ -256,10 +256,10 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
-          categoryId: 'exchanges',
-          categories: ['exchanges'],
-          url: 'https://app.ubeswap.org/',
+          name: 'GoodDollar',
+          categoryId: 'social-impact',
+          categories: ['social-impact', 'earn', 'finance-tools', 'spend'],
+          url: 'https://gooddapp.org/',
         },
       ],
     }
@@ -273,10 +273,10 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
-          id: 'ubeswap',
-          url: 'https://app.ubeswap.org/',
-          categories: ['exchanges'],
+          name: 'GoodDollar',
+          id: 'gooddollar',
+          url: 'https://gooddapp.org/',
+          categories: ['social-impact', 'earn', 'finance-tools', 'spend'],
         },
       ],
     }
@@ -290,10 +290,10 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
-          id: 'ubeswap',
-          url: 'https://app.ubeswap.org/',
-          categoryId: 'exchanges',
+          name: 'GoodDollar',
+          id: 'gooddollar',
+          url: 'https://gooddapp.org/',
+          categoryId: 'social-impact',
         },
       ],
     }
@@ -307,10 +307,10 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
-          id: 'ubeswap',
-          categoryId: 'exchanges',
-          categories: ['exchanges'],
+          name: 'GoodDollar',
+          id: 'gooddollar',
+          categoryId: 'social-impact',
+          categories: ['social-impact'],
         },
       ],
     }
@@ -325,9 +325,9 @@ describe('invalid applications entries', () => {
       applications: [
         {
           name: 1,
-          id: 'ubeswap',
+          id: 'gooddollar',
           categoryId: 'exchanges',
-          url: 'https://app.ubeswap.org/',
+          url: 'https://gooddapp.org/',
         },
       ],
     }
@@ -341,10 +341,10 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
+          name: 'GoodDollar',
           id: 1,
-          categoryId: 'exchanges',
-          url: 'https://app.ubeswap.org/',
+          categoryId: 'social-impact',
+          url: 'https://gooddapp.org/',
         },
       ],
     }
@@ -358,11 +358,11 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
-          id: 'ubeswap',
-          categoryId: 'exchanges-something', // This category id doesn't exist in the categories array
-          categories: ['exchanges'],
-          url: 'https://app.ubeswap.org/',
+          name: 'GoodDollar',
+          id: 'gooddollar',
+          categoryId: 'social-something', // This category id doesn't exist in the categories array
+          categories: ['social-impact', 'earn', 'finance-tools', 'spend'],
+          url: 'https://gooddapp.org/',
         },
       ],
     }
@@ -376,11 +376,11 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
-          id: 'ubeswap',
-          categoryId: 'exchanges',
-          categories: ['exchanges-something'], // This category id doesn't exist in the categories array
-          url: 'https://app.ubeswap.org/',
+          name: 'GoodDollar',
+          id: 'gooddollar',
+          categoryId: 'social-impact',
+          categories: ['social-something', 'earn', 'finance-tools', 'spend'], // This category id doesn't exist in the categories array
+          url: 'https://gooddapp.org/',
         },
       ],
     }
@@ -394,10 +394,10 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
-          id: 'ubeswap',
-          categoryId: 'exchanges',
-          categories: ['exchanges'],
+          name: 'GoodDollar',
+          id: 'gooddollar',
+          categoryId: 'social-impact',
+          categories: ['social-impact'],
           url: 1,
         },
       ],
@@ -412,10 +412,10 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
-          id: 'ubeswap',
-          categoryId: 'exchanges',
-          categories: ['exchanges'],
+          name: 'GoodDollar',
+          id: 'gooddollar',
+          categoryId: 'social-impact',
+          categories: ['social-impact'],
           url: 'javascript:alert("Hello World")',
         },
       ],
@@ -432,15 +432,15 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
-          id: 'ubeswap-something', // the matching key doesn't exist in locales/base.json
-          categoryId: 'exchanges',
-          url: 'https://app.ubeswap.org/',
+          name: 'GoodDollar',
+          id: 'gooddollar-something', // the matching key doesn't exist in locales/base.json
+          categoryId: 'social-impact',
+          url: 'https://gooddapp.org/',
         },
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
-      "ValidationError: \"applications[0].id\" failed custom validation because Missing localization key 'dapps.ubeswap-something' in 'locales/base.json'",
+      "ValidationError: \"applications[0].id\" failed custom validation because Missing localization key 'dapps.gooddollar-something' in 'locales/base.json'",
     )
   })
 
@@ -449,15 +449,15 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
-          id: 'ubeswap-something', // the matching asset doesn't exist in the repo
-          categoryId: 'exchanges',
-          url: 'https://app.ubeswap.org/',
+          name: 'GoodDollar',
+          id: 'gooddollar-something', // the matching asset doesn't exist in the repo
+          categoryId: 'social-impact',
+          url: 'https://gooddapp.org/',
         },
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
-      'ValidationError: "applications[0].id" failed custom validation because Missing asset at \'../assets/ubeswap-something.png\'',
+      'ValidationError: "applications[0].id" failed custom validation because Missing asset at \'../assets/gooddollar-something.png\'',
     )
   })
 
@@ -471,15 +471,15 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
-          id: 'ubeswap',
-          categoryId: 'exchanges',
-          url: 'https://app.ubeswap.org/',
+          name: 'GoodDollar',
+          id: 'gooddollar',
+          categoryId: 'social-impact',
+          url: 'https://gooddapp.org/',
         },
       ],
     }
     expect(`${schema.validate(testDappObject).error}`).toBe(
-      "ValidationError: \"categories[0].id\" failed custom validation because Localization key 'categories.exchanges' in 'locales/base.json' must not have a period at the end",
+      "ValidationError: \"categories[0].id\" failed custom validation because Localization key 'categories.social-impact' in 'locales/base.json' must not have a period at the end",
     )
   })
 
@@ -488,20 +488,20 @@ describe('invalid applications entries', () => {
       categories: [category],
       applications: [
         {
-          name: 'Ubeswap',
-          id: 'ubeswap',
-          categoryId: 'exchanges',
-          categories: ['exchanges'],
-          url: 'https://app.ubeswap.org/',
+          name: 'GoodDollar',
+          id: 'gooddollar',
+          categoryId: 'social-impact',
+          categories: ['social-impact'],
+          url: 'https://gooddapp.org/',
           listOnAndroid: true,
           listOnIos: true,
         },
         {
-          name: 'Ubeswap',
-          id: 'ubeswap',
-          categoryId: 'exchanges',
-          categories: ['exchanges'],
-          url: 'https://app.ubeswap.org/',
+          name: 'GoodDollar',
+          id: 'gooddollar',
+          categoryId: 'social-impact',
+          categories: ['social-impact'],
+          url: 'https://gooddapp.org/',
           listOnAndroid: true,
           listOnIos: true,
         },

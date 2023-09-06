@@ -81,15 +81,6 @@
       "listOnIos": true
     },
     {
-      "name": "Symmetric",
-      "id": "symmetric",
-      "categoryId": "exchanges",
-      "categories": ["exchanges", "earn"],
-      "url": "https://celo.symm.fi/#/",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "Celo Tracker",
       "id": "celotracker",
       "categoryId": "finance-tools",

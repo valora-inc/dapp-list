@@ -342,15 +342,6 @@
       "listOnIos": true
     },
     {
-      "name": "SWFT AllChain Bridge",
-      "id": "swftpro",
-      "categoryId": "bridge",
-      "categories": ["bridge", "exchanges"],
-      "url": "https://www.allchainbridge.com/#/?sourceFlag=valora",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "GoodDollar",
       "id": "gooddollar",
       "categoryId": "social-impact",

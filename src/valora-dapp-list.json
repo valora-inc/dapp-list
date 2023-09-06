@@ -99,15 +99,6 @@
       "listOnIos": false
     },
     {
-      "name": "Celo Tax",
-      "id": "celotax",
-      "categoryId": "finance-tools",
-      "categories": ["finance-tools"],
-      "url": "https://www.celo.tax/",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "impactMarket",
       "id": "impactmarket",
       "categoryId": "social-impact",

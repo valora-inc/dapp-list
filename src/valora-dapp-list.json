@@ -117,15 +117,6 @@
       "listOnIos": true
     },
     {
-      "name": "Alphafortress (Bitssa)",
-      "id": "alphafortress",
-      "categoryId": "exchanges",
-      "categories": ["exchanges", "finance-tools"],
-      "url": "https://swap.bitssa.com",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "Trelis Pay",
       "id": "trelispay",
       "categoryId": "finance-tools",

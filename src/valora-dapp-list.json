@@ -81,15 +81,6 @@
       "listOnIos": true
     },
     {
-      "name": "Celo Tracker",
-      "id": "celotracker",
-      "categoryId": "finance-tools",
-      "categories": ["finance-tools"],
-      "url": "https://celotracker.com?address={{address}}",
-      "listOnAndroid": false,
-      "listOnIos": false
-    },
-    {
       "name": "impactMarket",
       "id": "impactmarket",
       "categoryId": "social-impact",

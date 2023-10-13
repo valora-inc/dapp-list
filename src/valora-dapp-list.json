@@ -268,6 +268,15 @@
       "url": "https://sarafu.network",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Talent Protocol",
+      "id": "talentprotocol",
+      "categoryId": "social",
+      "categories": ["social"],
+      "url": "https://talentprotocol.com",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

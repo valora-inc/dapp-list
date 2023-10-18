@@ -16,7 +16,6 @@
   "dapps": {
     "staked-celo": "Stake CELO and get rewards while keeping your crypto liquid",
     "moola": "Lend, borrow, or pool your crypto while getting rewards",
-    "celotracker": "Track and manage your Celo assets and NFTs all in one place",
     "impactmarket": "Donate, stake, and collect $PACT while empowering underserved communities",
     "mento": "Exchange Celo assets",
     "bidali": "Use your crypto to purchase gift cards from brands worldwide",
@@ -37,6 +36,7 @@
     "masa": "Claim a free .celo domain, refer friends and earn rewards",
     "llamaswap": "Find the best route for your trade giving you the best execution prices in DeFi",
     "immortalx": "Trade crypto with low fees directly from your wallet, with up to 50x leverage",
-    "sarafu": "Create, use and explore Community Asset Vouchers with Grassroots Economics"
+    "sarafu": "Create, use and explore Community Asset Vouchers with Grassroots Economics",
+    "hedgey": "Empower your team and investors with on-chain token vesting"
   }
 }

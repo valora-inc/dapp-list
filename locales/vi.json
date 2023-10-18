@@ -16,7 +16,6 @@
   "dapps": {
     "staked-celo": "Ký gửi CELO và kiếm tiền thưởng trong khi vẫn duy trì khả năng thanh khoản của tiền điện tử",
     "moola": "Vay, cho vay hoặc góp quỹ tiền điện tử và nhận tiền hưởng",
-    "celotracker": "Theo dõi và quản lý các tài sản Celo và NFT của bạn ở cùng một nơi",
     "impactmarket": "Quyên góp, ký gửi và thu thập $PACT trong khi trao quyền cho các cộng đồng chưa được phục vụ",
     "mento": "Giao dịch các tài sản Celo",
     "bidali": "Sử dụng tiền điện tử để mua thẻ quà tặng từ các thương hiệu trên khắp thế giới",
@@ -37,6 +36,7 @@
     "masa": "Nhận miền .celo miễn phí, giới thiệu bạn bè và nhận tiền thưởng",
     "llamaswap": "Tìm lộ trình giao dịch tốt nhất, tận hưởng mức giá khớp lệnh tốt nhất tại DeFi",
     "immortalx": "Giao dịch tiền điện tử trực tiếp từ ví của bạn với mức phí thấp, đòn bẩy lên tới 50x",
-    "sarafu": "Tạo, sử dụng và khám phá Phiếu giảm giá tài sản cộng đồng với Grassroots Economics"
+    "sarafu": "Tạo, sử dụng và khám phá Phiếu giảm giá tài sản cộng đồng với Grassroots Economics",
+    "hedgey": "Empower your team and investors with on-chain token vesting"
   }
 }

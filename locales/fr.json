@@ -16,7 +16,6 @@
   "dapps": {
     "staked-celo": "Stakez le CELO et profitez de récompenses tout en gardant vos liquidités en crypto",
     "moola": "Prêtez, empruntez ou regroupez vos cryptomonnaies tout en recevant des récompenses",
-    "celotracker": "Suivez et gérez vos actifs Celo et NFT en un seul endroit",
     "impactmarket": "Faites un don, stakez et collectez des $PACT tout en soutenant les communautés défavorisées",
     "mento": "Échangez des actifs Celo",
     "bidali": "Utilisez vos cryptomonnaies pour acheter des cartes-cadeaux auprès de marques internationales",
@@ -37,6 +36,7 @@
     "masa": "Obtenez un domaine .celo gratuit, invitez vos amis pour des récompenses",
     "llamaswap": "Trouvez la meilleure option pour votre échange grâce aux meilleurs tarifs d'exécution en DeFi",
     "immortalx": "Négociez des cryptomonnaies avec peu de frais directement à partir de votre portefeuille, avec un effet de levier jusqu'à 50x",
-    "sarafu": "Créez, utilisez et découvrez les actifs communautaires avec Grassroots Economics"
+    "sarafu": "Créez, utilisez et découvrez les actifs communautaires avec Grassroots Economics",
+    "hedgey": "Responsabilise ton équipe et tes investisseurs avec l'acquisition de jetons sur la chaîne."
   }
 }

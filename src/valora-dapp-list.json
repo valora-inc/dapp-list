@@ -270,6 +270,15 @@
       "listOnIos": true
     },
     {
+      "name": "Hedgey Finance",
+      "id": "hedgey",
+      "categoryId": "finance-tools",
+      "categories": ["finance-tools"],
+      "url": "https://app.hedgey.finance",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
       "name": "Talent Protocol",
       "id": "talentprotocol",
       "categoryId": "social",

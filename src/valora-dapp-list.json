@@ -274,7 +274,14 @@
       "id": "hedgey",
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
-      "url": "https://app.hedgey.finance",
+      "url": "https://app.hedgey.finance"
+    },
+    {
+      "name": "Onramp Money",
+      "id": "onrampmoney",
+      "categoryId": "exchanges",
+      "categories": ["exchanges", "finance-tools"],
+      "url": "https://onramp.money/valora-buy-dapp",
       "listOnAndroid": true,
       "listOnIos": true
     }

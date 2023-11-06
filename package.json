@@ -17,7 +17,7 @@
   "devDependencies": {
     "@types/jest": "^29.5.7",
     "@types/node": "^17.0.45",
-    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
     "@valora/eslint-config-typescript": "^1.0.2",
     "@valora/prettier-config": "^0.0.1",
     "cypress": "^12.17.4",

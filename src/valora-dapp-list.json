@@ -275,13 +275,6 @@
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
       "url": "https://app.hedgey.finance"
-    },
-    {
-      "name": "Onramp Money",
-      "id": "onrampmoney",
-      "categoryId": "exchanges",
-      "categories": ["exchanges", "finance-tools"],
-      "url": "https://onramp.money/valora-buy-dapp",
       "listOnAndroid": true,
       "listOnIos": true
     },
@@ -291,6 +284,15 @@
       "categoryId": "social",
       "categories": ["social"],
       "url": "https://talentprotocol.com",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "Onramp Money",
+      "id": "onrampmoney",
+      "categoryId": "exchanges",
+      "categories": ["exchanges", "finance-tools"],
+      "url": "https://onramp.money/valora-buy-dapp",
       "listOnAndroid": true,
       "listOnIos": true
     }

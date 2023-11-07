@@ -274,7 +274,7 @@
       "id": "hedgey",
       "categoryId": "finance-tools",
       "categories": ["finance-tools"],
-      "url": "https://app.hedgey.finance"
+      "url": "https://app.hedgey.finance",
       "listOnAndroid": true,
       "listOnIos": true
     },

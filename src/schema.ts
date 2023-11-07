@@ -35,6 +35,12 @@ const checkMatchingLocalization: CustomValidator = (value) => {
     )
   }
 
+  if (localizedValue.length > 50) {
+    throw new Error(
+      `Localization key '${value}' in 'locales/base.json' must not be longer than 50 characters`,
+    )
+  }
+
   return value
 }
 

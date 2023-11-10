@@ -286,6 +286,15 @@
       "url": "https://talentprotocol.com",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Wallet DM",
+      "id": "walletdm",
+      "categoryId": "social",
+      "categories": ["social"],
+      "url": "https://walletdm.com",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

@@ -16,7 +16,6 @@
   "dapps": {
     "staked-celo": "CELO stake edin ve kriptonuzu likit tutarken ödüller kazanın",
     "moola": "Ödüller kazanırken kripto paranızı ödünç verin, ödünç alın veya bir havuzda toplayın",
-    "celotracker": "Celo varlıklarınızı ve NFT'lerinizi tek bir yerden takip edin ve yönetin",
     "impactmarket": "Yetersiz hizmet alan toplulukları güçlendirirken bağış yapın, stake edin ve $PACT toplayın",
     "mento": "Celo varlıklarını takas edin",
     "bidali": "Dünya çapındaki markalardan hediye kartları satın almak için kriptonuzu kullanın",
@@ -37,6 +36,8 @@
     "masa": "Ücretsiz bir .celo alan adı talep edin, arkadaşlarınızı yönlendirin ve ödüller kazanın",
     "llamaswap": "DeFi'de size en iyi işlem fiyatlarını sunan, işleminiz için en iyi rotayı bulun",
     "immortalx": "Doğrudan cüzdanınızdan düşük ücretlerle, 50x'e kadar kaldıraçla kripto işlemleri yapın",
-    "sarafu": "Grassroots Economics ile Topluluk Varlık Kuponlarını oluşturun, kullanın ve keşfedin"
+    "sarafu": "Grassroots Economics ile Topluluk Varlık Kuponlarını oluşturun, kullanın ve keşfedin",
+    "hedgey": "Zincir içi token hak edişi ile ekibinizi ve yatırımcılarınızı güçlendirin",
+    "talentprotocol": "İnşaatçıların hedeflerini taahhüt ettikleri, ilerlemelerini paylaştıkları ve başarılı olmak için ihtiyaç duydukları desteği buldukları yer"
   }
 }

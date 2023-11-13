@@ -16,7 +16,6 @@
   "dapps": {
     "staked-celo": "质押 CELO 并赚取奖励，同时保持加密货币流动性",
     "moola": "借出、借入或汇集您的加密货币，同时赚取奖励",
-    "celotracker": "一站式跟踪并管理您的 Celo 资产和 NFT",
     "impactmarket": "捐赠、质押和收集 $PACT，以增强服务水平较低的社区的能力",
     "mento": "交易 Celo 资产",
     "bidali": "用加密货币购买全球各个品牌的礼品卡",
@@ -37,6 +36,8 @@
     "masa": "认领一个免费的 .celo 域名，推荐朋友并赚取奖励。",
     "llamaswap": "为您的交易寻找最佳路径，从而提供 DeFi 中的最佳执行价格",
     "immortalx": "直接通过钱包交易加密货币，费用低廉，杠杆率高达 50 倍",
-    "sarafu": "与 Grassroots Economics 一起创建、使用和探索社区资产券"
+    "sarafu": "与 Grassroots Economics 一起创建、使用和探索社区资产券",
+    "hedgey": "通过链上代币归属增强团队和投资者的能力",
+    "talentprotocol": "在这里，建设者致力于实现目标，分享他们的进展，并找到成功所需的支持"
   }
 }

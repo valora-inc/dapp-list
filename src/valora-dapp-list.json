@@ -109,7 +109,7 @@
     },
     {
       "name": "HaloFi Challenges",
-      "id": "halofi-challenges",
+      "id": "halofi",
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
       "url": "https://app.halofi.me/#/?network=celo&utm_source=valora",

@@ -108,11 +108,20 @@
       "listOnIos": true
     },
     {
-      "name": "HaloFi",
+      "name": "HaloFi Challenges",
       "id": "halofi",
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
       "url": "https://app.halofi.me/#/?network=celo&utm_source=valora",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "HaloFi Save",
+      "id": "halofi-save",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["earn"],
+      "url": "https://save.halofi.me/?utm_source=valora",
       "listOnAndroid": true,
       "listOnIos": true
     },
@@ -220,7 +229,7 @@
       "id": "gooddollar",
       "categoryId": "social-impact",
       "categories": ["social-impact", "earn", "finance-tools", "spend"],
-      "url": "https://gooddapp.org",
+      "url": "https://gooddapp.org/?partner=valora",
       "listOnAndroid": true,
       "listOnIos": true
     },

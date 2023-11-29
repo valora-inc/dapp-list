@@ -229,7 +229,7 @@
       "id": "gooddollar",
       "categoryId": "social-impact",
       "categories": ["social-impact", "earn", "finance-tools", "spend"],
-      "url": "https://gooddapp.org",
+      "url": "https://gooddapp.org/?partner=valora",
       "listOnAndroid": true,
       "listOnIos": true
     },

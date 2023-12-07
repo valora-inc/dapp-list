@@ -295,6 +295,15 @@
       "url": "https://talentprotocol.com",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "XMTP Inbox",
+      "id": "xmtpinbox",
+      "categoryId": "social",
+      "categories": ["social"],
+      "url": "https://xmtp.chat",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

@@ -297,11 +297,21 @@
       "listOnIos": true
     },
     {
+
       "name": "Onramp Money",
       "id": "onrampmoney",
       "categoryId": "exchanges",
       "categories": ["exchanges", "finance-tools"],
       "url": "https://onramp.money/valora-buy-dapp",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "Wallet DM",
+      "id": "walletdm",
+      "categoryId": "social",
+      "categories": ["social"],
+      "url": "https://walletdm.com",
       "listOnAndroid": true,
       "listOnIos": true
     }

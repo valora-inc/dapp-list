@@ -304,6 +304,15 @@
       "url": "https://walletdm.com",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Revoke Cash",
+      "id": "revokecash",
+      "categoryId": "finance-tools",
+      "categories": ["finance-tools"],
+      "url": "https://revoke.cash/address/{{address}}?chainId=42220",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

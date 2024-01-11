@@ -309,7 +309,7 @@
       "name": "Celo Scan Token Approval Checker",
       "id": "celoscantokenapprovalchecker",
       "categoryId": "finance-tools",
-      "categories": ["finance-tools", "learn"],
+      "categories": ["finance-tools"],
       "url": "https://celoscan.io/tokenapprovalchecker?search={{address}}",
       "listOnAndroid": true,
       "listOnIos": true

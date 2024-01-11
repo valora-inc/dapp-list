@@ -297,7 +297,15 @@
       "listOnIos": true
     },
     {
-
+      "name": "Wallet DM",
+      "id": "walletdm",
+      "categoryId": "social",
+      "categories": ["social"],
+      "url": "https://walletdm.com",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
       "name": "Onramp Money",
       "id": "onrampmoney",
       "categoryId": "exchanges",
@@ -306,14 +314,6 @@
       "listOnAndroid": true,
       "listOnIos": true
     },
-    {
-      "name": "Wallet DM",
-      "id": "walletdm",
-      "categoryId": "social",
-      "categories": ["social"],
-      "url": "https://walletdm.com",
-      "listOnAndroid": true,
-      "listOnIos": true
-    }
+    
   ]
 }

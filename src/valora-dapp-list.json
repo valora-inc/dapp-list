@@ -306,6 +306,15 @@
       "listOnIos": true
     },
     {
+      "name": "Ubeswap",
+      "id": "ubeswap",
+      "categoryId": "exchanges",
+      "categories": ["exchanges", "earn"],
+      "url": "https://app.ubeswap.org/",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
       "name": "Revoke Cash",
       "id": "revokecash",
       "categoryId": "finance-tools",

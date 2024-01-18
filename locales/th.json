@@ -42,6 +42,7 @@
     "talentprotocol": "เมื่อผู้สร้างมุ่งมั่นต่อเป้าหมาย แบ่งปันความคืบหน้า และค้นหาแรงสนับสนุนที่จำเป็นในการประสบความสำเร็จ",
     "walletdm": "แชทระหว่างกระเป๋าเงินได้อย่างปลอดภัย",
     "ubeswap": "แลกเปลี่ยน พูล หรือฟาร์มคริปโตของคุณ",
-    "celoscantokenapprovalchecker": "View and manage your token approvals"
+    "celoscantokenapprovalchecker": "View and manage your token approvals",
+    "revokecash": "Take back control of your wallet"
   }
 }

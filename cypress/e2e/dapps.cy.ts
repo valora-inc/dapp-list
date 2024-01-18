@@ -12,11 +12,18 @@ describe('Dapp Up Check', () => {
   for (const application of data.applications) {
     if (application.url.startsWith('celo://')) continue
     if (ignoreList.includes(application.id)) continue
+
+    const dappUrl = application.url.replace(
+      '{{address}}',
+      // Test address we also use for https://github.com/valora-inc/hooks
+      '0x2b8441ef13333ffa955c9ea5ab5b3692da95260d',
+    )
+
     it(
-      `should return 200 for ${application.url}`,
+      `should return 200 for ${dappUrl}`,
       { retries: 3, responseTimeout: 60000 },
       () => {
-        cy.request(application.url).then((response) => {
+        cy.request(dappUrl).then((response) => {
           expect(response.status).to.eq(200)
         })
       },

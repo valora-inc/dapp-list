@@ -313,6 +313,24 @@
       "url": "https://app.ubeswap.org/",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Revoke Cash",
+      "id": "revokecash",
+      "categoryId": "finance-tools",
+      "categories": ["finance-tools"],
+      "url": "https://revoke.cash/address/{{address}}?chainId=42220",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "Onramp Money",
+      "id": "onrampmoney",
+      "categoryId": "exchanges",
+      "categories": ["exchanges", "finance-tools"],
+      "url": "https://onramp.money/valora-buy-dapp",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

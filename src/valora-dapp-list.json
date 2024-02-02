@@ -331,6 +331,15 @@
       "url": "https://onramp.money/valora-buy-dapp",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Beefy",
+      "id": "beefy",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["earn"],
+      "url": "https://app.beefy.com",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

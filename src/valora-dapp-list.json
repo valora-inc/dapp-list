@@ -331,6 +331,24 @@
       "url": "https://onramp.money/valora-buy-dapp",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Beefy",
+      "id": "beefy",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["earn"],
+      "url": "https://app.beefy.com",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "Layer3",
+      "id": "layer3",
+      "categoryId": "earn",
+      "categories": ["earn", "nfts"],
+      "url": "https://layer3.xyz/search?chainIds=42220,1",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

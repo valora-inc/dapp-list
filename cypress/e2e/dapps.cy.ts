@@ -6,6 +6,7 @@ const ignoreList = [
   'gooddollar', // Blocks Microsoft services via Cloudflare
   'swftpro', // Blocks Microsoft services via Cloudflare
   'llamaswap', // Fails with 403 on first load
+  'layer3', // Blocks Microsoft services via Cloudflare
 ]
 
 describe('Dapp Up Check', () => {

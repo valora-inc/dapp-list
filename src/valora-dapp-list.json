@@ -349,6 +349,15 @@
       "url": "https://layer3.xyz/search?chainIds=42220,1",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Glo Dollar",
+      "id": "glodollar",
+      "categoryId": "social-impact",
+      "categories": ["social-impact", "finance-tools"],
+      "url": "https://app.glodollar.org?chain=celo",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

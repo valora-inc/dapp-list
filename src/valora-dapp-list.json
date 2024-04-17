@@ -358,6 +358,15 @@
       "url": "https://app.glodollar.org?chain=celo",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Aave",
+      "id": "aave",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["lend", "borrow", "earn"],
+      "url": "https://app.aave.com/",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

@@ -243,6 +243,15 @@
       "listOnIos": false
     },
     {
+      "name": "Masa Prosperity Passport",
+      "id": "masa",
+      "categoryId": "social",
+      "categories": ["social", "earn", "nfts"],
+      "url": "https://app.prosperity.global/",
+      "listOnAndroid": true,
+      "listOnIos": false
+    },
+    {
       "name": "LlamaSwap",
       "id": "llamaswap",
       "categoryId": "exchanges",

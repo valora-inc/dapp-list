@@ -99,6 +99,15 @@
       "listOnIos": true
     },
     {
+      "name": "$MENTO Airdrop",
+      "id": "mento-airdrop",
+      "categoryId": "earn",
+      "categories": ["earn"],
+      "url": "https://airdrop.mento.org",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
       "name": "Flywallet",
       "id": "flywallet",
       "categoryId": "spend",

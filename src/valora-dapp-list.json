@@ -376,6 +376,15 @@
       "url": "https://app.aave.com/",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Celosphere",
+      "id": "celosphere",
+      "categoryId": "nfts",
+      "categories": ["nfts"],
+      "url": "https://celosphere.xyz/",
+      "listOnAndroid": true,
+      "listOnIos": false
     }
   ]
 }

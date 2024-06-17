@@ -18,6 +18,7 @@
     "moola": "Ödüller kazanırken kripto paranızı ödünç verin, ödünç alın veya bir havuzda toplayın",
     "impactmarket": "Yetersiz hizmet alan toplulukları güçlendirirken bağış yapın, stake edin ve $PACT toplayın",
     "mento": "Celo varlıklarını takas edin",
+    "mento-airdrop": "Mento'nun ilk destekçileri için $MENTO",
     "bidali": "Dünya çapındaki markalardan hediye kartları satın almak için kriptonuzu kullanın",
     "flywallet": "Kripto paranızla uçuş rezervasyonu yapın ve tasarruf edin",
     "halofi": "HaloFi Challenges: tasarruf edin ve başarılı olun",
@@ -45,6 +46,8 @@
     "ubeswap": "Kriptonuzu takas edin, havuzda toplayın veya farming yapın",
     "revokecash": "Cüzdanınızın kontrolünü geri alın",
     "beefy": "Kripto varlıklarınızdan bileşik faiz kazanın",
-    "layer3": "Kriptoyu öğrenmeyi ve keşfetmeyi eğlenceli, ilgi çekici ve ödüllendirici hale getiren görevler"
+    "layer3": "Kriptoyu öğrenmeyi ve keşfetmeyi eğlenceli, ilgi çekici ve ödüllendirici hale getiren görevler",
+    "glodollar": "Sabit coin tutarak kamu mallarını finanse edin",
+    "aave": "Faiz kazanın ve varlık ödünç alın"
   }
 }

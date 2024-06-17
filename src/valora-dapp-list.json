@@ -99,6 +99,15 @@
       "listOnIos": true
     },
     {
+      "name": "$MENTO Airdrop",
+      "id": "mento-airdrop",
+      "categoryId": "earn",
+      "categories": ["earn"],
+      "url": "https://airdrop.mento.org",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
       "name": "Flywallet",
       "id": "flywallet",
       "categoryId": "spend",
@@ -247,7 +256,7 @@
       "id": "masa",
       "categoryId": "social",
       "categories": ["social", "earn", "nfts"],
-      "url": "https://app.prosperity.global/",
+      "url": "https://app.masa.finance/",
       "listOnAndroid": true,
       "listOnIos": false
     },
@@ -347,6 +356,24 @@
       "categoryId": "earn",
       "categories": ["earn", "nfts"],
       "url": "https://layer3.xyz/search?chainIds=42220,1",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "Glo Dollar",
+      "id": "glodollar",
+      "categoryId": "social-impact",
+      "categories": ["social-impact", "finance-tools"],
+      "url": "https://app.glodollar.org?chain=celo",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "Aave",
+      "id": "aave",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["lend", "borrow", "earn"],
+      "url": "https://app.aave.com/",
       "listOnAndroid": true,
       "listOnIos": true
     }

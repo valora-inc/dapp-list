@@ -18,6 +18,7 @@
     "moola": "Lend, borrow, or pool your crypto while getting rewards",
     "impactmarket": "Donate, stake, and collect $PACT while empowering underserved communities",
     "mento": "Exchange Celo assets",
+    "mento-airdrop": "$MENTO token airdrop for early supporters of the Mento Protocol",
     "bidali": "Use your crypto to purchase gift cards from brands worldwide",
     "flywallet": "Book and save for flights with your crypto",
     "halofi": "HaloFi Challenges: save and succeed",
@@ -45,6 +46,10 @@
     "ubeswap": "Exchange, pool, or farm your crypto",
     "revokecash": "Take back control of your wallet",
     "beefy": "Earn compound interest on your crypto holdings",
-    "layer3": "Quests that make learning and exploring crypto fun, engaging and rewarding"
+    "layer3": "Quests that make learning and exploring crypto fun, engaging and rewarding",
+    "glodollar": "Fund public goods by hodling a stablecoin",
+    "aave": "Earn interest and borrow assets",
+    "celosphere": "An NFT marketplace built on Celo",
+    "stake-dao": "Boost your yield and voting power with liquid staking and market strategies"
   }
 }

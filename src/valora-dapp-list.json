@@ -378,6 +378,24 @@
       "listOnIos": true
     },
     {
+      "name": "Celosphere",
+      "id": "celosphere",
+      "categoryId": "nfts",
+      "categories": ["nfts"],
+      "url": "https://celosphere.xyz/",
+      "listOnAndroid": true,
+      "listOnIos": false
+    },
+    {
+      "name": "Stake DAO",
+      "id": "stake-dao",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["earn"],
+      "url": "https://www.stakedao.org",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
       "name": "Allbridge Core",
       "id": "allbridgecore",
       "categoryId": "bridge",

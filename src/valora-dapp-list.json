@@ -394,6 +394,15 @@
       "url": "https://www.stakedao.org",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Allbridge Core",
+      "id": "allbridgecore",
+      "categoryId": "bridge",
+      "categories": ["bridge"],
+      "url": "https://core.allbridge.io/",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

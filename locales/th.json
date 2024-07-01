@@ -50,6 +50,7 @@
     "glodollar": "สนับสนุนโปรเจกต์สาธารณะผ่านการถือ Stablecoin",
     "aave": "รับดอกเบี้ยและยืมสินทรัพย์",
     "celosphere": "ตลาด NFT ที่สร้างบน Celo",
-    "stake-dao": "เพิ่มผลตอบแทนและสิทธิ์ในการโหวตด้วย Liquid Staking และกลยุทธ์ตลาด"
+    "stake-dao": "เพิ่มผลตอบแทนและสิทธิ์ในการโหวตด้วย Liquid Staking และกลยุทธ์ตลาด",
+    "allbridgecore": "Swap stablecoins between blockchains"
   }
 }

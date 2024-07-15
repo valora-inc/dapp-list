@@ -198,15 +198,6 @@
       "listOnIos": true
     },
     {
-      "name": "Ipermatch",
-      "id": "ipermatch",
-      "categoryId": "games",
-      "categories": ["games", "nfts"],
-      "url": "https://app.ipermatch.it/",
-      "listOnAndroid": true,
-      "listOnIos": false
-    },
-    {
       "name": "Curve",
       "id": "curve",
       "categoryId": "exchanges",

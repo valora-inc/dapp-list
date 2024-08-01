@@ -29,7 +29,6 @@
     "ethichub": "Prêtez des fonds aux agriculteurs qui n'ont pas de banque grâce au crowdfunding DeFi",
     "uniswap": "Échangez et recevez des récompenses en proposant des liquidités",
     "double": "Recevez des récompenses en proposant des liquidités",
-    "ipermatch": "Collectez des NFT de footballeurs et gérez votre propre équipe",
     "curve": "Échangez entre des actifs stables",
     "toucan": "Utilisez vos cryptomonnaies pour créer des crédits carbone en faveur de l'action climatique",
     "cred": "Obtenez votre score de crédit Web3",
@@ -49,7 +48,8 @@
     "layer3": "Des quêtes qui rendent la formation et la découverte de la cryptomonnaie amusante, agréable et intéressante",
     "glodollar": "Financez des biens publics en détenant des stablecoins",
     "aave": "Gagnez des intérêts et empruntez des actifs",
-    "celosphere": "Une place de marché NFT basée sur Celo",
-    "stake-dao": "Augmente ton rendement et ton pouvoir de vote grâce à des stratégies de jalonnement et de marché liquides."
+    "celosphere": "Un marketplace pour les NFT sur Celo",
+    "stake-dao": "Augmentez vos performances et votre pouvoir de vote grâce à des stratégies de staking liquide et de marché",
+    "allbridgecore": "Échangez des stablecoins entre les blockchains"
   }
 }

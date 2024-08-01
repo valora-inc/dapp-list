@@ -29,7 +29,6 @@
     "ethichub": "Lend capital to unbanked farmers through DeFi crowdfunding",
     "uniswap": "Swap and get rewards by providing liquidity",
     "double": "Get rewards by providing liquidity",
-    "ipermatch": "Collect NFT footballers and be the manager of YOUR team",
     "curve": "Swap between stable assets",
     "toucan": "Use your crypto to create carbon credits for climate action",
     "cred": "Get your Web3 credit score",
@@ -50,6 +49,7 @@
     "glodollar": "Fund public goods by hodling a stablecoin",
     "aave": "Earn interest and borrow assets",
     "celosphere": "An NFT marketplace built on Celo",
-    "stake-dao": "Boost your yield and voting power with liquid staking and market strategies"
+    "stake-dao": "Boost your yield and voting power with liquid staking and market strategies",
+    "allbridgecore": "Swap stablecoins between blockchains"
   }
 }

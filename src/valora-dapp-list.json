@@ -198,15 +198,6 @@
       "listOnIos": true
     },
     {
-      "name": "Ipermatch",
-      "id": "ipermatch",
-      "categoryId": "games",
-      "categories": ["games", "nfts"],
-      "url": "https://app.ipermatch.it/",
-      "listOnAndroid": true,
-      "listOnIos": false
-    },
-    {
       "name": "Curve",
       "id": "curve",
       "categoryId": "exchanges",
@@ -392,6 +383,15 @@
       "categoryId": "lend-borrow-earn",
       "categories": ["earn"],
       "url": "https://www.stakedao.org",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "Allbridge Core",
+      "id": "allbridgecore",
+      "categoryId": "bridge",
+      "categories": ["bridge"],
+      "url": "https://core.allbridge.io/",
       "listOnAndroid": true,
       "listOnIos": true
     }

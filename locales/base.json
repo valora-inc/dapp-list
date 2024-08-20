@@ -7,12 +7,12 @@
     "social-impact": "Impact",
     "social": "Social",
     "nfts": "NFTs",
-    "tools-and-utilities": "Tools & Utilities",
     "games": "Games",
     "lend": "Lend",
     "borrow": "Borrow",
     "earn": "Earn",
-    "bridge": "Bridge"
+    "bridge": "Bridge",
+    "tools-and-utilities": "Tools & Utilities"
   },
   "dapps": {
     "staked-celo": "Stake CELO and get rewards while keeping your crypto liquid",

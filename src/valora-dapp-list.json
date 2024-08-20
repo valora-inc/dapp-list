@@ -59,6 +59,11 @@
       "id": "bridge",
       "backgroundColor": "#F0FFC7",
       "fontColor": "#668A02"
+    },
+    {
+      "id": "tools-and-utilities",
+      "backgroundColor": "#DEF8EA",
+      "fontColor": "#1AB775"
     }
   ],
   "applications": [

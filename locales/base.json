@@ -7,6 +7,7 @@
     "social-impact": "Impact",
     "social": "Social",
     "nfts": "NFTs",
+    "tools-and-utilities": "Tools & Utilities",
     "games": "Games",
     "lend": "Lend",
     "borrow": "Borrow",
@@ -50,6 +51,7 @@
     "aave": "Earn interest and borrow assets",
     "celosphere": "An NFT marketplace built on Celo",
     "stake-dao": "Boost your yield and voting power with liquid staking and market strategies",
-    "allbridgecore": "Swap stablecoins between blockchains"
+    "allbridgecore": "Swap stablecoins between blockchains",
+    "smart-token-viewer": "Smart Token Viewer allows you to run Smart Tokens & xNFTs with any supported wallet"
   }
 }

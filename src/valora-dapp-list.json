@@ -394,6 +394,15 @@
       "url": "https://core.allbridge.io/",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Smart Token Viewer",
+      "id": "smart-token-viewer",
+      "categoryId": "tools-and-utilities",
+      "categories": ["tools-and-utilities", "nfts", "games"],
+      "url": "https://viewer.tokenscript.org/",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

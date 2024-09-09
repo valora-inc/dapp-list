@@ -395,5 +395,14 @@
       "listOnAndroid": true,
       "listOnIos": true
     }
+    {
+      "name": "Merkle",
+      "id": "merkle-angle",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["lend", "borrow", "earn"],
+      "url": "https://merkl.angle.money/",
+      "listOnAndroid": true,
+      "listOnIos": true
+    }
   ]
 }

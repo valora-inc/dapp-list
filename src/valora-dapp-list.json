@@ -396,8 +396,8 @@
       "listOnIos": true
     },
     {
-      "name": "Merkle",
-      "id": "merkle-angle",
+      "name": "Merkl",
+      "id": "merkl-angle",
       "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://app.merkl.xyz/",

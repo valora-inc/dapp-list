@@ -394,6 +394,15 @@
       "url": "https://core.allbridge.io/",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Merkl",
+      "id": "merkl-angle",
+      "categoryId": "lend-borrow-earn",
+      "categories": ["lend", "borrow", "earn"],
+      "url": "https://app.merkl.xyz/",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

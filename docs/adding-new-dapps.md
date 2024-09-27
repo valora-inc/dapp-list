@@ -82,39 +82,59 @@ import { Web3Modal } from '@web3modal/react'
 />
 ```
 
-### [@celo/rainbowkit-celo - Docs](https://docs.celo.org/developer/rainbowkit-celo)
+### [@rainbow-me/rainbowkit - Docs](https://docs.celo.org/developer/rainbowkit-celo)
 
 ```JavaScript
-// Make sure to use wagmi e.g. 0.12.x or 1.x.x
-import { connectorsForWallets } from '@rainbow-me/rainbowkit'
-import { publicProvider } from 'wagmi/providers/public'
+import { ConnectButton, RainbowKitProvider, connectorsForWallets } from '@rainbow-me/rainbowkit'
+import '@rainbow-me/rainbowkit/styles.css'
+import { createConfig, http, WagmiProvider } from 'wagmi'
+import { celo, celoAlfajores } from 'wagmi/chains'
+import { QueryClientProvider, QueryClient } from '@tanstack/react-query'
+import { injectedWallet, valoraWallet, walletConnectWallet } from '@rainbow-me/rainbowkit/wallets'
 
-const { chains, provider } = configureChains(
-  [Alfajores, Celo],
-  [publicProvider()]
+const connectors = connectorsForWallets(
+  [
+    {
+      groupName: 'Recommended',
+      wallets: [valoraWallet],
+    },
+    {
+      groupName: 'Other',
+      wallets: [walletConnectWallet, injectedWallet],
+    },
+  ],
+  {
+    appName: 'My App',
+    projectId: 'YOUR_PROJECT_ID',
+  }
 )
 
-const connectors = connectorsForWallets([
-  {
-    groupName: "Recommended with CELO",
-    wallets: [
-      Valora({ chains }),
-      // Additional wallets here...
-    ],
+const config = createConfig({
+  chains: [celo, celoAlfajores],
+  transports: {
+    [celo.id]: http(),
+    [celoAlfajores.id]: http(),
   },
-])
-
-const wagmiClient = createClient({
-  autoConnect: true,
   connectors,
-  provider,
 })
-...
-<WagmiConfig config={wagmiConfig}>
-  <RainbowKitProvider chains={chains}>
-    <YourApp />
-  </RainbowKitProvider>
-</WagmiConfig>
+
+const queryClient = new QueryClient()
+const App = () => {
+  return (
+    <WagmiProvider config={config}>
+      <QueryClientProvider client={queryClient}>
+        <RainbowKitProvider>
+          <div>
+            <h1>Hello, Valora!</h1>
+            <ConnectButton />
+          </div>
+        </RainbowKitProvider>
+      </QueryClientProvider>
+    </WagmiProvider>
+  )
+}
+
+export default App
 ```
 
 ## FAQs

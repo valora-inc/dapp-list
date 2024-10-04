@@ -5,6 +5,9 @@
   "repository": "git@github.com:valora-inc/dapp-list.git",
   "author": "Valora Inc",
   "license": "Apache-2.0",
+  "engines": {
+    "node": "^20"
+  },
   "scripts": {
     "lint": "eslint --ext=.tsx,.ts,.json --fix src/",
     "format": "prettier --loglevel error --write .",

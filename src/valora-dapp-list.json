@@ -394,6 +394,61 @@
       "url": "https://app.merkl.xyz/",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Pretium",
+      "id": "pretium",
+      "categoryId": "spend",
+      "categories": [
+        "spend"
+      ],
+      "url": "https://pretium.africa/",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "LayerZero",
+      "id": "layerzero",
+      "categoryId": "social-impact",
+      "categories": [
+        "social-impact"
+      ],
+      "url": "https://layerzero.network/",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "GainForest",
+      "id": "gainforest",
+      "categoryId": "social-impact",
+      "categories": [
+        "social-impact"
+      ],
+      "url": "https://gainforest.earth/",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "Carbon DeFi",
+      "id": "carbondefi",
+      "categoryId": "exchanges",
+      "categories": [
+        "exchanges"
+      ],
+      "url": "https://celo.carbondefi.xyz/",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "BitGifty",
+      "id": "bitgifty",
+      "categoryId": "spend",
+      "categories": [
+        "spend"
+      ],
+      "url": "https://bitgifty.com/",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

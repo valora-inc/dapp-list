@@ -394,6 +394,15 @@
       "url": "https://app.merkl.xyz/",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Pretium",
+      "id": "pretium",
+      "categoryId": "spend",
+      "categories": ["spend"],
+      "url": "https://pretium.africa/",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

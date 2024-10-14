@@ -394,6 +394,15 @@
       "url": "https://app.merkl.xyz/",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Carbon DeFi",
+      "id": "carbondefi",
+      "categoryId": "exchanges",
+      "categories": ["exchanges"],
+      "url": "https://celo.carbondefi.xyz/",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

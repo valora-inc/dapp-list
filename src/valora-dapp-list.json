@@ -394,6 +394,15 @@
       "url": "https://app.merkl.xyz/",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "BitGifty",
+      "id": "bitgifty",
+      "categoryId": "spend",
+      "categories": ["spend"],
+      "url": "https://bitgifty.com/",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

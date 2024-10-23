@@ -108,15 +108,6 @@
       "listOnIos": true
     },
     {
-      "name": "Flywallet",
-      "id": "flywallet",
-      "categoryId": "spend",
-      "categories": ["spend", "social-impact"],
-      "url": "https://app.flywallet.io",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
       "name": "HaloFi Challenges",
       "id": "halofi",
       "categoryId": "lend-borrow-earn",
@@ -401,6 +392,15 @@
       "categoryId": "lend-borrow-earn",
       "categories": ["lend", "borrow", "earn"],
       "url": "https://app.merkl.xyz/",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "Carbon DeFi",
+      "id": "carbondefi",
+      "categoryId": "exchanges",
+      "categories": ["exchanges"],
+      "url": "https://celo.carbondefi.xyz/",
       "listOnAndroid": true,
       "listOnIos": true
     }

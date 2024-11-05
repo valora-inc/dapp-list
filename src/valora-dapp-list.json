@@ -385,6 +385,15 @@
       "url": "https://celo.carbondefi.xyz/",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Kiwi News",
+      "id": "kiwi",
+      "categoryId": "social",
+      "categories": ["social", "nfts"],
+      "url": "https://news.kiwistand.com/",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

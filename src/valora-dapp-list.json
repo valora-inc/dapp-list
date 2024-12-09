@@ -108,24 +108,6 @@
       "listOnIos": true
     },
     {
-      "name": "HaloFi Challenges",
-      "id": "halofi",
-      "categoryId": "lend-borrow-earn",
-      "categories": ["earn"],
-      "url": "https://app.halofi.me/#/?network=celo&utm_source=valora",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
-      "name": "HaloFi Save",
-      "id": "halofi-save",
-      "categoryId": "lend-borrow-earn",
-      "categories": ["earn"],
-      "url": "https://save.halofi.me/?utm_source=valora",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
       "name": "NFT Viewer",
       "id": "nftviewer",
       "categoryId": "nfts",
@@ -401,6 +383,15 @@
       "categoryId": "exchanges",
       "categories": ["exchanges"],
       "url": "https://celo.carbondefi.xyz/",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "Kiwi News",
+      "id": "kiwi",
+      "categoryId": "social",
+      "categories": ["social", "nfts"],
+      "url": "https://news.kiwistand.com/",
       "listOnAndroid": true,
       "listOnIos": true
     }

@@ -511,4 +511,26 @@ describe('invalid applications entries', () => {
       'ValidationError: "applications[1]" contains a duplicate value',
     )
   })
+
+  it('errors on a base description that is over 50 characters', () => {
+    jest
+      .spyOn(i18next, 't')
+      .mockReturnValueOnce(
+        'It was the best of times, it was the worst of times',
+      )
+    const testDappObject = {
+      categories: [category],
+      applications: [
+        {
+          name: 'GoodDollar',
+          id: 'gooddollar',
+          categoryId: 'social-impact',
+          url: 'https://gooddapp.org/',
+        },
+      ],
+    }
+    expect(`${schema.validate(testDappObject).error}`).toBe(
+      "ValidationError: \"categories[0].id\" failed custom validation because Localization key 'categories.social-impact' in 'locales/base.json' must not be longer than 50 characters",
+    )
+  })
 })

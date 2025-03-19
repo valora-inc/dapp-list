@@ -30,7 +30,7 @@ jobs:
         with:
           secrets: |-
             SLACK_WEBHOOK_URL:projects/1067724576910/secrets/SLACK_DAPPS_PAGE_WEBHOOK_URL
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - uses: actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e # v4
         with:
           node-version-file: 'package.json'

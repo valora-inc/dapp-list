@@ -108,15 +108,6 @@
       "listOnIos": true
     },
     {
-      "name": "NFT Viewer",
-      "id": "nftviewer",
-      "categoryId": "nfts",
-      "categories": ["nfts"],
-      "url": "https://nfts.valoraapp.com/nfts?address={{address}}&hide-header=true",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
       "name": "ChurritoFi",
       "id": "churritofi",
       "categoryId": "lend-borrow-earn",
@@ -394,6 +385,15 @@
       "url": "https://news.kiwistand.com/",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "Velodrome",
+      "id": "velodrome",
+      "categoryId": "exchanges",
+      "categories": ["exchanges", "earn"],
+      "url": "https://velodrome.finance/",
+      "listOnAndroid": true,
+      "listOnIos": false
     }
   ]
 }

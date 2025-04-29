@@ -395,5 +395,13 @@
       "listOnAndroid": true,
       "listOnIos": false
     }
+    {
+      "name": "BucksPay",
+      "id": "buckspay",
+      "categories": ["finance", "payments"],
+      "url": "https://app.buckspay.xyz/",
+      "listOnAndroid": true,
+      "listOnIos": true
+    }
   ]
 }

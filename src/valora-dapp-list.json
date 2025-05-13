@@ -166,7 +166,7 @@
       "id": "curve",
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
-      "url": "https://curve.fi/#/celo/swap",
+      "url": "https://curve.finance/#/celo/swap",
       "listOnAndroid": true,
       "listOnIos": true
     },

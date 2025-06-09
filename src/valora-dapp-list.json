@@ -409,7 +409,7 @@
       "id": "questpanda",
       "categoryId": "social",
       "categories": ["social", "earn"],
-      "url": "https://www.questpanda.xyz/",
+      "url": "https://www.questpanda.xyz/?valora=true",
       "listOnAndroid": true,
       "listOnIos": true
     }

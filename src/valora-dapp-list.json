@@ -166,7 +166,7 @@
       "id": "curve",
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
-      "url": "https://curve.fi/#/celo/swap",
+      "url": "https://curve.finance/#/celo/swap",
       "listOnAndroid": true,
       "listOnIos": true
     },
@@ -401,6 +401,15 @@
       "categoryId": "spend",
       "categories": ["spend"],
       "url": "https://app.bando.cool/",
+      "listOnAndroid": true,
+      "listOnIos": true
+    },
+    {
+      "name": "QuestPanda",
+      "id": "questpanda",
+      "categoryId": "social",
+      "categories": ["social", "earn"],
+      "url": "https://www.questpanda.xyz?valora=true",
       "listOnAndroid": true,
       "listOnIos": true
     }

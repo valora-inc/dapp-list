@@ -416,6 +416,7 @@
     {
       "name": "BucksPay",
       "id": "buckspay",
+      "categoryId": "finance",
       "categories": ["finance", "payments"],
       "url": "https://app.buckspay.xyz/",
       "listOnAndroid": true,

@@ -417,7 +417,7 @@
       "name": "BucksPay",
       "id": "buckspay",
       "categoryId": "finance-tools",
-      "categories": ["finance-tools", "payments"],
+      "categories": ["finance-tools", "spend"],
       "url": "https://app.buckspay.xyz/",
       "listOnAndroid": true,
       "listOnIos": true

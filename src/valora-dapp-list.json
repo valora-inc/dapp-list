@@ -412,6 +412,14 @@
       "url": "https://www.questpanda.xyz?valora=true",
       "listOnAndroid": true,
       "listOnIos": true
+    },
+    {
+      "name": "SovSeas",
+      "id": "sovseas",
+      "categories": ["social", "impact"],
+      "url": "https://sovseas.xyz",
+      "listOnAndroid": true,
+      "listOnIos": true
     }
   ]
 }

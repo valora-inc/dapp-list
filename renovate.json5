@@ -1,3 +1,10 @@
 {
   extends: ['github>valora-inc/renovate-config:default.json5'],
+  packageRules: [
+    {
+      // Disable updates for image-size as 2.x breaks CI
+      matchPackageNames: ['image-size'],
+      allowedVersions: '<2',
+    },
+  ],
 }

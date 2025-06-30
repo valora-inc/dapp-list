@@ -29,7 +29,7 @@
     "@valora/prettier-config": "^0.0.1",
     "cypress": "^14.5.0",
     "eslint": "^8.57.1",
-    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-jest": "^27.9.0",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-react": "^7.37.5",

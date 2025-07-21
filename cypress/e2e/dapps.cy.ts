@@ -9,6 +9,7 @@ const ignoreList = [
   'layer3', // Blocks Microsoft services via Cloudflare
   'stake-dao', // Fails with 403 on load
   'kiwi', // Blocks Microsoft services via Cloudflare
+  'sarafu', // Blocks Microsoft services via Vercel
 ]
 
 describe('Dapp Up Check', () => {

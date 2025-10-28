@@ -369,15 +369,6 @@
       "listOnIos": true
     },
     {
-      "name": "Kiwi News",
-      "id": "kiwi",
-      "categoryId": "social",
-      "categories": ["social", "nfts"],
-      "url": "https://news.kiwistand.com/",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
       "name": "Velodrome",
       "id": "velodrome",
       "categoryId": "exchanges",

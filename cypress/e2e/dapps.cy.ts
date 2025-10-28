@@ -8,7 +8,6 @@ const ignoreList = [
   'llamaswap', // Fails with 403 on first load
   'layer3', // Blocks Microsoft services via Cloudflare
   'stake-dao', // Fails with 403 on load
-  'kiwi', // Blocks Microsoft services via Cloudflare
   'sarafu', // Blocks Microsoft services via Vercel
   'hedgey', // Blocks Microsoft services via Vercel
 ]

@@ -385,15 +385,6 @@
       "url": "https://app.bando.cool/",
       "listOnAndroid": true,
       "listOnIos": true
-    },
-    {
-      "name": "BucksPay",
-      "id": "buckspay",
-      "categoryId": "finance-tools",
-      "categories": ["finance-tools", "spend"],
-      "url": "https://app.buckspay.xyz/",
-      "listOnAndroid": true,
-      "listOnIos": true
     }
   ]
 }

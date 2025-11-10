@@ -261,15 +261,6 @@
       "listOnIos": true
     },
     {
-      "name": "Wallet DM",
-      "id": "walletdm",
-      "categoryId": "social",
-      "categories": ["social"],
-      "url": "https://walletdm.com",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
       "name": "Ubeswap",
       "id": "ubeswap",
       "categoryId": "exchanges",

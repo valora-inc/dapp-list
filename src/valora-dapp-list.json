@@ -81,15 +81,6 @@
       "listOnIos": true
     },
     {
-      "name": "impactMarket",
-      "id": "impactmarket",
-      "categoryId": "social-impact",
-      "categories": ["social-impact", "earn"],
-      "url": "https://app.impactmarket.com/",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
       "name": "Mento",
       "id": "mento",
       "categoryId": "exchanges",

@@ -81,15 +81,6 @@
       "listOnIos": true
     },
     {
-      "name": "impactMarket",
-      "id": "impactmarket",
-      "categoryId": "social-impact",
-      "categories": ["social-impact", "earn"],
-      "url": "https://app.impactmarket.com/",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
       "name": "Mento",
       "id": "mento",
       "categoryId": "exchanges",
@@ -257,15 +248,6 @@
       "categoryId": "social",
       "categories": ["social"],
       "url": "https://talentprotocol.com",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
-      "name": "Wallet DM",
-      "id": "walletdm",
-      "categoryId": "social",
-      "categories": ["social"],
-      "url": "https://walletdm.com",
       "listOnAndroid": true,
       "listOnIos": true
     },

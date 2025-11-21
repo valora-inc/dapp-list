@@ -11,6 +11,7 @@ const ignoreList = [
   'kiwi', // Blocks Microsoft services via Cloudflare
   'sarafu', // Blocks Microsoft services via Vercel
   'hedgey', // Blocks Microsoft services via Vercel
+  'celosphere', // Fails without vpn connection
 ]
 
 describe('Dapp Up Check', () => {

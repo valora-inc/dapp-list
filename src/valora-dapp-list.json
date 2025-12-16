@@ -90,15 +90,6 @@
       "listOnIos": true
     },
     {
-      "name": "$MENTO Airdrop",
-      "id": "mento-airdrop",
-      "categoryId": "earn",
-      "categories": ["earn"],
-      "url": "https://airdrop.mento.org",
-      "listOnAndroid": true,
-      "listOnIos": true
-    },
-    {
       "name": "ChurritoFi",
       "id": "churritofi",
       "categoryId": "lend-borrow-earn",
@@ -373,7 +364,7 @@
       "id": "velodrome",
       "categoryId": "exchanges",
       "categories": ["exchanges", "earn"],
-      "url": "https://velodrome.finance/",
+      "url": "https://velo.drome.eth.limo/",
       "listOnAndroid": true,
       "listOnIos": false
     },

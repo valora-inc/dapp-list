@@ -12,6 +12,7 @@ const ignoreList = [
   'sarafu', // Blocks Microsoft services via Vercel
   'hedgey', // Blocks Microsoft services via Vercel
   'celosphere', // Fails without vpn connection
+  'allbridgecore', // Fails with 403 on load
 ]
 
 describe('Dapp Up Check', () => {
